@@ -1,3 +1,25 @@
+/* getA */
+a {
+    color: #ffc107;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover {
+    color: #ffc107 !important;
+}
+
+/* getB */
+body {
+    background-color: #a91822;
+    color: yellow;
+}
+
+.borderBottom{
+    border-bottom: #d79347 4px solid;
+}
+
+/* getC */
 .carousel-item {
     height: 100vh;
     min-height: 350px;
@@ -8,22 +30,25 @@
     background-size: cover;
 }
 
-body {
-    background-color: #a91822;
-    color: yellow;
-}
-
+/* getP */
 .persada {
     background-color: #a91822;
     color: yellow;
 }
 
-a {
-    color: #ffc107;
-    text-decoration: none;
-    background-color: transparent;
+
+
+/* getM */
+
+@media only screen and (min-device-width : 360px) and (max-width: 991px) {
+.hideOnMobile{
+    display: none;
+}
 }
 
-a:hover {
-    color: #ffc107 !important;
+@media only screen and (min-width: 991px) and (max-width: 1900px) {
+
+.hideOnPc{
+    display:none;
+}
 }
