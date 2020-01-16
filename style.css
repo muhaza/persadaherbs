@@ -47,6 +47,7 @@ body {
 
 .navbar-toggler {
     max-width: 100%;
+    min-width:360px;
     width: 100%;
     border: 1px solid transparent;
     border-radius: 0.25rem;
