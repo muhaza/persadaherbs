@@ -40,3 +40,23 @@ body {
 
 /* getM */
 
+@media only screen and (min-width : 280px) and (max-width: 786px) {
+    .hideOnMobile {
+        display: none;
+    }
+
+    .navbar-toggler {
+        max-width: 100% !important;
+        min-width: 280px !important;
+        width: 100%;
+        border: 1px solid transparent;
+        border-radius: 0.25rem;
+    }
+}
+
+@media only screen and (min-width: 786px) and (max-width: 2300px) {
+
+    .hideOnPc {
+        display: none;
+    }
+}
