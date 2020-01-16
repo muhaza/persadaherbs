@@ -9,12 +9,35 @@
 
     <link rel="stylesheet" href="./bootstrap.css" />
     <link rel="stylesheet" href="./style.css" />
+    <style>
+        @media only screen and (min-width : 330px) and (max-width: 991px) {
+            .hideOnMobile {
+                display: none;
+            }
+
+            .navbar-toggler {
+                max-width: 95% !important;
+                min-width: 280px !important;
+                width: 100%;
+                padding-right: 30px;
+                border: 1px solid transparent;
+                border-radius: 0.25rem;
+            }
+        }
+
+        @media only screen and (min-width: 786px) and (max-width: 1900px) {
+
+            .hideOnPc {
+                display: none;
+            }
+        }
+    </style>
 
     <link href="https://fonts.googleapis.com/css?family=Exo+2|Gabriela&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  
+
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark borderBottom"
         style="background: url(./asset/image/header-bg.webp)">
         <a class="navbar-brand hideOnPc" href="https://www.facebook.com/persadaherb/"><img
@@ -53,7 +76,8 @@
         </a>
         <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarToggle"
             aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon float-left"></span><span class="float-left hideOnPc" style="padding-top: 5px; padding-left: 8px;">MENU</span>
+            <span class="navbar-toggler-icon float-left"></span><span class="float-left hideOnPc"
+                style="padding-top: 5px; padding-left: 8px;">MENU</span>
         </button>
 
         <!--  Use flexbox utility classes to change how the child elements are justified  -->
