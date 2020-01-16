@@ -16,11 +16,11 @@ body {
 }
 
 .borderBottom{
-    border-bottom: #ffb007 5px solid;
+    border-bottom: #FFCD4B 5px solid;
 }
 
 .borderTop{
-    border-top: #ffb007 5px solid;
+    border-top: #FFCD4B 5px solid;
 }
 
 
@@ -61,6 +61,7 @@ body {
         width: 100%;
         border: 1px solid transparent;
         border-radius: 0.25rem;
+        background-color: #ffb800;
     }
 }
 
