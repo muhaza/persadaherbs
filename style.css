@@ -40,15 +40,16 @@ body {
 
 /* getM */
 
-@media only screen and (min-device-width : 360px) and (max-width: 991px) {
+@media only screen and (min-device-width : 330px) and (max-width: 991px) {
 .hideOnMobile{
     display: none;
 }
 
 .navbar-toggler {
-    max-width: 100%;
-    min-width:360px;
+    max-width: 95%;
+    min-width:280px;
     width: 100%;
+    padding-right:30px;
     border: 1px solid transparent;
     border-radius: 0.25rem;
 }
