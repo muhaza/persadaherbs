@@ -12,12 +12,17 @@ a:hover {
 /* getB */
 body {
     background-color: #a91822;
-    color: yellow;
+    color: #212529;
 }
 
 .borderBottom{
-    border-bottom: #d79347 4px solid;
+    border-bottom: #ffb007 5px solid;
 }
+
+.borderTop{
+    border-top: #ffb007 5px solid;
+}
+
 
 /* getC */
 .carousel-item {
@@ -33,7 +38,12 @@ body {
 /* getP */
 .persada {
     background-color: #a91822;
-    color: yellow;
+    color: #ffbb00;
+}
+
+.persada-button{
+    border-radius: 50px;
+    width: 100%;
 }
 
 
