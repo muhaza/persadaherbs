@@ -7,75 +7,109 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.css" />
+    <link rel="stylesheet" href="bootstrap.css" />
     <link rel="stylesheet" href="style.css" />
+
+    <link href="https://fonts.googleapis.com/css?family=Exo+2|Gabriela&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg persada fixed-top">
+    <!-- <nav class="navbar navbar-expand-lg persada fixed-top">
         <div class="container">
             <a class="navbar-brand" href="https://www.facebook.com/persadaherb/"><img src="/logo.png" width="130px"></a>
-            <!-- <div class="collapse navbar-collapse" id="navbarResponsive"> -->
                     <a class="navbar-brand" href="https://www.facebook.com/persadaherb/"><button class="btn btn-warning"><b>Facebook</b></button></a>
         </div>
+        </div>
+    </nav> -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark borderBottom"
+        style="background: url(./asset/image/header-bg.webp)">
+        <a class="navbar-brand hideOnPc" href="https://www.facebook.com/persadaherb/"><img
+                src="asset/image/Logo-persada.webp" width="130px"></a>
+        <!--  Show this only on mobile to medium screens  -->
+
+        <!--  Use flexbox utility classes to change how the child elements are justified  -->
+        <div class="collapse navbar-collapse justify-content-between" id="navbarToggle">
+
+            <!-- right menu -->
+            <ul class="navbar-nav">
+                <!-- <li class="nav-item">
+                    <a class="nav-link active text-warning" href="#">Home <span class="sr-only">(current)</span></a>
+                </li> -->
+            </ul>
+
+
+            <!--   Show this only lg screens and up   -->
+            <a class="navbar-brand hideOnMobile" href="https://www.facebook.com/persadaherb/"><img
+                    src="asset/image/Logo-persada.webp" width="230px"></a>
+
+            <ul class="navbar-nav">
+                <!-- <li class="nav-item">
+                    <a class="nav-link text-warning" href="#">Link</a>
+                </li> -->
+            </ul>
+        </div>
+    </nav>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark borderBottom">
+
+        <!--  Show this only on mobile to medium screens  -->
+        <a class="navbar-brand hideOnPc text-warning" href="https://www.facebook.com/persadaherb/">
+            <marquee behavior="scroll" direction="left">Selamat Datang Ke Persada Herbs</marquee>
+        </a>
+        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarToggle"
+            aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!--  Use flexbox utility classes to change how the child elements are justified  -->
+        <div class="collapse navbar-collapse justify-content-between" id="navbarToggle">
+
+            <!-- right menu -->
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active text-warning hideOnMobile" href="#">
+                        <marquee width="500px" behavior="scroll" direction="left">Selamat Datang Ke Persada Herbs
+                        </marquee><span class="sr-only">(current)</span>
+                    </a>
+                </li>
+            </ul>
+
+
+            <!--   Show this only lg screens and up   -->
+            <a class="navbar-brand hideOnMobile" href="https://www.facebook.com/persadaherb/"></a>
+
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link text-warning" href="#">Utama</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-warning" href="#">Promosi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-warning" href="#">Produk</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-warning" href="#">Kerjaya</a>
+                </li>
+            </ul>
         </div>
     </nav>
 
     <header>
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <!-- <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol> -->
             <div class="carousel-inner" role="listbox">
                 <!-- Slide One - Set the background image for this slide in the line below -->
                 <div class="carousel-item active" style="background-image: url('./asset/image/imej-bg.jpg')">
                     <div class="carousel-caption d-none d-md-block">
-                        <!-- <h2 class="display-4">First Slide</h2>
-
-                        <p class="lead">This is a description for the first slide.</p> -->
-
                     </div>
                 </div>
-
-                <!-- Slide Two - Set the background image for this slide in the line below -->
-                <!-- <div class="carousel-item" style="background-image: url('https://source.unsplash.com/bF2vsubyHcQ/1920x1080')">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h2 class="display-4">Second Slide</h2>
-                        <p class="lead">This is a description for the second slide.</p>
-                    </div>
-                </div> -->
-                <!-- Slide Three - Set the background image for this slide in the line below -->
-                <!-- <div class="carousel-item" style="background-image: url('https://source.unsplash.com/szFUQoyvrxM/1920x1080')">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h2 class="display-4">Third Slide</h2>
-                        <p class="lead">This is a description for the third slide.</p>
-                    </div>
-                </div> -->
             </div>
-            <!-- <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a> -->
         </div>
     </header>
-
-    <!-- Page Content -->
-    <!-- <section class="py-5">
-        <div class="container">
-            <h1 class="display-4">Full Page Image Slider</h1>
-            <p class="lead">The background images for the slider are set directly in the HTML using inline CSS. The images in this snippet are from <a href="https://unsplash.com">Unsplash</a>, taken by <a href="https://unsplash.com/@joannakosinska">Joanna Kosinska</a>!</p>
-        </div>
-    </section> -->
 </body>
 
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://jacoblett.github.io/bootstrap4-latest/bootstrap-4-latest.min.js"></script>
 
 </html>
