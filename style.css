@@ -52,6 +52,7 @@ body {
     padding-right:30px;
     border: 1px solid transparent;
     border-radius: 0.25rem;
+    float: right;
 }
 }
 
