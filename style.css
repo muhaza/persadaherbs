@@ -1,4 +1,5 @@
 /* getA */
+
 a {
     color: #ffc107;
     text-decoration: none;
@@ -9,22 +10,25 @@ a:hover {
     color: #ffc107 !important;
 }
 
+
 /* getB */
+
 body {
     background-color: #a91822;
     color: #212529;
 }
 
-.borderBottom{
+.borderBottom {
     border-bottom: #FFCD4B 5px solid;
 }
 
-.borderTop{
+.borderTop {
     border-top: #FFCD4B 5px solid;
 }
 
 
 /* getC */
+
 .carousel-item {
     /* height: 100vh;
     min-height: 350px; */
@@ -35,26 +39,26 @@ body {
     background-size: cover;
 }
 
+
 /* getP */
+
 .persada {
     background-color: #a91822;
     color: #ffbb00;
 }
 
-.persada-button{
+.persada-button {
     border-radius: 50px;
     width: 100%;
 }
 
 
-
 /* getM */
 
-@media only screen and (min-width : 280px) and (max-width: 786px) {
+@media only screen and (min-width: 280px) and (max-width: 786px) {
     .hideOnMobile {
         display: none;
     }
-
     .navbar-toggler {
         max-width: 100% !important;
         min-width: 280px !important;
@@ -66,7 +70,6 @@ body {
 }
 
 @media only screen and (min-width: 786px) and (max-width: 2300px) {
-
     .hideOnPc {
         display: none;
     }
