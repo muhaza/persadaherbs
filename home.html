@@ -181,24 +181,12 @@
                 <p class="card-text">
                   {{product2Desc}}
                 </p>
-                <a href="#" class="btn btn-danger persada-button">Lebih Informasi</a>
+                <a class="btn btn-danger persada-button" class="btn btn-primary" data-toggle="modal"
+                  data-target="#exampleModalCenter" style="color:white">Lebih Informasi</a>
               </div>
             </div>
           </div>
-          <div class="col-sm">
-            <div class="card mt-1" style="width: 100%;">
-              <img class="card-img-top" v-bind:src="product2img" alt=" 📚Card image cap" />
-              <div class="card-body">
-                <h5 class="card-title">
-                  {{product2Title}}
-                </h5>
-                <p class="card-text">
-                  {{product2Desc}}
-                </p>
-                <a v-bind:href="product2Url" class="btn btn-danger persada-button">Lebih Informasi</a>
-              </div>
-            </div>
-          </div>
+          <!-- 📚📚📚 card start 📚📚📚-->
           <div class="col-sm">
             <div class="card mt-1" style="width: 100%;">
               <img class="card-img-top" v-bind:src="product2img" alt=" 📚Card image cap" />
@@ -208,10 +196,12 @@
                   Mengurangkan risiko Diabetes, Kanser, Anemia, Darah Tinggi,
                   Membantu Detoks dan Menurunkan Berat Badan.
                 </p>
-                <a href="#" class="btn btn-danger persada-button">Lebih Informasi</a>
+                <a class="btn btn-danger persada-button" class="btn btn-primary" data-toggle="modal"
+                  data-target="#exampleModalCenter" style="color:white">Lebih Informasi</a>
               </div>
             </div>
           </div>
+          <!-- 📚📚📚 card start 📚📚📚-->
           <div class="col-sm">
             <div class="card mt-1" style="width: 100%;">
               <img class="card-img-top" v-bind:src="product2img" alt=" 📚Card image cap" />
@@ -221,7 +211,8 @@
                   Mengurangkan risiko Diabetes, Kanser, Anemia, Darah Tinggi,
                   Membantu Detoks dan Menurunkan Berat Badan.
                 </p>
-                <a href="#" class="btn btn-danger persada-button">Lebih Informasi</a>
+                <a class="btn btn-danger persada-button" class="btn btn-primary" data-toggle="modal"
+                  data-target="#exampleModalCenter" style="color:white">Lebih Informasi</a>
               </div>
             </div>
           </div>
@@ -230,6 +221,79 @@
     </div>
     <!-- end vue -->
   </section>
+
+
+
+  <section id="modal">
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+      aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Teh Persada</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div id="modal-teh">
+              <!-- start vue -->
+              <div class="container">
+                <div class="row">
+                  <!-- 📚📚📚 card start 📚📚📚-->
+                  <div class="col-sm">
+                    <div style="width: 100%;">
+                      <img class="card-img-top" v-bind:src="pop2img" alt=" 📚Card image cap" />
+                      <div class="card-body">
+                        <h5 class="card-title">KEBAIKAN</h5>
+                        <p class="card-text">
+                          Mengurangkan risiko Diabetes, Kanser, Anemia, Darah Tinggi,Membantu Detoks dan Menurunkan
+                          Berat Badan.
+                        </p>
+
+                        <h5 class="card-title">RAMUAN</h5>
+                        <p class="card-text">
+                          Teh Hijau, Serai, Lemon, Madu Kelulut & Nano Sugar
+                        </p>
+                        <a v-bind:href="pop2Url" class="btn btn-danger persada-button mt-1">Beli Sekarang</a>
+                        <a href="pop2Url" class="btn btn-success persada-button mt-1">Whatsapp</a>
+                        <a href="pop2Url" class="btn btn-primary persada-button mt-1">Facebook PM</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary persada-button" data-dismiss="modal">Close</button>
+                  <!-- <button type="button" class="btn btn-dark persada-button">Save changes</button> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  </section>
+
+
+  <!-- Promises -->
+  <section id="promise" style="background: whitesmoke">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm hideOnMobile"></div>
+        <div class="col-sm-10 my-5">
+          <h5 class="text-secondary text-center">
+            “Aroma Segar, Sedap, Tenang & Berzat” Merupakan keutamaan kami
+            dalam menghasilkan produk. Kami memilih bahan berkualiti yang
+            mempunyai zat yang sesuai untuk semua pengguna kami.
+          </h5>
+        </div>
+        <div class="col-sm hideOnMobile"></div>
+      </div>
+    </div>
+  </section>
+
+
 </body>
 
 
@@ -242,6 +306,19 @@
       product2Title: "Lets Go Dynamic Vue",
       product2Desc: " Mengurangkan risiko Diabetes, Kanser, Anemia, Darah Tinggi,Membantu Detoks dan Menurunkan Berat Badan.",
       product2Url: "http://google.com"
+    }
+  });
+</script>
+
+<script>
+  var app = new Vue({
+    el: "#modal-teh",
+    data: {
+      pop2img: "./asset/image/teh-persada.webp",
+      pop2Title: "Persada Teh",
+      pop2Desc: " Mengurangkan risiko Diabetes, Kanser, Anemia, Darah Tinggi,Membantu Detoks dan Menurunkan Berat Badan.",
+      pop2Ing: "Teh Hijau, Serai, Lemon, Madu Kelulut & Nano Sugar",
+      pop2Url: "http://google.com"
     }
   });
 </script>
