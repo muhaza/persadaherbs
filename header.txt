@@ -1,0 +1,11 @@
+<meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="theme-color" content="#C31C25" />
+  <link rel="stylesheet" href="./bootstrap.css" />
+  <link rel="stylesheet" href="./style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Exo+2|Gabriela&display=swap" rel="stylesheet" />
+  <!-- script -->
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+  <script defer src="https://friconix.com/cdn/friconix.js"> </script>
