@@ -22,7 +22,7 @@ document.getElementById("modal").innerHTML = `
                                     <div class="card-body">
                                         <h5 class="card-title"> 👍 KEBAIKAN</h5>
                                         <p class="card-text">
-                                        • Mengurangkan risiko Diabetes <br>• Kanser <br>• Anemia <br>• Darah Tinggi <br>• Membantu Detoks dan Menurunkan Berat Badan.
+                                        • Mengurangkan risiko Diabetes <br>• Kanser <br>• Anemia <br>• Darah Tinggi <br>• Membantu Detoks <br>• Menurunkan Berat Badan.
                                         </p>
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 15px;"></div>
                                         <h5 class="card-title">🌿 RAMUAN</h5>
