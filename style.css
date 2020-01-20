@@ -67,6 +67,12 @@ body {
         border-radius: 0.25rem;
         background-color: #ffcd4b;
     }
+
+    .nav-pills .nav-link {
+        border-radius: 20px;
+        padding: 0.5rem 1rem;
+        width: 95%;
+      }
 }
 
 @media only screen and (min-width: 786px) and (max-width: 2300px) {
