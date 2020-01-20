@@ -181,11 +181,11 @@
                     <!-- 📚📚📚 card start 📚📚📚-->
                     <div class="col-sm">
                         <div class="card mt-1" style="width: 100%;">
-                            <img class="card-img-top" v-bind:src="product2img" alt=" 📚Card image cap" />
+                            <img class="card-img-top" v-bind:src="soonimg" alt=" 📚Card image cap" />
                             <div class="card-body">
-                                <h5 class="card-title">Teh Persada</h5>
+                                <h5 class="card-title">{{soonTitle}}</h5>
                                 <p class="card-text">
-                                    Mengurangkan risiko Diabetes, Kanser, Anemia, Darah Tinggi, Membantu Detoks dan Menurunkan Berat Badan.
+                                    {{soonDesc}}
                                 </p>
                                 <a class="btn btn-danger persada-button" class="btn btn-primary" data-toggle="modal" data-target="#tehPersadaModal" style="color:white">Lebih Informasi</a>
                             </div>
@@ -194,11 +194,11 @@
                     <!-- 📚📚📚 card start 📚📚📚-->
                     <div class="col-sm">
                         <div class="card mt-1" style="width: 100%;">
-                            <img class="card-img-top" v-bind:src="product2img" alt=" 📚Card image cap" />
+                            <img class="card-img-top" v-bind:src="soonimg" alt=" 📚Card image cap" />
                             <div class="card-body">
-                                <h5 class="card-title">Teh Persada</h5>
+                                <h5 class="card-title">{{soonTitle}}</h5>
                                 <p class="card-text">
-                                    Mengurangkan risiko Diabetes, Kanser, Anemia, Darah Tinggi, Membantu Detoks dan Menurunkan Berat Badan.
+                                    {{soonDesc}}
                                 </p>
                                 <a class="btn btn-danger persada-button" class="btn btn-primary" data-toggle="modal" data-target="#tehPersadaModal" style="color:white">Lebih Informasi</a>
                             </div>
@@ -248,13 +248,18 @@
 
 
 <script>
+
     var app = new Vue({
         el: "#vue-card",
         data: {
             product2img: "./asset/image/teh-persada.webp",
             product2Title: "Persada Teh Padu!",
             product2Desc: " Mengurangkan risiko Diabetes, Kanser, Anemia, Darah Tinggi,Membantu Detoks dan Menurunkan Berat Badan.",
-            product2Url: "http://google.com"
+            product2Url: "http://google.com",
+            soonimg: "./asset/image/akan-datang.jpg",
+            soonTitle: "Akan Datang",
+            soonDesc: "Akan Datang“Aroma Segar, Sedap, Tenang & Berzat” Keutamaan kami dalam menghasilkan produk",
+            soonUrl: "http://google.com"
         }
     });
 </script>
