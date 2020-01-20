@@ -249,14 +249,13 @@
     <section id="promise" style="background: whitesmoke">
         <div class="container">
             <div class="row">
-                <div class="col-sm hideOnMobile"></div>
-                <div class="col-sm-10 my-5">
-                    <h5 class="text-secondary text-center">
-                        “Aroma Segar, Sedap, Tenang & Berzat” Merupakan keutamaan kami dalam menghasilkan produk. Kami
-                        memilih bahan berkualiti yang mempunyai zat yang sesuai untuk semua pengguna kami.
-                    </h5>
+
+                <div class="col-sm my-5">
+                    <div id="aboutPill">
+                        <script src="component/pill.js"></script>
+                    </div>
                 </div>
-                <div class="col-sm hideOnMobile"></div>
+
             </div>
         </div>
     </section>
@@ -302,36 +301,7 @@
 
 </body>
 
-
-
-<script>
-    var app = new Vue({
-        el: "#vue-card",
-        data: {
-            product2img: "./asset/image/teh-persada.webp",
-            product2Title: "Persada Teh Padu!",
-            product2Desc: " Mengurangkan risiko Diabetes, Kanser, Anemia, Darah Tinggi,Membantu Detoks dan Menurunkan Berat Badan.",
-            product2Url: "http://google.com",
-            soonimg: "./asset/image/akan-datang.jpg",
-            soonTitle: "Akan Datang",
-            soonDesc: "Akan Datang“Aroma Segar, Sedap, Tenang & Berzat” Keutamaan kami dalam menghasilkan produk",
-            soonUrl: "http://google.com"
-        }
-    });
-</script>
-
-<script>
-    var app = new Vue({
-        el: "#modal-teh",
-        data: {
-            pop2img: "./asset/image/teh-persada.webp",
-            pop2Title: "Persada Teh",
-            pop2Desc: " Mengurangkan risiko Diabetes, Kanser, Anemia, Darah Tinggi,Membantu Detoks dan Menurunkan Berat Badan.",
-            pop2Ing: "Teh Hijau, Serai, Lemon, Madu Kelulut & Nano Sugar",
-            pop2Url: "http://google.com"
-        }
-    });
-</script>
+<script src="/io.js"></script>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 <script src="https://jacoblett.github.io/bootstrap4-latest/bootstrap-4-latest.min.js"></script>
