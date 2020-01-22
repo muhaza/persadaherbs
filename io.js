@@ -3,11 +3,11 @@ var app = new Vue({
     data: {
         product2img: "./asset/image/teh-persada.webp",
         product2Title: "Persada Teh Padu!",
-        product2Desc: " Mengurangkan risiko Diabetes, Kanser, Anemia, Darah Tinggi,Membantu Detoks dan Menurunkan Berat Badan.",
+        product2Desc: "Ubat Diabetes, Kanser, Anemia, Darah Tinggi, Membantu Detoks dan Menurunkan Berat Badan.",
         product2Url: "http://google.com",
         soonimg: "./asset/image/akan-datang.jpg",
         soonTitle: "Akan Datang",
-        soonDesc: "Akan Datang“Aroma Segar, Sedap, Tenang & Berzat” Keutamaan kami dalam menghasilkan produk",
+        soonDesc: "Akan Datang “Aroma Segar, Sedap, Tenang & Berzat” Keutamaan kami dalam menghasilkan produk..",
         soonUrl: "http://google.com"
     }
 });

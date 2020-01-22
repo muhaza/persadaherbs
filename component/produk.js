@@ -14,10 +14,12 @@ document.getElementById("produk").innerHTML = `
                                 <!-- 📚📚📚 card start 📚📚📚-->
                                 <div class="col-sm">
                                     <div class="card mt-1" style="width: 100%;">
+                                    
                                         <img class="card-img-top" v-bind:src="product2img" alt=" 📚Card image cap" />
+                                        <h1><span class="badge badge-danger float-right p-1" style="margin: -66% 0.5rem 0 !important;">RM25</span></h1>
                                         <div class="card-body">
                                             <h5 class="card-title">{{product2Title}}</h5>
-                                            <p class="card-text">
+                                            <p class="card-text text-justify">
                                                 {{product2Desc}}
                                             </p>
                                             <a class="btn btn-danger persada-button" class="btn btn-primary"
@@ -32,7 +34,7 @@ document.getElementById("produk").innerHTML = `
                                         <img class="card-img-top" v-bind:src="soonimg" alt=" 📚Card image cap" />
                                         <div class="card-body">
                                             <h5 class="card-title">{{soonTitle}}</h5>
-                                            <p class="card-text">
+                                            <p class="card-text text-justify">
                                                 {{soonDesc}}
                                             </p>
                                             <a class="btn btn-danger persada-button" class="btn btn-primary"
@@ -47,7 +49,7 @@ document.getElementById("produk").innerHTML = `
                                         <img class="card-img-top" v-bind:src="soonimg" alt=" 📚Card image cap" />
                                         <div class="card-body">
                                             <h5 class="card-title">{{soonTitle}}</h5>
-                                            <p class="card-text">
+                                            <p class="card-text text-justify">
                                                 {{soonDesc}}
                                             </p>
                                             <a class="btn btn-danger persada-button" class="btn btn-primary"
@@ -85,7 +87,7 @@ document.getElementById("produk").innerHTML = `
                                                 alt=" 📚Card image cap" />
                                             <div class="card-body">
                                                 <h5 class="card-title">{{soonTitle}}</h5>
-                                                <p class="card-text">
+                                                <p class="card-text text-justify">
                                                 {{soonDesc}}
                                                 </p>
                                                 <a class="btn btn-danger persada-button" class="btn btn-primary"
@@ -100,7 +102,7 @@ document.getElementById("produk").innerHTML = `
                                             <img class="card-img-top" v-bind:src="soonimg" alt=" 📚Card image cap" />
                                             <div class="card-body">
                                                 <h5 class="card-title">{{soonTitle}}</h5>
-                                                <p class="card-text">
+                                                <p class="card-text text-justify">
                                                     {{soonDesc}}
                                                 </p>
                                                 <a class="btn btn-danger persada-button" class="btn btn-primary"
@@ -115,7 +117,7 @@ document.getElementById("produk").innerHTML = `
                                             <img class="card-img-top" v-bind:src="soonimg" alt=" 📚Card image cap" />
                                             <div class="card-body">
                                                 <h5 class="card-title">{{soonTitle}}</h5>
-                                                <p class="card-text">
+                                                <p class="card-text text-justify">
                                                     {{soonDesc}}
                                                 </p>
                                                 <a class="btn btn-danger persada-button" class="btn btn-primary"
