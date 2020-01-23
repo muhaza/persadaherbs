@@ -39,6 +39,10 @@ body {
     background-size: cover;
 }
 
+/* getF */
+.fi-padding{
+    padding-bottom: 3px !important;
+}
 
 /* getP */
 
