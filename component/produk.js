@@ -7,10 +7,8 @@ document.getElementById("produk").innerHTML = `
                 <div class="col-sm">
                     <!-- start product -->
                     <section id="product" style="background: whitesmoke">
-
                         <div class="my-5">
                             <div class="row">
-
                                 <!-- 📚📚📚 card start 📚📚📚-->
                                 <div class="col-sm">
                                     <div class="card mt-1" style="width: 100%;">
