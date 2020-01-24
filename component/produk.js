@@ -16,7 +16,7 @@ document.getElementById("produk").innerHTML = `
                                     <div class="card mt-1" style="width: 100%;">
                                     
                                         <img class="card-img-top" v-bind:src="product2img" alt=" 📚Card image cap" />
-                                        <h3><span class="badge badge-danger float-right p-1" style="margin: -66% 0.5rem 0 !important;">RM25</span></h3>
+                                        <h3><span data-wow-delay="0.3s" data-wow-duration="0.3" class="wow fadeInUp badge badge-danger float-right p-1 price">RM28</span></h3>
                                         <div class="card-body">
                                             <h5 class="card-title">{{product2Title}}</h5>
                                             <p class="card-text text-justify">

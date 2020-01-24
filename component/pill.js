@@ -23,17 +23,18 @@ document.getElementById("aboutPill").innerHTML = `
   aria-labelledby="pills-profile-tab">
 
       <div class="row">
-      <div class="col-sm">
-      Persada Herbs Sdn Bhd merupakan syarikat menghasilkan produk makanan kesihatan
-      yang diasaskan oleh 
-      Mohd Faizal. Produk yang dihasilkan bukanlah ubat-ubatan, tetapi lebih kepada makanan
-      yang diperakui memberi kesan yang terbaik sejak dulu-dulu lagi. <br><br>Produk yang dihasilkan
-      mempunyai standard: 
-      Aroma yang Segar,Bersih ,Sedap ,Tenang & Berzat,
-      </div>
       <div class="col-sm-4">
           <img class="img-fluid" src="/asset/image/ramuan-sihat.png" alt="">
       </div>
+      <div class="col-sm">
+      <b>Persada herbs Sdn Bhd</b> merupakan sebuah syarikat bumiputra diasaskan oleh 
+      3 orang adik beradik dengan wawasan menunaikan perintah fardhu kifayah, iaitu 
+      untuk menghasil produk halalan toyyiban dengan
+      formula sendiri, kilang sendiri, pemasaran sendiri.<br/><br/>
+      <a href="#tehPersadaModal!" 
+      class="btn btn-danger float-right" style="color: white; border-radius:20em;">Lanjutkan Bacaan</a>
+      </div>
+      
       </div>
   </div>
     
