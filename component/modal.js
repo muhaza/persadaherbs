@@ -5,7 +5,12 @@ document.getElementById("modal").innerHTML = `
 
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLongTitle">TEH PERSADA</h5>
+                <div class="col-sm">
+                    <h5 class="modal-title" id="exampleModalLongTitle">TEH PERSADA</h5>
+                </div>
+
+                <h3><span class="badge badge-danger float-right p-1">RM28</span></h3>
+                
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
       <span aria-hidden="true">&times;</span>
     </button>
