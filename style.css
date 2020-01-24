@@ -81,6 +81,11 @@ body {
         padding: 0.5rem 1rem;
         width: 95%;
       }
+
+    .col-sm {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
 }
 
 @media only screen and (min-width: 786px) and (max-width: 2300px) {

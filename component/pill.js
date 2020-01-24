@@ -30,7 +30,11 @@ document.getElementById("aboutPill").innerHTML = `
       <b>Persada herbs Sdn Bhd</b> merupakan sebuah syarikat bumiputra diasaskan oleh 
       3 orang adik beradik dengan wawasan menunaikan perintah fardhu kifayah, iaitu 
       untuk menghasil produk halalan toyyiban dengan
-      formula sendiri, kilang sendiri, pemasaran sendiri.<br/><br/>
+      formula sendiri, kilang sendiri, pemasaran sendiri.
+      <br/><br/>
+      Memandangkan zaman ini kita menghadapi pelbagai penyakit dengan tidak ada penyelesaiannya. 
+      Persada Herbs berpegang kuat dengan falsafah mencegah lebih elok dari merawat secara alamiah.
+      <br/><br/>
       <a href="#tehPersadaModal!" 
       class="btn btn-danger float-right" style="color: white; border-radius:20em;">Lanjutkan Bacaan</a>
       </div>
