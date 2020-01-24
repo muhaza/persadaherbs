@@ -8,7 +8,7 @@ document.getElementById("produk").innerHTML = `
                     <!-- start product -->
                     <section id="product" style="background: whitesmoke">
 
-                        <div class="container my-5">
+                        <div class="my-5">
                             <div class="row">
 
                                 <!-- 📚📚📚 card start 📚📚📚-->
