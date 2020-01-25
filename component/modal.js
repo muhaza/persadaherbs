@@ -34,6 +34,7 @@ document.getElementById("modal").innerHTML = `
                                         <p class="card-text">
                                             Teh Hijau, Serai, Lemon, Madu Kelulut & Nano Sugar
                                         </p>
+                                        
                                         <!-- <a v-bind:href="pop2Url" class="btn btn-danger persada-button mt-1">Beli Sekarang</a> -->
                                         <a href="https://wa.me/601158680328?text=Saya%20berminat%20untuk%20order%20Teh%20Persada" class="btn btn-success persada-button mt-1">Whatsapp</a>
                                         <!-- <a href="pop2Url" class="btn btn-primary persada-button mt-1">Facebook PM</a> -->
