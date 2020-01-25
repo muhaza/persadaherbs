@@ -31,10 +31,10 @@ document.getElementById("aboutPill").innerHTML = `
         3 orang adik beradik dengan wawasan menunaikan perintah fardhu kifayah, iaitu 
         untuk menghasil produk halalan toyyiban dengan
         formula sendiri, kilang sendiri, pemasaran sendiri.</p>
-        <br/>
+        <!-- <br/> -->
         <p>Memandangkan zaman ini kita menghadapi pelbagai penyakit dengan tidak ada penyelesaiannya. 
         Persada Herbs berpegang kuat dengan falsafah mencegah lebih elok dari merawat secara alamiah.</p>
-        <br/><br/>
+        <br/>
         <a href="#tehPersadaModal!" 
         class="btn btn-danger float-right" style="color: white; border-radius:20em;">Lanjutkan Bacaan</a>
         </div>
