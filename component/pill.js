@@ -43,10 +43,12 @@ document.getElementById("aboutPill").innerHTML = `
       
     <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
       <div class="row">
+        <article class="col-sm">
         <p>Consectetur dolor cillum laborum id dolor sunt officia laboris laboris adipisicing mollit do. 
         Esse culpa ut ex qui excepteur ut proident consequat deserunt ipsum sit. Velit pariatur proident 
         fugiat cillum cupidatat reprehenderit eu elit aute aute nulla occaecat id.
         </p>
+        </article>
       </div>
     </div>
 

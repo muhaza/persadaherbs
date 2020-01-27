@@ -141,11 +141,11 @@ document.getElementById("produk").innerHTML = `
                 <ul class="nav nav-pills mb-1 float-right" id="pills-tab" role="tablist">
 
                     <li class="nav-item">
-                        <a class="nav-link active" id="pills-profile-tab" data-toggle="pill" href="#page-1" role="tab"
+                        <a class="nav-link nav-number active" id="pills-profile-tab" data-toggle="pill" href="#page-1" role="tab"
                             aria-controls="pills-profile" aria-selected="false">1</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#page-2" role="tab"
+                        <a class="nav-link nav-number" id="pills-contact-tab" data-toggle="pill" href="#page-2" role="tab"
                             aria-controls="pills-contact" aria-selected="false">2</a>
                     </li>
                 </ul>
