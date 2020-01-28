@@ -57,7 +57,7 @@ html,body {
 
 .persada-button {
     border-radius: 50px;
-    width: 100%;
+    width: 99%;
 }
 
 .price {
@@ -83,9 +83,9 @@ width: 300px;
         display: none;
     }
     .navbar-toggler {
-        max-width: 100% !important;
+        max-width: 99% !important;
         min-width: 280px !important;
-        width: 100%;
+        width: 99%;
         border: 1px solid transparent;
         border-radius: 0.25rem;
         background-color: #ffcd4b;
@@ -101,7 +101,7 @@ width: 300px;
     }
     .sp-form[sp-id="143074"] {
         width: 95% !important;
-        max-width: 100%;
+        max-width: 99%;
     }
 
     #promosian{

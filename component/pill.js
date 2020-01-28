@@ -30,14 +30,14 @@ document.getElementById("aboutPill").innerHTML = `
             <span class="text-light" style="display:block; margin-top:10%;"><h6>MOHAMAD FAIZIMAN CHAI</h6><p style="font-size:small">Pengarah Pembangunan Produk</p></span>
           </div>
         </div>
-        <span class="hideOnPc" style="border-bottom:dashed 1px white; margin:1rem; width:100%;"></span>
+        <span class="hideOnPc" style="border-bottom:dashed 1px white; margin:1rem; width:99%;"></span>
         <div class="col-sm">
          <div class="d-flex profile-width">
             <img src="./asset/image/Faiziwan.webp" style="z-index: 10;" class="rounded-circle align-center profile-image" alt="Faiziwan" width="50%"/>
             <span class="text-light" style="display:block; margin-top:10%;"><h6>MUHAMAD FAIZIWAN CHAI </h6><p style="font-size:small">CEO : Pengurus Anugerah Alam (Kilang)</p></span>
          </div>
         </div>
-        <span class="hideOnPc" style="border-bottom:dashed 1px white; margin:1rem; width:100%;"></span>
+        <span class="hideOnPc" style="border-bottom:dashed 1px white; margin:1rem; width:99%;"></span>
         <div class="col-sm">
          <div class="d-flex profile-width">
             <img src="./asset/image/Faizli.webp" style="z-index: 10;" class="rounded-circle align-center profile-image" alt="Faizli" width="50%"/>
