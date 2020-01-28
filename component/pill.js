@@ -74,12 +74,19 @@ document.getElementById("aboutPill").innerHTML = `
     <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
       <div class="container">
       <div class="row">
-        <article class="col-sm">
-        <p>Kejayaan Consectetur dolor cillum laborum id dolor sunt officia laboris laboris adipisicing mollit do. 
-        Esse culpa ut ex qui excepteur ut proident consequat deserunt ipsum sit. Velit pariatur proident 
-        fugiat cillum cupidatat reprehenderit eu elit aute aute nulla occaecat id.
-        </p>
-        </article>
+      <div class="col-sm">
+         <p> Persada herbs Sdn Bhd merupakan sebuah syarikat bumiputra diasaskan oleh 
+        3 orang adik beradik dengan wawasan menunaikan perintah fardhu kifayah, iaitu 
+        untuk menghasil produk halalan toyyiban dengan
+        formula sendiri, kilang sendiri, pemasaran sendiri.</p>
+        <!-- <br/> -->
+        <p>Memandangkan zaman ini kita menghadapi pelbagai penyakit dengan tidak ada penyelesaiannya. 
+        Persada Herbs berpegang kuat dengan falsafah mencegah lebih elok dari merawat secara alamiah.</p>
+        <br/>
+        <a class="btn btn-danger persada-button" id="pills-contact-tab" data-toggle="pill" 
+    href="#pills-contact" role="tab" aria-controls="pills-contact" 
+    aria-selected="false">Lanjutkan Bacaan</a>
+        </div>
       </div>
     </div>
     </div>
@@ -88,12 +95,19 @@ document.getElementById("aboutPill").innerHTML = `
     <div class="tab-pane fade" id="pills-pemasaran" role="tabpanel" aria-labelledby="pills-contact-tab">
       <div class="container">
       <div class="row">
-        <article class="col-sm">
-        <p>Consectetur dolor cillum laborum id dolor sunt officia laboris laboris adipisicing mollit do. 
-        Esse culpa ut ex qui excepteur ut proident consequat deserunt ipsum sit. Velit pariatur proident 
-        fugiat cillum cupidatat reprehenderit eu elit aute aute nulla occaecat id.
-        </p>
-        </article>
+      <div class="col-sm">
+         <p> Persada herbs Sdn Bhd merupakan sebuah syarikat bumiputra diasaskan oleh 
+        3 orang adik beradik dengan wawasan menunaikan perintah fardhu kifayah, iaitu 
+        untuk menghasil produk halalan toyyiban dengan
+        formula sendiri, kilang sendiri, pemasaran sendiri.</p>
+        <!-- <br/> -->
+        <p>Memandangkan zaman ini kita menghadapi pelbagai penyakit dengan tidak ada penyelesaiannya. 
+        Persada Herbs berpegang kuat dengan falsafah mencegah lebih elok dari merawat secara alamiah.</p>
+        <br/>
+        <a class="btn btn-danger persada-button" id="pills-contact-tab" data-toggle="pill" 
+    href="#pills-contact" role="tab" aria-controls="pills-contact" 
+    aria-selected="false">Lanjutkan Bacaan</a>
+        </div>
       </div>
     </div>
     </div>
