@@ -20,31 +20,36 @@ document.getElementById("aboutPill").innerHTML = `
 </ul>
 
 <div class="tab-content" id="pills-tabContent">
-    
     <div class="tab-pane fade show active" id="pills-profile" role="tabpanel" 
           aria-labelledby="pills-profile-tab">  
-        <div class="col-sm-4">
+        <div class="row">
+        <div class="col-sm-3">
             <img class="img-fluid" src="/asset/image/ramuan-sihat.png" alt="">
         </div>
         <div class="col-sm">
-        <b>Persada herbs Sdn Bhd</b> <p>merupakan sebuah syarikat bumiputra diasaskan oleh 
+         <p> Persada herbs Sdn Bhd merupakan sebuah syarikat bumiputra diasaskan oleh 
         3 orang adik beradik dengan wawasan menunaikan perintah fardhu kifayah, iaitu 
         untuk menghasil produk halalan toyyiban dengan
         formula sendiri, kilang sendiri, pemasaran sendiri.</p>
-        <br/><br/>
+        <!-- <br/> -->
         <p>Memandangkan zaman ini kita menghadapi pelbagai penyakit dengan tidak ada penyelesaiannya. 
         Persada Herbs berpegang kuat dengan falsafah mencegah lebih elok dari merawat secara alamiah.</p>
-        <br/><br/>
+        <br/>
         <a href="#tehPersadaModal!" 
         class="btn btn-danger float-right" style="color: white; border-radius:20em;">Lanjutkan Bacaan</a>
+        </div>
         </div>
     </div>
       
     <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+      <div class="row">
+        <article class="col-sm">
         <p>Consectetur dolor cillum laborum id dolor sunt officia laboris laboris adipisicing mollit do. 
         Esse culpa ut ex qui excepteur ut proident consequat deserunt ipsum sit. Velit pariatur proident 
         fugiat cillum cupidatat reprehenderit eu elit aute aute nulla occaecat id.
         </p>
+        </article>
+      </div>
     </div>
 
 
