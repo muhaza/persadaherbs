@@ -23,41 +23,37 @@ document.getElementById("aboutPill").innerHTML = `
     <div class="tab-pane fade show active" id="pills-profile" role="tabpanel" 
           aria-labelledby="pills-profile-tab">  
 
-      <div class="row mb-3" style="background:url(./asset/image/header-bg.webp);padding:1rem 0;margin:1rem; border-radius:1rem;">
+      <div class="row mb-3" style="background:url(./asset/image/header-bg.webp);padding:1rem 0;margin:0 0.3rem; border-radius:1rem;">
         <div class="col-sm">
-          <div class="d-flex justify-content-center">
-            <img src="./asset/image/Faiziman.webp" style="box-shadow: 0px 5px 11px 0px #00000042;" class="rounded-circle" alt="Faiziman" width="200px"/> </span> 
-            <!-- <div class="card" style="width: 100%; margin-bottom:2rem;">
-              <img class="card-img-top" src="./asset/image/Faiziman.webp" alt="Card image cap">
-                <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-            </div> -->
+          <div class="d-flex profile-width">
+            <img src="./asset/image/Faiziman.webp" class="rounded-circle profile-image" alt="Faiziman" width="50%"/> </span> 
+            <span class="text-light" style="display:block; margin-top:10%;"><h6>MOHAMAD FAIZIMAN CHAI</h6><p style="font-size:small">Pengarah Pembangunan Produk</p></span>
           </div>
         </div>
+        <span class="hideOnPc" style="border-bottom:dashed 1px white; margin:1rem; width:100%;"></span>
         <div class="col-sm">
-         <div class="d-flex justify-content-center">
-            <img src="./asset/image/Faiziwan.webp" style="box-shadow: 0px 5px 11px 0px #00000042;z-index: 10;" class="rounded-circle align-center" alt="Faiziwan" width="200px"/>
-            <!-- <div class="card" style="width: 100%; margin-bottom:2rem;">
-              <img class="card-img-top" src="./asset/image/Faiziwan.webp" alt="Card image cap">
-                <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-            </div> -->
+         <div class="d-flex profile-width">
+            <img src="./asset/image/Faiziwan.webp" style="z-index: 10;" class="rounded-circle align-center profile-image" alt="Faiziwan" width="50%"/>
+            <span class="text-light" style="display:block; margin-top:10%;"><h6>MUHAMAD FAIZIWAN CHAI </h6><p style="font-size:small">CEO : Pengurus Anugerah Alam (Kilang)</p></span>
          </div>
         </div>
+        <span class="hideOnPc" style="border-bottom:dashed 1px white; margin:1rem; width:100%;"></span>
         <div class="col-sm">
-          <div class="d-flex justify-content-center">
-            <img src="./asset/image/Faizli.webp" style="box-shadow: 0px 5px 11px 0px #00000042;z-index: 20;" class="rounded-circle align-center" alt="Faizli" width="200px"/>
-          </div>
+         <div class="d-flex profile-width">
+            <img src="./asset/image/Faizli.webp" style="z-index: 10;" class="rounded-circle align-center profile-image" alt="Faizli" width="50%"/>
+            <span class="text-light" style="display:block; margin-top:10%;"><h6>MUHAMAD FAIZLI CHAI </h6><p style="font-size:small">Pengarah Pemasaran</p></span>
+         </div>
         </div>
+        
       </div>
       
 
+      <div class="container">
         <div class="row">
         <!-- <div class="col-sm-3">
             <img class="img-fluid" src="/asset/image/ramuan-sihat.png" alt="">
         </div> -->
+        
         <div class="col-sm">
          <p> Persada herbs Sdn Bhd merupakan sebuah syarikat bumiputra diasaskan oleh 
         3 orang adik beradik dengan wawasan menunaikan perintah fardhu kifayah, iaitu 
@@ -67,13 +63,30 @@ document.getElementById("aboutPill").innerHTML = `
         <p>Memandangkan zaman ini kita menghadapi pelbagai penyakit dengan tidak ada penyelesaiannya. 
         Persada Herbs berpegang kuat dengan falsafah mencegah lebih elok dari merawat secara alamiah.</p>
         <br/>
-        <a href="#tehPersadaModal!" 
-        class="btn btn-danger float-right" style="color: white; border-radius:20em;">Lanjutkan Bacaan</a>
+        <a class="btn btn-danger persada-button" id="pills-contact-tab" data-toggle="pill" 
+    href="#pills-contact" role="tab" aria-controls="pills-contact" 
+    aria-selected="false">Lanjutkan Bacaan</a>
         </div>
         </div>
     </div>
+    </div>
       
     <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+      <div class="container">
+      <div class="row">
+        <article class="col-sm">
+        <p>Kejayaan Consectetur dolor cillum laborum id dolor sunt officia laboris laboris adipisicing mollit do. 
+        Esse culpa ut ex qui excepteur ut proident consequat deserunt ipsum sit. Velit pariatur proident 
+        fugiat cillum cupidatat reprehenderit eu elit aute aute nulla occaecat id.
+        </p>
+        </article>
+      </div>
+    </div>
+    </div>
+
+
+    <div class="tab-pane fade" id="pills-pemasaran" role="tabpanel" aria-labelledby="pills-contact-tab">
+      <div class="container">
       <div class="row">
         <article class="col-sm">
         <p>Consectetur dolor cillum laborum id dolor sunt officia laboris laboris adipisicing mollit do. 
@@ -83,14 +96,6 @@ document.getElementById("aboutPill").innerHTML = `
         </article>
       </div>
     </div>
-
-
-    <div class="tab-pane fade" id="pills-pemasaran" role="tabpanel" aria-labelledby="pills-pemasaran-tab">
-      <p>Consectetur dolor cillum laborum id dolor sunt officia laboris laboris adipisicing mollit do. 
-
-        Esse culpa ut ex qui excepteur ut proident consequat deserunt ipsum sit. Velit pariatur proident 
-        fugiat cillum cupidatat reprehenderit eu elit aute aute nulla occaecat id.
-        </p>
     </div>
 </div>
 </div>

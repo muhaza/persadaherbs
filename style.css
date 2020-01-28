@@ -63,6 +63,17 @@ body {
     margin: -66% 0.5rem 0 !important;
 }
 
+.profile-image{
+box-shadow: 0px 5px 11px 0px #00000042; 
+border:#FFCD4B 5px solid;
+margin:1rem;
+
+}
+
+.profile-width{
+max-width:300px;
+width: 300px;
+}
 
 /* getM */
 
