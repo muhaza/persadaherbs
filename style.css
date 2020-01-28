@@ -13,7 +13,7 @@ a:hover {
 
 /* getB */
 
-body {
+html,body {
     overflow-x: hidden;
     background-color: whitesmoke;
     color: #212529;
