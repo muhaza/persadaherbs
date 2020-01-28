@@ -58,7 +58,7 @@ document.getElementById("modal").innerHTML = `
                                                     <input style="width: 75%;border-radius: 10em;" type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
                                                     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                                                     <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_e280b122196abf8c33f52ba68_82b9588ad5" tabindex="-1" value=""></div>
-                                                    <div class="clear"><input class="btn-primary" style="border-radius: 10em;" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                                                    <div class="clear"><input class="btn-primary" style="border-radius: 10em;border:solid 1px transparent;padding:3px;" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
                                                 </div>
                                             </form>
                                         </div>

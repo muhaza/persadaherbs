@@ -91,11 +91,24 @@ body {
         width: 95% !important;
         max-width: 100%;
     }
+
+    #promosian{
+        background-position-y: 9rem;
+        background-position-x: -5rem;
+        height: 32rem;
+    }
 }
 
 @media only screen and (min-width: 786px) and (max-width: 2300px) {
     .hideOnPc {
         display: none;
+    }
+
+    #promosian{
+        background-position-y: 9rem;
+        background-color: black;
+        background-image:url(./asset/image/all-produk.png);background-repeat: 
+        no-repeat;background-position: right;
     }
 }
 
