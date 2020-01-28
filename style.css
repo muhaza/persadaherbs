@@ -14,6 +14,7 @@ a:hover {
 /* getB */
 
 body {
+    overflow-x: hidden;
     background-color: whitesmoke;
     color: #212529;
 }
