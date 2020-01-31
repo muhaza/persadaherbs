@@ -51,7 +51,11 @@ document.getElementById("modal").innerHTML = `
                                                 <button type="button" class="btn btn-danger float-right">RM28</button>
                                             </li>
                                            
-                                            <li class="list-group-item">Harga Franchais
+                                            <li class="list-group-item">Harga Pemborong
+                                                <button type="button" class="btn btn-danger float-right">RM28</button>
+                                            </li>
+
+                                            <li class="list-group-item">Harga Pembekal
                                                 <button type="button" class="btn btn-danger float-right">RM28</button>
                                             </li>
                                                 
