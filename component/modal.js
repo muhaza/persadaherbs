@@ -9,7 +9,9 @@ document.getElementById("modal").innerHTML = `
                     <h5 class="modal-title" id="exampleModalLongTitle">TEH PERSADA</h5>
                 </div>
 
-                <h3><span class="badge badge-danger float-right p-1">RM28</span></h3>
+                <span>
+                    <button type="button" class="btn btn-danger float-right ">RM28</button>
+                </span>
 
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
       <span aria-hidden="true">&times;</span>
@@ -23,6 +25,7 @@ document.getElementById("modal").innerHTML = `
                             <!-- 📚📚📚 card start 📚📚📚-->
                             <div class="col-sm">
                                 <div style="width: 100%;">
+
                                     <img class="card-img-top" v-bind:src="pop2img" alt=" 📚Card image cap" />
                                     <div class="card-body">
                                         <h5 class="card-title"> 👍 KEBAIKAN</h5>

@@ -75,13 +75,11 @@ document.getElementById("aboutPill").innerHTML = `
       <div class="container">
       <div class="row">
       <div class="col-sm">
-         <p> Persada herbs Sdn Bhd merupakan sebuah syarikat bumiputra diasaskan oleh 
-        3 orang adik beradik dengan wawasan menunaikan perintah fardhu kifayah, iaitu 
-        untuk menghasil produk halalan toyyiban dengan
-        formula sendiri, kilang sendiri, pemasaran sendiri.</p>
+         <p> Dalam usaha menghasilkan produk yang bersih dan berkhasiat. Persada herbs sdn bhd menjalinkan 
+           kalaborasi kerjasama bersama USIM ( universiti sains islam Malaysia) & GMI (German-Malaysian Institute)
+          </p>
         <!-- <br/> -->
-        <p>Memandangkan zaman ini kita menghadapi pelbagai penyakit dengan tidak ada penyelesaiannya. 
-        Persada Herbs berpegang kuat dengan falsafah mencegah lebih elok dari merawat secara alamiah.</p>
+        <p>Persada Herbs Sdn Bhd turut mempunyai kilang bertaraf GMP (ISLAMIC MANUFACTURING PRACTICE) yang diusahakan oleh Muhd Faiziwan</p>
         <br/>
         <a class="btn btn-danger persada-button" id="pills-contact-tab" data-toggle="pill" 
     href="#pills-contact" role="tab" aria-controls="pills-contact" 

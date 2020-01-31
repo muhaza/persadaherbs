@@ -12,9 +12,13 @@ document.getElementById("produk").innerHTML = `
                                 <!-- 📚📚📚 card start 📚📚📚-->
                                 <div class="col-sm">
                                     <div class="card mt-1" style="width: 100%;">
-                                    
+                                        <span class="m-1">
+                                            <button type="button" class="btn btn-danger float-right ">RM28</button>
+                                        </span>
                                         <img class="card-img-top wow fadeInUp" v-bind:src="product2img" alt=" 📚Card image cap" />
-                                        <h3><span data-wow-delay="0.3s" data-wow-duration="0.3" class="wow fadeInUp badge badge-danger float-right p-1 price">RM28</span></h3>
+                                        
+                                       
+
                                         <div class="card-body">
                                             <h5 class="card-title">{{product2Title}}</h5>
                                             <p class="card-text text-justify">
@@ -24,6 +28,21 @@ document.getElementById("produk").innerHTML = `
                                                 data-toggle="modal" data-target="#tehPersadaModal"
                                                 style="color:white">Lebih Informasi</a>
                                         </div>
+
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">Harga Pasaran
+                                                <button type="button" class="btn btn-danger float-right">RM28</button>
+                                            </li>
+                                            <li class="list-group-item">Harga Ejen
+                                                <button type="button" class="btn btn-danger float-right">RM28</button>
+                                            </li>
+                                           
+                                            <li class="list-group-item">Harga Francais
+                                                <button type="button" class="btn btn-danger float-right">RM28</button>
+                                            </li>
+                                                
+                                        </ul>
+
                                     </div>
                                 </div>
                                 <!-- 📚📚📚 card start 📚📚📚-->
