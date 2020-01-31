@@ -15,7 +15,7 @@ document.getElementById("produk").innerHTML = `
                                         <span class="m-1">
                                             <button type="button" class="btn btn-danger float-right ">RM28</button>
                                         </span>
-                                        <img class="card-img-top wow fadeInUp" v-bind:src="product2img" alt=" 📚Card image cap" />
+                                        <img class="card-img-top wow fadeInUp" v-bind:src="product2img" alt=" 📚Card image cap" style="margin-top: -46px;" />
                                         
                                        
 
@@ -29,19 +29,6 @@ document.getElementById("produk").innerHTML = `
                                                 style="color:white">Lebih Informasi</a>
                                         </div>
 
-                                        <ul class="list-group list-group-flush">
-                                            <li class="list-group-item">Harga Pasaran
-                                                <button type="button" class="btn btn-danger float-right">RM28</button>
-                                            </li>
-                                            <li class="list-group-item">Harga Ejen
-                                                <button type="button" class="btn btn-danger float-right">RM28</button>
-                                            </li>
-                                           
-                                            <li class="list-group-item">Harga Francais
-                                                <button type="button" class="btn btn-danger float-right">RM28</button>
-                                            </li>
-                                                
-                                        </ul>
 
                                     </div>
                                 </div>

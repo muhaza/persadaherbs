@@ -27,6 +27,9 @@ document.getElementById("modal").innerHTML = `
                                 <div style="width: 100%;">
 
                                     <img class="card-img-top" v-bind:src="pop2img" alt=" 📚Card image cap" />
+   
+                                  
+
                                     <div class="card-body">
                                         <h5 class="card-title"> 👍 KEBAIKAN</h5>
                                         <p class="card-text">
@@ -37,8 +40,26 @@ document.getElementById("modal").innerHTML = `
                                         <p class="card-text">
                                             Teh Hijau, Serai, Lemon, Madu Kelulut & Nano Sugar
                                         </p>
-                                        <div style="border-bottom: 1px #00000069 solid; margin-bottom: 15px;"></div>
                                         
+                                        
+
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">Harga Pasaran
+                                                <button type="button" class="btn btn-danger float-right">RM28</button>
+                                            </li>
+                                            <li class="list-group-item">Harga Ejen
+                                                <button type="button" class="btn btn-danger float-right">RM28</button>
+                                            </li>
+                                           
+                                            <li class="list-group-item">Harga Franchais
+                                                <button type="button" class="btn btn-danger float-right">RM28</button>
+                                            </li>
+                                                
+                                        </ul>
+
+                                        <div style="border-bottom: 1px #00000069 solid; margin-bottom: 15px;"></div>
+
+
                                         <div class="card">
                                         <p style="font-size:small;padding-top:8px;margin-bottom: -3px;" class="text-center"> Diskaun lebih rendah di Email anda! Subscribe sekarang! </p>
 
