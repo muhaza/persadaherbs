@@ -10,7 +10,7 @@ var app = new Vue({
         kopiImg: "./asset/image/kopi-thumbnail.webp",
         kopiPrice:"RM28",
         kopiTitle: "Kopi Suoyang",
-        kopiDesc: "Memberi Tenaga Segera, Menghilangkan Rasa Mengantuk, Melancarkan Aliran Darah, Melancarkan Aliran Darah dan Haid ,Membantu Detoks dan Menurunkan Berat Badan.",
+        kopiDesc: "Tenaga Segera, Hilangkan Rasa Mengantuk, Lancarkan Aliran Darah dan Haid",
         kopiUrl: "http://google.com",
         oooo: 000000000000000000000000000000000000000000000,
         soonimg: "./asset/image/akan-datang.jpg",
