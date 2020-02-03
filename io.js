@@ -1,16 +1,16 @@
 var app = new Vue({
-    el: "#vue-card",
+    el: "#vue-product",
     data: {
         tehImg: "./asset/image/teh-thumbnail.webp",
-        tehPrice:"RM29",
+        tehPrice:"RM28",
         tehTitle: "Persada Teh",
         tehDesc: "Ubat Diabetes, Kanser, Anemia, Darah Tinggi, Membantu Detoks dan Menurunkan Berat Badan.",
         tehUrl: "http://google.com",
         oooo: 000000000000000000000000000000000000000000000,
         kopiImg: "./asset/image/kopi-thumbnail.webp",
         kopiPrice:"RM28",
-        kopiTitle: "Kopi Souyang",
-        kopiDesc: "Ubat Diabetes, Kanser, Anemia, Darah Tinggi, Membantu Detoks dan Menurunkan Berat Badan.",
+        kopiTitle: "Kopi Suoyang",
+        kopiDesc: "Memberi Tenaga Segera, Menghilangkan Rasa Mengantuk, Melancarkan Aliran Darah, Melancarkan Aliran Darah dan Haid ,Membantu Detoks dan Menurunkan Berat Badan.",
         kopiUrl: "http://google.com",
         oooo: 000000000000000000000000000000000000000000000,
         soonimg: "./asset/image/akan-datang.jpg",
@@ -21,23 +21,18 @@ var app = new Vue({
 });
 
 var app = new Vue({
-    el: "#data-teh",
+    el: "#modal-teh",
     data: {
         pop2img: "./asset/image/teh-thumbnail.webp",
-        pop2Title: "Persada Teh",
-        pop2Desc: " Mengurangkan risiko Diabetes, Kanser, Anemia, Darah Tinggi,Membantu Detoks dan Menurunkan Berat Badan.",
-        pop2Ing: "Teh Hijau, Serai, Lemon, Madu Kelulut & Nano Sugar",
         pop2Url: "http://google.com"
     }
 });
 
 var app = new Vue({
-    el: "#data-kopi",
+    el: "#modal-kopi",
     data: {
         kopiImg: "./asset/image/kopi-thumbnail.webp",
-        pop2Title: "Persada kopi",
-        pop2Desc: " Mengurangkan risiko Diabetes, Kanser, Anemia, Darah Tinggi,Membantu Detoks dan Menurunkan Berat Badan.",
-        pop2Ing: "Teh Hijau, Serai, Lemon, Madu Kelulut & Nano Sugar",
-        pop2Url: "http://google.com"
+        kopiUrl: "http://google.com"
     }
 });
+

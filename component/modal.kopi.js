@@ -6,7 +6,7 @@ document.getElementById("modal-kopi").innerHTML = `
         <div class="modal-content">
             <div class="modal-header">
                 <div class="col-sm">
-                    <h5 class="modal-title" id="exampleModalLongTitle">KOPI SOUYANG</h5>
+                    <h5 class="modal-title" id="exampleModalLongTitle">KOPI SUOYANG</h5>
                 </div>
 
                 <span>
@@ -18,7 +18,7 @@ document.getElementById("modal-kopi").innerHTML = `
     </button>
             </div>
             <div class="modal-body">
-                <div id="data-kopi">
+                <div id="modal-kopi">
                     <!-- start vue -->
                     <div class="container">
                         <div class="row">
@@ -28,7 +28,7 @@ document.getElementById("modal-kopi").innerHTML = `
 
                                     <img class="card-img-top" v-bind:src="kopiImg" alt=" 📚Card image cap" />
                                     <div class="card-body">
-                                        <h5 class="card-title"> 👍 KEBAIKAN KOPI SOUYANG</h5>
+                                        <h5 class="card-title"> 👍 KEBAIKAN</h5>
                                         <p class="card-text">
                                             • Memberi Tenaga Segera <br>• Menghilangkan Rasa Mengantuk <br>
                                             • Melancarkan Aliran Darah <br>• melancarkan Aliran Darah dan Haid <br>

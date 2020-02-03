@@ -1,5 +1,5 @@
 document.getElementById("produk").innerHTML = `
-<div id="vue-card">
+<div id="vue-product">
   <!-- start vue -->
   <div class="tab-content container" id="pills-tabContent">
     <div class="tab-pane fade show active" id="page-1" role="tabpanel" aria-labelledby="pills-profile-tab">
@@ -108,7 +108,7 @@ document.getElementById("produk").innerHTML = `
                   <div class="col-sm">
                     <div class="card mt-1" style="width: 100%;">
                       <span class="m-1">
-                        <button type="button" class="btn btn-danger float-right ">{{tehPrice}}</button>
+                        <button type="button" class="btn btn-danger float-right ">{{kopiPrice}}</button>
                       </span>
                       <img class="card-img-top wow fadeInUp" v-bind:src="soonimg" alt=" 📚Card image cap"
                         style="margin-top: -30px;" />

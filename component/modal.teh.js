@@ -19,7 +19,7 @@ document.getElementById("modal-teh").innerHTML = `
         </button>
       </div>
       <div class="modal-body">
-        <div id="data-teh">
+        <div id="modal-teh">
           <!-- start vue -->
           <div class="container">
             <div class="row">
