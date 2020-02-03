@@ -27,9 +27,6 @@ document.getElementById("modal-kopi").innerHTML = `
                                 <div style="width: 100%;">
 
                                     <img class="card-img-top" v-bind:src="kopiImg" alt=" 📚Card image cap" />
-   
-                                  
-
                                     <div class="card-body">
                                         <h5 class="card-title"> 👍 KEBAIKAN KOPI SOUYANG</h5>
                                         <p class="card-text">
@@ -39,11 +36,18 @@ document.getElementById("modal-kopi").innerHTML = `
                                             • Menguatkan Sistem Dalaman Badan.<br>
                                             • Menghitamkan Rambut.<br>
                                         </p>
+                                        <div style="border-bottom: 1px #00000069 solid; margin-bottom: 10px;"></div>
+                                        <h4 class="text-center">WOW! MACAM-MACAM RASA!</h4>
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 15px;"></div>
+                                        
                                         <h5 class="card-title">🌿 RAMUAN</h5>
                                         <p class="card-text">
                                             Teh Hijau, Serai, Lemon, Madu Kelulut & Nano Sugar
                                         </p>
+                                        <div style="border-bottom: 1px #00000069 solid; margin-bottom: 10px;"></div>
+                                        <h4 class="text-center">HARGA KOPI SOUYANG</h4>
+                                        <div style="border-bottom: 1px #00000069 solid; margin-bottom: 15px;"></div>
+                                        
                                         
                                         
 
