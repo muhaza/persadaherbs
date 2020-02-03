@@ -1,12 +1,12 @@
-document.getElementById("modal").innerHTML = `
+document.getElementById("modal-kopi").innerHTML = `
 <!-- Modal -->
-<div class="modal fade" id="tehPersadaModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal fade" id="kopiPersadaModal" tabindex="-1" role="dialog" aria-labelledby="ModalCenterTitle" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
 
         <div class="modal-content">
             <div class="modal-header">
                 <div class="col-sm">
-                    <h5 class="modal-title" id="exampleModalLongTitle">TEH PERSADA</h5>
+                    <h5 class="modal-title" id="exampleModalLongTitle">KOPI SOUYANG</h5>
                 </div>
 
                 <span>
@@ -18,7 +18,7 @@ document.getElementById("modal").innerHTML = `
     </button>
             </div>
             <div class="modal-body">
-                <div id="modal-teh">
+                <div id="data-kopi">
                     <!-- start vue -->
                     <div class="container">
                         <div class="row">
@@ -26,14 +26,18 @@ document.getElementById("modal").innerHTML = `
                             <div class="col-sm">
                                 <div style="width: 100%;">
 
-                                    <img class="card-img-top" v-bind:src="pop2img" alt=" 📚Card image cap" />
+                                    <img class="card-img-top" v-bind:src="kopiImg" alt=" 📚Card image cap" />
    
                                   
 
                                     <div class="card-body">
-                                        <h5 class="card-title"> 👍 KEBAIKAN</h5>
+                                        <h5 class="card-title"> 👍 KEBAIKAN KOPI SOUYANG</h5>
                                         <p class="card-text">
-                                            • Mengurangkan risiko Diabetes <br>• Kanser <br>• Anemia <br>• Darah Tinggi <br>• Membantu Detoks <br>• Menurunkan Berat Badan.
+                                            • Memberi Tenaga Segera <br>• Menghilangkan Rasa Mengantuk <br>
+                                            • Melancarkan Aliran Darah <br>• melancarkan Aliran Darah dan Haid <br>
+                                            • Melancarkan Hormon <br>
+                                            • Menguatkan Sistem Dalaman Badan.<br>
+                                            • Menghitamkan Rambut.<br>
                                         </p>
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 15px;"></div>
                                         <h5 class="card-title">🌿 RAMUAN</h5>
@@ -44,9 +48,13 @@ document.getElementById("modal").innerHTML = `
                                         
 
                                         <ul class="list-group list-group-flush">
-                                            <li class="list-group-item">Harga Pasaran
+                                            <li class="list-group-item">Harga Pasaran/Runcit
                                                 <button type="button" class="btn btn-danger float-right">RM28</button>
                                             </li>
+                                            <li class="list-group-item">Harga Diskaun
+                                                <button type="button" class="btn btn-danger float-right">RM28</button>
+                                            </li>
+
                                             <li class="list-group-item">Harga Ejen
                                                 <button type="button" class="btn btn-danger float-right">RM28</button>
                                             </li>
@@ -57,8 +65,7 @@ document.getElementById("modal").innerHTML = `
 
                                             <li class="list-group-item">Harga Pembekal
                                                 <button type="button" class="btn btn-danger float-right">RM28</button>
-                                            </li>
-                                                
+                                            </li>  
                                         </ul>
 
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 15px;"></div>
@@ -77,7 +84,7 @@ document.getElementById("modal").innerHTML = `
                                                 width: 100%;
                                             }
                                             /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
-	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+	                                        We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
                                         </style>
                                         <div id="mc_embed_signup">
                                             <form action="https://persadaherbs.us4.list-manage.com/subscribe/post?u=e280b122196abf8c33f52ba68&amp;id=82b9588ad5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
