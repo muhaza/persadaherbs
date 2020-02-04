@@ -1,12 +1,12 @@
-document.getElementById("modal-kopi").innerHTML = `
+document.getElementById("modal-progest").innerHTML = `
 <!-- Modal -->
-<div class="modal fade" id="kopiPersadaModal" tabindex="-1" role="dialog" aria-labelledby="ModalCenterTitle" aria-hidden="true">
+<div class="modal fade" id="progestPersadaModal" tabindex="-1" role="dialog" aria-labelledby="ModalCenterTitle" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
 
         <div class="modal-content">
             <div class="modal-header">
                 <div class="col-sm">
-                    <h5 class="modal-title" id="exampleModalLongTitle">KOPI SUOYANG</h5>
+                    <h5 class="modal-title" id="exampleModalLongTitle">JUS CENDAWAN MEKAH (PROGEST)</h5>
                 </div>
 
                 <span>

@@ -51,16 +51,16 @@ document.getElementById("produk").innerHTML = `
                 <div class="col-sm">
                   <div class="card mt-1" style="width: 100%;">
                     <span class="m-1">
-                      <button type="button" class="btn btn-danger float-right ">{{tehPrice}}</button>
+                      <button type="button" class="btn btn-danger float-right ">{{progestPrice}}</button>
                     </span>
-                    <img class="card-img-top wow fadeInUp" v-bind:src="soonimg" alt=" 📚Card image cap" style="margin-top: -30px;" />
+                    <img class="card-img-top wow fadeInUp" v-bind:src="progestImg" alt=" 📚Card image cap" style="margin-top: -30px;" />
                     <div class="card-body">
-                      <h5 class="card-title">{{soonTitle}}</h5>
+                      <h5 class="card-title">{{progestTitle}}</h5>
                       <p class="card-text text-justify">
-                        {{soonDesc}}
+                        {{progestDesc}}
                       </p>
                       <a class="btn btn-danger persada-button" class="btn btn-primary" data-toggle="modal"
-                        data-target="#tehPersadaModal!" style="color:white">Lebih Informasi</a>
+                        data-target="#progestPersadaModal" style="color:white">Lebih Informasi</a>
                     </div>
                   </div>
                 </div>

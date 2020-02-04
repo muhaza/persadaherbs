@@ -10,8 +10,14 @@ var app = new Vue({
         kopiImg: "./asset/image/kopi-thumbnail.webp",
         kopiPrice:"RM28",
         kopiTitle: "Kopi Suoyang",
-        kopiDesc: "Tenaga Segera, Hilangkan Rasa Mengantuk, Lancarkan Aliran Darah dan Haid",
+        kopiDesc: "Tenaga Segera, Hilangkan Rasa Mengantuk, Lancarkan Aliran Darah dan Haid, Hitamkan..",
         kopiUrl: "http://google.com",
+        oooo: 000000000000000000000000000000000000000000000,
+        progestImg: "./asset/image/progest-thumbnail.webp",
+        progestPrice:"RM60",
+        progestTitle: "Jus Cendawan Mekah",
+        progestDesc: "Tenaga Segera, Hilangkan Rasa Mengantuk, Lancarkan Aliran Darah dan Haid",
+        progestUrl: "http://google.com",
         oooo: 000000000000000000000000000000000000000000000,
         soonimg: "./asset/image/akan-datang.jpg",
         soonTitle: "Akan Datang",
@@ -32,6 +38,14 @@ var app = new Vue({
     el: "#modal-kopi",
     data: {
         kopiImg: "./asset/image/kopi-thumbnail.webp",
+        kopiUrl: "http://google.com"
+    }
+});
+
+var app = new Vue({
+    el: "#modal-progest",
+    data: {
+        kopiImg: "./asset/image/progest-thumbnail.webp",
         kopiUrl: "http://google.com"
     }
 });
