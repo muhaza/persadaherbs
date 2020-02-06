@@ -26,8 +26,6 @@ document.getElementById("produk").innerHTML = `
                       <a class="btn btn-danger persada-button" class="btn btn-primary" data-toggle="modal"
                         data-target="#tehPersadaModal" style="color:white">Lebih Informasi</a>
                     </div>
-
-
                   </div>
                 </div>
                 <!-- 📚📚📚 card start 📚📚📚-->
@@ -36,7 +34,8 @@ document.getElementById("produk").innerHTML = `
                     <span class="m-1">
                       <button type="button" class="btn btn-danger float-right ">{{tehPrice}}</button>
                     </span>
-                    <img class="card-img-top wow fadeInUp" v-bind:src="kopiImg" alt=" 📚Card image cap" style="margin-top: -30px;" />
+                    <img class="card-img-top wow fadeInUp" v-bind:src="kopiImg" alt=" 📚Card image cap"
+                      style="margin-top: -30px;" />
                     <div class="card-body">
                       <h5 class="card-title">{{kopiTitle}}</h5>
                       <p class="card-text text-justify">
@@ -53,7 +52,8 @@ document.getElementById("produk").innerHTML = `
                     <span class="m-1">
                       <button type="button" class="btn btn-danger float-right ">{{progestPrice}}</button>
                     </span>
-                    <img class="card-img-top wow fadeInUp" v-bind:src="progestImg" alt=" 📚Card image cap" style="margin-top: -30px;" />
+                    <img class="card-img-top wow fadeInUp" v-bind:src="progestImg" alt=" 📚Card image cap"
+                      style="margin-top: -30px;" />
                     <div class="card-body">
                       <h5 class="card-title">{{progestTitle}}</h5>
                       <p class="card-text text-justify">
@@ -90,17 +90,17 @@ document.getElementById("produk").innerHTML = `
                   <div class="col-sm">
                     <div class="card mt-1" style="width: 100%;">
                       <span class="m-1">
-                        <button type="button" class="btn btn-danger float-right ">{{tehPrice}}</button>
+                        <button type="button" class="btn btn-danger float-right ">{{tanjaqPrice}}</button>
                       </span>
-                      <img class="card-img-top wow fadeInUp" v-bind:src="soonimg" alt=" 📚Card image cap"
+                      <img class="card-img-top wow fadeInUp" v-bind:src="tanjaqImg" alt=" 📚Card image cap"
                         style="margin-top: -30px;" />
                       <div class="card-body">
-                        <h5 class="card-title">{{soonTitle}}</h5>
+                        <h5 class="card-title">{{tanjaqTitle}}</h5>
                         <p class="card-text text-justify">
-                          {{soonDesc}}
+                          {{tanjaqDesc}}
                         </p>
                         <a class="btn btn-danger persada-button" class="btn btn-primary" data-toggle="modal"
-                          data-target="#tehPersadaModal!" style="color:white">Lebih Informasi</a>
+                          data-target="#progestPersadaModal" style="color:white">Lebih Informasi</a>
                       </div>
                     </div>
                   </div>
@@ -108,17 +108,17 @@ document.getElementById("produk").innerHTML = `
                   <div class="col-sm">
                     <div class="card mt-1" style="width: 100%;">
                       <span class="m-1">
-                        <button type="button" class="btn btn-danger float-right ">{{kopiPrice}}</button>
+                        <button type="button" class="btn btn-danger float-right ">{{tanjaqPrice}}</button>
                       </span>
-                      <img class="card-img-top wow fadeInUp" v-bind:src="soonimg" alt=" 📚Card image cap"
+                      <img class="card-img-top wow fadeInUp" v-bind:src="tanjaqImg" alt=" 📚Card image cap"
                         style="margin-top: -30px;" />
                       <div class="card-body">
-                        <h5 class="card-title">{{soonTitle}}</h5>
+                        <h5 class="card-title">{{tanjaqTitle}}</h5>
                         <p class="card-text text-justify">
-                          {{soonDesc}}
+                          {{tanjaqDesc}}
                         </p>
                         <a class="btn btn-danger persada-button" class="btn btn-primary" data-toggle="modal"
-                          data-target="#tehPersadaModal!" style="color:white">Lebih Informasi</a>
+                          data-target="#progestPersadaModal" style="color:white">Lebih Informasi</a>
                       </div>
                     </div>
                   </div>
@@ -126,17 +126,17 @@ document.getElementById("produk").innerHTML = `
                   <div class="col-sm">
                     <div class="card mt-1" style="width: 100%;">
                       <span class="m-1">
-                        <button type="button" class="btn btn-danger float-right ">{{tehPrice}}</button>
+                        <button type="button" class="btn btn-danger float-right ">{{tanjaqPrice}}</button>
                       </span>
-                      <img class="card-img-top wow fadeInUp" v-bind:src="soonimg" alt=" 📚Card image cap"
+                      <img class="card-img-top wow fadeInUp" v-bind:src="tanjaqImg" alt=" 📚Card image cap"
                         style="margin-top: -30px;" />
                       <div class="card-body">
-                        <h5 class="card-title">{{soonTitle}}</h5>
+                        <h5 class="card-title">{{tanjaqTitle}}</h5>
                         <p class="card-text text-justify">
-                          {{soonDesc}}
+                          {{tanjaqDesc}}
                         </p>
                         <a class="btn btn-danger persada-button" class="btn btn-primary" data-toggle="modal"
-                          data-target="#tehPersadaModal!" style="color:white">Lebih Informasi</a>
+                          data-target="#progestPersadaModal" style="color:white">Lebih Informasi</a>
                       </div>
                     </div>
                   </div>
