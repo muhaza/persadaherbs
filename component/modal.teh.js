@@ -48,8 +48,6 @@ document.getElementById("modal-teh").innerHTML = `
                     </p>
 
 
-
-
                     <ul class="list-group list-group-flush">
                       <li class="list-group-item">Harga Runcit
                         <button type="button" class="btn btn-danger float-right">RM28</button>
