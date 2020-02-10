@@ -1,12 +1,12 @@
-document.getElementById("modal-progest").innerHTML = `
+document.getElementById("modal-tanjaq").innerHTML = `
 <!-- Modal -->
-<div class="modal fade" id="progestPersadaModal" tabindex="-1" role="dialog" aria-labelledby="ModalCenterTitle" aria-hidden="true">
+<div class="modal fade" id="tanjaqPersadaModal" tabindex="-1" role="dialog" aria-labelledby="ModalCenterTitle" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
 
         <div class="modal-content">
             <div class="modal-header">
                 <div class="col-sm">
-                    <h5 class="modal-title" id="ModalLongTitle">JUS CENDAWAN MEKAH (PROGEST)</h5>
+                    <h5 class="modal-title" id="exampleModalLongTitle">TANJAQ</h5>
                 </div>
 
                 <span>
@@ -26,7 +26,7 @@ document.getElementById("modal-progest").innerHTML = `
                             <div class="col-sm">
                                 <div style="width: 100%;">
 
-                                    <img class="card-img-top" v-bind:src="progestImg" alt=" 📚Card image cap" />
+                                    <img class="card-img-top" v-bind:src="tanjaqImg" alt=" 📚Card image cap" />
                                     <div class="card-body">
                                         <h5 class="card-title"> 👍 KEBAIKAN</h5>
                                         <p class="card-text">
@@ -54,14 +54,11 @@ document.getElementById("modal-progest").innerHTML = `
                                         
 
                                         <ul class="list-group list-group-flush">
-                                            <li class="list-group-item">Harga Runcit
-                                                <button type="button" class="btn btn-danger float-right">RM85</button>
+                                            <li class="list-group-item">Harga Pasaran/Runcit
+                                                <button type="button" class="btn btn-danger float-right">RM28</button>
                                             </li>
                                             <li class="list-group-item">Harga Diskaun
-                                                <button type="button" class="btn btn-danger float-right">RM60</button>
-                                            </li>
-                                            <li class="list-group-item">Harga Pakej
-                                                <button type="button" class="btn btn-danger float-right">RM150/3pcs</button>
+                                                <button type="button" class="btn btn-danger float-right">RM28</button>
                                             </li>
 
                                             <li class="list-group-item">Harga Ejen

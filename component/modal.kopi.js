@@ -54,15 +54,19 @@ document.getElementById("modal-kopi").innerHTML = `
                                         
 
                                         <ul class="list-group list-group-flush">
-                                            <li class="list-group-item">Harga Pasaran/Runcit
+                                            <li class="list-group-item">Harga Runcit
                                                 <button type="button" class="btn btn-danger float-right">RM28</button>
                                             </li>
                                             <li class="list-group-item">Harga Diskaun
-                                                <button type="button" class="btn btn-danger float-right">RM28</button>
+                                                <button type="button" class="btn btn-danger float-right">RM25</button>
                                             </li>
 
                                             <li class="list-group-item">Harga Ejen
-                                                <button type="button" class="btn btn-danger float-right">RM28</button>
+                                                <button type="button" class="btn btn-danger float-right">RM60</button>
+                                            </li>
+                                            
+                                            <li class="list-group-item">Harga Ejen
+                                                <button type="button" class="btn btn-danger float-right">RM60</button>
                                             </li>
                                            
                                             <li class="list-group-item">Harga Pemborong

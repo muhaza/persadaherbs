@@ -2,28 +2,34 @@ var app = new Vue({
     el: "#vue-product",
     data: {
         tehImg: "./asset/image/teh-thumbnail.webp",
-        tehPrice:"RM28",
+        tehPrice:"PROMOSI RM25",
         tehTitle: "Persada Teh",
         tehDesc: "Ubat Diabetes, Kanser, Anemia, Darah Tinggi, Membantu Detoks dan Menurunkan Berat Badan.",
         tehUrl: "http://google.com",
         oooo: 000000000000000000000000000000000000000000000,
         kopiImg: "./asset/image/kopi-thumbnail.webp",
-        kopiPrice:"RM28",
+        kopiPrice:"PROMOSI RM25",
         kopiTitle: "Kopi Suoyang",
         kopiDesc: "Tenaga Segera, Hilangkan Rasa Mengantuk, Lancarkan Aliran Darah dan Haid, Hitamkan..",
         kopiUrl: "http://google.com",
         oooo: 000000000000000000000000000000000000000000000,
         progestImg: "./asset/image/progest-thumbnail.webp",
-        progestPrice:"RM60",
+        progestPrice:"PROMOSI RM60",
         progestTitle: "Jus Cendawan Mekah",
         progestDesc: "Tenaga Segera, Hilangkan Rasa Mengantuk, Lancarkan Aliran Darah dan Haid",
         progestUrl: "http://google.com",
         oooo: 000000000000000000000000000000000000000000000,
         tanjaqImg: "./asset/image/tanjaq-thumbnail.webp",
-        tanjaqPrice:"RM60",
+        tanjaqPrice:"PROMOSI RM38",
         tanjaqTitle: "Tanjaq",
         tanjaqDesc: "Tenaga Segera, Hilangkan Rasa Mengantuk, Lancarkan Aliran Darah dan Haid",
         tanjaqUrl: "http://google.com",
+        oooo: 000000000000000000000000000000000000000000000,
+        anasImg: "./asset/image/anas-thumbnail.webp",
+        anasPrice:"PROMOSI RM38",
+        anasTitle: "Anas",
+        anasDesc: "Tenaga Segera, Hilangkan Rasa Mengantuk, Lancarkan Aliran Darah dan Haid",
+        anasUrl: "http://google.com",
         oooo: 000000000000000000000000000000000000000000000,
         soonimg: "./asset/image/akan-datang.jpg",
         soonTitle: "Akan Datang",
@@ -36,7 +42,6 @@ var app = new Vue({
     el: "#modal-teh",
     data: {
         pop2img: "./asset/image/teh-thumbnail.webp",
-        pop2Url: "http://google.com"
     }
 });
 
@@ -44,15 +49,27 @@ var app = new Vue({
     el: "#modal-kopi",
     data: {
         kopiImg: "./asset/image/kopi-thumbnail.webp",
-        kopiUrl: "http://google.com"
     }
 });
 
 var app = new Vue({
     el: "#modal-progest",
     data: {
-        kopiImg: "./asset/image/progest-thumbnail.webp",
-        kopiUrl: "http://google.com"
+        progestImg: "./asset/image/progest-thumbnail.webp",
+    }
+});
+var app = new Vue({
+    el: "#modal-tanjaq",
+    data: {
+        tanjaqImg: "./asset/image/tanjaq-thumbnail.webp",
+
+    }
+});
+
+var app = new Vue({
+    el: "#modal-anas",
+    data: {
+        anasImg: "./asset/image/anas-thumbnail.webp",
     }
 });
 
