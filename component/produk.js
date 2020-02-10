@@ -1,11 +1,11 @@
 document.getElementById("produk").innerHTML = `
 <div id="vue-product">
-  <!-- start vue -->
+  <!-- vvvvvvvvvvvvvvvvvvvvvvvvvvvvvv start vue vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv -->
   <div class="tab-content container" id="pills-tabContent">
     <div class="tab-pane fade show active" id="page-1" role="tabpanel" aria-labelledby="pills-profile-tab">
       <div class="row">
         <div class="col-sm">
-          <!-- start product -->
+           <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx start new row product xxxxxxxxxxxxxxxxxxxxxxxxx -->
           <section id="product" style="background: whitesmoke">
             <div class="my-5">
               <div class="row">
@@ -69,10 +69,10 @@ document.getElementById("produk").innerHTML = `
 
             <!-- end vue -->
           </section>
-          <!-- end product 1 -->
+          <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx end product xxxxxxxxxxxxxxxxxxxxxxxxx -->
         </div>
 
-        <!-- start new row product -->
+        <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx start new row product xxxxxxxxxxxxxxxxxxxxxxxxx -->
         <section id="product" style="background: whitesmoke">
           <div id="vue-card">
             <!-- start vue -->
@@ -138,12 +138,12 @@ document.getElementById("produk").innerHTML = `
           </div>
 
         </section>
-        <!-- end product 1 -->
+         <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx end row product xxxxxxxxxxxxxxxxxxxxxxxxx -->
       </div>
     </div>
 
+<!--  xxxxxxxxxxxxxxxxxxxxxxxxxxxx Next Page xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
     <div class="tab-pane fade" id="page-2" role="tabpanel" aria-labelledby="pills-contact-tab">
-
 
       <div class="row">
         <div class="col-sm">
