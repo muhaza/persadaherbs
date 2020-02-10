@@ -51,23 +51,25 @@ document.getElementById("modal-teh").innerHTML = `
 
 
                     <ul class="list-group list-group-flush">
-                      <li class="list-group-item">Harga Pasaran/Runcit
+                      <li class="list-group-item">Harga Runcit
                         <button type="button" class="btn btn-danger float-right">RM28</button>
                       </li>
                       <li class="list-group-item">Harga Diskaun
-                        <button type="button" class="btn btn-danger float-right">RM28</button>
+                        <button type="button" class="btn btn-danger float-right">RM25</button>
                       </li>
-
+                      <li class="list-group-item">Harga Pakej
+                        <button type="button" class="btn btn-danger float-right">4/RM100</button>
+                      </li>
                       <li class="list-group-item">Harga Ejen
-                        <button type="button" class="btn btn-danger float-right">RM28</button>
+                        <button type="button" class="btn btn-danger float-right">10/RM200</button>
                       </li>
 
                       <li class="list-group-item">Harga Pemborong
-                        <button type="button" class="btn btn-danger float-right">RM28</button>
+                        <button type="button" class="btn btn-danger float-right">100/RM1750</button>
                       </li>
 
                       <li class="list-group-item">Harga Pembekal
-                        <button type="button" class="btn btn-danger float-right">RM28</button>
+                        <button type="button" class="btn btn-danger float-right">1000/RM17,000</button>
                       </li>
                     </ul>
 

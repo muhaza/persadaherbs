@@ -10,7 +10,7 @@ document.getElementById("modal-birliva").innerHTML = `
                 </div>
 
                 <span>
-                    <button type="button" class="btn btn-danger float-right ">RM28</button>
+                    <button type="button" class="btn btn-danger float-right ">RM85</button>
                 </span>
 
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -54,23 +54,22 @@ document.getElementById("modal-birliva").innerHTML = `
                                         
 
                                         <ul class="list-group list-group-flush">
-                                            <li class="list-group-item">Harga Pasaran/Runcit
-                                                <button type="button" class="btn btn-danger float-right">RM28</button>
+                                            <li class="list-group-item">Harga Runcit
+                                                <button type="button" class="btn btn-danger float-right">RM85</button>
                                             </li>
                                             <li class="list-group-item">Harga Diskaun
-                                                <button type="button" class="btn btn-danger float-right">RM28</button>
+                                                <button type="button" class="btn btn-danger float-right">RM60</button>
                                             </li>
-
                                             <li class="list-group-item">Harga Ejen
-                                                <button type="button" class="btn btn-danger float-right">RM28</button>
+                                                <button type="button" class="btn btn-danger float-right">RM..</button>
                                             </li>
                                            
                                             <li class="list-group-item">Harga Pemborong
-                                                <button type="button" class="btn btn-danger float-right">RM28</button>
+                                                <button type="button" class="btn btn-danger float-right">RM..</button>
                                             </li>
 
                                             <li class="list-group-item">Harga Pembekal
-                                                <button type="button" class="btn btn-danger float-right">RM28</button>
+                                                <button type="button" class="btn btn-danger float-right">RM..</button>
                                             </li>  
                                         </ul>
 
