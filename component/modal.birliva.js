@@ -1,12 +1,12 @@
-document.getElementById("modal-anas").innerHTML = `
+document.getElementById("modal-birliva").innerHTML = `
 <!-- Modal -->
-<div class="modal fade" id="anasPersadaModal" tabindex="-1" role="dialog" aria-labelledby="ModalCenterTitle" aria-hidden="true">
+<div class="modal fade" id="birlivaPersadaModal" tabindex="-1" role="dialog" aria-labelledby="ModalCenterTitle" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
 
         <div class="modal-content">
             <div class="modal-header">
                 <div class="col-sm">
-                    <h5 class="modal-title" id="exampleModalLongTitle">ANAS</h5>
+                    <h5 class="modal-title" id="exampleModalLongTitle">BIRLIVA</h5>
                 </div>
 
                 <span>
@@ -26,7 +26,7 @@ document.getElementById("modal-anas").innerHTML = `
                             <div class="col-sm">
                                 <div style="width: 100%;">
 
-                                    <img class="card-img-top" v-bind:src="anasImg" alt=" 📚Card image cap" />
+                                    <img class="card-img-top" v-bind:src="birlivaImg" alt=" 📚Card image cap" />
                                     <div class="card-body">
                                         <h5 class="card-title"> 👍 KEBAIKAN</h5>
                                         <p class="card-text">

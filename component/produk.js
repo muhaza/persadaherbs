@@ -6,8 +6,9 @@ document.getElementById("produk").innerHTML = `
       <div class="row">
         <div class="col-sm">
            <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx start new row product xxxxxxxxxxxxxxxxxxxxxxxxx -->
+           <!--- ttttttttttttttttttttttttttttttttt teh persada tttttttttttttttttttttttttttttt --->
           <section id="product" style="background: whitesmoke">
-            <div class="my-5">
+            <div class="mt-5">
               <div class="row">
                 <!-- 📚📚📚 card start 📚📚📚-->
                 <div class="col-sm">
@@ -29,6 +30,7 @@ document.getElementById("produk").innerHTML = `
                   </div>
                 </div>
                 <!-- 📚📚📚 card start 📚📚📚-->
+                <!--- kkkkkkkkkkkkkkkkkkkkkkkkk kopi kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk --->
                 <div class="col-sm">
                   <div class="card mt-1" style="width: 100%;">
                     <span class="m-1">
@@ -47,6 +49,7 @@ document.getElementById("produk").innerHTML = `
                   </div>
                 </div>
                 <!-- 📚📚📚 card start 📚📚📚-->
+                <!-- ppppppppppppppppppppppppppppppp progest pppppppppppppppppppppppp-->
                 <div class="col-sm">
                   <div class="card mt-1" style="width: 100%;">
                     <span class="m-1">
@@ -80,6 +83,7 @@ document.getElementById("produk").innerHTML = `
               <div class="row">
 
                 <!-- 📚📚📚 card start 📚📚📚-->
+                <!-- ttttttttttttttttttttttttttttttttttttt tanjaq tttttttttttttttttttttttttttttt-->
                 <div class="col-sm">
                   <div class="card mt-1" style="width: 100%;">
                     <span class="m-1">
@@ -98,6 +102,7 @@ document.getElementById("produk").innerHTML = `
                   </div>
                 </div>
                 <!-- 📚📚📚 card start 📚📚📚-->
+                <!-- aaaaaaaaaaaaaaaaaaaaaaaaaa anas aaaaaaaaaaaaaaaaaaaaaaa-->
                 <div class="col-sm">
                   <div class="card mt-1" style="width: 100%;">
                     <span class="m-1">
@@ -116,20 +121,21 @@ document.getElementById("produk").innerHTML = `
                   </div>
                 </div>
                 <!-- 📚📚📚 card start 📚📚📚-->
+
                 <div class="col-sm">
                   <div class="card mt-1" style="width: 100%;">
                     <span class="m-1">
-                      <button type="button" class="btn btn-danger float-right ">{{tanjaqPrice}}</button>
+                      <button type="button" class="btn btn-danger float-right ">{{birlivaPrice}}</button>
                     </span>
-                    <img class="card-img-top wow fadeInUp" v-bind:src="tanjaqImg" alt=" 📚Card image cap"
+                    <img class="card-img-top wow fadeInUp" v-bind:src="birlivaImg" alt=" 📚Card image cap"
                       style="margin-top: -10px;" />
                     <div class="card-body">
-                      <h5 class="card-title">{{tanjaqTitle}}</h5>
+                      <h5 class="card-title">{{birlivaTitle}}</h5>
                       <p class="card-text text-justify">
-                        {{tanjaqDesc}}
+                        {{birlivaDesc}}
                       </p>
                       <a class="btn btn-danger persada-button" class="btn btn-primary" data-toggle="modal"
-                        data-target="#progestPersadaModal" style="color:white">Lebih Informasi</a>
+                        data-target="#birlivaPersadaModal" style="color:white">Lebih Informasi</a>
                     </div>
                   </div>
                 </div>

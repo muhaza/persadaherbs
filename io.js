@@ -31,6 +31,12 @@ var app = new Vue({
         anasDesc: "Tenaga Segera, Hilangkan Rasa Mengantuk, Lancarkan Aliran Darah dan Haid",
         anasUrl: "http://google.com",
         oooo: 000000000000000000000000000000000000000000000,
+        birlivaImg: "./asset/image/birliva-thumbnail.webp",
+        birlivaPrice:"PROMOSI RM38",
+        birlivaTitle: "Birliva",
+        birlivaDesc: "Tenaga Segera, Hilangkan Rasa Mengantuk, Lancarkan Aliran Darah dan Haid",
+        birlivaUrl: "http://google.com",
+        oooo: 000000000000000000000000000000000000000000000,
         soonimg: "./asset/image/akan-datang.jpg",
         soonTitle: "Akan Datang",
         soonDesc: "Akan Datang “Aroma Segar, Sedap, Tenang & Berzat” Keutamaan kami dalam menghasilkan produk..",
@@ -70,6 +76,13 @@ var app = new Vue({
     el: "#modal-anas",
     data: {
         anasImg: "./asset/image/anas-thumbnail.webp",
+    }
+});
+
+var app = new Vue({
+    el: "#modal-birliva",
+    data: {
+        birlivaImg: "./asset/image/birliva-thumbnail.webp",
     }
 });
 
