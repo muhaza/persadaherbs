@@ -19,7 +19,7 @@ var app = new Vue({
         progestPrice:"RM78",
         progestOffer: "OFFER RM60",
         progestTitle: "Jus Cendawan Mekah",
-        progestDesc: "Tenaga Segera, Hilangkan Rasa Mengantuk, Lancarkan Aliran Darah dan Haid",
+        progestDesc: "Menambah Gel di Lutut, Anti Oksidan & Anti Penuaan, Detoks, Memulihkan Sistem Pencernaan..",
         progestUrl: "http://google.com",
         oooo: 000000000000000000000000000000000000000000000,
         tanjaqImg: "./asset/image/tanjaq-thumbnail.webp",

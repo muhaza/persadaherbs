@@ -30,11 +30,15 @@ document.getElementById("modal-tanjaq").innerHTML = `
                                     <div class="card-body">
                                         <h5 class="card-title"> 👍 KEBAIKAN</h5>
                                         <p class="card-text">
-                                            • Memberi Tenaga Segera <br>• Menghilangkan Rasa Mengantuk <br>
-                                            • Melancarkan Aliran Darah <br>• melancarkan Aliran Darah dan Haid <br>
-                                            • Melancarkan Hormon <br>
-                                            • Menguatkan Sistem Dalaman Badan.<br>
-                                            • Menghitamkan Rambut.<br>
+                                        • Meningkatkan hormon kelakian (testosteron) <br>
+                                        • Meningkatkan tenaga dalaman dan juga luaran <br>
+                                        • Mengatasi masalah badan berbau <br>
+                                        • Melancarkan perjalanan darah <br>
+                                        • Menguatkan urat dan otot <br>
+                                        • Membuang angin dalam badan <br>
+                                        • Mengatasi masalah sakit sendi <br>
+                                        • Meningkatkan selera makan <br>
+                                        •Mengatasi masalah keletihan dan lesu<br>
                                         </p>
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 10px;"></div>
                                         <h4 class="text-center">WOW! MACAM-MACAM RASA!</h4>
@@ -42,9 +46,19 @@ document.getElementById("modal-tanjaq").innerHTML = `
                                         
                                         <h5 class="card-title">🌿 RAMUAN</h5>
                                         <p class="card-text">
-                                            Krimer Tanpa Susu, Gula Perang, Ganoderma Lucidum, Cordyceps, Cynomorium Songaricum,
-                                            Polygonum Multiflorum, Tongkat Ali, Ubi Jaga, Kopi Arabica, Garam Buluh, Sarang Burung Walit,
-                                            dan Koko
+                                         Air R.O <br>
+                                        ,Butea Superba<br>
+                                        ,Tongkat Ali<br>
+                                        ,Madu Kelulut<br>
+                                        ,Ubi Jaga<br>
+                                        ,Kulit Kayu Manis<br>
+                                        ,Pati Kurma<br>
+                                        ,Akar Samad<br>
+                                        ,Misai Ali<br>
+                                        ,Rempah Gunung<br>
+                                        ,Halban Habbatus Sauda'<br>
+                                        ,Cengkih, Serai Wangi, Mengkudu, Halia, Kunyit, Biji Sawi<br>
+                                        ,Asid Askorbik dan Asid Sitrik<br>
                                         </p>
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 10px;"></div>
                                         <h4 class="text-center">HARGA KOPI SOUYANG</h4>
