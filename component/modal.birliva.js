@@ -10,7 +10,7 @@ document.getElementById("modal-birliva").innerHTML = `
                 </div>
 
                 <span>
-                    <button type="button" class="btn btn-danger float-right ">RM85</button>
+                    <button type="button" class="btn btn-danger float-right " style="font-size:small; width:100px">Offer RM60</button>
                 </span>
 
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -30,24 +30,41 @@ document.getElementById("modal-birliva").innerHTML = `
                                     <div class="card-body">
                                         <h5 class="card-title"> 👍 KEBAIKAN</h5>
                                         <p class="card-text">
-                                            • Memberi Tenaga Segera <br>• Menghilangkan Rasa Mengantuk <br>
-                                            • Melancarkan Aliran Darah <br>• melancarkan Aliran Darah dan Haid <br>
-                                            • Melancarkan Hormon <br>
-                                            • Menguatkan Sistem Dalaman Badan.<br>
-                                            • Menghitamkan Rambut.<br>
+                                        • Meningkatkan metabolisme badan<br/>
+                                        • Mengembalikan kesegaran badan <br/>
+                                        • Memastikan kulit anda licin dan anjal<br/>
+                                        • Menggalakkan perkembangan otak serta menguatkan ingatan<br/>
+                                        • Memangkin proses penyambungan tisu badan<br/>
+                                        • Menguatkan jantung serta imbangkan tekanan darah<br/>
+                                        • Agen Antioksida dan Anti penuaan<br/>
+                                        • Anti racun<br/>
+                                        • Merawat dan mencegah kanser<br/>
+                                        • Menguatkan dan mengekalkan kesihatan rambut<br/>
+                                        • Mencegah osteoporosis<br/>
+                                        • Mengaktifkan sistem pengimunan<br/>
+                                        • Mencantikkan kulit<br/>
+                                        • Meningkatkan kadar metabolisme badan<br/>
+                                        • Melancarkan sistem darah<br/>
+                                        • Melegakan pernafasan<br/>
+                                        • Membetulkan sistem urat<br/>
+                                        • Memperbaiki sistem buah pinggang<br/>
+                                        • Agen memperbaiki Hepatitis B<br/>
+                                        • Melegakan Batuk Kronik<br/>
+                                        • Meningkatkan tenaga Batin<br/>
+                                        • Menyegarkan mata<br/> 
+                                        • Membuang air didalam paru-paru<br/>
+                                        • Sesuai untuk semua golongan usia<br/>
                                         </p>
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 10px;"></div>
-                                        <h4 class="text-center">WOW! MACAM-MACAM RASA!</h4>
+                                        <h4 class="text-center">MINUMAN SARANG BURUNG</h4>
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 15px;"></div>
                                         
                                         <h5 class="card-title">🌿 RAMUAN</h5>
                                         <p class="card-text">
-                                            Krimer Tanpa Susu, Gula Perang, Ganoderma Lucidum, Cordyceps, Cynomorium Songaricum,
-                                            Polygonum Multiflorum, Tongkat Ali, Ubi Jaga, Kopi Arabica, Garam Buluh, Sarang Burung Walit,
-                                            dan Koko
+                                           Air R.O, Sarang Burung Walit, Kolagen Marin, Madu Kelulut, Ekstrak Akar Lalang, Pati Pisang, Gula Batu, Vitamin C.
                                         </p>
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 10px;"></div>
-                                        <h4 class="text-center">HARGA KOPI SOUYANG</h4>
+                                        <h4 class="text-center">HARGA BIRLIVA</h4>
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 15px;"></div>
                                         
                                         
@@ -60,16 +77,19 @@ document.getElementById("modal-birliva").innerHTML = `
                                             <li class="list-group-item">Harga Diskaun
                                                 <button type="button" class="btn btn-danger float-right">RM60</button>
                                             </li>
+                                            <li class="list-group-item">Harga Pakej
+                                                <button type="button" class="btn btn-danger float-right">4/RM200</button>
+                                            </li>
                                             <li class="list-group-item">Harga Ejen
-                                                <button type="button" class="btn btn-danger float-right">RM..</button>
+                                                <button type="button" class="btn btn-danger float-right">10/RM450</button>
                                             </li>
                                            
                                             <li class="list-group-item">Harga Pemborong
-                                                <button type="button" class="btn btn-danger float-right">RM..</button>
+                                                <button type="button" class="btn btn-danger float-right">100/RM4000</button>
                                             </li>
 
                                             <li class="list-group-item">Harga Pembekal
-                                                <button type="button" class="btn btn-danger float-right">RM..</button>
+                                                <button type="button" class="btn btn-danger float-right">1000/RM30,000</button>
                                             </li>  
                                         </ul>
 

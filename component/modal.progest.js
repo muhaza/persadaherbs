@@ -6,11 +6,11 @@ document.getElementById("modal-progest").innerHTML = `
         <div class="modal-content">
             <div class="modal-header">
                 <div class="col-sm">
-                    <h5 class="modal-title" id="ModalLongTitle">JUS CENDAWAN MEKAH (PROGEST)</h5>
+                    <h5 class="modal-title" id="ModalLongTitle">PROGEST</h5>
                 </div>
 
                 <span>
-                    <button type="button" class="btn btn-danger float-right ">RM28</button>
+                    <button type="button" class="btn btn-danger float-right " style="font-size:small; width:100px">Offer RM60</button>
                 </span>
 
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -25,26 +25,38 @@ document.getElementById("modal-progest").innerHTML = `
                             <!-- 📚📚📚 card start 📚📚📚-->
                             <div class="col-sm">
                                 <div style="width: 100%;">
-
+                                 <h5 class="card-title"> JUS CENDAWAN MEKAH (PROGEST)</h5>
                                     <img class="card-img-top" v-bind:src="progestImg" alt=" 📚Card image cap" />
                                     <div class="card-body">
                                         <h5 class="card-title"> 👍 KEBAIKAN</h5>
                                         <p class="card-text">
-                                            • Memberi Tenaga Segera <br>• Menghilangkan Rasa Mengantuk <br>
-                                            • Melancarkan Aliran Darah <br>• melancarkan Aliran Darah dan Haid <br>
-                                            • Melancarkan Hormon <br>
-                                            • Menguatkan Sistem Dalaman Badan.<br>
-                                            • Menghitamkan Rambut.<br>
+                                        • Memberikan ketenangan <br/>
+                                        • Mengembalikan kesegaran badan <br/>
+                                        • Membuang toxid dalam badan <br/>
+                                        • Penawar kanser <br/>
+                                        • Memperbaiki sel-sel yang rosak <br/>
+                                        • Memulihkan sistem pencernaan <br/>
+                                        • Meransang hormon <br/>
+                                        • Anti racun <br/>
+                                        • Merawat sembelit <br/>
+                                        • Menguatkan bakteria baik <br/>
+                                        • Menstabilkan mood <br/>
+                                        • Membetulkan kitaran haid <br/>
+                                        • Mencantikkan kulit <br/>
+                                        • Meningkatkan sistem kekebalan tubuh <br/>
+                                        • Mempercepatkan pertumbuhan tisu kulit <br/>
+                                        • Anti Oksidan dan Anti Penuaan. <br/>
+                                        • Memberi tenaga <br/>
+                                        • Mempertahankan imunisasi manusia <br/>
+                                        • Menambah gel di lutut yang bermasalah <br/>
                                         </p>
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 10px;"></div>
-                                        <h4 class="text-center">WOW! MACAM-MACAM RASA!</h4>
+                                        <h4 class="text-center">DETOKS DENGAN BERKESAN</h4>
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 15px;"></div>
                                         
                                         <h5 class="card-title">🌿 RAMUAN</h5>
                                         <p class="card-text">
-                                            Krimer Tanpa Susu, Gula Perang, Ganoderma Lucidum, Cordyceps, Cynomorium Songaricum,
-                                            Polygonum Multiflorum, Tongkat Ali, Ubi Jaga, Kopi Arabica, Garam Buluh, Sarang Burung Walit,
-                                            dan Koko
+                                        Cendawan Mekah,Teh Hijau, Madu Kelulut Asli, Gula Nano
                                         </p>
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 10px;"></div>
                                         <h4 class="text-center">HARGA KOPI SOUYANG</h4>
