@@ -59,7 +59,7 @@ document.getElementById("modal-progest").innerHTML = `
                                         Cendawan Mekah,Teh Hijau, Madu Kelulut Asli, Gula Nano
                                         </p>
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 10px;"></div>
-                                        <h4 class="text-center">HARGA KOPI SOUYANG</h4>
+                                        <h4 class="text-center">HARGA PROGES</h4>
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 15px;"></div>
                                         
                                         
