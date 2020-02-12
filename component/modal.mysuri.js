@@ -30,61 +30,69 @@ document.getElementById("modal-suri").innerHTML = `
                                     <div class="card-body">
                                         <h5 class="card-title"> 👍 KEBAIKAN</h5>
                                         <p class="card-text">
-                                        • Meningkatkan hormon kelakian (testosteron) <br>
-                                        • Meningkatkan tenaga dalaman dan juga luaran <br>
-                                        • Mengatasi masalah badan berbau <br>
-                                        • Melancarkan perjalanan darah <br>
-                                        • Menguatkan urat dan otot <br>
-                                        • Membuang angin dalam badan <br>
-                                        • Mengatasi masalah sakit sendi <br>
-                                        • Meningkatkan selera makan <br>
-                                        •Mengatasi masalah keletihan dan lesu<br>
+                                        • Menyelesaikan masalah senggugut <br>
+                                        • Menyelesaikan masalah ketidaktentuan perjalanan haid<br>
+                                        • Memberi tenaga serta keyakinan diri<br>
+                                        • Meningkatkan nafsu syahwat wanita<br>
+                                        • Mengatasi masalah mandul<br>
+                                        • Mengurangkan lelah dan masalah angin berlebihan<br>
+                                        • Mengembalikan kesegaran badan<br>
+                                        • Mengurangkan sakit sendi badan<br>
+                                        • Penawar kanser<br>
+                                        • Menganjalkan tisu kulit <br>
+                                        • Mengecutkan bengkak dalaman dan luaran seperti buasir<br>
+                                        • Memelihara kesihatan hati, saraf, mata & pankreas<br>
+                                        • Apoptosis-mengawal penularan kanser<br>
+                                        • Sumber Phytoestrogen<br>
+                                        • Menguatkan otot perut dan memulihkan tenaga wanita lepas bersalin<br>
+                                        • Menstabilkan mood<br>
+                                        • Mengembalikan keremajaan wanita<br>
+                                        • Mencantikkan kulit<br>
+                                        • Meningkatkan sistem kekebalan tubuh<br>
+                                        • Menghindari radang sendi dan tulang<br>
+                                        • Melewatkan Menopause<br>
+                                        • Anti Oksidan dan Anti Penuaan.<br>
+                                        • Mengawal tekanan darah dan kolestrol<br>
+                                        • Mengawal paras gula dalam darah<br>
                                         </p>
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 10px;"></div>
-                                        <h4 class="text-center">WOW! MACAM-MACAM RASA!</h4>
+                                        <h4 class="text-center">MENYELESAIKAN BANYAK MASALAH WANITA</h4>
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 15px;"></div>
                                         
                                         <h5 class="card-title">🌿 RAMUAN</h5>
                                         <p class="card-text">
-                                         Air R.O <br>
-                                        ,Butea Superba<br>
-                                        ,Tongkat Ali<br>
-                                        ,Madu Kelulut<br>
-                                        ,Ubi Jaga<br>
-                                        ,Kulit Kayu Manis<br>
-                                        ,Pati Kurma<br>
-                                        ,Akar Samad<br>
-                                        ,Misai Ali<br>
-                                        ,Rempah Gunung<br>
-                                        ,Halban Habbatus Sauda'<br>
-                                        ,Cengkih, Serai Wangi, Mengkudu, Halia, Kunyit, Biji Sawi<br>
-                                        ,Asid Askorbik dan Asid Sitrik<br>
+                                        Air R.O, Pueraria Mirifica, Manjakani Madu Kelulut, Kurma, Kacip Fatimah, 
+Akar Serapat, Mas Cotek, Serai Wangi, Habbatus Sauda, Buah Pinang, 
+Buah Mengkudu, Pati Delima, Pati Buah Zaitun, Vitamin C, Kulit Kayu Manis, 
+Cengkih, Halia, Kunyit, Halban dan Asam Jawa
                                         </p>
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 10px;"></div>
-                                        <h4 class="text-center">HARGA KOPI SOUYANG</h4>
+                                        <h4 class="text-center">HARGA MYSURI</h4>
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 15px;"></div>
                                         
                                         
                                         
-
                                         <ul class="list-group list-group-flush">
-                                            <li class="list-group-item">Harga Pasaran/Runcit
-                                                <button type="button" class="btn btn-danger float-right">RM28</button>
+                                            <li class="list-group-item">Harga Runcit
+                                                <button type="button" class="btn btn-danger float-right">RM48</button>
                                             </li>
                                             <li class="list-group-item">Harga Diskaun
-                                                <button type="button" class="btn btn-danger float-right">RM28</button>
+                                                <button type="button" class="btn btn-danger float-right">RM38</button>
+                                            </li>
+                                            <li class="list-group-item">Harga Pakej
+                                                <button type="button" class="btn btn-danger float-right">4/RM140</button>
                                             </li>
 
                                             <li class="list-group-item">Harga Ejen
-                                                <button type="button" class="btn btn-danger float-right">RM28</button>
+                                                <button type="button" class="btn btn-danger float-right">10/RM300</button>
                                             </li>
                                            
                                             <li class="list-group-item">Harga Pemborong
-                                                <button type="button" class="btn btn-danger float-right">RM28</button>
+                                                <button type="button" class="btn btn-danger float-right">100/RM2500</button>
                                             </li>
 
                                             <li class="list-group-item">Harga Pembekal
-                                                <button type="button" class="btn btn-danger float-right">RM28</button>
+                                                <button type="button" class="btn btn-danger float-right">1000/RM20,000</button>
                                             </li>  
                                         </ul>
 

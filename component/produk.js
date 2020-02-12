@@ -175,7 +175,7 @@ document.getElementById("produk").innerHTML = `
       <div class="row">
         <div class="col-sm">
           <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx start new row product xxxxxxxxxxxxxxxxxxxxxxxxx -->
-          <!--- ttttttttttttttttttttttttttttttttt teh persada tttttttttttttttttttttttttttttt --->
+          <!-- mmmmmmmmmmmmmmmmmmmmmmm mysuri mmmmmmmmmmmmmmmmmmmmmmmmm-->
           <section id="product" style="background: whitesmoke">
             <div class="mb-5">
               <div class="row">
@@ -194,7 +194,7 @@ document.getElementById("produk").innerHTML = `
                     <div class="card-body">
                       <h5 class="card-title">{{suriTitle}}</h5>
                       <p class="card-text text-justify">
-                        {{tanjaqDesc}}
+                        {{suriDesc}}
                       </p>
                       <a class="btn btn-danger persada-button" class="btn btn-primary" data-toggle="modal"
                         data-target="#suriPersadaModal" style="color:white">Lebih Informasi</a>
