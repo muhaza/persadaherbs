@@ -36,6 +36,13 @@ var app = new Vue({
         anasDesc: "Tenaga Segera, Hilangkan Rasa Mengantuk, Lancarkan Aliran Darah dan Haid",
         anasUrl: "http://google.com",
         oooo: 000000000000000000000000000000000000000000000,
+        suriImg: "./asset/image/mysuri-thumbnail.webp",
+        suriPrice:"RM48",
+        suriOffer: "OFFER RM38",
+        suriTitle: "Anas",
+        suriDesc: "Tenaga Segera, Hilangkan Rasa Mengantuk, Lancarkan Aliran Darah dan Haid",
+        suriUrl: "http://google.com",
+        oooo: 000000000000000000000000000000000000000000000,
         birlivaImg: "./asset/image/birliva-thumbnail.webp",
         birlivaPrice:"RM78",
         birlivaOffer: "OFFER RM60",
@@ -89,6 +96,13 @@ var app = new Vue({
     el: "#modal-birliva",
     data: {
         birlivaImg: "./asset/image/birliva-thumbnail.webp",
+    }
+});
+
+var app = new Vue({
+    el: "#modal-suri",
+    data: {
+        suriImg: "./asset/image/mysuri-thumbnail.webp",
     }
 });
 
