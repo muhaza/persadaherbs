@@ -208,19 +208,19 @@ document.getElementById("produk").innerHTML = `
                   <div class="card mt-1" style="width: 100%;">
                     <span class="m-1">
                       <button type="button" class="btn btn-danger float-right mx-1"
-                        style="font-size:small">{{anasOffer}}</button>
+                        style="font-size:small">{{luzeaOffer}}</button>
                       <button type="button" class="btn btn-dark float-right"
-                        style="font-size:small">{{anasPrice}}</button>
+                        style="font-size:small">{{luzeaPrice}}</button>
                     </span>
-                    <img class="card-img-top wow fadeInUp" v-bind:src="anasImg" alt=" 📚Card image cap"
+                    <img class="card-img-top wow fadeInUp" v-bind:src="luzeaImg" alt=" 📚Card image cap"
                       style="margin-top: -10px;" />
                     <div class="card-body">
-                      <h5 class="card-title">{{anasTitle}}</h5>
+                      <h5 class="card-title">{{luzeaTitle}}</h5>
                       <p class="card-text text-justify">
-                        {{anasDesc}}
+                        {{luzeaDesc}}
                       </p>
                       <a class="btn btn-danger persada-button" class="btn btn-primary" data-toggle="modal"
-                        data-target="#anasPersadaModal" style="color:white">Lebih Informasi</a>
+                        data-target="#luzeaPersadaModal" style="color:white">Lebih Informasi</a>
                     </div>
                   </div>
                 </div>

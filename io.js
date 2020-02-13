@@ -50,6 +50,13 @@ var app = new Vue({
         birlivaDesc: "Tenaga Segera, Hilangkan Rasa Mengantuk, Lancarkan Aliran Darah dan Haid",
         birlivaUrl: "http://google.com",
         oooo: 000000000000000000000000000000000000000000000,
+        luzeaImg: "./asset/image/luzea-thumbnail.webp",
+        luzeaPrice:"RM68",
+        luzeaOffer: "OFFER RM50",
+        luzeaTitle: "Luzea",
+        luzeaDesc: "Menajamkan Penglihatan, Mencegah Glaukoma, Katarak dan Miopia (Rabun Jauh)",
+        luzeaUrl: "http://google.com",
+        oooo: 000000000000000000000000000000000000000000000,
         soonimg: "./asset/image/akan-datang.jpg",
         soonTitle: "Akan Datang",
         soonDesc: "Akan Datang “Aroma Segar, Sedap, Tenang & Berzat” Keutamaan kami dalam menghasilkan produk..",
@@ -103,6 +110,13 @@ var app = new Vue({
     el: "#modal-suri",
     data: {
         suriImg: "./asset/image/mysuri-thumbnail.webp",
+    }
+});
+
+var app = new Vue({
+    el: "#modal-luzea",
+    data: {
+        luzeaImg: "./asset/image/luzea-thumbnail.webp",
     }
 });
 
