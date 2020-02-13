@@ -229,19 +229,19 @@ document.getElementById("produk").innerHTML = `
                   <div class="card mt-1" style="width: 100%;">
                     <span class="m-1">
                       <button type="button" class="btn btn-danger float-right mx-1"
-                        style="font-size:small">{{birlivaOffer}}</button>
+                        style="font-size:small">{{vititeaOffer}}</button>
                       <button type="button" class="btn btn-dark float-right"
-                        style="font-size:small">{{birlivaPrice}}</button>
+                        style="font-size:small">{{vititeaPrice}}</button>
                     </span>
                     <img class="card-img-top wow fadeInUp" v-bind:src="vititeaImg" alt=" 📚Card image cap"
                       style="margin-top: -10px;" />
                     <div class="card-body">
-                      <h5 class="card-title">{{birlivaTitle}}</h5>
+                      <h5 class="card-title">{{vititeaTitle}}</h5>
                       <p class="card-text text-justify">
-                        {{birlivaDesc}}
+                        {{vititeaDesc}}
                       </p>
                       <a class="btn btn-danger persada-button" class="btn btn-primary" data-toggle="modal"
-                        data-target="#birlivaPersadaModal" style="color:white">Lebih Informasi</a>
+                        data-target="#vititeaPersadaModal" style="color:white">Lebih Informasi</a>
                     </div>
                   </div>
                 </div>

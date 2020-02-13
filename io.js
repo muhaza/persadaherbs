@@ -60,7 +60,7 @@ var app = new Vue({
         vititeaImg: "./asset/image/vititea-thumbnail.webp",
         vititeaPrice:"RM68",
         vititeaOffer: "OFFER RM50",
-        vititeaTitle: "Luzea",
+        vititeaTitle: "Vit I Tea",
         vititeaDesc: "Menajamkan Penglihatan, Mencegah Glaukoma, Katarak dan Miopia (Rabun Jauh)",
         vititeaUrl: "http://google.com",
         oooo: 000000000000000000000000000000000000000000000,
@@ -124,6 +124,13 @@ var app = new Vue({
     el: "#modal-luzea",
     data: {
         luzeaImg: "./asset/image/luzea-thumbnail.webp",
+    }
+});
+
+var app = new Vue({
+    el: "#modal-vititea",
+    data: {
+        vititeaImg: "./asset/image/vititea-thumbnail.webp",
     }
 });
 

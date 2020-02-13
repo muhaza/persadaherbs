@@ -1,6 +1,6 @@
-document.getElementById("modal-luzea").innerHTML = `
+document.getElementById("modal-vititea").innerHTML = `
 <!-- Modal -->
-<div class="modal fade" id="luzeaPersadaModal" tabindex="-1" role="dialog" aria-labelledby="ModalCenterTitle" aria-hidden="true">
+<div class="modal fade" id="vititeaPersadaModal" tabindex="-1" role="dialog" aria-labelledby="ModalCenterTitle" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
 
         <div class="modal-content">
@@ -25,17 +25,30 @@ document.getElementById("modal-luzea").innerHTML = `
                             <!-- 📚📚📚 card start 📚📚📚-->
                             <div class="col-sm">
                                 <div style="width: 100%;">
-                                    <img class="card-img-top" v-bind:src="luzeaImg" alt=" 📚Card image cap" />
+                                    <img class="card-img-top" v-bind:src="vititeaImg" alt=" 📚Card image cap" />
                                     <div class="card-body">
                                         <h5 class="card-title"> 👍 KEBAIKAN</h5>
                                         <p class="card-text">
-• Mencegah daripada Retina Berkembar (Terlepasnya Retina) <br>
-• Menajamkan penglihatan <br>
-• Meningkatkan Pandangan & Penglihatan<br>
-• Mencegah Glaukoma<br>
-• Mencegah katarak daripada berlaku<br>
-• Mencegah Miopia (Rabun jauh)<br>
-• Mengurangkan Degenerasi Makula Akibat Penuaan<br>
+                                        • Memcegah Mopia (Rabun Jauh) <br>
+                                        • Menajamkan Penglihatan<br>
+                                        • Mengatasi Masalah Insomnia<br>
+                                        • Membantu selesaikan masalah keputihan (wanita)<br>
+                                        • Mengurangi masalah serangan jantung<br>
+                                        • Mengurangi risiko kencing manis<br>
+                                        • Membantu mengurangi bau busuk mulut dan badan<br>
+                                        • Membunuh bakteria dalam mulut<br>
+                                        • Mencegah penyakit Alzheimer<br>
+                                        • Meningkatkan pembakaran lemak<br>
+                                        • Meransang perkembangan otak<br>
+                                        • Aroma Wangi<br>
+                                        • Anti Oksidan<br>
+                                        • Membuang angin dalam badan<br>
+                                        • Menghilangkan rasa loya<br>
+                                        • Menghilangkan sakit-sakit badan<br>
+                                        • Merawat selsema<br>
+                                        • Melancarkan proses penghadaman<br>
+                                        • Mampu mengurangkan rasa mengantuk<br>
+                                        • Meningkatkan daya tumpuan<br>
                                         </p>
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 10px;"></div>
                                         <h4 class="text-center">MINUM-MINUM MATA TERANG</h4>
