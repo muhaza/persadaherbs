@@ -29,17 +29,16 @@ document.getElementById("modal-luzea").innerHTML = `
                                     <div class="card-body">
                                         <h5 class="card-title"> 👍 KEBAIKAN</h5>
                                         <p class="card-text">
-• Mencegah daripada Retina Berkembar (Terlepasnya Retina), <br>
+• Mencegah daripada Retina Berkembar (Terlepasnya Retina) <br>
 • Menajamkan penglihatan <br>
 • Meningkatkan Pandangan & Penglihatan<br>
 • Mencegah Glaukoma<br>
 • Mencegah katarak daripada berlaku<br>
 • Mencegah Miopia (Rabun jauh)<br>
 • Mengurangkan Degenerasi Makula Akibat Penuaan<br>
-
                                         </p>
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 10px;"></div>
-                                        <h4 class="text-center">BAIK UNTUK KESIHATAN MATA</h4>
+                                        <h4 class="text-center">MINUM-MINUM MATA TERANG</h4>
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 15px;"></div>
                                         
                                         <h5 class="card-title">🌿 RAMUAN</h5>
@@ -55,25 +54,25 @@ document.getElementById("modal-luzea").innerHTML = `
 
                                         <ul class="list-group list-group-flush">
                                             <li class="list-group-item">Harga Runcit
-                                                <button type="button" class="btn btn-danger float-right">RM48</button>
+                                                <button type="button" class="btn btn-danger float-right">RM68</button>
                                             </li>
                                             <li class="list-group-item">Harga Diskaun
-                                                <button type="button" class="btn btn-danger float-right">RM38</button>
+                                                <button type="button" class="btn btn-danger float-right">RM50</button>
                                             </li>
                                             <li class="list-group-item">Harga Pakej
-                                                <button type="button" class="btn btn-danger float-right">4/RM140</button>
+                                                <button type="button" class="btn btn-danger float-right">4/RM180</button>
                                             </li>
 
                                             <li class="list-group-item">Harga Ejen
-                                                <button type="button" class="btn btn-danger float-right">10/RM300</button>
+                                                <button type="button" class="btn btn-danger float-right">10/RM400</button>
                                             </li>
                                            
                                             <li class="list-group-item">Harga Pemborong
-                                                <button type="button" class="btn btn-danger float-right">100/RM2500</button>
+                                                <button type="button" class="btn btn-danger float-right">100/RM3500</button>
                                             </li>
 
                                             <li class="list-group-item">Harga Pembekal
-                                                <button type="button" class="btn btn-danger float-right">1000/RM20,000</button>
+                                                <button type="button" class="btn btn-danger float-right">1000/RM30,000</button>
                                             </li>  
                                         </ul>
 

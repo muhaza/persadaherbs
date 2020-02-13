@@ -233,7 +233,7 @@ document.getElementById("produk").innerHTML = `
                       <button type="button" class="btn btn-dark float-right"
                         style="font-size:small">{{birlivaPrice}}</button>
                     </span>
-                    <img class="card-img-top wow fadeInUp" v-bind:src="birlivaImg" alt=" 📚Card image cap"
+                    <img class="card-img-top wow fadeInUp" v-bind:src="vititeaImg" alt=" 📚Card image cap"
                       style="margin-top: -10px;" />
                     <div class="card-body">
                       <h5 class="card-title">{{birlivaTitle}}</h5>
