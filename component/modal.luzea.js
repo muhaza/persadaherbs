@@ -6,7 +6,7 @@ document.getElementById("modal-luzea").innerHTML = `
         <div class="modal-content">
             <div class="modal-header">
                 <div class="col-sm">
-                    <h5 class="modal-title" id="ModalLongTitle">ANAS</h5>
+                    <h5 class="modal-title" id="ModalLongTitle">LUZEA</h5>
                 </div>
 
                 <span>
@@ -29,13 +29,23 @@ document.getElementById("modal-luzea").innerHTML = `
                                     <div class="card-body">
                                         <h5 class="card-title"> 👍 KEBAIKAN</h5>
                                         <p class="card-text">
-• Mencegah daripada Retina Berkembar (Terlepasnya Retina) <br>
-• Menajamkan penglihatan <br>
-• Meningkatkan Pandangan & Penglihatan<br>
-• Mencegah Glaukoma<br>
-• Mencegah katarak daripada berlaku<br>
-• Mencegah Miopia (Rabun jauh)<br>
-• Mengurangkan Degenerasi Makula Akibat Penuaan<br>
+                                        • Mencegah daripada Retina Berkembar (Terlepasnya Retina) <br>
+                                        • Menajamkan penglihatan <br>
+                                        • Meningkatkan Pandangan & Penglihatan<br>
+                                        • Mencegah Glaukoma<br>
+                                        • Mencegah katarak daripada berlaku<br>
+                                        • Mencegah Miopia (Rabun jauh)<br>
+                                        • Mengurangkan Degenerasi Makula Akibat Penuaan<br>
+                                        • Membantu mengatasi Mata Silau<br>
+                                        • Membantu mengatasi mata berair dan kering<br>
+                                        • Menajamkan penglihatan dan pandangan<br>
+                                        • Mengatasi penglihatan cahaya berbunga dan objek kabur<br>
+                                        • Mencegah glukoma<br>
+                                        • Mencegah katarak dariipada berlaku<br>
+                                        • Membantu membuang angin dalam badan<br>
+                                        • Menenangkan fikiran, otot dan saraf<br>
+                                        • Mengurangkan gejala kencing manis<br>
+                                        • Membantu sistem penghadaman<br>
                                         </p>
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 10px;"></div>
                                         <h4 class="text-center">MINUM-MINUM MATA TERANG</h4>
@@ -43,7 +53,9 @@ document.getElementById("modal-luzea").innerHTML = `
                                         
                                         <h5 class="card-title">🌿 RAMUAN</h5>
                                         <p class="card-text">
-                                        Kurma, Kismis, Za'faran, Madu Kelulut, Pati Delima
+                                        Lutein Zeaxanthin, Vitamin C, Vitamin E,
+                                        Nano Sweet, Ekstrak Teh Hijau, Ekstrak Madu Kelulut,
+                                        dan Ekstrak Pudina
                                         </p>
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 10px;"></div>
                                         <h4 class="text-center">HARGA LUZEA</h4>

@@ -6,11 +6,11 @@ document.getElementById("modal-vititea").innerHTML = `
         <div class="modal-content">
             <div class="modal-header">
                 <div class="col-sm">
-                    <h5 class="modal-title" id="ModalLongTitle">ANAS</h5>
+                    <h5 class="modal-title" id="ModalLongTitle">VIT I TEA</h5>
                 </div>
 
                 <span>
-                    <button type="button" class="btn btn-danger float-right " style="font-size:small; width:100px">Offer RM38</button>
+                    <button type="button" class="btn btn-danger float-right " style="font-size:small; width:100px">Offer RM50</button>
                 </span>
 
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
