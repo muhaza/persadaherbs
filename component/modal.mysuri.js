@@ -62,9 +62,9 @@ document.getElementById("modal-suri").innerHTML = `
                                         <h5 class="card-title">🌿 RAMUAN</h5>
                                         <p class="card-text">
                                         Air R.O, Pueraria Mirifica, Manjakani Madu Kelulut, Kurma, Kacip Fatimah, 
-Akar Serapat, Mas Cotek, Serai Wangi, Habbatus Sauda, Buah Pinang, 
-Buah Mengkudu, Pati Delima, Pati Buah Zaitun, Vitamin C, Kulit Kayu Manis, 
-Cengkih, Halia, Kunyit, Halban dan Asam Jawa
+                                        Akar Serapat, Mas Cotek, Serai Wangi, Habbatus Sauda, Buah Pinang, 
+                                        Buah Mengkudu, Pati Delima, Pati Buah Zaitun, Vitamin C, Kulit Kayu Manis, 
+                                        Cengkih, Halia, Kunyit, Halban dan Asam Jawa
                                         </p>
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 10px;"></div>
                                         <h4 class="text-center">HARGA MYSURI</h4>

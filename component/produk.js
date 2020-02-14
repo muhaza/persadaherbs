@@ -1,4 +1,24 @@
 document.getElementById("produk").innerHTML = `
+
+
+<div class="container">
+    <div class="row">
+      <div class="col-sm mt-3">
+        <!-- button -->
+        <ul class="nav nav-pills mb-1 float-right" id="pills-tab" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link nav-number active" id="pills-profile-tab" data-toggle="pill" href="#page-1" role="tab"
+              aria-controls="pills-profile" aria-selected="false">Kesihatan</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-number" id="pills-contact-tab" data-toggle="pill" href="#page-2" role="tab"
+              aria-controls="pills-contact" aria-selected="false">Kecantikan</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
 <div id="vue-product">
   <!-- vvvvvvvvvvvvvvvvvvvvvvvvvvvvvv start vue vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv -->
   <div class="tab-content container" id="pills-tabContent">
@@ -9,7 +29,7 @@ document.getElementById("produk").innerHTML = `
           <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx start new row product xxxxxxxxxxxxxxxxxxxxxxxxx -->
           <!--- ttttttttttttttttttttttttttttttttt teh persada tttttttttttttttttttttttttttttt --->
           <section id="product" style="background: whitesmoke">
-            <div class="mt-5">
+            <div class="mt-1">
               <div class="row">
                 <!-- 📚📚📚 card start 📚📚📚-->
                 <div class="col-sm">
@@ -177,7 +197,7 @@ document.getElementById("produk").innerHTML = `
           <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx start new row product xxxxxxxxxxxxxxxxxxxxxxxxx -->
           <!-- mmmmmmmmmmmmmmmmmmmmmmm mysuri mmmmmmmmmmmmmmmmmmmmmmmmm-->
           <section id="product" style="background: whitesmoke">
-            <div class="mb-5">
+            <div class="mb-3">
               <div class="row">
                 <!-- 📚📚📚 card start 📚📚📚-->
                 <!-- mmmmmmmmmmmmmmmmmmmmmmm mysuri mmmmmmmmmmmmmmmmmmmmmmmmm-->
@@ -266,7 +286,7 @@ document.getElementById("produk").innerHTML = `
           <section id="product" style="background: whitesmoke">
             <div id="vue-card">
               <!-- start vue -->
-              <div class="container my-5">
+              <div class="container my-2">
                 <div class="row">
 
                   <!-- 📚📚📚 card start 📚📚📚-->
@@ -335,17 +355,16 @@ document.getElementById("produk").innerHTML = `
   </div>
   <div class="container">
     <div class="row">
-      <div class="col-sm">
+      <div class="col-sm mb-2">
         <!-- button -->
         <ul class="nav nav-pills mb-1 float-right" id="pills-tab" role="tablist">
-
           <li class="nav-item">
             <a class="nav-link nav-number active" id="pills-profile-tab" data-toggle="pill" href="#page-1" role="tab"
-              aria-controls="pills-profile" aria-selected="false">1</a>
+              aria-controls="pills-profile" aria-selected="false">Kesihatan</a>
           </li>
           <li class="nav-item">
             <a class="nav-link nav-number" id="pills-contact-tab" data-toggle="pill" href="#page-2" role="tab"
-              aria-controls="pills-contact" aria-selected="false">2</a>
+              aria-controls="pills-contact" aria-selected="false">Kecantikan</a>
           </li>
         </ul>
       </div>

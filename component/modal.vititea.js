@@ -27,7 +27,7 @@ document.getElementById("modal-vititea").innerHTML = `
                                 <div style="width: 100%;">
                                     <img class="card-img-top" v-bind:src="vititeaImg" alt=" 📚Card image cap" />
                                     <div class="card-body">
-                                        <h5 class="card-title"> 👍 KEBAIKAN</h5>
+                                        <h5 class="card-title"> 👍 KEBAIKAN VIT i TEA</h5>
                                         <p class="card-text">
                                         • Memcegah Mopia (Rabun Jauh) <br>
                                         • Menajamkan Penglihatan<br>
@@ -56,7 +56,8 @@ document.getElementById("modal-vititea").innerHTML = `
                                         
                                         <h5 class="card-title">🌿 RAMUAN</h5>
                                         <p class="card-text">
-                                        Kurma, Kismis, Za'faran, Madu Kelulut, Pati Delima
+                                        Lutein, Zeaxanthin, Vitamin C, Vitamin E, Nano Sweet, Ekstrak Teh, Madu Kelulut, 
+                                        Ekstrak Serai, Serbuk Lemon dan Perasa Blackcurrant
                                         </p>
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 10px;"></div>
                                         <h4 class="text-center">HARGA LUZEA</h4>

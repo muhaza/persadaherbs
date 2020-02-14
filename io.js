@@ -61,7 +61,7 @@ var app = new Vue({
         vititeaPrice:"RM68",
         vititeaOffer: "OFFER RM50",
         vititeaTitle: "Vit I Tea",
-        vititeaDesc: "Menajamkan Penglihatan, Mencegah Glaukoma, Katarak dan Miopia (Rabun Jauh)",
+        vititeaDesc: "Mencegah,Rabun Jauh, Mengatasi Masalah Insomnia, Masalah Insomnia & Alzheimer",
         vititeaUrl: "http://google.com",
         oooo: 000000000000000000000000000000000000000000000,
         soonimg: "./asset/image/akan-datang.jpg",
