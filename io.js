@@ -64,6 +64,13 @@ var app = new Vue({
         vititeaDesc: "Mencegah,Rabun Jauh, Mengatasi Masalah Insomnia, Masalah Insomnia & Alzheimer",
         vititeaUrl: "http://google.com",
         oooo: 000000000000000000000000000000000000000000000,
+        cleanserImg: "./asset/image/cleanser.webp",
+        cleanserPrice:"RM57",
+        cleanserOffer: "OFFER RM50",
+        cleanserTitle: "Beauty Cleanser",
+        cleanserDesc: "Membersihkan Sisa Solekan, Minyak, Sel Kulit Mati, Melembabkan dan Mencerahkan..",
+        cleanserUrl: "http://google.com",
+        oooo: 000000000000000000000000000000000000000000000,
         soonimg: "./asset/image/akan-datang.jpg",
         soonTitle: "Akan Datang",
         soonDesc: "Akan Datang “Aroma Segar, Sedap, Tenang & Berzat” Keutamaan kami dalam menghasilkan produk..",
@@ -133,4 +140,12 @@ var app = new Vue({
         vititeaImg: "./asset/image/vititea-thumbnail.webp",
     }
 });
+
+var app = new Vue({
+    el: "#modal-cleanser",
+    data: {
+        cleanserImg: "./asset/image/cleanser.webp",
+    }
+});
+
 

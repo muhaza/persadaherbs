@@ -292,16 +292,41 @@ document.getElementById("produk").innerHTML = `
                   <!-- 📚📚📚 card start 📚📚📚-->
                   <div class="col-sm">
                     <div class="card mt-1" style="width: 100%;">
-                      <span class="m-1">
-                        <button type="button" class="btn btn-danger float-right ">{{tanjaqPrice}}</button>
-                      </span>
+                    <span class="m-1">
+                      <button type="button" class="btn btn-danger float-right mx-1"
+                        style="font-size:small">{{cleanserOffer}}</button>
+                      <button type="button" class="btn btn-dark float-right"
+                        style="font-size:small">{{cleanserPrice}}</button>
+                    </span>
+                      <img class="card-img-top wow fadeInUp" v-bind:src="cleanserImg" alt=" 📚Card image cap"
+                        style="margin-top: -10px;" />
+                      <div class="card-body">
+                        <h5 class="card-title">{{cleanserTitle}}</h5>
+                        <p class="card-text text-justify">
+                          {{cleanserDesc}}
+                        </p>
+                        <a class="btn btn-danger persada-button" class="btn btn-primary" data-toggle="modal"
+                          data-target="#cleanserPersadaModal" style="color:white">Lebih Informasi</a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- 📚📚📚 card start 📚📚📚-->
+                  <div class="col-sm">
+                    <div class="card mt-1" style="width: 100%;">
+                    <span class="m-1">
+                      <button type="button" class="btn btn-danger float-right mx-1"
+                        style="font-size:small">{{vititeaOffer}}</button>
+                      <button type="button" class="btn btn-dark float-right"
+                        style="font-size:small">{{vititeaPrice}}</button>
+                    </span>
                       <img class="card-img-top wow fadeInUp" v-bind:src="tanjaqImg" alt=" 📚Card image cap"
                         style="margin-top: -10px;" />
                       <div class="card-body">
                         <h5 class="card-title">{{tanjaqTitle}}</h5>
                         <p class="card-text text-justify">
                           {{tanjaqDesc}}
-                        </p>
+                        </p>.
+                        
                         <a class="btn btn-danger persada-button" class="btn btn-primary" data-toggle="modal"
                           data-target="#progestPersadaModal" style="color:white">Lebih Informasi</a>
                       </div>
@@ -310,27 +335,12 @@ document.getElementById("produk").innerHTML = `
                   <!-- 📚📚📚 card start 📚📚📚-->
                   <div class="col-sm">
                     <div class="card mt-1" style="width: 100%;">
-                      <span class="m-1">
-                        <button type="button" class="btn btn-danger float-right ">{{tanjaqPrice}}</button>
-                      </span>
-                      <img class="card-img-top wow fadeInUp" v-bind:src="tanjaqImg" alt=" 📚Card image cap"
-                        style="margin-top: -10px;" />
-                      <div class="card-body">
-                        <h5 class="card-title">{{tanjaqTitle}}</h5>
-                        <p class="card-text text-justify">
-                          {{tanjaqDesc}}
-                        </p>
-                        <a class="btn btn-danger persada-button" class="btn btn-primary" data-toggle="modal"
-                          data-target="#progestPersadaModal" style="color:white">Lebih Informasi</a>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- 📚📚📚 card start 📚📚📚-->
-                  <div class="col-sm">
-                    <div class="card mt-1" style="width: 100%;">
-                      <span class="m-1">
-                        <button type="button" class="btn btn-danger float-right ">{{tanjaqPrice}}</button>
-                      </span>
+                    <span class="m-1">
+                      <button type="button" class="btn btn-danger float-right mx-1"
+                        style="font-size:small">{{vititeaOffer}}</button>
+                      <button type="button" class="btn btn-dark float-right"
+                        style="font-size:small">{{vititeaPrice}}</button>
+                    </span>
                       <img class="card-img-top wow fadeInUp" v-bind:src="tanjaqImg" alt=" 📚Card image cap"
                         style="margin-top: -10px;" />
                       <div class="card-body">

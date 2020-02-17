@@ -95,7 +95,7 @@ document.getElementById("modal-progest").innerHTML = `
                                         
                                         <!-- <a v-bind:href="pop2Url" class="btn btn-danger persada-button mt-1">Beli Sekarang</a> -->
                                         <a href="https://wa.me/601158680328?text=Saya%20berminat%20untuk%20order%20Progest%20Cendawan%20Mekah" class="btn btn-success persada-button mt-1">Whatsapp</a>
-                                        <a href="https://m.me/persadaherb" class="btn btn-primary persada-button mt-1">Facebook PM</a>
+                                        <a href="https://web.facebook.com/commerce/products/2661554503965467" class="btn btn-primary persada-button mt-1">Facebook PM</a>
                                     </div>
                                 </div>
                             </div>
