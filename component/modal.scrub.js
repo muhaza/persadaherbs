@@ -1,16 +1,16 @@
-document.getElementById("modal-cleanser").innerHTML = `
+document.getElementById("modal-scrub").innerHTML = `
 <!-- Modal -->
-<div class="modal fade" id="cleanserPersadaModal" tabindex="-1" role="dialog" aria-labelledby="ModalCenterTitle" aria-hidden="true">
+<div class="modal fade" id="scrubPersadaModal" tabindex="-1" role="dialog" aria-labelledby="ModalCenterTitle" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
 
         <div class="modal-content">
             <div class="modal-header">
                 <div class="col-sm">
-                    <h5 class="modal-title" id="exampleModalLongTitle">BEAUTY CLEANSER</h5>
+                    <h5 class="modal-title" id="modalLongTitle">BEAUTY SCRUB</h5>
                 </div>
 
                 <span>
-                    <button type="button" class="btn btn-danger float-right " style="font-size:small">RM50</button>
+                    <button type="button" class="btn btn-danger float-right " style="font-size:small">RM60</button>
                 </span>
 
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -18,7 +18,7 @@ document.getElementById("modal-cleanser").innerHTML = `
     </button>
             </div>
             <div class="modal-body">
-                <div id="modal-cleanser">
+                <div id="modal-scrub">
                     <!-- start vue -->
                     <div class="container">
                         <div class="row">
@@ -26,7 +26,7 @@ document.getElementById("modal-cleanser").innerHTML = `
                             <div class="col-sm">
                                 <div style="width: 100%;">
 
-                                    <img class="card-img-top" v-bind:src="cleanserImg" alt=" 📚Card image cap" />
+                                    <img class="card-img-top" v-bind:src="scrubImg" alt=" 📚Card image cap" />
                                     <div class="card-body">
                                         <h5 class="card-title"> 👍 KEBAIKAN</h5>
                                         <p class="card-text">
@@ -37,7 +37,6 @@ document.getElementById("modal-cleanser").innerHTML = `
                                         • Mencegah Jerawat dan Kemerahan<br>
                                         • Membersihkan kotoran<br>
                                         • Melindungi wajah dari Bakteria dan Fungus<br>
-
                                         </p>
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 10px;"></div>
                                         <h4 class="text-center">MENYELESAIKAN BANYAK MASALAH WANITA</h4>
@@ -49,7 +48,7 @@ document.getElementById("modal-cleanser").innerHTML = `
                                         Sodium Lauryl Sarcosinate, Cocomide Dea (Coconut Fatty Asid), Vegetable Glycerine.
                                         </p>
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 10px;"></div>
-                                        <h4 class="text-center">HARGA MYSURI</h4>
+                                        <h4 class="text-center">HARGA SCRUB</h4>
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 15px;"></div>
                                         
                                         

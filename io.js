@@ -71,6 +71,13 @@ var app = new Vue({
         cleanserDesc: "Membersihkan Sisa Solekan, Minyak, Sel Kulit Mati, Melembabkan dan Mencerahkan..",
         cleanserUrl: "http://google.com",
         oooo: 000000000000000000000000000000000000000000000,
+        scrubImg: "./asset/image/scrub.webp",
+        scrubPrice:"RM69",
+        scrubOffer: "OFFER RM60",
+        scrubTitle: "Beauty Scrub",
+        scrubDesc: "Menanggalkan Kotoran Dari Akar Umbi, Muka Kotor & Minyak, Mencegah Jerawat Bintik Hitam",
+        scrubUrl: "http://google.com",
+        oooo: 000000000000000000000000000000000000000000000,
         soonimg: "./asset/image/akan-datang.jpg",
         soonTitle: "Akan Datang",
         soonDesc: "Akan Datang “Aroma Segar, Sedap, Tenang & Berzat” Keutamaan kami dalam menghasilkan produk..",
@@ -147,5 +154,13 @@ var app = new Vue({
         cleanserImg: "./asset/image/cleanser.webp",
     }
 });
+
+var app = new Vue({
+    el: "#modal-scrub",
+    data: {
+        scrubImg: "./asset/image/scrub.webp",
+    }
+});
+
 
 

@@ -7,11 +7,11 @@ document.getElementById("produk").innerHTML = `
         <!-- button -->
         <ul class="nav nav-pills mb-1 float-right" id="pills-tab" role="tablist">
           <li class="nav-item">
-            <a class="nav-link nav-number active" id="pills-profile-tab" data-toggle="pill" href="#page-1" role="tab"
+            <a class="nav-link nav-number active pulsingButton" id="pills-profile-tab" data-toggle="pill" href="#page-1" role="tab"
               aria-controls="pills-profile" aria-selected="false">Kesihatan</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link nav-number" id="pills-contact-tab" data-toggle="pill" href="#page-2" role="tab"
+            <a class="nav-link nav-number pulsingButton" id="pills-contact-tab" data-toggle="pill" href="#page-2" role="tab"
               aria-controls="pills-contact" aria-selected="false">Kecantikan</a>
           </li>
         </ul>
@@ -49,7 +49,7 @@ document.getElementById("produk").innerHTML = `
                       <p class="card-text text-justify">
                         {{tehDesc}}
                       </p>
-                      <a class="btn btn-danger persada-button" class="btn btn-primary" data-toggle="modal"
+                      <a class="btn btn-danger persada-button pulsingButton" class="btn btn-primary" data-toggle="modal"
                         data-target="#tehPersadaModal" style="color:white">Lebih Informasi</a>
                     </div>
                   </div>
@@ -72,7 +72,7 @@ document.getElementById("produk").innerHTML = `
                       <p class="card-text text-justify">
                         {{kopiDesc}}
                       </p>
-                      <a class="btn btn-danger persada-button" class="btn btn-primary" data-toggle="modal"
+                      <a class="btn btn-danger persada-button pulsingButton" class="btn btn-primary" data-toggle="modal"
                         data-target="#kopiPersadaModal" style="color:white">Lebih Informasi</a>
                     </div>
                   </div>
@@ -95,7 +95,7 @@ document.getElementById("produk").innerHTML = `
                       <p class="card-text text-justify">
                         {{progestDesc}}
                       </p>
-                      <a class="btn btn-danger persada-button" class="btn btn-primary" data-toggle="modal"
+                      <a class="btn btn-danger persada-button pulsingButton" class="btn btn-primary" data-toggle="modal"
                         data-target="#progestPersadaModal" style="color:white">Lebih Informasi</a>
                     </div>
                   </div>
@@ -133,7 +133,7 @@ document.getElementById("produk").innerHTML = `
                       <p class="card-text text-justify">
                         {{tanjaqDesc}}
                       </p>
-                      <a class="btn btn-danger persada-button" class="btn btn-primary" data-toggle="modal"
+                      <a class="btn btn-danger persada-button pulsingButton" class="btn btn-primary" data-toggle="modal"
                         data-target="#tanjaqPersadaModal" style="color:white">Lebih Informasi</a>
                     </div>
                   </div>
@@ -155,7 +155,7 @@ document.getElementById("produk").innerHTML = `
                       <p class="card-text text-justify">
                         {{anasDesc}}
                       </p>
-                      <a class="btn btn-danger persada-button" class="btn btn-primary" data-toggle="modal"
+                      <a class="btn btn-danger persada-button pulsingButton" class="btn btn-primary" data-toggle="modal"
                         data-target="#anasPersadaModal" style="color:white">Lebih Informasi</a>
                     </div>
                   </div>
@@ -176,7 +176,7 @@ document.getElementById("produk").innerHTML = `
                       <p class="card-text text-justify">
                         {{birlivaDesc}}
                       </p>
-                      <a class="btn btn-danger persada-button" class="btn btn-primary" data-toggle="modal"
+                      <a class="btn btn-danger persada-button pulsingButton" class="btn btn-primary" data-toggle="modal"
                         data-target="#birlivaPersadaModal" style="color:white">Lebih Informasi</a>
                     </div>
                   </div>
@@ -216,7 +216,7 @@ document.getElementById("produk").innerHTML = `
                       <p class="card-text text-justify">
                         {{suriDesc}}
                       </p>
-                      <a class="btn btn-danger persada-button" class="btn btn-primary" data-toggle="modal"
+                      <a class="btn btn-danger persada-button pulsingButton" class="btn btn-primary" data-toggle="modal"
                         data-target="#suriPersadaModal" style="color:white">Lebih Informasi</a>
                     </div>
                   </div>
@@ -239,7 +239,7 @@ document.getElementById("produk").innerHTML = `
                       <p class="card-text text-justify">
                         {{luzeaDesc}}
                       </p>
-                      <a class="btn btn-danger persada-button" class="btn btn-primary" data-toggle="modal"
+                      <a class="btn btn-danger persada-button pulsingButton" class="btn btn-primary" data-toggle="modal"
                         data-target="#luzeaPersadaModal" style="color:white">Lebih Informasi</a>
                     </div>
                   </div>
@@ -260,7 +260,7 @@ document.getElementById("produk").innerHTML = `
                       <p class="card-text text-justify">
                         {{vititeaDesc}}
                       </p>
-                      <a class="btn btn-danger persada-button" class="btn btn-primary" data-toggle="modal"
+                      <a class="btn btn-danger persada-button pulsingButton" class="btn btn-primary" data-toggle="modal"
                         data-target="#vititeaPersadaModal" style="color:white">Lebih Informasi</a>
                     </div>
                   </div>
@@ -305,7 +305,7 @@ document.getElementById("produk").innerHTML = `
                         <p class="card-text text-justify">
                           {{cleanserDesc}}
                         </p>
-                        <a class="btn btn-danger persada-button" class="btn btn-primary" data-toggle="modal"
+                        <a class="btn btn-danger persada-button pulsingButton" class="btn btn-primary" data-toggle="modal"
                           data-target="#cleanserPersadaModal" style="color:white">Lebih Informasi</a>
                       </div>
                     </div>
@@ -315,20 +315,20 @@ document.getElementById("produk").innerHTML = `
                     <div class="card mt-1" style="width: 100%;">
                     <span class="m-1">
                       <button type="button" class="btn btn-danger float-right mx-1"
-                        style="font-size:small">{{vititeaOffer}}</button>
+                        style="font-size:small">{{scrubOffer}}</button>
                       <button type="button" class="btn btn-dark float-right"
-                        style="font-size:small">{{vititeaPrice}}</button>
+                        style="font-size:small">{{scrubPrice}}</button>
                     </span>
-                      <img class="card-img-top wow fadeInUp" v-bind:src="tanjaqImg" alt=" 📚Card image cap"
+                      <img class="card-img-top wow fadeInUp" v-bind:src="scrubImg" alt=" 📚Card image cap"
                         style="margin-top: -10px;" />
                       <div class="card-body">
-                        <h5 class="card-title">{{tanjaqTitle}}</h5>
+                        <h5 class="card-title">{{scrubTitle}}</h5>
                         <p class="card-text text-justify">
-                          {{tanjaqDesc}}
-                        </p>.
+                          {{scrubDesc}}
+                        </p>
                         
-                        <a class="btn btn-danger persada-button" class="btn btn-primary" data-toggle="modal"
-                          data-target="#progestPersadaModal" style="color:white">Lebih Informasi</a>
+                        <a class="btn btn-danger persada-button pulsingButton" class="btn btn-primary" data-toggle="modal"
+                          data-target="#scrubPersadaModal" style="color:white">Lebih Informasi</a>
                       </div>
                     </div>
                   </div>
@@ -348,7 +348,7 @@ document.getElementById("produk").innerHTML = `
                         <p class="card-text text-justify">
                           {{tanjaqDesc}}
                         </p>
-                        <a class="btn btn-danger persada-button" class="btn btn-primary" data-toggle="modal"
+                        <a class="btn btn-danger persada-button pulsingButton" class="btn btn-primary" data-toggle="modal"
                           data-target="#progestPersadaModal" style="color:white">Lebih Informasi</a>
                       </div>
                     </div>
@@ -369,11 +369,11 @@ document.getElementById("produk").innerHTML = `
         <!-- button -->
         <ul class="nav nav-pills mb-1 float-right" id="pills-tab" role="tablist">
           <li class="nav-item">
-            <a class="nav-link nav-number active" id="pills-profile-tab" data-toggle="pill" href="#page-1" role="tab"
+            <a class="nav-link nav-number active pulsingButton" id="pills-profile-tab" data-toggle="pill" href="#page-1" role="tab"
               aria-controls="pills-profile" aria-selected="false">Kesihatan</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link nav-number" id="pills-contact-tab" data-toggle="pill" href="#page-2" role="tab"
+            <a class="nav-link nav-number pulsingButton" id="pills-contact-tab" data-toggle="pill" href="#page-2" role="tab"
               aria-controls="pills-contact" aria-selected="false">Kecantikan</a>
           </li>
         </ul>
