@@ -12,11 +12,11 @@ document.getElementById("aboutPill").innerHTML = `
     href="#pills-contact" role="tab" aria-controls="pills-contact" 
     aria-selected="false">Kejayaan</a>
   </li>
-  <li class="nav-item">
+  <!-- <li class="nav-item">
     <a class="nav-link" id="pills-pemasaran-tab" data-toggle="pill" 
     href="#pills-pemasaran" role="tab" aria-controls="pills-pemasaran" 
     aria-selected="false">Pemasaran </a>
-  </li>
+  </li> -->
 </ul>
 
 <div class="tab-content" id="pills-tabContent">

@@ -79,18 +79,32 @@ var app = new Vue({
         scrubUrl: "http://google.com",
         oooo: 000000000000000000000000000000000000000000000,
         creamImg: "./asset/image/cc-cream.webp",
-        creamPrice:"RM69",
-        creamOffer: "OFFER RM60",
+        creamPrice:"RM95",
+        creamOffer: "OFFER RM90",
         creamTitle: "CC Cream",
         creamDesc: "Mencerahkan, Mengurangkan garis-garis halus & kedutan, Merata tona kulit, Pelindungan UV",
         creamUrl: "http://google.com",
         oooo: 000000000000000000000000000000000000000000000,
-        dayImg: "./asset/image/cc-cream.webp",
-        dayPrice:"RM69",
-        dayOffer: "OFFER RM60",
-        dayTitle: "CC Cream",
-        dayDesc: "Mencerahkan, Mengurangkan garis-garis halus & kedutan, Merata tona kulit, Pelindungan UV",
+        dayImg: "./asset/image/day.webp",
+        dayPrice:"RM82",
+        dayOffer: "OFFER RM80",
+        dayTitle: "Day Serum",
+        dayDesc: "Membantu Kulit Menjadi Matang, Segar, Bertenaga, Tegang, Halus, Lembut dan Lembab",
         dayUrl: "http://google.com",
+        oooo: 000000000000000000000000000000000000000000000,
+        nightImg: "./asset/image/night.webp",
+        nightPrice:"RM82",
+        nightOffer: "OFFER RM80",
+        nightTitle: "Night Serum",
+        nightDesc: "Rawatan Terapi Muka, Meredakan & Menyinkirkan Jerawat, Anti Kedutan, Hilangkan Bintik..",
+        nightUrl: "http://google.com",
+        oooo: 000000000000000000000000000000000000000000000,
+        ageImg: "./asset/image/cc-cream.webp",
+        agePrice:"RM82",
+        ageOffer: "OFFER RM80",
+        ageTitle: "age",
+        ageDesc: "Mencerahkan, Mengurangkan garis-garis halus & kedutan, Merata tona kulit, Pelindungan UV",
+        ageUrl: "http://google.com",
         oooo: 000000000000000000000000000000000000000000000,
         soonimg: "./asset/image/akan-datang.jpg",
         soonTitle: "Akan Datang",
@@ -176,5 +190,18 @@ var app = new Vue({
     }
 });
 
+var app = new Vue({
+    el: "#modal-cream",
+    data: {
+        creamImg: "./asset/image/cc-cream.webp",
+    }
+});
+
+var app = new Vue({
+    el: "#modal-night",
+    data: {
+        nightImg: "./asset/image/night.webp",
+    }
+});
 
 

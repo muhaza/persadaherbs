@@ -6,7 +6,7 @@ document.getElementById("modal-cream").innerHTML = `
         <div class="modal-content">
             <div class="modal-header">
                 <div class="col-sm">
-                    <h5 class="modal-title" id="modalLongTitle">BEAUTY SCRUB</h5>
+                    <h5 class="modal-title" id="modalLongTitle">CC CREAM</h5>
                 </div>
 
                 <span>

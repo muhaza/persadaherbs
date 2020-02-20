@@ -24,6 +24,7 @@ document.getElementById("produk").innerHTML = `
   <div class="tab-content container" id="pills-tabContent">
     <div class="tab-pane fade show active" id="page-1" role="tabpanel" aria-labelledby="pills-profile-tab">
       <!-- tttttttttttttttttttttttttttttttttttttttt tab ttttttttttttttttttttttttttttttttttttttttttttt -->
+      
       <div class="row">
         <div class="col-sm">
           <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx start new row product xxxxxxxxxxxxxxxxxxxxxxxxx -->
@@ -279,177 +280,182 @@ document.getElementById("produk").innerHTML = `
 
     <!--  xxxxxxxxxxxxxxxxxxxxxxxxxxxx Next Page xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
     <div class="tab-pane fade" id="page-2" role="tabpanel" aria-labelledby="pills-contact-tab">
-
+      <!-- tttttttttttttttttttttttttttttttttttttttt tab ttttttttttttttttttttttttttttttttttttttttttttt -->
+      
       <div class="row">
         <div class="col-sm">
-          <!-- start product -->
+          <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx start new row product xxxxxxxxxxxxxxxxxxxxxxxxx -->
+          <!--- ttttttttttttttttttttttttttttttttt teh persada tttttttttttttttttttttttttttttt --->
           <section id="product" style="background: whitesmoke">
-            <div id="vue-card">
-              <!-- start vue -->
-              <div class="container my-2">
-                <div class="row">
-
-                  <!-- 📚📚📚 card start 📚📚📚-->
-                  <div class="col-sm">
-                    <div class="card mt-1" style="width: 100%;">
+            <div class="mt-1">
+              <div class="row">
+                <!-- 📚📚📚 card start 📚📚📚-->
+                <div class="col-sm">
+                  <div class="card mt-1" style="width: 100%;">
                     <span class="m-1">
                       <button type="button" class="btn btn-danger float-right mx-1"
                         style="font-size:small">{{cleanserOffer}}</button>
                       <button type="button" class="btn btn-dark float-right"
                         style="font-size:small">{{cleanserPrice}}</button>
+
                     </span>
-                      <img class="card-img-top wow fadeInUp" v-bind:src="cleanserImg" alt=" 📚Card image cap"
-                        style="margin-top: -10px;" />
-                      <div class="card-body">
-                        <h5 class="card-title">{{cleanserTitle}}</h5>
-                        <p class="card-text text-justify">
-                          {{cleanserDesc}}
-                        </p>
-                        <a class="btn btn-danger persada-button pulsingButton" class="btn btn-primary" data-toggle="modal"
-                          data-target="#cleanserPersadaModal" style="color:white">Lebih Informasi</a>
-                      </div>
+                    <img class="card-img-top wow fadeInUp" v-bind:src="cleanserImg" alt=" 📚Card image cap"
+                      style="margin-top: -10px;" />
+
+                    <div class="card-body">
+                      <h5 class="card-title">{{cleanserTitle}}</h5>
+                      <p class="card-text text-justify">
+                        {{cleanserDesc}}
+                      </p>
+                      <a class="btn btn-danger persada-button pulsingButton" class="btn btn-primary" data-toggle="modal"
+                        data-target="#cleanserPersadaModal" style="color:white">Lebih Informasi</a>
                     </div>
                   </div>
-                  <!-- 📚📚📚 card End 📚📚📚-->
-                  <!-- 📚📚📚 card start 📚📚📚-->
-                  <div class="col-sm">
-                    <div class="card mt-1" style="width: 100%;">
+                </div>
+                <!-- 📚📚📚 card start 📚📚📚-->
+                <!--- kkkkkkkkkkkkkkkkkkkkkkkkk kopi kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk --->
+                <div class="col-sm">
+                  <div class="card mt-1" style="width: 100%;">
                     <span class="m-1">
                       <button type="button" class="btn btn-danger float-right mx-1"
                         style="font-size:small">{{scrubOffer}}</button>
                       <button type="button" class="btn btn-dark float-right"
                         style="font-size:small">{{scrubPrice}}</button>
+
                     </span>
-                      <img class="card-img-top wow fadeInUp" v-bind:src="scrubImg" alt=" 📚Card image cap"
-                        style="margin-top: -10px;" />
-                      <div class="card-body">
-                        <h5 class="card-title">{{scrubTitle}}</h5>
-                        <p class="card-text text-justify">
-                          {{scrubDesc}}
-                        </p>
-                        
-                        <a class="btn btn-danger persada-button pulsingButton" class="btn btn-primary" data-toggle="modal"
-                          data-target="#scrubPersadaModal" style="color:white">Lebih Informasi</a>
-                      </div>
+                    <img class="card-img-top wow fadeInUp" v-bind:src="scrubImg" alt=" 📚Card image cap"
+                      style="margin-top: -10px;" />
+                    <div class="card-body">
+                      <h5 class="card-title">{{scrubTitle}}</h5>
+                      <p class="card-text text-justify">
+                        {{scrubDesc}}
+                      </p>
+                      <a class="btn btn-danger persada-button pulsingButton" class="btn btn-primary" data-toggle="modal"
+                        data-target="#scrubPersadaModal" style="color:white">Lebih Informasi</a>
                     </div>
                   </div>
-                  <!-- 📚📚📚 card start 📚📚📚-->
-                  <div class="col-sm">
-                    <div class="card mt-1" style="width: 100%;">
+                </div>
+                <!-- 📚📚📚 card start 📚📚📚-->
+                <!-- ppppppppppppppppppppppppppppppp progest pppppppppppppppppppppppp-->
+                <div class="col-sm">
+                  <div class="card mt-1" style="width: 100%;">
                     <span class="m-1">
                       <button type="button" class="btn btn-danger float-right mx-1"
                         style="font-size:small">{{creamOffer}}</button>
                       <button type="button" class="btn btn-dark float-right"
                         style="font-size:small">{{creamPrice}}</button>
+
                     </span>
-                      <img class="card-img-top wow fadeInUp" v-bind:src="creamImg" alt=" 📚Card image cap"
-                        style="margin-top: -10px;" />
-                      <div class="card-body">
-                        <h5 class="card-title">{{creamTitle}}</h5>
-                        <p class="card-text text-justify">
-                          {{creamDesc}}
-                        </p>
-                        <a class="btn btn-danger persada-button pulsingButton" class="btn btn-primary" data-toggle="modal"
-                          data-target="#cleanserPersadaModal" style="color:white">Lebih Informasi</a>
-                      </div>
+                    <img class="card-img-top wow fadeInUp" v-bind:src="creamImg" alt=" 📚Card image cap"
+                      style="margin-top: -10px;" />
+                    <div class="card-body">
+                      <h5 class="card-title">{{creamTitle}}</h5>
+                      <p class="card-text text-justify">
+                        {{creamDesc}}
+                      </p>
+                      <a class="btn btn-danger persada-button pulsingButton" class="btn btn-primary" data-toggle="modal"
+                        data-target="#creamPersadaModal" style="color:white">Lebih Informasi</a>
                     </div>
                   </div>
-                  <!-- 📚📚📚 card End 📚📚📚-->
                 </div>
               </div>
             </div>
 
+            <!-- end vue -->
           </section>
-          <!-- end product 1 -->
         </div>
       </div>
-
-      <!-- Start new row -->
-      <div class="row">
+      <!-- ssssssssssssssssssssssssssssssss section 2 ssssssssssssssssssssssssssssssssssssss -->
+            <!-- tttttttttttttttttttttttttttttttttttttttt tab ttttttttttttttttttttttttttttttttttttttttttttt -->
+      
+            <div class="row">
         <div class="col-sm">
-          <!-- start product -->
+          <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx start new row product xxxxxxxxxxxxxxxxxxxxxxxxx -->
+          <!--- ttttttttttttttttttttttttttttttttt teh persada tttttttttttttttttttttttttttttt --->
           <section id="product" style="background: whitesmoke">
-            <div id="vue-card">
-              <!-- start vue -->
-              <div class="container my-2">
-                <div class="row">
+            <div class="mt-1">
+              <div class="row">
+                <!-- 📚📚📚 card start 📚📚📚-->
+                <div class="col-sm">
+                  <div class="card mt-1" style="width: 100%;">
+                    <span class="m-1">
+                      <button type="button" class="btn btn-danger float-right mx-1"
+                        style="font-size:small">{{dayOffer}}</button>
+                      <button type="button" class="btn btn-dark float-right"
+                        style="font-size:small">{{dayPrice}}</button>
 
-                  <!-- 📚📚📚 card start 📚📚📚-->
-                  <div class="col-sm">
-                    <div class="card mt-1" style="width: 100%;">
-                    <span class="m-1">
-                      <button type="button" class="btn btn-danger float-right mx-1"
-                        style="font-size:small">{{cleanserOffer}}</button>
-                      <button type="button" class="btn btn-dark float-right"
-                        style="font-size:small">{{cleanserPrice}}</button>
                     </span>
-                      <img class="card-img-top wow fadeInUp" v-bind:src="cleanserImg" alt=" 📚Card image cap"
-                        style="margin-top: -10px;" />
-                      <div class="card-body">
-                        <h5 class="card-title">{{cleanserTitle}}</h5>
-                        <p class="card-text text-justify">
-                          {{cleanserDesc}}
-                        </p>
-                        <a class="btn btn-danger persada-button pulsingButton" class="btn btn-primary" data-toggle="modal"
-                          data-target="#cleanserPersadaModal" style="color:white">Lebih Informasi</a>
-                      </div>
+                    <img class="card-img-top wow fadeInUp" v-bind:src="dayImg" alt=" 📚Card image cap"
+                      style="margin-top: -10px;" />
+
+                    <div class="card-body">
+                      <h5 class="card-title">{{dayTitle}}</h5>
+                      <p class="card-text text-justify">
+                        {{dayDesc}}
+                      </p>
+                      <a class="btn btn-danger persada-button pulsingButton" class="btn btn-primary" data-toggle="modal"
+                        data-target="#dayPersadaModal" style="color:white">Lebih Informasi</a>
                     </div>
                   </div>
-                  <!-- 📚📚📚 card End 📚📚📚-->
-                  <!-- 📚📚📚 card start 📚📚📚-->
-                  <div class="col-sm">
-                    <div class="card mt-1" style="width: 100%;">
+                </div>
+                <!-- 📚📚📚 card start 📚📚📚-->
+                <!--- kkkkkkkkkkkkkkkkkkkkkkkkk kopi kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk --->
+                <div class="col-sm">
+                  <div class="card mt-1" style="width: 100%;">
                     <span class="m-1">
                       <button type="button" class="btn btn-danger float-right mx-1"
-                        style="font-size:small">{{scrubOffer}}</button>
+                        style="font-size:small">{{nightOffer}}</button>
                       <button type="button" class="btn btn-dark float-right"
-                        style="font-size:small">{{scrubPrice}}</button>
+                        style="font-size:small">{{nightPrice}}</button>
+
                     </span>
-                      <img class="card-img-top wow fadeInUp" v-bind:src="scrubImg" alt=" 📚Card image cap"
-                        style="margin-top: -10px;" />
-                      <div class="card-body">
-                        <h5 class="card-title">{{scrubTitle}}</h5>
-                        <p class="card-text text-justify">
-                          {{scrubDesc}}
-                        </p>
-                        
-                        <a class="btn btn-danger persada-button pulsingButton" class="btn btn-primary" data-toggle="modal"
-                          data-target="#scrubPersadaModal" style="color:white">Lebih Informasi</a>
-                      </div>
+                    <img class="card-img-top wow fadeInUp" v-bind:src="nightImg" alt=" 📚Card image cap"
+                      style="margin-top: -10px;" />
+                    <div class="card-body">
+                      <h5 class="card-title">{{nightTitle}}</h5>
+                      <p class="card-text text-justify">
+                        {{nightDesc}}
+                      </p>
+                      <a class="btn btn-danger persada-button pulsingButton" class="btn btn-primary" data-toggle="modal"
+                        data-target="#nightPersadaModal" style="color:white">Lebih Informasi</a>
                     </div>
                   </div>
-                  <!-- 📚📚📚 card start 📚📚📚-->
-                  <div class="col-sm">
-                    <div class="card mt-1" style="width: 100%;">
+                </div>
+                <!-- 📚📚📚 card start 📚📚📚-->
+                <!-- ppppppppppppppppppppppppppppppp progest pppppppppppppppppppppppp-->
+                <div class="col-sm">
+                  <div class="card mt-1" style="width: 100%;">
                     <span class="m-1">
                       <button type="button" class="btn btn-danger float-right mx-1"
-                        style="font-size:small">{{creamOffer}}</button>
+                        style="font-size:small">{{ageOffer}}</button>
                       <button type="button" class="btn btn-dark float-right"
-                        style="font-size:small">{{creamPrice}}</button>
+                        style="font-size:small">{{agePrice}}</button>
+
                     </span>
-                      <img class="card-img-top wow fadeInUp" v-bind:src="creamImg" alt=" 📚Card image cap"
-                        style="margin-top: -10px;" />
-                      <div class="card-body">
-                        <h5 class="card-title">{{creamTitle}}</h5>
-                        <p class="card-text text-justify">
-                          {{creamDesc}}
-                        </p>
-                        <a class="btn btn-danger persada-button pulsingButton" class="btn btn-primary" data-toggle="modal"
-                          data-target="#cleanserPersadaModal" style="color:white">Lebih Informasi</a>
-                      </div>
+                    <img class="card-img-top wow fadeInUp" v-bind:src="creamImg" alt=" 📚Card image cap"
+                      style="margin-top: -10px;" />
+                    <div class="card-body">
+                      <h5 class="card-title">{{ageTitle}}</h5>
+                      <p class="card-text text-justify">
+                        {{ageDesc}}
+                      </p>
+                      <a class="btn btn-danger persada-button pulsingButton" class="btn btn-primary" data-toggle="modal"
+                        data-target="#agePersadaModal" style="color:white">Lebih Informasi</a>
                     </div>
                   </div>
-                  <!-- 📚📚📚 card End 📚📚📚-->
                 </div>
               </div>
             </div>
 
+            <!-- end vue -->
           </section>
-          <!-- end product 1 -->
         </div>
       </div>
+      <!-- ssssssssssssssssssssssssssssssss section 1 ssssssssssssssssssssssssssssssssssssss -->
 
-      <!-- end the row -->
+      </div>
+
+
 
 
 
@@ -457,7 +463,7 @@ document.getElementById("produk").innerHTML = `
   </div>
   <div class="container">
     <div class="row">
-      <div class="col-sm mb-2">
+      <div class="col-sm my-2">
         <!-- button -->
         <ul class="nav nav-pills mb-1 float-right" id="pills-tab" role="tablist">
           <li class="nav-item">
