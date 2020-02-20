@@ -48,7 +48,7 @@ document.getElementById("modal-cream").innerHTML = `
                                        Rose Geranium Oil, Cellulose Fibre, Nano White, SPF 30
                                         </p>
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 10px;"></div>
-                                        <h4 class="text-center">HARGA SCRUB</h4>
+                                        <h4 class="text-center">HARGA CC CREAM</h4>
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 15px;"></div>
                                         
                                         
@@ -60,7 +60,7 @@ document.getElementById("modal-cream").innerHTML = `
                                             <li class="list-group-item">Harga Diskaun
                                                 <button type="button" class="btn btn-danger float-right">RM50</button>
                                             </li>
-                                            <li class="list-group-item">Harga Pakej
+                                            <!-- <li class="list-group-item">Harga Pakej
                                                 <button type="button" class="btn btn-danger float-right">4/RM140</button>
                                             </li>
 
@@ -74,7 +74,7 @@ document.getElementById("modal-cream").innerHTML = `
 
                                             <li class="list-group-item">Harga Pembekal
                                                 <button type="button" class="btn btn-danger float-right">1000/RM20,000</button>
-                                            </li>  
+                                            </li>   -->
                                         </ul>
 
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 15px;"></div>

@@ -198,6 +198,13 @@ var app = new Vue({
 });
 
 var app = new Vue({
+    el: "#modal-day",
+    data: {
+        dayImg: "./asset/image/day.webp",
+    }
+});
+
+var app = new Vue({
     el: "#modal-night",
     data: {
         nightImg: "./asset/image/night.webp",

@@ -1,16 +1,16 @@
-document.getElementById("modal-scrub").innerHTML = `
+document.getElementById("modal-day").innerHTML = `
 <!-- Modal -->
-<div class="modal fade" id="scrubPersadaModal" tabindex="-1" role="dialog" aria-labelledby="ModalCenterTitle" aria-hidden="true">
+<div class="modal fade" id="dayPersadaModal" tabindex="-1" role="dialog" aria-labelledby="ModalCenterTitle" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
 
         <div class="modal-content">
             <div class="modal-header">
                 <div class="col-sm">
-                    <h5 class="modal-title" id="modalLongTitle">BEAUTY SCRUB</h5>
+                    <h5 class="modal-title" id="modalLongTitle">DAY SERUM</h5>
                 </div>
 
                 <span>
-                    <button type="button" class="btn btn-danger float-right " style="font-size:small">RM60</button>
+                    <button type="button" class="btn btn-danger float-right " style="font-size:small">RM82</button>
                 </span>
 
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -18,7 +18,7 @@ document.getElementById("modal-scrub").innerHTML = `
     </button>
             </div>
             <div class="modal-body">
-                <div id="modal-scrub">
+                <div id="modal-cream">
                     <!-- start vue -->
                     <div class="container">
                         <div class="row">
@@ -26,39 +26,39 @@ document.getElementById("modal-scrub").innerHTML = `
                             <div class="col-sm">
                                 <div style="width: 100%;">
 
-                                    <img class="card-img-top" v-bind:src="scrubImg" alt=" 📚Card image cap" />
+                                    <img class="card-img-top" v-bind:src="dayImg" alt=" 📚Card image cap" />
                                     <div class="card-body">
                                         <h5 class="card-title"> 👍 KEBAIKAN</h5>
                                         <p class="card-text">
-                                        • Membersihkan Sisa Solekan <br>
-                                        • Membersihkan Minyak dan Sel Kulit Mati<br>
-                                        • SPF Semula Jadi Melembabkan Dan Mencerahkan Muka<br>
-                                        • Anti Oksidan dan Perlindungan UV<br>
-                                        • Mencegah Jerawat dan Kemerahan<br>
-                                        • Membersihkan kotoran<br>
-                                        • Melindungi wajah dari Bakteria dan Fungus<br>
+                                        • Membantu Kulit Menjadi Matang Dengan Cepat <br>
+                                        • Kulit Nampak Segar Dan Bertenaga<br>
+                                        • Kulit Rasa Tegang dan Lebih Halus Serta Lembut<br>
+                                        • Mengekalkan Kelembapan dan Keanjalan Kulit<br>
+                                        • Mengandungi SPF 30 dan 40 (pelindung sinar UV)<br>
+                                       
                                         </p>
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 10px;"></div>
-                                        <h4 class="text-center">UNTUK KEGUNAAN HARIAN</h4>
+                                        <h4 class="text-center">LICIN LICIN BERSERI!</h4>
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 15px;"></div>
                                         
                                         <h5 class="card-title">🌿 RAMUAN</h5>
                                         <p class="card-text">
-                                       Deionised Water, Trigona Honey, Propolis, Bee Bread, Bamboo Salt, Sodium Lauroyl Sarcosinate,
-                                       Cocamide Dea, Zingiber Officinale(ginger),Root Oil, Ocimum Basilicum (basil) Oil.
+                                       Deionised Water, Bird's nest, Trigona Honey, Propolis Bee Bread, Glycerin Demethicone,
+                                       Chia Seed, Tocopheryl Acetatae, PEG-60 Hydrogenated Castor Oil, AHA, Arbutin, Aloe Vera,
+                                       Rose Geranium Oil, Cellulose Fibre, Nano White, SPF 30
                                         </p>
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 10px;"></div>
-                                        <h4 class="text-center">HARGA SCRUB</h4>
+                                        <h4 class="text-center">HARGA DAY SERUM</h4>
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 15px;"></div>
                                         
                                         
                                         
                                         <ul class="list-group list-group-flush">
                                             <li class="list-group-item">Harga Runcit
-                                                <button type="button" class="btn btn-danger float-right">RM69</button>
+                                                <button type="button" class="btn btn-danger float-right">RM82</button>
                                             </li>
                                             <li class="list-group-item">Harga Diskaun
-                                                <button type="button" class="btn btn-danger float-right">RM60</button>
+                                                <button type="button" class="btn btn-danger float-right">RM80</button>
                                             </li>
                                             <!-- <li class="list-group-item">Harga Pakej
                                                 <button type="button" class="btn btn-danger float-right">4/RM140</button>
