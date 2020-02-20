@@ -92,13 +92,10 @@ document.getElementById("modal-tanjaq").innerHTML = `
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 15px;"></div>
 
 
-                                        <div class="card">
-                                        <p style="font-size:small;padding-top:8px;margin-bottom: -3px;" class="text-center"> Diskaun lebih rendah di Email anda! Subscribe sekarang! </p>
-
-                                        
+                                       
                                         <!-- <a v-bind:href="pop2Url" class="btn btn-danger persada-button mt-1">Beli Sekarang</a> -->
-                                        <a href="https://wa.me/601158680328?text=Saya%20berminat%20untuk%20order%20Tanjaq" class="btn btn-success persada-button mt-1">Whatsapp</a>
-                                        <a href="https://web.facebook.com/commerce/products/2839078036157355/?rt=9&referral_code=page_shop_tab_desktop-all_products&ref=page_shop_tab" class="btn btn-primary persada-button mt-1">Facebook PM</a>
+                                        <a href="https://wa.me/601158680328?text=Saya%20berminat%20untuk%20order%20Anas" class="btn btn-success persada-button mt-1">Whatsapp</a>
+                                        <a href="https://m.me/persadaherb" target="_top" class="btn btn-primary persada-button mt-1">Facebook PM</a>
                                     </div>
                                 </div>
                             </div>
@@ -111,5 +108,4 @@ document.getElementById("modal-tanjaq").innerHTML = `
                 </div>
             </div>
         </div>
-
         `

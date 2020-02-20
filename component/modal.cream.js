@@ -1,6 +1,6 @@
-document.getElementById("modal-scrub").innerHTML = `
+document.getElementById("modal-cream").innerHTML = `
 <!-- Modal -->
-<div class="modal fade" id="scrubPersadaModal" tabindex="-1" role="dialog" aria-labelledby="ModalCenterTitle" aria-hidden="true">
+<div class="modal fade" id="creamPersadaModal" tabindex="-1" role="dialog" aria-labelledby="ModalCenterTitle" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
 
         <div class="modal-content">
@@ -18,7 +18,7 @@ document.getElementById("modal-scrub").innerHTML = `
     </button>
             </div>
             <div class="modal-body">
-                <div id="modal-scrub">
+                <div id="modal-cream">
                     <!-- start vue -->
                     <div class="container">
                         <div class="row">
@@ -26,26 +26,26 @@ document.getElementById("modal-scrub").innerHTML = `
                             <div class="col-sm">
                                 <div style="width: 100%;">
 
-                                    <img class="card-img-top" v-bind:src="scrubImg" alt=" 📚Card image cap" />
+                                    <img class="card-img-top" v-bind:src="creamImg" alt=" 📚Card image cap" />
                                     <div class="card-body">
                                         <h5 class="card-title"> 👍 KEBAIKAN</h5>
                                         <p class="card-text">
-                                        • Membersihkan Sisa Solekan <br>
-                                        • Membersihkan Minyak dan Sel Kulit Mati<br>
-                                        • SPF Semula Jadi Melembabkan Dan Mencerahkan Muka<br>
-                                        • Anti Oksidan dan Perlindungan UV<br>
-                                        • Mencegah Jerawat dan Kemerahan<br>
-                                        • Membersihkan kotoran<br>
-                                        • Melindungi wajah dari Bakteria dan Fungus<br>
+                                        • Memberi Kesan Cerah dan Sinar Segera <br>
+                                        • Mengurangkan Garis-garis Halus dan Kedutan<br>
+                                        • Meratakan Tona Kulit dan Mengurangkan Kesan-kesan Pori<br>
+                                        • Melindungi Kulit dari Sinar UV dan Kepanasan Matahari<br>
+                                        • Sebagai Pengganti  Solekan<br>
+                                       
                                         </p>
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 10px;"></div>
-                                        <h4 class="text-center">UNTUK KEGUNAAN HARIAN</h4>
+                                        <h4 class="text-center">LICIN BAK SUTERA</h4>
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 15px;"></div>
                                         
                                         <h5 class="card-title">🌿 RAMUAN</h5>
                                         <p class="card-text">
-                                       Deionised Water, Trigona Honey, Propolis, Bee Bread, Bamboo Salt, Sodium Lauroyl Sarcosinate,
-                                       Cocamide Dea, Zingiber Officinale(ginger),Root Oil, Ocimum Basilicum (basil) Oil.
+                                       Deionised Water, Bird's nest, Trigona Honey, Propolis Bee Bread, Glycerin Demethicone,
+                                       Chia Seed, Tocopheryl Acetatae, PEG-60 Hydrogenated Castor Oil, AHA, Arbutin, Aloe Vera,
+                                       Rose Geranium Oil, Cellulose Fibre, Nano White, SPF 30
                                         </p>
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 10px;"></div>
                                         <h4 class="text-center">HARGA SCRUB</h4>

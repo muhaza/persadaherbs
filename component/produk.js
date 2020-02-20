@@ -310,6 +310,7 @@ document.getElementById("produk").innerHTML = `
                       </div>
                     </div>
                   </div>
+                  <!-- 📚📚📚 card End 📚📚📚-->
                   <!-- 📚📚📚 card start 📚📚📚-->
                   <div class="col-sm">
                     <div class="card mt-1" style="width: 100%;">
@@ -337,22 +338,23 @@ document.getElementById("produk").innerHTML = `
                     <div class="card mt-1" style="width: 100%;">
                     <span class="m-1">
                       <button type="button" class="btn btn-danger float-right mx-1"
-                        style="font-size:small">{{vititeaOffer}}</button>
+                        style="font-size:small">{{creamOffer}}</button>
                       <button type="button" class="btn btn-dark float-right"
-                        style="font-size:small">{{vititeaPrice}}</button>
+                        style="font-size:small">{{creamPrice}}</button>
                     </span>
-                      <img class="card-img-top wow fadeInUp" v-bind:src="tanjaqImg" alt=" 📚Card image cap"
+                      <img class="card-img-top wow fadeInUp" v-bind:src="creamImg" alt=" 📚Card image cap"
                         style="margin-top: -10px;" />
                       <div class="card-body">
-                        <h5 class="card-title">{{tanjaqTitle}}</h5>
+                        <h5 class="card-title">{{creamTitle}}</h5>
                         <p class="card-text text-justify">
-                          {{tanjaqDesc}}
+                          {{creamDesc}}
                         </p>
                         <a class="btn btn-danger persada-button pulsingButton" class="btn btn-primary" data-toggle="modal"
-                          data-target="#progestPersadaModal" style="color:white">Lebih Informasi</a>
+                          data-target="#cleanserPersadaModal" style="color:white">Lebih Informasi</a>
                       </div>
                     </div>
                   </div>
+                  <!-- 📚📚📚 card End 📚📚📚-->
                 </div>
               </div>
             </div>
@@ -361,6 +363,96 @@ document.getElementById("produk").innerHTML = `
           <!-- end product 1 -->
         </div>
       </div>
+
+      <!-- Start new row -->
+      <div class="row">
+        <div class="col-sm">
+          <!-- start product -->
+          <section id="product" style="background: whitesmoke">
+            <div id="vue-card">
+              <!-- start vue -->
+              <div class="container my-2">
+                <div class="row">
+
+                  <!-- 📚📚📚 card start 📚📚📚-->
+                  <div class="col-sm">
+                    <div class="card mt-1" style="width: 100%;">
+                    <span class="m-1">
+                      <button type="button" class="btn btn-danger float-right mx-1"
+                        style="font-size:small">{{cleanserOffer}}</button>
+                      <button type="button" class="btn btn-dark float-right"
+                        style="font-size:small">{{cleanserPrice}}</button>
+                    </span>
+                      <img class="card-img-top wow fadeInUp" v-bind:src="cleanserImg" alt=" 📚Card image cap"
+                        style="margin-top: -10px;" />
+                      <div class="card-body">
+                        <h5 class="card-title">{{cleanserTitle}}</h5>
+                        <p class="card-text text-justify">
+                          {{cleanserDesc}}
+                        </p>
+                        <a class="btn btn-danger persada-button pulsingButton" class="btn btn-primary" data-toggle="modal"
+                          data-target="#cleanserPersadaModal" style="color:white">Lebih Informasi</a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- 📚📚📚 card End 📚📚📚-->
+                  <!-- 📚📚📚 card start 📚📚📚-->
+                  <div class="col-sm">
+                    <div class="card mt-1" style="width: 100%;">
+                    <span class="m-1">
+                      <button type="button" class="btn btn-danger float-right mx-1"
+                        style="font-size:small">{{scrubOffer}}</button>
+                      <button type="button" class="btn btn-dark float-right"
+                        style="font-size:small">{{scrubPrice}}</button>
+                    </span>
+                      <img class="card-img-top wow fadeInUp" v-bind:src="scrubImg" alt=" 📚Card image cap"
+                        style="margin-top: -10px;" />
+                      <div class="card-body">
+                        <h5 class="card-title">{{scrubTitle}}</h5>
+                        <p class="card-text text-justify">
+                          {{scrubDesc}}
+                        </p>
+                        
+                        <a class="btn btn-danger persada-button pulsingButton" class="btn btn-primary" data-toggle="modal"
+                          data-target="#scrubPersadaModal" style="color:white">Lebih Informasi</a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- 📚📚📚 card start 📚📚📚-->
+                  <div class="col-sm">
+                    <div class="card mt-1" style="width: 100%;">
+                    <span class="m-1">
+                      <button type="button" class="btn btn-danger float-right mx-1"
+                        style="font-size:small">{{creamOffer}}</button>
+                      <button type="button" class="btn btn-dark float-right"
+                        style="font-size:small">{{creamPrice}}</button>
+                    </span>
+                      <img class="card-img-top wow fadeInUp" v-bind:src="creamImg" alt=" 📚Card image cap"
+                        style="margin-top: -10px;" />
+                      <div class="card-body">
+                        <h5 class="card-title">{{creamTitle}}</h5>
+                        <p class="card-text text-justify">
+                          {{creamDesc}}
+                        </p>
+                        <a class="btn btn-danger persada-button pulsingButton" class="btn btn-primary" data-toggle="modal"
+                          data-target="#cleanserPersadaModal" style="color:white">Lebih Informasi</a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- 📚📚📚 card End 📚📚📚-->
+                </div>
+              </div>
+            </div>
+
+          </section>
+          <!-- end product 1 -->
+        </div>
+      </div>
+
+      <!-- end the row -->
+
+
+
     </div>
   </div>
   <div class="container">
