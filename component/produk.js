@@ -432,7 +432,7 @@ document.getElementById("produk").innerHTML = `
                         style="font-size:small">{{agePrice}}</button>
 
                     </span>
-                    <img class="card-img-top wow fadeInUp" v-bind:src="creamImg" alt=" 📚Card image cap"
+                    <img class="card-img-top wow fadeInUp" v-bind:src="ageImg" alt=" 📚Card image cap"
                       style="margin-top: -10px;" />
                     <div class="card-body">
                       <h5 class="card-title">{{ageTitle}}</h5>
