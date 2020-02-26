@@ -300,7 +300,7 @@ document.getElementById("produk").innerHTML = `
                         {{specDesc}}
                       </p>
                       <a class="btn btn-danger persada-button pulsingButton" class="btn btn-primary" data-toggle="modal"
-                        data-target="#suriPersadaModal" style="color:white">Lebih Informasi</a>
+                        data-target="#specPersadaModal" style="color:white">Lebih Informasi</a>
                     </div>
                   </div>
                 </div>

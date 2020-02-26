@@ -72,10 +72,10 @@ var app = new Vue({
         fibreUrl: "http://google.com",
         oooo: 000000000000000000000000000000000000000000000,
         specImg: "./asset/image/spectrum.webp",
-        specPrice:"RM15",
-        specOffer: "OFFER RM12",
+        specPrice:"RM140",
+        specOffer: "OFFER RM100",
         specTitle: "Spectrum",
-        specDesc: "Mencegah,Rabun Jauh, Mengatasi Masalah Insomnia, Masalah Insomnia & Alzheimer",
+        specDesc: "Menjadi zat tambahan, Penawar kanser, Anti racun, Mempercepatkan pertumbuhan tisu kulit..",
         specUrl: "http://google.com",
         oooo: 000000000000000000000000000000000000000000000,
         cleanserImg: "./asset/image/cleanser.webp",
@@ -239,4 +239,10 @@ var app = new Vue({
     }
 });
 
+var app = new Vue({
+    el: "#modal-spectrum",
+    data: {
+        specImg: "./asset/image/spectrum.webp",
+    }
+});
 
