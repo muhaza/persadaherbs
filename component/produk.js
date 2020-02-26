@@ -198,7 +198,7 @@ document.getElementById("produk").innerHTML = `
           <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx start new row product xxxxxxxxxxxxxxxxxxxxxxxxx -->
           <!-- mmmmmmmmmmmmmmmmmmmmmmm mysuri mmmmmmmmmmmmmmmmmmmmmmmmm-->
           <section id="product" style="background: whitesmoke">
-            <div class="mb-3">
+            <div class="">
               <div class="row">
                 <!-- 📚📚📚 card start 📚📚📚-->
                 <!-- mmmmmmmmmmmmmmmmmmmmmmm mysuri mmmmmmmmmmmmmmmmmmmmmmmmm-->
@@ -274,10 +274,96 @@ document.getElementById("produk").innerHTML = `
           </section>
         </div>
       </div>
+      <!-- ssssssssssssssssssssssssssssssssss section sssssssssssssssssssssssssssssssssssssss -->
+       <!-- ssssssssssssssssssssssssssssssss section 4 ssssssssssssssssssssssssssssssssssssss -->
+       <div class="row">
+        <div class="col-sm">
+          <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx start new row product xxxxxxxxxxxxxxxxxxxxxxxxx -->
+          <section id="product" style="background: whitesmoke">
+            <div class="mb-3">
+              <div class="row">
+                <!-- 📚📚📚 card start 📚📚📚-->
+                <!-- mmmmmmmmmmmmmmmmmmmmmmm Spectrum mmmmmmmmmmmmmmmmmmmmmmmmm-->
+                <div class="col-sm col-lg-4">
+                  <div class="card mt-1" style="width: 100%;">
+                    <span class="m-1">
+                      <button type="button" class="btn btn-danger float-right mx-1"
+                        style="font-size:small">{{specOffer}}</button>
+                      <button type="button" class="btn btn-dark float-right"
+                        style="font-size:small">{{specPrice}}</button>
+                    </span>
+                    <img class="card-img-top wow fadeInUp" v-bind:src="specImg" alt=" 📚Card image cap"
+                      style="margin-top: -10px;" />
+                    <div class="card-body">
+                      <h5 class="card-title">{{specTitle}}</h5>
+                      <p class="card-text text-justify">
+                        {{specDesc}}
+                      </p>
+                      <a class="btn btn-danger persada-button pulsingButton" class="btn btn-primary" data-toggle="modal"
+                        data-target="#suriPersadaModal" style="color:white">Lebih Informasi</a>
+                    </div>
+                  </div>
+                </div>
+                <!-- mmmmmmmmmmmmmmmmmmmmmmm Spectrum mmmmmmmmmmmmmmmmmmmmmmmmm-->
+                <!-- 📚📚📚 card start 📚📚📚-->
+                <!-- aaaaaaaaaaaaaaaaaaaaaaaaaa Fibre aaaaaaaaaaaaaaaaaaaaaaa-->
+                <div class="col-sm col-lg-4">
+                  <div class="card mt-1" style="width: 100%;">
+                    <span class="m-1">
+                      <button type="button" class="btn btn-danger float-right mx-1"
+                        style="font-size:small">{{fibreOffer}}</button>
+                      <button type="button" class="btn btn-dark float-right"
+                        style="font-size:small">{{fibrePrice}}</button>
+                    </span>
+                    <img class="card-img-top wow fadeInUp" v-bind:src="fibreImg" alt=" 📚Card image cap"
+                      style="margin-top: -10px;" />
+                    <div class="card-body">
+                      <h5 class="card-title">{{fibreTitle}}</h5>
+                      <p class="card-text text-justify">
+                        {{fibreDesc}}
+                      </p>
+                      <a class="btn btn-danger persada-button pulsingButton" class="btn btn-primary" data-toggle="modal"
+                        data-target="#fibrePersadaModal" style="color:white">Lebih Informasi</a>
+                    </div>
+                  </div>
+                </div>
+                <!-- aaaaaaaaaaaaaaaaaaaaaaaaaa Fibre aaaaaaaaaaaaaaaaaaaaaaa-->
+                <!-- aaaaaaaaaaaaaaaaaaaaaaaaaa Fibre aaaaaaaaaaaaaaaaaaaaaaa-->
+                <!-- 📚📚📚 card start 📚📚📚-->
+                <!-- <div class="col-sm col-lg-4">
+                  <div class="card mt-1" style="width: 100%;">
+                    <span class="m-1">
+                      <button type="button" class="btn btn-danger float-right mx-1"
+                        style="font-size:small">{{vititeaOffer}}</button>
+                      <button type="button" class="btn btn-dark float-right"
+                        style="font-size:small">{{vititeaPrice}}</button>
+                    </span>
+                    <img class="card-img-top wow fadeInUp" v-bind:src="soonimg" alt=" 📚Card image cap"
+                      style="margin-top: -10px;" />
+                    <div class="card-body">
+                      <h5 class="card-title">{{vititeaTitle}}</h5>
+                      <p class="card-text text-justify">
+                        {{vititeaDesc}}
+                      </p>
+                      <a class="btn btn-danger persada-button pulsingButton" class="btn btn-primary" data-toggle="modal"
+                        data-target="#vititeaPersadaModal" style="color:white">Lebih Informasi</a>
+                    </div>
+                  </div>
+                </div> -->
+                <!-- cccccccccccccccccccccccc end card ccccccccccccccccccccccccc -->
+              </div>
+            </div>
+
+            <!-- end vue -->
+          </section>
+        </div>
+      </div>
       <!-- ssssssssssssssssssssssssssssssss section ssssssssssssssssssssssssssssssssssssss -->
 
-  </div>
+      
 
+  </div>
+  <!--  xxxxxxxxxxxxxxxxxxxxxxxxxxxx KECANTIKKAN xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
     <!--  xxxxxxxxxxxxxxxxxxxxxxxxxxxx Next Page xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
     <div class="tab-pane fade" id="page-2" role="tabpanel" aria-labelledby="pills-contact-tab">
       <!-- tttttttttttttttttttttttttttttttttttttttt tab ttttttttttttttttttttttttttttttttttttttttttttt -->
@@ -285,7 +371,7 @@ document.getElementById("produk").innerHTML = `
       <div class="row">
         <div class="col-sm">
           <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx start new row product xxxxxxxxxxxxxxxxxxxxxxxxx -->
-          <!--- ttttttttttttttttttttttttttttttttt teh persada tttttttttttttttttttttttttttttt --->
+          <!--- cccccccccccccccccccccccc cleanser cccccccccccccccccccccccccccccccccccccccc --->
           <section id="product" style="background: whitesmoke">
             <div class="mt-1">
               <div class="row">
@@ -313,7 +399,7 @@ document.getElementById("produk").innerHTML = `
                   </div>
                 </div>
                 <!-- 📚📚📚 card start 📚📚📚-->
-                <!--- kkkkkkkkkkkkkkkkkkkkkkkkk kopi kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk --->
+                <!--- ssssssssssssssssssssssssssss scrub sssssssssssssssssssssssssssssss --->
                 <div class="col-sm">
                   <div class="card mt-1" style="width: 100%;">
                     <span class="m-1">
@@ -336,7 +422,7 @@ document.getElementById("produk").innerHTML = `
                   </div>
                 </div>
                 <!-- 📚📚📚 card start 📚📚📚-->
-                <!-- ppppppppppppppppppppppppppppppp progest pppppppppppppppppppppppp-->
+                <!-- cccccccccccccccccccccccccccc cc cream ccccccccccccccccccccccccccccccc-->
                 <div class="col-sm">
                   <div class="card mt-1" style="width: 100%;">
                     <span class="m-1">
@@ -358,6 +444,7 @@ document.getElementById("produk").innerHTML = `
                     </div>
                   </div>
                 </div>
+                <!-- end card -->
               </div>
             </div>
 
@@ -371,7 +458,7 @@ document.getElementById("produk").innerHTML = `
             <div class="row">
         <div class="col-sm">
           <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx start new row product xxxxxxxxxxxxxxxxxxxxxxxxx -->
-          <!--- ttttttttttttttttttttttttttttttttt teh persada tttttttttttttttttttttttttttttt --->
+          <!--- ttttttttttttttttttttttttttttttttt Day Serum tttttttttttttttttttttttttttttt --->
           <section id="product" style="background: whitesmoke">
             <div class="mt-1">
               <div class="row">
@@ -399,7 +486,7 @@ document.getElementById("produk").innerHTML = `
                   </div>
                 </div>
                 <!-- 📚📚📚 card start 📚📚📚-->
-                <!--- kkkkkkkkkkkkkkkkkkkkkkkkk kopi kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk --->
+                <!--- kkkkkkkkkkkkkkkkkkkkkkkkk Night Serum kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk --->
                 <div class="col-sm">
                   <div class="card mt-1" style="width: 100%;">
                     <span class="m-1">
@@ -451,7 +538,7 @@ document.getElementById("produk").innerHTML = `
           </section>
         </div>
       </div>
-      <!-- ssssssssssssssssssssssssssssssss section 1 ssssssssssssssssssssssssssssssssssssss -->
+      <!-- ssssssssssssssssssssssssssssssss section 4 ssssssssssssssssssssssssssssssssssssss -->
 
       </div>
 

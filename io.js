@@ -64,6 +64,20 @@ var app = new Vue({
         vititeaDesc: "Mencegah,Rabun Jauh, Mengatasi Masalah Insomnia, Masalah Insomnia & Alzheimer",
         vititeaUrl: "http://google.com",
         oooo: 000000000000000000000000000000000000000000000,
+        fibreImg: "./asset/image/fibre.webp",
+        fibrePrice:"RM15",
+        fibreOffer: "OFFER RM12",
+        fibreTitle: "Fibre",
+        fibreDesc: "Mencegah,Rabun Jauh, Mengatasi Masalah Insomnia, Masalah Insomnia & Alzheimer",
+        fibreUrl: "http://google.com",
+        oooo: 000000000000000000000000000000000000000000000,
+        specImg: "./asset/image/spectrum.webp",
+        specPrice:"RM15",
+        specOffer: "OFFER RM12",
+        specTitle: "Spectrum",
+        specDesc: "Mencegah,Rabun Jauh, Mengatasi Masalah Insomnia, Masalah Insomnia & Alzheimer",
+        specUrl: "http://google.com",
+        oooo: 000000000000000000000000000000000000000000000,
         cleanserImg: "./asset/image/cleanser.webp",
         cleanserPrice:"RM57",
         cleanserOffer: "OFFER RM50",
@@ -100,11 +114,18 @@ var app = new Vue({
         nightUrl: "http://google.com",
         oooo: 000000000000000000000000000000000000000000000,
         ageImg: "./asset/image/age.webp",
-        agePrice:"RM82",
-        ageOffer: "OFFER RM80",
+        agePrice:"RM125",
+        ageOffer: "OFFER RM110",
         ageTitle: "Age Defying Mask",
-        ageDesc: "Mencerahkan, Mengurangkan garis-garis halus & kedutan, Merata tona kulit, Pelindungan UV",
+        ageDesc: "Membersihkan kulit, Liang Roma, Kurang Garis Halus, Muka Bercahaya, Mengurangkan Minyak..",
         ageUrl: "http://google.com",
+        oooo: 000000000000000000000000000000000000000000000,
+        soapImg: "./asset/image/sabun.webp",
+        soapPrice:"RM15",
+        soapOffer: "OFFER RM12",
+        soapTitle: "Sabun Kelulut",
+        soapDesc: "Mencegah,Rabun Jauh, Mengatasi Masalah Insomnia, Masalah Insomnia & Alzheimer",
+        soapUrl: "http://google.com",
         oooo: 000000000000000000000000000000000000000000000,
         soonimg: "./asset/image/akan-datang.jpg",
         soonTitle: "Akan Datang",
@@ -208,6 +229,13 @@ var app = new Vue({
     el: "#modal-night",
     data: {
         nightImg: "./asset/image/night.webp",
+    }
+});
+
+var app = new Vue({
+    el: "#modal-age",
+    data: {
+        ageImg: "./asset/image/age.webp",
     }
 });
 
