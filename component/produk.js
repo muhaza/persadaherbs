@@ -346,7 +346,8 @@ document.getElementById("produk").innerHTML = `
                         {{vititeaDesc}}
                       </p> -->
 
-                      <a class="nav-link nav-number btn btn-danger persada-button pulsingButton" id="pills-contact-tab" data-toggle="pill" href="/#page-2" role="tab"
+                      <a class="nav-link nav-number btn btn-danger persada-button pulsingButton" 
+                      id="pills-contact-tab" data-toggle="pill" href="#page-2" onclick="openUrl()" role="tab"
                       aria-controls="pills-contact" aria-selected="false">Lihat Produk Kecantikan</a>
                     </div>
                   </div>
