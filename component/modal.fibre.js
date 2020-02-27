@@ -11,7 +11,7 @@ document.getElementById("modal-fibre").innerHTML = `
 
                 <span>
                     <button type="button" class="btn btn-danger float-right " style="font-size:small; width:100px">
-                    Off RM100</button>
+                    Offer RM74</button>
                 </span>
 
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -26,7 +26,7 @@ document.getElementById("modal-fibre").innerHTML = `
                             <!-- 📚📚📚 card start 📚📚📚-->
                             <div class="col-sm">
                                 <div style="width: 100%;">
-                                    <img class="card-img-top" v-bind:src="specImg" alt=" 📚Card image cap" />
+                                    <img class="card-img-top" v-bind:src="fibreImg" alt=" 📚Card image cap" />
                                     <div class="card-body">
                                         <h5 class="card-title"> 👍 KEBAIKAN</h5>
                                         <p class="card-text">
@@ -53,13 +53,13 @@ document.getElementById("modal-fibre").innerHTML = `
                                         <h5 class="card-title">🌿 RAMUAN</h5>
                                         <p class="card-text">
                                         , Ekstrak Limau, 
-, Psylium Husk, 
-, Ekstrak Halia, 
-, Bunga Roselle, 
-, Oat (Beta-Glukan),
-, Fructo-Oligosaccharide
-, Hawthron Berry
-, Blackcurrant
+                                        , Psylium Husk, 
+                                        , Ekstrak Halia, 
+                                        , Bunga Roselle, 
+                                        , Oat (Beta-Glukan),
+                                        , Fructo-Oligosaccharide
+                                        , Hawthron Berry
+                                        , Blackcurrant
 
                                         </p>
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 10px;"></div>
@@ -71,10 +71,10 @@ document.getElementById("modal-fibre").innerHTML = `
 
                                         <ul class="list-group list-group-flush">
                                             <li class="list-group-item">Harga Runcit
-                                                <button type="button" class="btn btn-danger float-right">RM140</button>
+                                                <button type="button" class="btn btn-danger float-right">RM74</button>
                                             </li>
                                             <li class="list-group-item">Harga Diskaun
-                                                <button type="button" class="btn btn-danger float-right">RM100</button>
+                                                <button type="button" class="btn btn-danger float-right">RM70</button>
                                             </li>
                                             <!-- <li class="list-group-item">Harga Pakej
                                                 <button type="button" class="btn btn-danger float-right">4/RM180</button>

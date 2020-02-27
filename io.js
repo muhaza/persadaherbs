@@ -65,8 +65,8 @@ var app = new Vue({
         vititeaUrl: "http://google.com",
         oooo: 000000000000000000000000000000000000000000000,
         fibreImg: "./asset/image/fibre.webp",
-        fibrePrice:"RM15",
-        fibreOffer: "OFFER RM12",
+        fibrePrice:"RM74",
+        fibreOffer: "OFFER RM70",
         fibreTitle: "Fibre",
         fibreDesc: "Mencegah,Rabun Jauh, Mengatasi Masalah Insomnia, Masalah Insomnia & Alzheimer",
         fibreUrl: "http://google.com",
@@ -243,6 +243,13 @@ var app = new Vue({
     el: "#modal-spectrum",
     data: {
         specImg: "./asset/image/spectrum.webp",
+    }
+});
+
+var app = new Vue({
+    el: "#modal-fibre",
+    data: {
+        fibreImg: "./asset/image/fibre.webp",
     }
 });
 
