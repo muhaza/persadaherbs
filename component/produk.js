@@ -330,26 +330,27 @@ document.getElementById("produk").innerHTML = `
                 <!-- aaaaaaaaaaaaaaaaaaaaaaaaaa Fibre aaaaaaaaaaaaaaaaaaaaaaa-->
                 <!-- aaaaaaaaaaaaaaaaaaaaaaaaaa Fibre aaaaaaaaaaaaaaaaaaaaaaa-->
                 <!-- 📚📚📚 card start 📚📚📚-->
-                <!-- <div class="col-sm col-lg-4">
+                <div class="col-sm col-lg-4">
                   <div class="card mt-1" style="width: 100%;">
                     <span class="m-1">
-                      <button type="button" class="btn btn-danger float-right mx-1"
+                      <!-- <button type="button" class="btn btn-danger float-right mx-1"
                         style="font-size:small">{{vititeaOffer}}</button>
                       <button type="button" class="btn btn-dark float-right"
-                        style="font-size:small">{{vititeaPrice}}</button>
+                        style="font-size:small">{{vititeaPrice}}</button> -->
                     </span>
-                    <img class="card-img-top wow fadeInUp" v-bind:src="soonimg" alt=" 📚Card image cap"
+                    <img class="card-img-top wow fadeInUp" src="./asset/image/produk-kecantikan.webp" alt=" 📚Card image cap"
                       style="margin-top: -10px;" />
                     <div class="card-body">
-                      <h5 class="card-title">{{vititeaTitle}}</h5>
+                      <!-- <h5 class="card-title">{{vititeaTitle}}</h5>
                       <p class="card-text text-justify">
                         {{vititeaDesc}}
-                      </p>
-                      <a class="btn btn-danger persada-button pulsingButton" class="btn btn-primary" data-toggle="modal"
-                        data-target="#vititeaPersadaModal" style="color:white">Lebih Informasi</a>
+                      </p> -->
+
+                      <a class="nav-link nav-number btn btn-danger persada-button pulsingButton" id="pills-contact-tab" data-toggle="pill" href="/#page-2" role="tab"
+                      aria-controls="pills-contact" aria-selected="false">Lihat Produk Kecantikan</a>
                     </div>
                   </div>
-                </div> -->
+                </div>
                 <!-- cccccccccccccccccccccccc end card ccccccccccccccccccccccccc -->
               </div>
             </div>
