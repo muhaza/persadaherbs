@@ -11,7 +11,7 @@ document.getElementById("produk").innerHTML = `
               aria-controls="pills-profile" aria-selected="false">Kesihatan</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link nav-number active pulsingButton" id="pills-contact-tab" data-toggle="pill" href="#page-2" role="tab"
+            <a class="nav-link nav-number active pulsingButton" id="pills-contact-tab" href="beauty.html#produk" role="tab"
               aria-controls="pills-contact" aria-selected="false">Kecantikan</a>
           </li>
         </ul>
@@ -560,7 +560,7 @@ document.getElementById("produk").innerHTML = `
               aria-controls="pills-profile" aria-selected="false">Kesihatan</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link nav-number pulsingButton" id="pills-contact-tab" data-toggle="pill" href="#page-2" role="tab"
+            <a class="nav-link nav-number pulsingButton" id="pills-contact-tab" href="beauty.html#produk" role="tab"
               aria-controls="pills-contact" aria-selected="false">Kecantikan</a>
           </li>
         </ul>

@@ -7,7 +7,7 @@ document.getElementById("produk").innerHTML = `
         <!-- button -->
         <ul class="nav nav-pills mb-1 float-right" id="pills-tab" role="tablist">
           <li class="nav-item">
-            <a class="nav-link nav-number active pulsingButton" id="pills-profile-tab" data-toggle="pill" href="#page-1" role="tab"
+            <a class="nav-link nav-number active pulsingButton" id="pills-profile-tab" href="/index.html#produk" role="tab"
               aria-controls="pills-profile" aria-selected="false">Kesihatan</a>
           </li>
           <li class="nav-item">
@@ -556,12 +556,13 @@ document.getElementById("produk").innerHTML = `
       <div class="col-sm my-2">
         <!-- button -->
         <ul class="nav nav-pills mb-1 float-right" id="pills-tab" role="tablist">
-          <li class="nav-item">
-            <a class="nav-link nav-number active pulsingButton" id="pills-profile-tab" data-toggle="pill" href="#page-1" role="tab"
+        <li class="nav-item">
+            <a class="nav-link nav-number active pulsingButton" id="pills-profile-tab" href="/index.html#produk" role="tab"
               aria-controls="pills-profile" aria-selected="false">Kesihatan</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link nav-number pulsingButton" id="pills-contact-tab" data-toggle="pill" href="#page-2" role="tab"
+                <!-- data-toggle="pill" -->
+            <a class="nav-link nav-number pulsingButton" id="pills-contact-tab"  href="/beauty.html#produk" role="tab"
               aria-controls="pills-contact" aria-selected="false">Kecantikan</a>
           </li>
         </ul>
