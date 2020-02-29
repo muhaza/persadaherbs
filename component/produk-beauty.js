@@ -7,7 +7,7 @@ document.getElementById("produk").innerHTML = `
         <!-- button -->
         <ul class="nav nav-pills mb-1 float-right" id="pills-tab" role="tablist">
           <li class="nav-item">
-            <a class="nav-link nav-number pulsingButton" id="pills-profile-tab" data-toggle="pill" href="#page-1" role="tab"
+            <a class="nav-link nav-number pulsingButton" id="pills-profile-tab" href="index.html#produk" role="tab"
               aria-controls="pills-profile" aria-selected="false">Kesihatan</a>
           </li>
           <li class="nav-item">
@@ -556,7 +556,7 @@ document.getElementById("produk").innerHTML = `
         <!-- button -->
         <ul class="nav nav-pills mb-1 float-right" id="pills-tab" role="tablist">
           <li class="nav-item">
-            <a class="nav-link nav-number active pulsingButton" id="pills-profile-tab" data-toggle="pill" href="#page-1" role="tab"
+            <a class="nav-link nav-number active pulsingButton" id="pills-profile-tab" href="index.html#produk" role="tab"
               aria-controls="pills-profile" aria-selected="false">Kesihatan</a>
           </li>
           <li class="nav-item">

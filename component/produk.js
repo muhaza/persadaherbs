@@ -12,7 +12,7 @@ document.getElementById("produk").innerHTML = `
           </li>
           <li class="nav-item">
                 <!-- data-toggle="pill" -->
-            <a class="nav-link nav-number pulsingButton" id="pills-contact-tab"  href="/beauty.html" role="tab"
+            <a class="nav-link nav-number pulsingButton" id="pills-contact-tab"  href="/beauty.html#produk" role="tab"
               aria-controls="pills-contact" aria-selected="false">Kecantikan</a>
           </li>
         </ul>
