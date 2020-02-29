@@ -7,12 +7,11 @@ document.getElementById("produk").innerHTML = `
         <!-- button -->
         <ul class="nav nav-pills mb-1 float-right" id="pills-tab" role="tablist">
           <li class="nav-item">
-            <a class="nav-link nav-number active pulsingButton" id="pills-profile-tab" data-toggle="pill" href="#page-1" role="tab"
+            <a class="nav-link nav-number pulsingButton" id="pills-profile-tab" data-toggle="pill" href="#page-1" role="tab"
               aria-controls="pills-profile" aria-selected="false">Kesihatan</a>
           </li>
           <li class="nav-item">
-                <!-- data-toggle="pill" -->
-            <a class="nav-link nav-number pulsingButton" id="pills-contact-tab"  href="/beauty.html" role="tab"
+            <a class="nav-link nav-number active pulsingButton" id="pills-contact-tab" data-toggle="pill" href="#page-2" role="tab"
               aria-controls="pills-contact" aria-selected="false">Kecantikan</a>
           </li>
         </ul>
@@ -23,7 +22,7 @@ document.getElementById("produk").innerHTML = `
 <div id="vue-product">
   <!-- vvvvvvvvvvvvvvvvvvvvvvvvvvvvvv start vue vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv -->
   <div class="tab-content container" id="pills-tabContent">
-    <div class="tab-pane fade show active" id="page-1" role="tabpanel" aria-labelledby="pills-profile-tab">
+    <div class="tab-pane fade " id="page-1" role="tabpanel" aria-labelledby="pills-profile-tab">
       <!-- tttttttttttttttttttttttttttttttttttttttt tab ttttttttttttttttttttttttttttttttttttttttttttt -->
       
       <div class="row">
@@ -348,7 +347,7 @@ document.getElementById("produk").innerHTML = `
                       </p> -->
 
                       <a class="nav-link nav-number btn btn-danger persada-button pulsingButton" 
-                      id="pills-contact-tab" href="beauty.html#produk" role="tab"
+                      id="pills-contact-tab" href="index.html#produk" onclick="openUrl()" role="tab"
                       aria-controls="pills-contact" aria-selected="false">Lihat Produk Kecantikan</a>
                     </div>
                   </div>
@@ -368,7 +367,7 @@ document.getElementById("produk").innerHTML = `
   </div>
   <!--  xxxxxxxxxxxxxxxxxxxxxxxxxxxx KECANTIKKAN xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
     <!--  xxxxxxxxxxxxxxxxxxxxxxxxxxxx Next Page xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-    <div class="tab-pane fade" id="page-2" role="tabpanel" aria-labelledby="pills-contact-tab">
+    <div class="tab-pane fade show active" id="page-2" role="tabpanel" aria-labelledby="pills-contact-tab">
       <!-- tttttttttttttttttttttttttttttttttttttttt tab ttttttttttttttttttttttttttttttttttttttttttttt -->
       
       <div class="row">

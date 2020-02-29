@@ -134,6 +134,15 @@ var app = new Vue({
     }
 });
 
+// banner
+var app = new Vue({
+    el: "#banner-img",
+    data: {
+        tehBanner: "./asset/image/Teh-Persada-gold.webp",
+        tehMysuri: "./asset/image/banner-mysuri.webp",
+    }
+});
+
 var app = new Vue({
     el: "#modal-teh",
     data: {
