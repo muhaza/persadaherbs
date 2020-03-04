@@ -7,7 +7,7 @@ document.getElementById("produk").innerHTML = `
         <!-- button -->
         <ul class="nav nav-pills mb-1 float-right" id="pills-tab" role="tablist">
           <li class="nav-item">
-            <a class="nav-link nav-number active pulsingButton" id="pills-profile-tab" href="/index.html#produk" role="tab"
+            <a class="nav-link nav-number active pulsingButton" id="pills-profile-tab" href="/#produk" role="tab"
               aria-controls="pills-profile" aria-selected="false">Kesihatan</a>
           </li>
           <li class="nav-item">
@@ -458,7 +458,7 @@ document.getElementById("produk").innerHTML = `
       <!-- ssssssssssssssssssssssssssssssss section 2 ssssssssssssssssssssssssssssssssssssss -->
             <!-- tttttttttttttttttttttttttttttttttttttttt tab ttttttttttttttttttttttttttttttttttttttttttttt -->
       
-            <div class="row">
+      <div class="row">
         <div class="col-sm">
           <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx start new row product xxxxxxxxxxxxxxxxxxxxxxxxx -->
           <!--- ttttttttttttttttttttttttttttttttt Day Serum tttttttttttttttttttttttttttttt --->
@@ -541,7 +541,91 @@ document.getElementById("produk").innerHTML = `
           </section>
         </div>
       </div>
-      <!-- ssssssssssssssssssssssssssssssss section 4 ssssssssssssssssssssssssssssssssssssss -->
+      <!-- ssssssssssssssssssssssssssssssss section 3 ssssssssssssssssssssssssssssssssssssss -->
+      <div class="row">
+        <div class="col-sm">
+          <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx start new row product xxxxxxxxxxxxxxxxxxxxxxxxx -->
+          <!--- ttttttttttttttttttttttttttttttttt Day Serum tttttttttttttttttttttttttttttt --->
+          <section id="product" style="background: whitesmoke">
+            <div class="mt-1">
+              <div class="row">
+                <!-- 📚📚📚 card start 📚📚📚-->
+                <div class="col-sm">
+                  <div class="card mt-1" style="width: 100%;">
+                    <span class="m-1">
+                      <button type="button" class="btn btn-danger float-right mx-1"
+                        style="font-size:small">{{dayOffer}}</button>
+                      <button type="button" class="btn btn-dark float-right"
+                        style="font-size:small">{{dayPrice}}</button>
+
+                    </span>
+                    <img class="card-img-top wow fadeInUp" v-bind:src="dayImg" alt=" 📚Card image cap"
+                      style="margin-top: -10px;" />
+
+                    <div class="card-body">
+                      <h5 class="card-title">{{dayTitle}}</h5>
+                      <p class="card-text text-justify">
+                        {{dayDesc}}
+                      </p>
+                      <a class="btn btn-danger persada-button pulsingButton" class="btn btn-primary" data-toggle="modal"
+                        data-target="#dayPersadaModal" style="color:white">Lebih Informasi</a>
+                    </div>
+                  </div>
+                </div>
+                <!-- 📚📚📚 card start 📚📚📚-->
+                <!--- kkkkkkkkkkkkkkkkkkkkkkkkk Night Serum kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk --->
+                <div class="col-sm">
+                  <div class="card mt-1" style="width: 100%;">
+                    <span class="m-1">
+                      <button type="button" class="btn btn-danger float-right mx-1"
+                        style="font-size:small">{{nightOffer}}</button>
+                      <button type="button" class="btn btn-dark float-right"
+                        style="font-size:small">{{nightPrice}}</button>
+
+                    </span>
+                    <img class="card-img-top wow fadeInUp" v-bind:src="nightImg" alt=" 📚Card image cap"
+                      style="margin-top: -10px;" />
+                    <div class="card-body">
+                      <h5 class="card-title">{{nightTitle}}</h5>
+                      <p class="card-text text-justify">
+                        {{nightDesc}}
+                      </p>
+                      <a class="btn btn-danger persada-button pulsingButton" class="btn btn-primary" data-toggle="modal"
+                        data-target="#nightPersadaModal" style="color:white">Lebih Informasi</a>
+                    </div>
+                  </div>
+                </div>
+                <!-- 📚📚📚 card start 📚📚📚-->
+                <!-- ppppppppppppppppppppppppppppppp progest pppppppppppppppppppppppp-->
+                <div class="col-sm">
+                  <div class="card mt-1" style="width: 100%;">
+                    <span class="m-1">
+                      <button type="button" class="btn btn-danger float-right mx-1"
+                        style="font-size:small">{{ageOffer}}</button>
+                      <button type="button" class="btn btn-dark float-right"
+                        style="font-size:small">{{agePrice}}</button>
+
+                    </span>
+                    <img class="card-img-top wow fadeInUp" v-bind:src="ageImg" alt=" 📚Card image cap"
+                      style="margin-top: -10px;" />
+                    <div class="card-body">
+                      <h5 class="card-title">{{ageTitle}}</h5>
+                      <p class="card-text text-justify">
+                        {{ageDesc}}
+                      </p>
+                      <a class="btn btn-danger persada-button pulsingButton" class="btn btn-primary" data-toggle="modal"
+                        data-target="#agePersadaModal" style="color:white">Lebih Informasi</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- end vue -->
+          </section>
+        </div>
+      </div>
+      <!-- ssssssssssssssssssssssssssssssss section 3 ssssssssssssssssssssssssssssssssssssss -->
 
       </div>
 
@@ -557,7 +641,7 @@ document.getElementById("produk").innerHTML = `
         <!-- button -->
         <ul class="nav nav-pills mb-1 float-right" id="pills-tab" role="tablist">
         <li class="nav-item">
-            <a class="nav-link nav-number active pulsingButton" id="pills-profile-tab" href="/index.html#produk" role="tab"
+            <a class="nav-link nav-number active pulsingButton" id="pills-profile-tab" href="/#produk" role="tab"
               aria-controls="pills-profile" aria-selected="false">Kesihatan</a>
           </li>
           <li class="nav-item">

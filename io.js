@@ -120,12 +120,12 @@ var app = new Vue({
         ageDesc: "Membersihkan kulit, Liang Roma, Kurang Garis Halus, Muka Bercahaya, Mengurangkan Minyak..",
         ageUrl: "http://google.com",
         oooo: 000000000000000000000000000000000000000000000,
-        soapImg: "./asset/image/sabun.webp",
-        soapPrice:"RM15",
-        soapOffer: "OFFER RM12",
-        soapTitle: "Sabun Kelulut",
-        soapDesc: "Mencegah,Rabun Jauh, Mengatasi Masalah Insomnia, Masalah Insomnia & Alzheimer",
-        soapUrl: "http://google.com",
+        sabunImg: "./asset/image/sabun.webp",
+        sabunPrice:"RM20",
+        sabunOffer: "OFFER RM15",
+        sabunTitle: "Sabun Kelulut",
+        sabunDesc: "Membantu masalah kulit gatal ruam, Membersih daki dan sel mati serta kuman",
+        sabunUrl: "http://google.com",
         oooo: 000000000000000000000000000000000000000000000,
         soonimg: "./asset/image/akan-datang.jpg",
         soonTitle: "Akan Datang",
@@ -134,7 +134,9 @@ var app = new Vue({
     }
 });
 
-// banner
+
+
+
 var app = new Vue({
     el: "#banner-img",
     data: {
@@ -270,4 +272,12 @@ var app = new Vue({
         fibreImg: "./asset/image/fibre.webp",
     }
 });
+
+var app = new Vue({
+    el: "#modal-sabun",
+    data: {
+        sabunImg: "./asset/image/sabun.webp",
+    }
+});
+
 

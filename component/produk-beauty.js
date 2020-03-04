@@ -2,29 +2,29 @@ document.getElementById("produk").innerHTML = `
 
 
 <div class="container">
-    <div class="row">
-      <div class="col-sm mt-3">
-        <!-- button -->
-        <ul class="nav nav-pills mb-1 float-right" id="pills-tab" role="tablist">
-          <li class="nav-item">
-            <a class="nav-link nav-number pulsingButton" id="pills-profile-tab" href="index.html#produk" role="tab"
-              aria-controls="pills-profile" aria-selected="false">Kesihatan</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link nav-number active pulsingButton" id="pills-contact-tab" href="beauty.html#produk" role="tab"
-              aria-controls="pills-contact" aria-selected="false">Kecantikan</a>
-          </li>
-        </ul>
-      </div>
+  <div class="row">
+    <div class="col-sm mt-3">
+      <!-- button -->
+      <ul class="nav nav-pills mb-1 float-right" id="pills-tab" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link nav-number pulsingButton" id="pills-profile-tab" href="#produk" role="tab"
+            aria-controls="pills-profile" aria-selected="false">Kesihatan</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-number active pulsingButton" id="pills-contact-tab" href="beauty.html#produk"
+            role="tab" aria-controls="pills-contact" aria-selected="false">Kecantikan</a>
+        </li>
+      </ul>
     </div>
   </div>
+</div>
 
 <div id="vue-product">
   <!-- vvvvvvvvvvvvvvvvvvvvvvvvvvvvvv start vue vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv -->
   <div class="tab-content container" id="pills-tabContent">
     <div class="tab-pane fade " id="page-1" role="tabpanel" aria-labelledby="pills-profile-tab">
       <!-- tttttttttttttttttttttttttttttttttttttttt tab ttttttttttttttttttttttttttttttttttttttttttttt -->
-      
+
       <div class="row">
         <div class="col-sm">
           <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx start new row product xxxxxxxxxxxxxxxxxxxxxxxxx -->
@@ -275,8 +275,8 @@ document.getElementById("produk").innerHTML = `
         </div>
       </div>
       <!-- ssssssssssssssssssssssssssssssssss section sssssssssssssssssssssssssssssssssssssss -->
-       <!-- ssssssssssssssssssssssssssssssss section 4 ssssssssssssssssssssssssssssssssssssss -->
-       <div class="row">
+      <!-- ssssssssssssssssssssssssssssssss section 4 ssssssssssssssssssssssssssssssssssssss -->
+      <div class="row">
         <div class="col-sm">
           <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx start new row product xxxxxxxxxxxxxxxxxxxxxxxxx -->
           <section id="product" style="background: whitesmoke">
@@ -338,17 +338,17 @@ document.getElementById("produk").innerHTML = `
                       <button type="button" class="btn btn-dark float-right"
                         style="font-size:small">{{vititeaPrice}}</button> -->
                     </span>
-                    <img class="card-img-top wow fadeInUp" src="./asset/image/produk-kecantikan.webp" alt=" 📚Card image cap"
-                      style="margin-top: -10px;" />
+                    <img class="card-img-top wow fadeInUp" src="./asset/image/produk-kecantikan.webp"
+                      alt=" 📚Card image cap" style="margin-top: -10px;" />
                     <div class="card-body">
                       <!-- <h5 class="card-title">{{vititeaTitle}}</h5>
                       <p class="card-text text-justify">
                         {{vititeaDesc}}
                       </p> -->
 
-                      <a class="nav-link nav-number btn btn-danger persada-button pulsingButton" 
-                      id="pills-contact-tab" href="index.html#produk" onclick="openUrl()" role="tab"
-                      aria-controls="pills-contact" aria-selected="false">Lihat Produk Kecantikan</a>
+                      <a class="nav-link nav-number btn btn-danger persada-button pulsingButton" id="pills-contact-tab"
+                        href="index.html#produk" onclick="openUrl()" role="tab" aria-controls="pills-contact"
+                        aria-selected="false">Lihat Produk Kecantikan</a>
                     </div>
                   </div>
                 </div>
@@ -362,14 +362,14 @@ document.getElementById("produk").innerHTML = `
       </div>
       <!-- ssssssssssssssssssssssssssssssss section ssssssssssssssssssssssssssssssssssssss -->
 
-      
 
-  </div>
-  <!--  xxxxxxxxxxxxxxxxxxxxxxxxxxxx KECANTIKKAN xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+
+    </div>
+    <!--  xxxxxxxxxxxxxxxxxxxxxxxxxxxx KECANTIKKAN xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
     <!--  xxxxxxxxxxxxxxxxxxxxxxxxxxxx Next Page xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
     <div class="tab-pane fade show active" id="page-2" role="tabpanel" aria-labelledby="pills-contact-tab">
       <!-- tttttttttttttttttttttttttttttttttttttttt tab ttttttttttttttttttttttttttttttttttttttttttttt -->
-      
+
       <div class="row">
         <div class="col-sm">
           <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx start new row product xxxxxxxxxxxxxxxxxxxxxxxxx -->
@@ -455,9 +455,9 @@ document.getElementById("produk").innerHTML = `
         </div>
       </div>
       <!-- ssssssssssssssssssssssssssssssss section 2 ssssssssssssssssssssssssssssssssssssss -->
-            <!-- tttttttttttttttttttttttttttttttttttttttt tab ttttttttttttttttttttttttttttttttttttttttttttt -->
-      
-            <div class="row">
+      <!-- tttttttttttttttttttttttttttttttttttttttt tab ttttttttttttttttttttttttttttttttttttttttttttt -->
+
+      <div class="row">
         <div class="col-sm">
           <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx start new row product xxxxxxxxxxxxxxxxxxxxxxxxx -->
           <!--- ttttttttttttttttttttttttttttttttt Day Serum tttttttttttttttttttttttttttttt --->
@@ -535,37 +535,73 @@ document.getElementById("produk").innerHTML = `
                 </div>
               </div>
             </div>
-
             <!-- end vue -->
           </section>
         </div>
       </div>
       <!-- ssssssssssssssssssssssssssssssss section 4 ssssssssssssssssssssssssssssssssssssss -->
 
+      <div class="row">
+        <div class="col-sm">
+          <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx start new row product xxxxxxxxxxxxxxxxxxxxxxxxx -->
+          <section id="product" style="background: whitesmoke">
+            <div class="mt-1">
+              <div class="row">
+                <!--- ttttttttttttttttttttttttttttttttt madu kelulut tttttttttttttttttttttttttttttt --->    
+                <!-- 📚📚📚 card start 📚📚📚-->
+                <div class="col-sm col-lg-4">
+                  <div class="card mt-1" style="width: 100%;">
+                    <span class="m-1">
+                      <button type="button" class="btn btn-danger float-right mx-1"
+                        style="font-size:small">{{sabunOffer}}</button>
+                      <button type="button" class="btn btn-dark float-right"
+                        style="font-size:small">{{sabunPrice}}</button>
+                    </span>
+
+                    <img class="card-img-top wow fadeInUp" v-bind:src="sabunImg" alt=" 📚Card image cap"
+                    style="margin-top: -10px;" />
+
+                    <div class="card-body">
+                      <h5 class="card-title">{{sabunTitle}}</h5>
+                      <p class="card-text text-justify">
+                        {{sabunDesc}}
+                      </p>
+                      <a class="btn btn-danger persada-button pulsingButton" class="btn btn-primary" data-toggle="modal"
+                        data-target="#sabunPersadaModal" style="color:white">Lebih Informasi</a>
+                    </div>
+                  </div>
+                </div>
+                <!-- end of card -->
+                <!--- ttttttttttttttttttttttttttttttttt madu kelulut tttttttttttttttttttttttttttttt --->
+              </div>
+            </div>
+          </section>
+           <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx end row product xxxxxxxxxxxxxxxxxxxxxxxxx -->
+        </div>
       </div>
-
-
-
-
-
+      <!-- ssssssssssssssssssssssssssssssss section 4 ssssssssssssssssssssssssssssssssssssss -->
     </div>
   </div>
-  <div class="container">
-    <div class="row">
-      <div class="col-sm my-2">
-        <!-- button -->
-        <ul class="nav nav-pills mb-1 float-right" id="pills-tab" role="tablist">
-          <li class="nav-item">
-            <a class="nav-link nav-number active pulsingButton" id="pills-profile-tab" href="index.html#produk" role="tab"
-              aria-controls="pills-profile" aria-selected="false">Kesihatan</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link nav-number pulsingButton" id="pills-contact-tab" href="beauty.html#produk" role="tab"
-              aria-controls="pills-contact" aria-selected="false">Kecantikan</a>
-          </li>
-        </ul>
-      </div>
+</div>
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm my-2">
+      <!-- button -->
+      <ul class="nav nav-pills mb-1 float-right" id="pills-tab" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link nav-number active pulsingButton" id="pills-profile-tab" href="#produk" role="tab"
+            aria-controls="pills-profile" aria-selected="false">Kesihatan</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-number pulsingButton" id="pills-contact-tab" href="beauty.html#produk" role="tab"
+            aria-controls="pills-contact" aria-selected="false">Kecantikan</a>
+        </li>
+      </ul>
     </div>
   </div>
+</div>
 
-  `
+`
