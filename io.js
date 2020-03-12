@@ -158,6 +158,7 @@ var app = new Vue({
     el: "#modal-teh",
     data: {
         pop2img: "./asset/image/teh-thumbnail.webp",
+        tehShop:"https://www.shopee.com.my"
     }
 });
 
@@ -165,6 +166,7 @@ var app = new Vue({
     el: "#modal-kopi",
     data: {
         kopiImg: "./asset/image/kopi-thumbnail.webp",
+        // kopiShop:"https://www.shopee.com.my"
     }
 });
 
@@ -172,12 +174,14 @@ var app = new Vue({
     el: "#modal-progest",
     data: {
         progestImg: "./asset/image/progest-thumbnail.webp",
+        // progestShop:"https://www.shopee.com.my"
     }
 });
 var app = new Vue({
     el: "#modal-tanjaq",
     data: {
         tanjaqImg: "./asset/image/tanjaq-thumbnail.webp",
+        // tanjaqShop:"https://www.shopee.com.my"
 
     }
 });
@@ -185,7 +189,8 @@ var app = new Vue({
 var app = new Vue({
     el: "#modal-anas",
     data: {
-        anasImg: "./asset/image/anas-thumbnail.webp"
+        anasImg: "./asset/image/anas-thumbnail.webp",
+        // anasShop:"https://www.shopee.com.my"
     }
 });
 
@@ -193,6 +198,7 @@ var app = new Vue({
     el: "#modal-birliva",
     data: {
         birlivaImg: "./asset/image/birliva-thumbnail.webp",
+        // birlivaShop:"https://www.shopee.com.my"
     }
 });
 
@@ -200,6 +206,7 @@ var app = new Vue({
     el: "#modal-suri",
     data: {
         suriImg: "./asset/image/mysuri-thumbnail.webp",
+        // suriShop:"https://www.shopee.com.my"
     }
 });
 
@@ -207,6 +214,7 @@ var app = new Vue({
     el: "#modal-luzea",
     data: {
         luzeaImg: "./asset/image/luzea-thumbnail.webp",
+        // luzeaShop:"https://www.shopee.com.my"
     }
 });
 
@@ -214,6 +222,7 @@ var app = new Vue({
     el: "#modal-vititea",
     data: {
         vititeaImg: "./asset/image/vititea-thumbnail.webp",
+        // vitShop:"https://www.shopee.com.my"
     }
 });
 
@@ -221,6 +230,7 @@ var app = new Vue({
     el: "#modal-cleanser",
     data: {
         cleanserImg: "./asset/image/cleanser.webp",
+        // vitShop:"https://www.shopee.com.my"
     }
 });
 
@@ -228,6 +238,7 @@ var app = new Vue({
     el: "#modal-scrub",
     data: {
         scrubImg: "./asset/image/scrub.webp",
+        // scrubShop:"https://www.shopee.com.my"
     }
 });
 
@@ -235,6 +246,7 @@ var app = new Vue({
     el: "#modal-cream",
     data: {
         creamImg: "./asset/image/cc-cream.webp",
+        // creamShop:"https://www.shopee.com.my"
     }
 });
 
@@ -242,6 +254,7 @@ var app = new Vue({
     el: "#modal-day",
     data: {
         dayImg: "./asset/image/day.webp",
+        // dayShop:"https://www.shopee.com.my"
     }
 });
 
@@ -249,6 +262,7 @@ var app = new Vue({
     el: "#modal-night",
     data: {
         nightImg: "./asset/image/night.webp",
+        // nightShop:"https://www.shopee.com.my"
     }
 });
 
@@ -256,6 +270,7 @@ var app = new Vue({
     el: "#modal-age",
     data: {
         ageImg: "./asset/image/age.webp",
+        // ageShop:"https://www.shopee.com.my"
     }
 });
 
@@ -263,6 +278,7 @@ var app = new Vue({
     el: "#modal-spectrum",
     data: {
         specImg: "./asset/image/spectrum.webp",
+        // specShop:"https://www.shopee.com.my"
     }
 });
 
@@ -270,6 +286,7 @@ var app = new Vue({
     el: "#modal-fibre",
     data: {
         fibreImg: "./asset/image/fibre.webp",
+        // fibreShop:"https://www.shopee.com.my"
     }
 });
 
@@ -277,6 +294,7 @@ var app = new Vue({
     el: "#modal-sabun",
     data: {
         sabunImg: "./asset/image/sabun.webp",
+        // sabunShop:"https://www.shopee.com.my"
     }
 });
 

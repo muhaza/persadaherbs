@@ -68,10 +68,11 @@ document.getElementById("modal-teh").innerHTML = `
                     </ul>
 
                     <div style="border-bottom: 1px #00000069 solid; margin-bottom: 15px;"></div>
-                    <!-- <a v-bind:href="pop2Url" class="btn btn-danger persada-button mt-1">Beli Sekarang</a> -->
+
+                    <a v-bind:href="tehShop" class="btn btn-danger persada-button mt-1">Beli di Shopee!</a>
                     <a href="https://wa.me/601158680328?text=Saya%20berminat%20untuk%20order%20Teh%20Persada"
                       class="btn btn-success persada-button mt-1">Whatsapp</a>
-                    <a href="https://web.facebook.com/commerce/products/2855263187869798/?ref=page_shop_tab&referral_code=page_shop_tab_msite-all_products_407439612686255" class="btn btn-primary persada-button mt-1">Facebook PM</a>
+                    <a href="https://web.facebook.com/commerce/products/2855263187869798" class="btn btn-primary persada-button mt-1">Facebook PM</a>
                   </div>
                 </div>
               </div>
