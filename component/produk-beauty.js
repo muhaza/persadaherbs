@@ -573,6 +573,32 @@ document.getElementById("produk").innerHTML = `
                 </div>
                 <!-- end of card -->
                 <!--- ttttttttttttttttttttttttttttttttt madu kelulut tttttttttttttttttttttttttttttt --->
+                 <!--- ttttttttttttttttttttttttttttttttt madu kelulut tttttttttttttttttttttttttttttt --->    
+                <!-- 📚📚📚 card start 📚📚📚-->
+                <div class="col-sm col-lg-4">
+                  <div class="card mt-1" style="width: 100%;">
+                    <span class="m-1">
+                      <button type="button" class="btn btn-danger float-right mx-1"
+                        style="font-size:small">{{aurisOffer}}</button>
+                      <button type="button" class="btn btn-dark float-right"
+                        style="font-size:small">{{aurisPrice}}</button>
+                    </span>
+
+                    <img class="card-img-top wow fadeInUp" v-bind:src="aurisImg" alt=" 📚Card image cap"
+                    style="margin-top: -10px;" />
+
+                    <div class="card-body">
+                      <h5 class="card-title">{{aurisTitle}}</h5>
+                      <p class="card-text text-justify">
+                        {{aurisDesc}}
+                      </p>
+                      <a class="btn btn-danger persada-button pulsingButton" class="btn btn-primary" data-toggle="modal"
+                        data-target="#aurisPersadaModal" style="color:white">Lebih Informasi</a>
+                    </div>
+                  </div>
+                </div>
+                <!-- end of card -->
+                <!--- ttttttttttttttttttttttttttttttttt madu kelulut tttttttttttttttttttttttttttttt --->
               </div>
             </div>
           </section>
