@@ -77,8 +77,6 @@ document.getElementById("modal-kopi").innerHTML = `
 
                     <div style="border-bottom: 1px #00000069 solid; margin-bottom: 15px;"></div>
 
-
-                   
                     <a v-bind:href="kopiShop" class="btn btn-danger persada-button mt-1">Beli Di Shopee</a>
                     <a href="https://wa.me/601158680328?text=Saya%20berminat%20untuk%20order%20Kopi%20SuoYang"
                       class="btn btn-success persada-button mt-1">Whatsapp</a>
