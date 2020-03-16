@@ -79,7 +79,7 @@ document.getElementById("modal-kopi").innerHTML = `
 
 
                    
-                    <!-- <a v-bind:href="pop2Url" class="btn btn-danger persada-button mt-1">Beli Sekarang</a> -->
+                    <a v-bind:href="kopiShop" class="btn btn-danger persada-button mt-1">Beli Di Shopee</a>
                     <a href="https://wa.me/601158680328?text=Saya%20berminat%20untuk%20order%20Kopi%20SuoYang"
                       class="btn btn-success persada-button mt-1">Whatsapp</a>
                     <a v-bind:href="kopifb" target="_top" class="btn btn-primary persada-button mt-1">Facebook PM</a>

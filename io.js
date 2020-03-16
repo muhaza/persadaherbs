@@ -165,7 +165,8 @@ var app = new Vue({
     el: "#modal-teh",
     data: {
         pop2img: "./asset/image/teh-thumbnail.webp",
-        tehShop:"https://shopee.com.my/Teh-Persada-🇲🇾🔥Hot-Sale🔥-i.227540832.3419949853"
+        tehShop:"https://shopee.com.my/Teh-Persada-🇲🇾🔥Hot-Sale🔥-i.227540832.3419949853",
+        tehfb:"https://web.facebook.com/commerce/products/2855263187869798"
     }
 });
 
@@ -173,7 +174,7 @@ var app = new Vue({
     el: "#modal-kopi",
     data: {
         kopiImg: "./asset/image/kopi-thumbnail.webp",
-        kopiShop:"https://www.shopee.com.my",
+        kopiShop:"https://shopee.com.my/Suo-Yang-White-Coffee-🇲🇾🔥Hot-Sale🔥-Persada-Herbs-HQ-i.227540832.4619877204",
         kopifb:"https://web.facebook.com/commerce/products/3116798264997460/"
     }
 });
