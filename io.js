@@ -127,11 +127,11 @@ var app = new Vue({
         sabunDesc: "Membantu masalah kulit gatal ruam, Membersih daki dan sel mati serta kuman",
         sabunUrl: "http://google.com",
         oooo: 000000000000000000000000000000000000000000000,
-        aurisImg: "./asset/image/sabun.webp",
-        aurisPrice:"RM140",
-        aurisOffer: "OFFER RM100",
-        aurisTitle: "Sabun Kelulut",
-        aurisDesc: "Membantu masalah kulit gatal ruam, Membersih daki dan sel mati serta kuman",
+        aurisImg: "./asset/image/auristella.webp",
+        aurisPrice:"RM180",
+        aurisOffer: "OFFER RM140",
+        aurisTitle: "Auristella",
+        aurisDesc: "melembabkan & memelihara bibir agar nampak tetap sihat, mesra wuduk, Halal Toyiban",
         aurisUrl: "http://google.com",
         oooo: 000000000000000000000000000000000000000000000,
         soonimg: "./asset/image/akan-datang.jpg",
@@ -173,7 +173,8 @@ var app = new Vue({
     el: "#modal-kopi",
     data: {
         kopiImg: "./asset/image/kopi-thumbnail.webp",
-        // kopiShop:"https://www.shopee.com.my"
+        kopiShop:"https://www.shopee.com.my",
+        kopifb:"https://web.facebook.com/commerce/products/3116798264997460/"
     }
 });
 
@@ -304,5 +305,14 @@ var app = new Vue({
         // sabunShop:"https://www.shopee.com.my"
     }
 });
+
+var app = new Vue({
+    el: "#modal-auris",
+    data: {
+        sabunImg: "./asset/image/auristella.webp",
+        // sabunShop:"https://www.shopee.com.my"
+    }
+});
+
 
 

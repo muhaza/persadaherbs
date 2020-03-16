@@ -82,7 +82,7 @@ document.getElementById("modal-kopi").innerHTML = `
                     <!-- <a v-bind:href="pop2Url" class="btn btn-danger persada-button mt-1">Beli Sekarang</a> -->
                     <a href="https://wa.me/601158680328?text=Saya%20berminat%20untuk%20order%20Kopi%20SuoYang"
                       class="btn btn-success persada-button mt-1">Whatsapp</a>
-                    <a href="https://web.facebook.com/commerce/products/3116798264997460/?ref=page_shop_tab&referral_code=page_shop_tab_msite-all_products_407439612686255" target="_top" class="btn btn-primary persada-button mt-1">Facebook PM</a>
+                    <a v-bind:href="kopifb" target="_top" class="btn btn-primary persada-button mt-1">Facebook PM</a>
                   </div>
                 </div>
               </div>

@@ -11,7 +11,7 @@ document.getElementById("modal-auris").innerHTML = `
 
                 <span>
                     <button type="button" class="btn btn-danger float-right " style="font-size:small; width:100px">
-                    Offer RM15</button>
+                    Off RM140</button>
                 </span>
 
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -30,23 +30,28 @@ document.getElementById("modal-auris").innerHTML = `
                                     <div class="card-body">
                                         <h5 class="card-title"> 👍 KEBAIKAN</h5>
                                         <p class="card-text">
-                                        
-
-                                        • Mengurangkan rasa kegatalan kulit seperti ruam <br>
-                                        • Menghilangkan sel kulit mati dan daki-daki dari tubuh badan<br>
-                                        • Mengatasi masalah kulit sensitif dan melembapkan kulit.<br>
-                                        • Membasmi kuman dari kulit<br>
-                                        • Sesuai digunakan untuk muka dan juga tubuh badan<br>
- 
+                                        + 4 jenis warna Auristella Pro Lips Matte iaitu :<br>
+                                        • Nova Lady<br>
+                                        • Nova Lovely<br>
+                                        • Nova Sweet<br>
+                                        • Nova Sexy<br>
                                                                                 </p>
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 10px;"></div>
-                                        <h4 class="text-center">BUKAN SEKADAR SABUN</h4>
+                                        <h4 class="text-center">BUKAN SEKADAR LIPSTICK</h4>
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 15px;"></div>
                                         
                                         <h5 class="card-title">🌿 RAMUAN</h5>
                                         <p class="card-text">
-                                        Glycerine, Propolis, Trigona Honey, Pomegranate, Grape Seed Oil, Orange Oil, Tocopheryl Acetate, 
-                                        Fragnance.
+                                         Minyak Kastor 
+,Lilin Lebah
+,Estetik Jojoba
+, Minyak Zaitun
+, Minyak Benih Bunga Matahari
+, Minyak Kelapa
+, Kologen
+, Madu Kelulut
+, Vitamin C
+, SPF 30 & 40
 
                                         </p>
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 10px;"></div>
@@ -58,10 +63,10 @@ document.getElementById("modal-auris").innerHTML = `
 
                                         <ul class="list-group list-group-flush">
                                             <li class="list-group-item">Harga Runcit
-                                                <button type="button" class="btn btn-danger float-right">RM20</button>
+                                                <button type="button" class="btn btn-danger float-right">RM180</button>
                                             </li>
                                             <li class="list-group-item">Harga Diskaun
-                                                <button type="button" class="btn btn-danger float-right">RM15</button>
+                                                <button type="button" class="btn btn-danger float-right">RM140</button>
                                             </li>
                                             <!-- <li class="list-group-item">Harga Pakej
                                                 <button type="button" class="btn btn-danger float-right">4/RM180</button>
