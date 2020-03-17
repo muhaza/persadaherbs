@@ -62,8 +62,6 @@ document.getElementById("modal-luzea").innerHTML = `
                                         <h4 class="text-center">HARGA LUZEA</h4>
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 15px;"></div>
                                         
-                                        
-                                        
 
                                         <ul class="list-group list-group-flush">
                                             <li class="list-group-item">Harga Runcit
@@ -80,11 +78,11 @@ document.getElementById("modal-luzea").innerHTML = `
                                                 <button type="button" class="btn btn-danger float-right">10/RM400</button>
                                             </li>
                                            
-                                            <li class="list-group-item">Harga Pemborong
+                                            <li class="list-group-item">Harga Pembekal
                                                 <button type="button" class="btn btn-danger float-right">100/RM3500</button>
                                             </li>
 
-                                            <li class="list-group-item">Harga Pembekal
+                                            <li class="list-group-item">Harga Pemborong
                                                 <button type="button" class="btn btn-danger float-right">1000/RM30,000</button>
                                             </li>  
                                         </ul>

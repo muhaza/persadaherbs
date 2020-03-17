@@ -87,11 +87,11 @@ document.getElementById("modal-suri").innerHTML = `
                                                 <button type="button" class="btn btn-danger float-right">10/RM300</button>
                                             </li>
                                            
-                                            <li class="list-group-item">Harga Pemborong
+                                            <li class="list-group-item">Harga Pembekal
                                                 <button type="button" class="btn btn-danger float-right">100/RM2500</button>
                                             </li>
 
-                                            <li class="list-group-item">Harga Pembekal
+                                            <li class="list-group-item">Harga Pemborong
                                                 <button type="button" class="btn btn-danger float-right">1000/RM20,000</button>
                                             </li>  
                                         </ul>

@@ -79,11 +79,11 @@ document.getElementById("modal-progest").innerHTML = `
                                             <li class="list-group-item">Harga Ejen
                                                 <button type="button" class="btn btn-danger float-right">10/RM450</button>
                                             </li>
-                                            <li class="list-group-item">Harga Pemborong
+                                            <li class="list-group-item">Harga Pembekal
                                                 <button type="button" class="btn btn-danger float-right">100/RM4000</button>
                                             </li>
 
-                                            <li class="list-group-item">Harga Pembekal
+                                            <li class="list-group-item">Harga Pemborong
                                                 <button type="button" class="btn btn-danger float-right">1000/RM30,000</button>
                                             </li>  
                                         </ul>

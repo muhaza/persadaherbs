@@ -66,11 +66,11 @@ document.getElementById("modal-kopi").innerHTML = `
                         <button type="button" class="btn btn-danger float-right">10/RM200</button>
                       </li>
 
-                      <li class="list-group-item">Harga Pemborong
+                      <li class="list-group-item">Harga Pembekal
                         <button type="button" class="btn btn-danger float-right">100/RM1750</button>
                       </li>
 
-                      <li class="list-group-item">Harga Pembekal
+                      <li class="list-group-item">Harga Pemborong
                         <button type="button" class="btn btn-danger float-right">1000/RM17,000</button>
                       </li>
                     </ul>

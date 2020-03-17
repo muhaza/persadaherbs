@@ -81,11 +81,11 @@ document.getElementById("modal-vititea").innerHTML = `
                                                 <button type="button" class="btn btn-danger float-right">10/RM400</button>
                                             </li>
                                            
-                                            <li class="list-group-item">Harga Pemborong
+                                            <li class="list-group-item">Harga Pembekal
                                                 <button type="button" class="btn btn-danger float-right">100/RM3500</button>
                                             </li>
 
-                                            <li class="list-group-item">Harga Pembekal
+                                            <li class="list-group-item">Harga Pemborong
                                                 <button type="button" class="btn btn-danger float-right">1000/RM30,000</button>
                                             </li>  
                                         </ul>
