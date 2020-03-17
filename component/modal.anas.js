@@ -57,9 +57,6 @@ document.getElementById("modal-anas").innerHTML = `
                                         <h4 class="text-center">HARGA ANAS</h4>
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 15px;"></div>
                                         
-                                        
-                                        
-
                                         <ul class="list-group list-group-flush">
                                             <li class="list-group-item">Harga Runcit
                                                 <button type="button" class="btn btn-danger float-right">RM48</button>
@@ -85,8 +82,6 @@ document.getElementById("modal-anas").innerHTML = `
                                         </ul>
 
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 15px;"></div>
-
-
                                        
                                         <!-- <a v-bind:href="pop2Url" class="btn btn-danger persada-button mt-1">Beli Sekarang</a> -->
                                         <a href="https://wa.me/601158680328?text=Saya%20berminat%20untuk%20order%20Anas" class="btn btn-success persada-button mt-1">Whatsapp</a>

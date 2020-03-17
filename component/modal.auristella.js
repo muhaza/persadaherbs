@@ -42,25 +42,22 @@ document.getElementById("modal-auris").innerHTML = `
                                         
                                         <h5 class="card-title">🌿 RAMUAN</h5>
                                         <p class="card-text">
-                                         Minyak Kastor 
-,Lilin Lebah
-,Estetik Jojoba
-, Minyak Zaitun
-, Minyak Benih Bunga Matahari
-, Minyak Kelapa
-, Kologen
-, Madu Kelulut
-, Vitamin C
-, SPF 30 & 40
+                                         Minyak Kastor
+                                        ,Lilin Lebah
+                                        ,Estetik Jojoba
+                                        , Minyak Zaitun
+                                        , Minyak Benih Bunga Matahari
+                                        , Minyak Kelapa
+                                        , Kologen
+                                        , Madu Kelulut
+                                        , Vitamin C
+                                        , SPF 30 & 40
 
                                         </p>
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 10px;"></div>
                                         <h4 class="text-center">Propolis</h4>
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 15px;"></div>
                                         
-                                        
-                                        
-
                                         <ul class="list-group list-group-flush">
                                             <li class="list-group-item">Harga Runcit
                                                 <button type="button" class="btn btn-danger float-right">RM180</button>
