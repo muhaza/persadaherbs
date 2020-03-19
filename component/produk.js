@@ -39,7 +39,7 @@ document.getElementById("produk").innerHTML = `
                     <span class="m-1">
                       <button type="button" class="btn btn-danger float-right mx-1"
                         style="font-size:small">{{tehOffer}}</button>
-                      <button type="button" class="btn btn-dark float-right"
+                      <button type="button" class="btn btn-dark float-right strike"
                         style="font-size:small">{{tehPrice}}</button>
 
                     </span>
@@ -63,7 +63,7 @@ document.getElementById("produk").innerHTML = `
                     <span class="m-1">
                       <button type="button" class="btn btn-danger float-right mx-1"
                         style="font-size:small">{{kopiOffer}}</button>
-                      <button type="button" class="btn btn-dark float-right"
+                      <button type="button" class="btn btn-dark float-right strike"
                         style="font-size:small">{{kopiPrice}}</button>
 
                     </span>
@@ -86,7 +86,7 @@ document.getElementById("produk").innerHTML = `
                     <span class="m-1">
                       <button type="button" class="btn btn-danger float-right mx-1"
                         style="font-size:small">{{progestOffer}}</button>
-                      <button type="button" class="btn btn-dark float-right"
+                      <button type="button" class="btn btn-dark float-right strike"
                         style="font-size:small">{{progestPrice}}</button>
 
                     </span>
@@ -125,7 +125,7 @@ document.getElementById("produk").innerHTML = `
                     <span class="m-1">
                       <button type="button" class="btn btn-danger float-right mx-1"
                         style="font-size:small">{{tanjaqOffer}}</button>
-                      <button type="button" class="btn btn-dark float-right"
+                      <button type="button" class="btn btn-dark float-right strike"
                         style="font-size:small">{{tanjaqPrice}}</button>
                     </span>
                     <img class="card-img-top wow fadeInUp" v-bind:src="tanjaqImg" alt=" 📚Card image cap"
@@ -147,7 +147,7 @@ document.getElementById("produk").innerHTML = `
                     <span class="m-1">
                       <button type="button" class="btn btn-danger float-right mx-1"
                         style="font-size:small">{{anasOffer}}</button>
-                      <button type="button" class="btn btn-dark float-right"
+                      <button type="button" class="btn btn-dark float-right strike"
                         style="font-size:small">{{anasPrice}}</button>
                     </span>
                     <img class="card-img-top wow fadeInUp" v-bind:src="anasImg" alt=" 📚Card image cap"
@@ -168,7 +168,7 @@ document.getElementById("produk").innerHTML = `
                     <span class="m-1">
                       <button type="button" class="btn btn-danger float-right mx-1"
                         style="font-size:small">{{birlivaOffer}}</button>
-                      <button type="button" class="btn btn-dark float-right"
+                      <button type="button" class="btn btn-dark float-right strike"
                         style="font-size:small">{{birlivaPrice}}</button>
                     </span>
                     <img class="card-img-top wow fadeInUp" v-bind:src="birlivaImg" alt=" 📚Card image cap"
@@ -208,7 +208,7 @@ document.getElementById("produk").innerHTML = `
                     <span class="m-1">
                       <button type="button" class="btn btn-danger float-right mx-1"
                         style="font-size:small">{{suriOffer}}</button>
-                      <button type="button" class="btn btn-dark float-right"
+                      <button type="button" class="btn btn-dark float-right strike"
                         style="font-size:small">{{suriPrice}}</button>
                     </span>
                     <img class="card-img-top wow fadeInUp" v-bind:src="suriImg" alt=" 📚Card image cap"
@@ -231,7 +231,7 @@ document.getElementById("produk").innerHTML = `
                     <span class="m-1">
                       <button type="button" class="btn btn-danger float-right mx-1"
                         style="font-size:small">{{luzeaOffer}}</button>
-                      <button type="button" class="btn btn-dark float-right"
+                      <button type="button" class="btn btn-dark float-right strike"
                         style="font-size:small">{{luzeaPrice}}</button>
                     </span>
                     <img class="card-img-top wow fadeInUp" v-bind:src="luzeaImg" alt=" 📚Card image cap"
@@ -252,7 +252,7 @@ document.getElementById("produk").innerHTML = `
                     <span class="m-1">
                       <button type="button" class="btn btn-danger float-right mx-1"
                         style="font-size:small">{{vititeaOffer}}</button>
-                      <button type="button" class="btn btn-dark float-right"
+                      <button type="button" class="btn btn-dark float-right strike"
                         style="font-size:small">{{vititeaPrice}}</button>
                     </span>
                     <img class="card-img-top wow fadeInUp" v-bind:src="vititeaImg" alt=" 📚Card image cap"
@@ -290,7 +290,7 @@ document.getElementById("produk").innerHTML = `
                     <span class="m-1">
                       <button type="button" class="btn btn-danger float-right mx-1"
                         style="font-size:small">{{specOffer}}</button>
-                      <button type="button" class="btn btn-dark float-right"
+                      <button type="button" class="btn btn-dark float-right strike"
                         style="font-size:small">{{specPrice}}</button>
                     </span>
                     <img class="card-img-top wow fadeInUp" v-bind:src="specImg" alt=" 📚Card image cap"
@@ -313,7 +313,7 @@ document.getElementById("produk").innerHTML = `
                     <span class="m-1">
                       <button type="button" class="btn btn-danger float-right mx-1"
                         style="font-size:small">{{fibreOffer}}</button>
-                      <button type="button" class="btn btn-dark float-right"
+                      <button type="button" class="btn btn-dark float-right strike"
                         style="font-size:small">{{fibrePrice}}</button>
                     </span>
                     <img class="card-img-top wow fadeInUp" v-bind:src="fibreImg" alt=" 📚Card image cap"

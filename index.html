@@ -361,9 +361,9 @@
 </section>
 
 <!-- Clipboard -->
-<script>
+<!-- <script>
     function myClipboard() {
-    var copyText = document.getElementById("myInput");
+    var copyText = document.querySelector("#myInput");
     var buttonList = `
     <br>
     <a href="https://maybank2u.com.my" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/maybank.webp" alt="maybank"/></a>
@@ -376,13 +376,21 @@
     <a href="https://www.allianceonline.com.my/personal/login/login.do" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/alliannce.webp" alt="Alliance"/></a>
     <a href="https://www.i-muamalat.com.my/rib/index.do" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/muamalat.webp" alt="Muamalat"/></a>
     <a href="https://internet.ocbc.com.my/internet-banking/LoginV2/Login?rc=INB" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/ocbc.webp" alt="OCBC"/></a>
-    `;
+    <div style="border-bottom: 1px #dfdfdf solid; margin-bottom: 15px;"></div>`;
     copyText.select();
     copyText.setSelectionRange(0, 99999)
     document.execCommand("copy");
-    document.getElementById("doneCopy").innerHTML = "No Akaun Sudah Di Salin! " + (copyText.value) + " Pilihan Bank :" + (buttonList);
+    document.querySelector("#doneCopy").innerHTML = "No Akaun Sudah Di Salin! " + (copyText.value) + " Pilihan Bank :" + (buttonList);
     }
-</script>
+
+    function myEmail() {
+    var copyMail = document.getElementById("myMail");
+    copyMail.select();
+    copyMail.setSelectionRange(0, 99999)
+    document.execCommand("copy");
+    document.getElementById("doneMail").innerHTML = "Email Sudah Di Salin! " + (copyMail.value);
+    }
+</script> -->
 <!-- Clipboard -->
 <!-- mmmmmmmmmmmmmmmmmmmmmmm modal mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm -->
     <!-- Mengenai -->

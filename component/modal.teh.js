@@ -67,7 +67,7 @@ document.getElementById("modal-teh").innerHTML = `
                       </li>
                     </ul>
 
-                    <div style="border-bottom: 1px #00000069 solid; margin-bottom: 15px;"></div>
+                    <div style="border-bottom: 1px #dfdfdf solid; margin-bottom: 15px;"></div>
 
                     <!-- Bank Clipboard -->
                     <form class="form-inline">
@@ -76,11 +76,18 @@ document.getElementById("modal-teh").innerHTML = `
                       <div class="form-group mx-sm-3 mb-2">
                         <input class="form-control" type="text" value="8604079751" id="myInput">
                       </div>
-                      <button type="button" class="btn btn-primary mb-2" style="border-radius:25px" onclick="myClipboard()">Copy No Akaun</button>
+                      <button type="button" class="btn btn-primary mb-2" style="border-radius:25px" onclick="myClipboard1()">Copy No Akaun</button>
+                      <div id="doneCopy"></div>
+                      
+                      <!-- <div class="form-group mx-sm-3 mb-2">
+                        <input class="form-control" type="text" value="admin@persadaherbs.my" id="myMail">
+                      </div>
+                      <button type="button" class="btn btn-primary mb-2" style="border-radius:25px" onclick="myEmail()">Copy Email</button>
+                      <div id="doneMail"></div> -->
                     </form>
-                    <div id="doneCopy"></div>
+                    <div style="border-bottom: 1px #dfdfdf solid; margin-bottom: 15px;"></div>
                     <!-- Bank Clipboard -->
-                    
+
                     <a v-bind:href="tehShop" class="btn btn-danger persada-button mt-1">Beli di Shopee!</a>
                     <a href="https://wa.me/601158680328?text=Saya%20berminat%20untuk%20order%20Teh%20Persada" target="_blank"
                       class="btn btn-success persada-button mt-1">Beli di Whatsapp</a>
@@ -98,4 +105,32 @@ document.getElementById("modal-teh").innerHTML = `
       </div>
     </div>
 
-    `
+    `    
+    function myClipboard1() {
+    var copyText = document.querySelector("#myInput");
+    var buttonList = `
+    <br>
+    <a href="https://maybank2u.com.my" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/maybank.webp" alt="maybank"/></a>
+    <a href="https://cimbclicks.com.my" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/cimb.webp" alt="cimb"/></a>
+    <a href="https://www.bankislam.biz" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/islam.webp" alt="BankIslam"/></a>
+    <a href="https://www.mybsn.com.my/mybsn/login/login.do" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/bsn.webp" alt="BSN"/></a>
+    <a href="https://logon.rhb.com.my/default.htm" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/rhb.webp" alt="RHB"/></a>
+    <a href="https://s.hongleongconnect.my/rib/app/fo/login?web=1" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/hongleong.webp" alt="HongLeong"/></a>
+    <a href="https://ambank.amonline.com.my" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/am.webp" alt="AMBank"/></a>
+    <a href="https://www.allianceonline.com.my/personal/login/login.do" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/alliannce.webp" alt="Alliance"/></a>
+    <a href="https://www.i-muamalat.com.my/rib/index.do" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/muamalat.webp" alt="Muamalat"/></a>
+    <a href="https://internet.ocbc.com.my/internet-banking/LoginV2/Login?rc=INB" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/ocbc.webp" alt="OCBC"/></a>
+    <div style="border-bottom: 1px #dfdfdf solid; margin-bottom: 15px;"></div>`;
+    copyText.select();
+    copyText.setSelectionRange(0, 99999)
+    document.execCommand("copy");
+    document.querySelector("#doneCopy").innerHTML = "No Akaun Sudah Di Salin! " + (copyText.value) + " Pilihan Bank :" + (buttonList);
+    }
+
+    function myEmail() {
+    var copyMail = document.getElementById("myMail");
+    copyMail.select();
+    copyMail.setSelectionRange(0, 99999)
+    document.execCommand("copy");
+    document.getElementById("doneMail").innerHTML = "Email Sudah Di Salin! " + (copyMail.value);
+    }
