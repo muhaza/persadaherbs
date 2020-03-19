@@ -166,7 +166,9 @@ var app = new Vue({
     data: {
         pop2img: "./asset/image/teh-thumbnail.webp",
         tehShop:"https://shopee.com.my/Teh-Persada-🇲🇾🔥Hot-Sale🔥-i.227540832.3419949853",
+        tehWa:"https://wa.me/601158680328?text=Saya%20berminat%20untuk%20order%20Teh%20Persada",
         tehfb:"https://web.facebook.com/commerce/products/2855263187869798"
+        
     }
 });
 
