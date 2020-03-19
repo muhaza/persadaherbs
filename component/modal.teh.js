@@ -1,3 +1,4 @@
+
 document.getElementById("modal-teh").innerHTML = `
 <!-- Modal -->
 <div class="modal fade" id="tehPersadaModal" tabindex="-1" role="dialog" aria-labelledby="ModalCenterTitle"
@@ -85,7 +86,7 @@ document.getElementById("modal-teh").innerHTML = `
                       <button type="button" class="btn btn-primary mb-2" style="border-radius:25px" onclick="myEmail()">Copy Email</button>
                       <div id="doneMail"></div> -->
                     </form>
-                    <div style="border-bottom: 1px #dfdfdf solid; margin-bottom: 15px;"></div>
+
                     <!-- Bank Clipboard -->
 
                     <a v-bind:href="tehShop" class="btn btn-danger persada-button mt-1">Beli di Shopee!</a>
@@ -104,8 +105,7 @@ document.getElementById("modal-teh").innerHTML = `
         </div>
       </div>
     </div>
-
-    `    
+    ` ;
     function myClipboard() {
     var copyText = document.querySelector("#myInput");
     var buttonList = `
