@@ -360,6 +360,23 @@
     <!-- 🧩🧩🧩 modal component -->
 </section>
 
+<!-- Clipboard -->
+<script>
+    function myClipboard() {
+    var copyText = document.getElementById("myInput");
+    var buttonList = `
+    <br>
+    <a href="https://maybank2u.com.my" target="_blank" class="btn btn-warning mx-1">MAYBANK</a>
+    <a href="https://www.cimbclicks.com.my" target="_blank" class="btn btn-danger mx-1">CIMB</a>
+    <a href="https://logon.rhb.com.my/default.htm" target="_blank" class="btn btn-danger mx-1">RHB</a>
+    `;
+    copyText.select();
+    copyText.setSelectionRange(0, 99999)
+    document.execCommand("copy");
+    document.getElementById("doneCopy").innerHTML = "No Akaun Sudah Di Salin! " + (copyText.value) + " Pilihan Bank :" + (buttonList);
+    }
+</script>
+<!-- Clipboard -->
 <!-- mmmmmmmmmmmmmmmmmmmmmmm modal mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm -->
     <!-- Mengenai -->
     <!-- tagline -->

@@ -69,10 +69,22 @@ document.getElementById("modal-teh").innerHTML = `
 
                     <div style="border-bottom: 1px #00000069 solid; margin-bottom: 15px;"></div>
 
+                    <!-- Bank Clipboard -->
+                    <form class="form-inline">
+                      <b class="text-center mb-2" style="margin:0 auto">Bank-in ke CIMB: PERSADA FC TRADING</b>
+
+                      <div class="form-group mx-sm-3 mb-2">
+                        <input class="form-control" type="text" value="8604079751" id="myInput">
+                      </div>
+                      <button type="button" class="btn btn-primary mb-2" style="border-radius:25px" onclick="myClipboard()">Copy No Akaun</button>
+                    </form>
+                    <div id="doneCopy"></div>
+                    <!-- Bank Clipboard -->
+                    
                     <a v-bind:href="tehShop" class="btn btn-danger persada-button mt-1">Beli di Shopee!</a>
-                    <a href="https://wa.me/601158680328?text=Saya%20berminat%20untuk%20order%20Teh%20Persada"
-                      class="btn btn-success persada-button mt-1">Whatsapp</a>
-                    <a href="https://web.facebook.com/commerce/products/2855263187869798" class="btn btn-primary persada-button mt-1">Facebook PM</a>
+                    <a href="https://wa.me/601158680328?text=Saya%20berminat%20untuk%20order%20Teh%20Persada" target="_blank"
+                      class="btn btn-success persada-button mt-1">Beli di Whatsapp</a>
+                    <a href="https://web.facebook.com/commerce/products/2855263187869798" class="btn btn-primary persada-button mt-1">Beli di Facebook</a>
                   </div>
                 </div>
               </div>

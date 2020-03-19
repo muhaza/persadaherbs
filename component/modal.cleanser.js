@@ -10,7 +10,7 @@ document.getElementById("modal-cleanser").innerHTML = `
                 </div>
 
                 <span>
-                    <button type="button" class="btn btn-danger float-right " style="font-size:small">RM50</button>
+                    <button type="button" class="btn btn-danger float-right " style="font-size:small">Offer RM24</button>
                 </span>
 
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -59,7 +59,7 @@ document.getElementById("modal-cleanser").innerHTML = `
                                                 <button type="button" class="btn btn-danger float-right">RM57</button>
                                             </li>
                                             <li class="list-group-item">Harga Diskaun
-                                                <button type="button" class="btn btn-danger float-right">RM50</button>
+                                                <button type="button" class="btn btn-danger float-right">RM24</button>
                                             </li>
                                             <!-- <li class="list-group-item">Harga Pakej
                                                 <button type="button" class="btn btn-danger float-right">4/RM140</button>

@@ -10,7 +10,7 @@ document.getElementById("modal-scrub").innerHTML = `
                 </div>
 
                 <span>
-                    <button type="button" class="btn btn-danger float-right " style="font-size:small">RM60</button>
+                    <button type="button" class="btn btn-danger float-right " style="font-size:small">Offer RM24</button>
                 </span>
 
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -58,7 +58,7 @@ document.getElementById("modal-scrub").innerHTML = `
                                                 <button type="button" class="btn btn-danger float-right">RM69</button>
                                             </li>
                                             <li class="list-group-item">Harga Diskaun
-                                                <button type="button" class="btn btn-danger float-right">RM60</button>
+                                                <button type="button" class="btn btn-danger float-right">RM24</button>
                                             </li>
                                             <!-- <li class="list-group-item">Harga Pakej
                                                 <button type="button" class="btn btn-danger float-right">4/RM140</button>
@@ -79,6 +79,9 @@ document.getElementById("modal-scrub").innerHTML = `
 
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 15px;"></div>
 
+                                        <p class="card-text">
+                                       CAJ PENGHANTARAN SERENDAH RM5 SEMENANJUNG
+                                        </p>
                                         <!-- <a v-bind:href="pop2Url" class="btn btn-danger persada-button mt-1">Beli Sekarang</a> -->
                                         <a href="https://wa.me/601158680328?text=Saya%20berminat%20untuk%20order%20Nova-scrub" class="btn btn-success persada-button mt-1">Whatsapp</a>
                                         <a href="https://web.facebook.com/commerce/products/2643903315735171" class="btn btn-primary persada-button mt-1">Facebook PM</a>

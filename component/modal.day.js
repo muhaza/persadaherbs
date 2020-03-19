@@ -10,7 +10,7 @@ document.getElementById("modal-day").innerHTML = `
                 </div>
 
                 <span>
-                    <button type="button" class="btn btn-danger float-right " style="font-size:small">RM82</button>
+                    <button type="button" class="btn btn-danger float-right " style="font-size:small">Offer RM33</button>
                 </span>
 
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -58,7 +58,7 @@ document.getElementById("modal-day").innerHTML = `
                                                 <button type="button" class="btn btn-danger float-right">RM82</button>
                                             </li>
                                             <li class="list-group-item">Harga Diskaun
-                                                <button type="button" class="btn btn-danger float-right">RM80</button>
+                                                <button type="button" class="btn btn-danger float-right">RM33</button>
                                             </li>
                                             <!-- <li class="list-group-item">Harga Pakej
                                                 <button type="button" class="btn btn-danger float-right">4/RM140</button>

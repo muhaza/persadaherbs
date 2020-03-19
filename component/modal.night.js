@@ -59,7 +59,7 @@ document.getElementById("modal-night").innerHTML = `
                                                 <button type="button" class="btn btn-danger float-right">RM82</button>
                                             </li>
                                             <li class="list-group-item">Harga Diskaun
-                                                <button type="button" class="btn btn-danger float-right">RM80</button>
+                                                <button type="button" class="btn btn-danger float-right">RM33</button>
                                             </li>
                                             <!-- <li class="list-group-item">Harga Pakej
                                                 <button type="button" class="btn btn-danger float-right">4/RM140</button>

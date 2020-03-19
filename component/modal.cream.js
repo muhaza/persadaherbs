@@ -58,7 +58,7 @@ document.getElementById("modal-cream").innerHTML = `
                                                 <button type="button" class="btn btn-danger float-right">RM57</button>
                                             </li>
                                             <li class="list-group-item">Harga Diskaun
-                                                <button type="button" class="btn btn-danger float-right">RM50</button>
+                                                <button type="button" class="btn btn-danger float-right">RM40</button>
                                             </li>
                                             <!-- <li class="list-group-item">Harga Pakej
                                                 <button type="button" class="btn btn-danger float-right">4/RM140</button>
