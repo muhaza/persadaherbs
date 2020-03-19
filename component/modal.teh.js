@@ -76,7 +76,7 @@ document.getElementById("modal-teh").innerHTML = `
                       <div class="form-group mx-sm-3 mb-2">
                         <input class="form-control" type="text" value="8604079751" id="myInput">
                       </div>
-                      <button type="button" class="btn btn-primary mb-2" style="border-radius:25px" onclick="myClipboard1()">Copy No Akaun</button>
+                      <button type="button" class="btn btn-primary mb-2" style="border-radius:25px" onclick="myClipboard()">Copy No Akaun</button>
                       <div id="doneCopy"></div>
                       
                       <!-- <div class="form-group mx-sm-3 mb-2">
@@ -106,7 +106,7 @@ document.getElementById("modal-teh").innerHTML = `
     </div>
 
     `    
-    function myClipboard1() {
+    function myClipboard() {
     var copyText = document.querySelector("#myInput");
     var buttonList = `
     <br>
@@ -127,10 +127,3 @@ document.getElementById("modal-teh").innerHTML = `
     document.querySelector("#doneCopy").innerHTML = "No Akaun Sudah Di Salin! " + (copyText.value) + " Pilihan Bank :" + (buttonList);
     }
 
-    function myEmail() {
-    var copyMail = document.getElementById("myMail");
-    copyMail.select();
-    copyMail.setSelectionRange(0, 99999)
-    document.execCommand("copy");
-    document.getElementById("doneMail").innerHTML = "Email Sudah Di Salin! " + (copyMail.value);
-    }
