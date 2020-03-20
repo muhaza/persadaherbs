@@ -141,9 +141,6 @@ var app = new Vue({
     }
 });
 
-
-
-
 var app = new Vue({
     el: "#banner-img",
     data: {
@@ -160,7 +157,6 @@ var app = new Vue({
     }
 });
 
-
 var app = new Vue({
     el: "#modal-teh",
     data: {
@@ -168,7 +164,6 @@ var app = new Vue({
         tehShop:"https://shopee.com.my/Teh-Persada-🇲🇾🔥Hot-Sale🔥-i.227540832.3419949853",
         tehWa:"https://wa.me/601158680328?text=Saya%20berminat%20untuk%20order%20Teh%20Persada",
         tehfb:"https://web.facebook.com/commerce/products/2855263187869798"
-        
     }
 });
 
@@ -177,6 +172,7 @@ var app = new Vue({
     data: {
         kopiImg: "./asset/image/kopi-thumbnail.webp",
         kopiShop:"https://shopee.com.my/Suo-Yang-White-Coffee-🇲🇾🔥Hot-Sale🔥-Persada-Herbs-HQ-i.227540832.4619877204",
+        kopiWa:"https://wa.me/601158680328?text=Saya%20berminat%20untuk%20order%20Kopi%20Suoyang",
         kopifb:"https://web.facebook.com/commerce/products/3116798264997460/"
     }
 });
@@ -185,15 +181,18 @@ var app = new Vue({
     el: "#modal-progest",
     data: {
         progestImg: "./asset/image/progest-thumbnail.webp",
-        // progestShop:"https://www.shopee.com.my"
+        progestShop:"https://shopee.com.my/Progest-Persada-Herbs-HQ-i.227540832.6920134318",
+        progestWa:"https://wa.me/601158680328?text=Saya%20berminat%20untuk%20order%20Progest%20Cendawan%20Mekah",
+        progestFb:""
     }
 });
 var app = new Vue({
     el: "#modal-tanjaq",
     data: {
         tanjaqImg: "./asset/image/tanjaq-thumbnail.webp",
-        // tanjaqShop:"https://www.shopee.com.my"
-
+        tanjaqShop:"https://shopee.com.my/Tanjaq-Persada-Herbs-HQ-i.227540832.4220148417",
+        tanjaqWa:"https://wa.me/601158680328?text=Saya%20berminat%20untuk%20order%20Tanjaq",
+        tanjaqFB:"https://web.facebook.com/commerce/products/4038879999459139/"
     }
 });
 

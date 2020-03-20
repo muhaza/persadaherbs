@@ -103,9 +103,10 @@ document.getElementById("modal-tanjaq").innerHTML = `
                     </form>
                     <!-- Bank Clipboard -->
                                        
-                                        <!-- <a v-bind:href="pop2Url" class="btn btn-danger persada-button mt-1">Beli Sekarang</a> -->
-                                        <a href="https://wa.me/601158680328?text=Saya%20berminat%20untuk%20order%20Tanjaq" class="btn btn-success persada-button mt-1">Whatsapp</a>
-                                        <a href="https://m.me/persadaherb" target="_top" class="btn btn-primary persada-button mt-1">Facebook PM</a>
+                    <a v-bind:href="tanjaqShop" class="btn persada-button mt-1" style="background-color:#EA501F;color:#fff">Beli di Shopee!</a>
+                    <a v-bind:href="tanjaqWa" target="_blank" class="btn btn-success persada-button mt-1">Beli di Whatsapp</a>
+                    <a v-bind:href="tanjaqFB" class="btn btn-primary persada-button mt-1">Beli di Facebook</a>
+
                                     </div>
                                 </div>
                             </div>

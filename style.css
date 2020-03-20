@@ -84,6 +84,23 @@ width: 300px;
   text-decoration: line-through;
 }
 
+.strikeout {
+  /* font-size: 4em; */
+  /* line-height: 1em; */
+  position: relative;
+  
+}
+.strikeout::after {
+  border-bottom: 0.12em solid rgb(255, 255, 255);
+  content: "";
+  left: 2px;
+  margin-top: calc(0.125em / 2 * -1);
+  position: absolute;
+  right: 2px;
+  top: 50%;
+  transform: rotate(-15deg);
+}
+
 /* getM */
 
 @media only screen and (min-width: 280px) and (max-width: 786px) {
@@ -142,8 +159,9 @@ width: 300px;
     -moz-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
     -ms-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
     animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
-    font-weight: normal;
-    font-family: sans-serif;
+    /* font-weight: normal; */
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
     text-decoration: none !important;
     color: #ffffff;
     transition: all 300ms ease-in-out;

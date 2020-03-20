@@ -78,15 +78,12 @@ document.getElementById("modal-teh").innerHTML = `
                       </div>
                       <button type="button" class="btn btn-primary mb-2" style="border-radius:25px;" onclick="myClipboard()">Copy No Akaun</button>
                       <div id="doneCopy"></div>
-                      
                     </form>
-
                     <!-- Bank Clipboard -->
 
                     <a v-bind:href="tehShop" class="btn persada-button mt-1" style="background-color:#EA501F;color:#fff">Beli di Shopee!</a>
-                    <a v-bind:href="tehWa" target="_blank"
-                      class="btn btn-success persada-button mt-1">Beli di Whatsapp</a>
-                    <a href="https://web.facebook.com/commerce/products/2855263187869798" class="btn btn-primary persada-button mt-1">Beli di Facebook</a>
+                    <a v-bind:href="tehWa" target="_blank" class="btn btn-success persada-button mt-1">Beli di Whatsapp</a>
+                    <a v-bind:href="tehfb" class="btn btn-primary persada-button mt-1">Beli di Facebook</a>
                   </div>
                 </div>
               </div>

@@ -83,6 +83,16 @@ document.getElementById("modal-anas").innerHTML = `
 
                                         <div style="border-bottom: 1px #dfdfdf solid; margin-bottom: 15px;"></div>
 
+                                        <form class="form-inline">
+                                            <b class="text-center mb-2" style="margin:0 auto">Bank-in ke CIMB: PERSADA FC TRADING</b>
+
+                                            <div class="form-group mx-sm-3 mb-2">
+                                            <input class="form-control" type="text" value="8604079751" id="myInput4">
+                                            </div>
+                                            <button type="button" class="btn btn-primary mb-2" style="border-radius:25px" onclick="myClipboard4()">Copy No Akaun</button>
+                                            <div id="doneCopy4"></div>
+                                        </form>
+
                                         <!-- <a v-bind:href="pop2Url" class="btn btn-danger persada-button mt-1">Beli Sekarang</a> -->
                                         <a href="https://wa.me/601158680328?text=Saya%20berminat%20untuk%20order%20Anas" class="btn btn-success persada-button mt-1">Whatsapp</a>
                                         <a href="https://web.facebook.com/commerce/products/2707141359355180/" target="_top" class="btn btn-primary persada-button mt-1">Facebook PM</a>
@@ -100,3 +110,23 @@ document.getElementById("modal-anas").innerHTML = `
         </div>
 
         `
+function myClipboard4() {
+    var copyText = document.querySelector("#myInput4");
+    var buttonList = `
+    <br>
+    <a href="https://maybank2u.com.my" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/maybank.webp" alt="maybank"/></a>
+    <a href="https://cimbclicks.com.my" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/cimb.webp" alt="cimb"/></a>
+    <a href="https://www.bankislam.biz" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/islam.webp" alt="BankIslam"/></a>
+    <a href="https://www.mybsn.com.my/mybsn/login/login.do" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/bsn.webp" alt="BSN"/></a>
+    <a href="https://logon.rhb.com.my/default.htm" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/rhb.webp" alt="RHB"/></a>
+    <a href="https://s.hongleongconnect.my/rib/app/fo/login?web=1" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/hongleong.webp" alt="HongLeong"/></a>
+    <a href="https://ambank.amonline.com.my" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/am.webp" alt="AMBank"/></a>
+    <a href="https://www.allianceonline.com.my/personal/login/login.do" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/alliannce.webp" alt="Alliance"/></a>
+    <a href="https://www.i-muamalat.com.my/rib/index.do" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/muamalat.webp" alt="Muamalat"/></a>
+    <a href="https://internet.ocbc.com.my/internet-banking/LoginV2/Login?rc=INB" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/ocbc.webp" alt="OCBC"/></a>
+    <div style="border-bottom: 1px #dfdfdf solid; margin-bottom: 15px;"></div>`;
+    copyText.select();
+    copyText.setSelectionRange(0, 99999)
+    document.execCommand("copy");
+    document.querySelector("#doneCopy4").innerHTML = "No Akaun Sudah Di Salin! " + (copyText.value) + " Pilihan Bank :" + (buttonList);
+}
