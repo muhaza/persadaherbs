@@ -29,15 +29,121 @@ document.getElementById("modal-kopi").innerHTML = `
 
                   <img class="card-img-top" v-bind:src="kopiImg" alt=" 📚Card image cap" />
                   <div class="card-body">
-                    <h5 class="card-title"> 👍 KEBAIKAN</h5>
+                    <!-- <h5 class="card-title"> 👍 KEBAIKAN</h5> -->
                     <p class="card-text">
-                      • Memberi Tenaga Segera <br>• Menghilangkan Rasa Mengantuk <br>
+                      <!-- • Memberi Tenaga Segera <br>• Menghilangkan Rasa Mengantuk <br>
                       • Melancarkan Aliran Darah <br>• melancarkan Aliran Darah dan Haid <br>
                       • Melancarkan Hormon <br>
                       • Menguatkan Sistem Dalaman Badan.<br>
-                      • Menghitamkan Rambut.<br>
+                      • Menghitamkan Rambut.<br> -->
+                      <b>Suo Yang Coffee</b> merupakan kopi kesihatan yang enak lagi menenangkan.<br />
+<br />
+Gabungan Kopi Arabika, Koko, Herba-herba terpilih serta di formulasi dengan Sarang Burung Walit membuatkan Suo Yang Coffee istimewa dari minuman kopi yang lain.<br />
+<br />
+Gandingan Tongkat Ali, Polygum Multiflorum dan Ubi Jaga pastinya membuat anda lebih sihat, bertenaga, awet muda dan dapat membantu meningkatkan tahap kesuburan anda.<br />
+<br />
+Nikmati kesegaran Suo Yang Coffee di waktu pagi dan alamilah<br />
+kehebatannya.<br />
+<br />
+<b><u>CYNOMORIUM SONGARICUM/ SUO YANG</u></b><br />
+• Baik untuk terapi peningkatan seksual<br />
+• Memelihara tulang dan otot<br />
+• Mencegah kekeringan<br />
+• Melembabkan usus<br />
+<br />
+<b><u>KOKO</u></b><br />
+Makanan lengkap dan Seimbang. Dianggarkan 100 gram serbuk koko mengandungi<br />
+pelbagai zat yang diperlukan tubuh manusia termasuklah 10% lemak, 22.4% protin,<br />
+46.7% karbohiderat, 2.8% theobromina dan perlbagai vitamin dan kalsium yang tinggi.<br />
+<br />
+•<span style="white-space: pre;"> </span>Mengandungi tannin iaitu sejenis bahan yang bertindak sebagai benteng kerosakan gigi dan menghalang pembentukan plak gigi.<br />
+<br />
+•<span style="white-space: pre;"> </span>Kaya dengan antioksidan flavonoids yang dapat mengurangkan risiko atherosclerosis serta mengurangkan kematian berpunca daripada penyakit koronori jantung.<br />
+•<span style="white-space: pre;"> </span>Mengawal tekanan darah<br />
+•<span style="white-space: pre;"> </span>Mengawal kencing manis<br />
+•<span style="white-space: pre;"> </span>Menghalang jerawat dan parut<br />
+•<span style="white-space: pre;"> </span>Mengawal kerosakan sel dan tisu badan<br />
+•<span style="white-space: pre;"> </span>Baik untuk kulit<br />
+<br />
+<b><u>KRIMER TANPA TENUSU</u></b><br />
+•<span style="white-space: pre;"> </span>Merupakan makanan seimbang yang sangat baik<br />
+•<span style="white-space: pre;"> </span>Mengandungi 50% protin dalam setiap 100 g kacang keldai<br />
+•<span style="white-space: pre;"> </span>Kaya dengan bahan mineral seperti kalsium, sodium, manganese, magnesium, iron dan fosfor<br />
+•<span style="white-space: pre;"> </span>Kaya dengan vitamin A, B, C, D serta lesitin<br />
+•<span style="white-space: pre;"> </span>Dapat mengurangi risiko penyakit kanser dan jantung<br />
+•<span style="white-space: pre;"> </span>Mudah dicerna dan mengandungi semua asid amino yang diperlukan untuk menjaga dan<br />
+memperbaiki lapisan tubuh yang rosak serta menambah tenaga<br />
+<br />
+<b><u>POLYGONUM<span style="white-space: pre;"> </span>MULTIFLORUM/SHOU WU</u></b><br />
+•<span style="white-space: pre;"> </span>Merupakan salah satu herba dasar pengubatan cina yang sangat efektif untuk memperkuatkan hati dan ginjal serta meningkatkan penampilan rambut<br />
+•<span style="white-space: pre;"> </span>Menguatkan tulang dan otot serta mencegah penuaan<br />
+•<span style="white-space: pre;"> </span>Mengawal kadar kolesterol ,darah tinggi dan bronchitis kronik<br />
+•<span style="white-space: pre;"> </span>Meningkatkan kesuburan dengan memperkuat ovary dan meningkatkan sperma<br />
+<br />
+<b><u>SARANG BURUNG WALIT</u></b><br />
+•<span style="white-space: pre;"> </span>Awet muda bagi lelaki dan wanita<br />
+•<span style="white-space: pre;"> </span>Melancarkan sistem aliran darah<br />
+•<span style="white-space: pre;"> </span>Melegakan pernafasan<br />
+•<span style="white-space: pre;"> </span>Memutihkan dan melicinkan kulit muka terutama wanita mengandung dan baik untuk kulit bayi<br />
+•<span style="white-space: pre;"> </span>Menyegarkan mata dan mengubati penyakit lelah<br />
+•<span style="white-space: pre;"> </span>Dapat mengubati Hepatitis-B<br />
+•<span style="white-space: pre;"> </span>Mampu mengubati batuk yang kronik<br />
+<br />
+<b><u>TONGKAT ALI</u></b><br />
+•<span style="white-space: pre;"> </span>Menstabilkan hormone androgen lelaki<br />
+•<span style="white-space: pre;"> </span>Membantu proses penyembuhan<br />
+•<span style="white-space: pre;"> </span>Membantu merawat sakit sendi<br />
+•<span style="white-space: pre;"> </span>Melancarkan pengaliran darah<br />
+•<span style="white-space: pre;"> </span>Mengimbangkan kadar hormone<br />
+•<span style="white-space: pre;"> </span>Merangsang dan meningkatkan fungsi organ seks lelaki<br />
+•<span style="white-space: pre;"> </span>Meningkat pembentukkan otot<br />
+•<span style="white-space: pre;"> </span>Melegakan sakit pinggang<br />
+<br />
+<b>GANODERMA LUCIDUM</b><br />
+•<span style="white-space: pre;"> </span>Meningkatkan imunisasi tubuh badan<br />
+•<span style="white-space: pre;"> </span>Mengimbang tahap gula dalam darah<br />
+•<span style="white-space: pre;"> </span>Membantu membersihkan toksik dalam badan<br />
+•<span style="white-space: pre;"> </span>Mengurangkan kolesterol dan lemak<br />
+•<span style="white-space: pre;"> </span>Anti-alergi dan anti penuaan<br />
+•<span style="white-space: pre;"> </span>Menambahkan tenaga<br />
+<br />
+<b>CORDYCEPS</b><br />
+•<span style="white-space: pre;"> </span>Memperbaiki sistem auto-immune<br />
+•<span style="white-space: pre;"> </span>Membantu melindungi buah pinggang daripada toksin<br />
+•<span style="white-space: pre;"> </span>Membantu mengawal penghidratan tubuh<br />
+•<span style="white-space: pre;"> </span>Membantu melindungi jantung<br />
+•<span style="white-space: pre;"> </span>Antibiotic, anti kulat, nti radangan dan anti bengkak semulajadi serta menghalang kontraksi otot lembut<br />
+<br />
+<b>UBI JAGA</b><br />
+•<span style="white-space: pre;"> </span>Melegakan keletihan dan kelesuan<br />
+•<span style="white-space: pre;"> </span>Sebagai ejen anti-penuaan<br />
+•<span style="white-space: pre;"> </span>Melancarkan pengaliran darah dan meningkatkan metabolisme<br />
+•<span style="white-space: pre;"> </span>Meningkatkan daya tahan seksual lelaki<br />
+•<span style="white-space: pre;"> </span>Mengawal emosi serta tekanan darah<br />
+<br />
+<b>PANAX GINSENG</b><br />
+•<span style="white-space: pre;"> </span>Meningkatkan libido pada wanita dan lelaki<br />
+•<span style="white-space: pre;"> </span>Meningkatkan stamina<br />
+•<span style="white-space: pre;"> </span>Meningkat daya tahan tubuh<br />
+•<span style="white-space: pre;"> </span>Membantu mengawal suhu badan<br />
+•<span style="white-space: pre;"> </span>Menurunkan kadar gula dalam darah yang tinggi<br />
+•<span style="white-space: pre;"> </span>Memperkukuh sistem kardiovaskular<br />
+<br />
+<b>KOPI ARABIKA</b><br />
+•<span style="white-space: pre;"> </span>Menghilangkan rasa mengantuk<br />
+•<span style="white-space: pre;"> </span>Menyegar badan dan lebih bersemangat<br />
+•<span style="white-space: pre;"> </span>Awet muda<br />
+•<span style="white-space: pre;"> </span>Membantu meningkatkan tahap kesuburan lelaki<br />
+•<span style="white-space: pre;"> </span>Meningkatkan pengaliran darah<br />
+<br />
+<b><u>GARAM BULUH</u></b><br />
+•<span style="white-space: pre;"> </span>Sebagai ejen anti-oksida dan menyingkirkan toksin<span style="white-space: pre;"> </span>dalam badan<br />
+•<span style="white-space: pre;"> </span>Mengandungi mineral yang tinggi<br />
+•<span style="white-space: pre;"> </span>Mengandungi kandungan magnesium yang tinggi<br />
+•<span style="white-space: pre;"> </span>Bersifat ALKALI<br />
+•<span style="white-space: pre;"> </span>Membantu melawaskan sistem penghadaman
                     </p>
-                    <div style="border-bottom: 1px #00000069 solid; margin-bottom: 10px;"></div>
+                    <!-- <div style="border-bottom: 1px #00000069 solid; margin-bottom: 10px;"></div>
                     <h4 class="text-center">WOW! MACAM-MACAM RASA!</h4>
                     <div style="border-bottom: 1px #00000069 solid; margin-bottom: 15px;"></div>
 
@@ -46,7 +152,7 @@ document.getElementById("modal-kopi").innerHTML = `
                       Krimer Tanpa Susu, Gula Perang, Ganoderma Lucidum, Cordyceps, Cynomorium Songaricum,
                       Polygonum Multiflorum, Tongkat Ali, Ubi Jaga, Kopi Arabica, Garam Buluh, Sarang Burung Walit,
                       dan Koko
-                    </p>
+                    </p> -->
                     <div style="border-bottom: 1px #00000069 solid; margin-bottom: 10px;"></div>
                     <h4 class="text-center">HARGA KOPI SOUYANG</h4>
                     <div style="border-bottom: 1px #00000069 solid; margin-bottom: 15px;"></div>
@@ -109,8 +215,8 @@ document.getElementById("modal-kopi").innerHTML = `
     `
 
 function myClipboard3() {
-  var copyText = document.querySelector("#myInput3");
-  var buttonList = `
+    var copyText = document.querySelector("#myInput3");
+    var buttonList = `
   <br>
   <a href="https://maybank2u.com.my" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/maybank.webp" alt="maybank"/></a>
   <a href="https://cimbclicks.com.my" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/cimb.webp" alt="cimb"/></a>
@@ -123,8 +229,8 @@ function myClipboard3() {
   <a href="https://www.i-muamalat.com.my/rib/index.do" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/muamalat.webp" alt="Muamalat"/></a>
   <a href="https://internet.ocbc.com.my/internet-banking/LoginV2/Login?rc=INB" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/ocbc.webp" alt="OCBC"/></a>
   <div style="border-bottom: 1px #dfdfdf solid; margin-bottom: 15px;"></div>`;
-  copyText.select();
-  copyText.setSelectionRange(0, 99999)
-  document.execCommand("copy");
-  document.querySelector("#doneCopy3").innerHTML = "No Akaun Sudah Di Salin! " + (copyText.value) + " Pilihan Bank :" + (buttonList);
-  }
+    copyText.select();
+    copyText.setSelectionRange(0, 99999)
+    document.execCommand("copy");
+    document.querySelector("#doneCopy3").innerHTML = "No Akaun Sudah Di Salin! " + (copyText.value) + " Pilihan Bank :" + (buttonList);
+}
