@@ -33,13 +33,13 @@ document.getElementById("modal-teh").innerHTML = `
                     <p class="card-text">
                     <div class="MsoNormal">
 </div>
-<b><u>TEH PERSADA</u></b><br />
+<b><u>🌿 TEH PERSADA</u></b><br />
 <div class="MsoNormal">
 Komposisi : Ekstrak Teh Hijau, Ekstrak Lemon, Esktrak Serai, Madu Kelulut, Sukrosa</div>
 <div class="MsoNormal">
 Satu Sachect 25 gm x 15 Sachect<br />
 <br /></div>
-<b><u>Khasiat Teh Hijau</u></b><br />
+<b><u>👍</u></b><b><u>Khasiat Teh Hijau</u></b><br />
 <div class="MsoNormal">
 Rahsia Panjang Umur Rakyat Jepun</div>
 <div class="MsoNormal">
@@ -64,7 +64,7 @@ Teh Hijau mengandungi kafein yang kita tahu sebagai perangsang. Kandungan tidakl
 Kombinasi kafein dan asid amino membantu dalam memperbaiki fungsi otak dan menajamkan Daya Fikiran.</div>
 <div class="MsoNormal">
 <br /></div>
-<b><u>Khasiat Lemon</u></b><br />
+<b><u>👍Khasiat Lemon</u></b><br />
 <div class="MsoNormal">
 Menurut falsafah kitab Ayuverda, Kita patut mulakan hari dengan menyelaraskan badan dengan alam semula jadi. Badan kita sebenarnya banyak berasid kerana makanan segera, pencemaran udara, tidak cukup bersenam dan atas factor factor stress yang menyebabkan badan bertoksik.</div>
 <div class="MsoNormal">
@@ -73,7 +73,7 @@ Menurut falsafah kitab Ayuverda, Kita patut mulakan hari dengan menyelaraskan ba
 Untuk mengimbangkan keasidan badan, kita perlu mempunyai sedikit alkali dalam badan. Walaupun sebenarnya kita tahu lemon adalah buah yang berasid, tetapi ia akan jadi alkali dalam badan kita. Mulakan hari dengan minum jus lemon yang kaya dengan Vitamin C ini untuk mengimbangkan keasidan badan kita.</div>
 <div class="MsoNormal">
 <br /></div>
-<b><u>Khasiat Serai</u></b><br />
+<b><u>👍&nbsp;</u></b><b><u>Khasiat Serai</u></b><br />
 <div class="MsoNormal">
 Doktor dan Saintis telah menemui bahawa 1 gm serai mengandungi CITRAL yang mencukupi untuk mematikan sel Kanser ! Citral terbukti menpu menyebabkan aktiviti apoptosis(self destruct) yang boleh memusnahkan sel sel Kanser</div>
 <div class="MsoNormal">
@@ -86,7 +86,7 @@ Pesakit Kanser di Israil telah digalakkan oleh Doktor untuk minum Jus serai pada
 Apa itu Citral : Citral merupakan salah satu komponen di dalam serai yang mempunyai pelbagai khasiat pada kesihatan manusia. Citral terdapat di dalam beberapa tumbuhan lain juga tetapi mempunyai kandungan yang tinggi di dalam Serai.</div>
 <div class="MsoNormal">
 <br /></div>
-<b>KHASIAT TEH PERSADA</b><br />
+<b><u>👍&nbsp;</u></b><b>KHASIAT TEH PERSADA</b><br />
 <div class="MsoNormal">
 <b><u>1.Membantu sistem penghadaman</u></b></div>
 <div class="MsoNormal">
@@ -192,14 +192,21 @@ Membantu mengubati masalah sakit perut dan memecah gumpalan angin serta melepask
 <div class="MsoNormal">
 <br /></div>
 <b><u>
-13. Menurunkan berat badan&nbsp;14. Membantu menyerap nutrisi&nbsp;15. Mengatasi mabuk alcohol&nbsp;16. Kesihatan Jantung</u></b><br />
+13. Menurunkan berat badan&nbsp;</u></b><br />
+<b><u>14. Membantu menyerap nutrisi&nbsp;</u></b><br />
+<b><u>15. Mengatasi mabuk alcohol&nbsp;</u></b><br />
+<b><u>16. Kesihatan Jantung</u></b><br />
 <div class="MsoNormal">
 Penelitian telah menunjukkan bahawa mengonsumsi lemon membantu melebarkan pembuluh darah sehingga jantung bekerja baik. Kalium yang terdapat dalam lemon dapat mencipta arteri yang sihat.</div>
 <div class="MsoNormal">
 <br /></div>
 <b><u>
 17. Meningkatkan daya fokus&nbsp;</u></b><br />
-<b><u>18. Memperbaiki sistem pernafasan&nbsp;19. Menghilangkan Urat urat yang ketara&nbsp;20. Memperbaiki fungsi otak&nbsp;21. Pembakar lemak badan, kecergasan fizikal&nbsp;22.&nbsp; &nbsp;Antioksidan tinggi&nbsp;</u></b><br />
+<b><u>18. Memperbaiki sistem pernafasan&nbsp;</u></b><br />
+<b><u>19. Menghilangkan Urat urat yang ketara&nbsp;</u></b><br />
+<b><u>20. Memperbaiki fungsi otak&nbsp;</u></b><br />
+<b><u>21. Pembakar lemak badan, kecergasan fizikal&nbsp;</u></b><br />
+<b><u>22.&nbsp; &nbsp;Antioksidan tinggi&nbsp;</u></b><br />
 <div class="MsoNormal">
 mengurangkan risiko beberapa jenis kanser : kanser payudara, kanser kelenjar prostst, kanser usus</div>
 <b><u>
