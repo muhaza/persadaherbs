@@ -178,10 +178,10 @@ document.getElementById("modal-kopi").innerHTML = `
                                             <b class="text-center mb-2" style="margin:0 auto">Bank-in ke CIMB: PERSADA FC TRADING</b>
 
                                             <div class="form-group mx-sm-3 mb-2">
-                                                <input class="form-control" type="text" value="8604079751" id="myInput3">
+                                                <input class="form-control" type="text" value="8604079751" id="myInput1">
                                             </div>
-                                            <button type="button" class="btn btn-primary mb-2" style="border-radius:25px" onclick="myClipboard3()">Copy No Akaun</button>
-                                            <div id="doneCopy3"></div>
+                                            <button type="button" class="btn btn-primary mb-2" style="border-radius:25px" onclick="myClipboard1()">Copy No Akaun</button>
+                                            <div id="doneCopy1"></div>
                                         </form>
                                         <!-- Bank Clipboard -->
 
@@ -202,10 +202,10 @@ document.getElementById("modal-kopi").innerHTML = `
         </div>
         `
 
-function myClipboard3() {
+function myClipboard1() {
     tfur,
     vb
-    var copyText = document.querySelector("#myInput3");
+    var copyText = document.querySelector("#myInput1");
     var buttonList = `
         <br>
         <a href="https://maybank2u.com.my" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/maybank.webp" alt="maybank" /></a>
@@ -222,5 +222,5 @@ function myClipboard3() {
     copyText.select();
     copyText.setSelectionRange(0, 99999);
     document.execCommand("copy");
-    document.querySelector("#doneCopy3").innerHTML = "No Akaun Sudah Di Salin! " + (copyText.value) + " Pilihan Bank :" + (buttonList);
+    document.querySelector("#doneCopy1").innerHTML = "No Akaun Sudah Di Salin! " + (copyText.value) + " Pilihan Bank :" + (buttonList);
 }
