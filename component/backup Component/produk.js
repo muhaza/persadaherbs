@@ -52,7 +52,7 @@ document.getElementById("produk").innerHTML = `
                         {{tehDesc}}
                       </p>
                       <a class="btn btn-danger persada-button pulsingButton" class="btn btn-primary" data-toggle="modal"
-                         data-target="#tehPersadaModal" style="color:white">Lebih Informasi</a>
+                        onclick="teaPer()" data-target="#tehPersadaModal" style="color:white">Lebih Informasi</a>
                     </div>
                   </div>
                 </div>
