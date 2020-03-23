@@ -167,7 +167,7 @@ document.getElementById("modal-kopi").innerHTML = `
                                             </li>
 
                                             <li class="list-group-item">Harga Pemborong
-                                                <button type="button" class="btn btn-danger float-right">1000/RM17,000</button>
+                                                <button type="button" class="btn btn-danger float-right">1000/RM15,000</button>
                                             </li>
                                         </ul>
 
@@ -185,7 +185,7 @@ document.getElementById("modal-kopi").innerHTML = `
                                         </form>
                                         <!-- Bank Clipboard -->
 
-                                        <a v-bind:href="kopiShop" class="btn btn-danger persada-button mt-1">Beli Di Shopee</a>
+                                        <a v-bind:href="kopiShop" class="btn persada-button mt-1" style="background-color:#EA501F;color:#fff">Beli Di Shopee</a>
                                         <a href="https://wa.me/601158680328?text=Saya%20berminat%20untuk%20order%20Kopi%20SuoYang" class="btn btn-success persada-button mt-1">Whatsapp</a>
                                         <a v-bind:href="kopifb" target="_top" class="btn btn-primary persada-button mt-1">Facebook PM</a>
                                     </div>

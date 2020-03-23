@@ -231,7 +231,7 @@ Untuk kesihatan di syorkan minum pagi dan malam dua jam sebelum tidur.</div>
                         <button type="button" class="btn btn-danger float-right">100/RM1750</button>
                       </li>
                       <li class="list-group-item">Harga Pemborong
-                        <button type="button" class="btn btn-danger float-right">1000/RM17,000</button>
+                        <button type="button" class="btn btn-danger float-right">1000/RM15,000</button>
                       </li>
                     </ul>
 
