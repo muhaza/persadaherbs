@@ -9,11 +9,14 @@ document.getElementById("modal-teh").innerHTML = `
         <div class="col-sm">
           <h5 class="modal-title" id="exampleModalLongTitle">TEH PERSADA</h5>
         </div>
-
-        <span>
-          <button type="button" class="btn btn-danger float-right ">RM28</button>
+        
+        <!-- button price and cart -->
+        <span class="float-right">
+          <button type="button" class="btn btn-danger">RM28</button>
+          <a href="#myInput"><button type="button" class="btn btn-danger"><i class="fi-xwluxl-shopping-cart-wide"></i>
+          </button></a>
         </span>
-
+        <!-- button price and cart -->
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -27,6 +30,10 @@ document.getElementById("modal-teh").innerHTML = `
               <div class="col-sm">
                 <div style="width: 100%;">
                   <img class="card-img-top" v-bind:src="pop2img" alt=" 📚Card image cap" />
+
+                  <span>
+               
+
 
                   <div class="card-body">
                     <!-- <h5 class="card-title"> 👍 KEBAIKAN</h5> -->
@@ -255,9 +262,9 @@ Untuk kesihatan di syorkan minum pagi dan malam dua jam sebelum tidur.</div>
                     </form>
                     <!-- Bank Clipboard -->
 
-                    <a v-bind:href="tehShop" class="btn persada-button mt-1" style="background-color:#EA501F;color:#fff">Beli di Shopee!</a>
+                    <a v-bind:href="tehShop" target="_blank" class="btn persada-button mt-1" style="background-color:#EA501F;color:#fff">Beli di Shopee!</a>
                     <a v-bind:href="tehWa" target="_blank" class="btn btn-success persada-button mt-1">Beli di Whatsapp</a>
-                    <a v-bind:href="tehfb" class="btn btn-primary persada-button mt-1">Beli di Facebook</a>
+                    <a v-bind:href="tehfb" target="_blank" class="btn btn-primary persada-button mt-1">Beli di Facebook</a>
                   </div>
                 </div>
               </div>

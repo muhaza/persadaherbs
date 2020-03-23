@@ -87,10 +87,10 @@ document.getElementById("modal-anas").innerHTML = `
                                             <b class="text-center mb-2" style="margin:0 auto">Bank-in ke CIMB: PERSADA FC TRADING</b>
 
                                             <div class="form-group mx-sm-3 mb-2">
-                                            <input class="form-control" type="text" value="8604079751" id="myInput4">
+                                            <input class="form-control" type="text" value="8604079751" id="myInput5">
                                             </div>
-                                            <button type="button" class="btn btn-primary mb-2" style="border-radius:25px" onclick="myClipboard4()">Copy No Akaun</button>
-                                            <div id="doneCopy4"></div>
+                                            <button type="button" class="btn btn-primary mb-2" style="border-radius:25px" onclick="myClipboard5()">Copy No Akaun</button>
+                                            <div id="doneCopy5"></div>
                                         </form>
 
                                         <!-- <a v-bind:href="pop2Url" class="btn btn-danger persada-button mt-1">Beli Sekarang</a> -->
@@ -110,8 +110,9 @@ document.getElementById("modal-anas").innerHTML = `
         </div>
 
         `
-function myClipboard4() {
-    var copyText = document.querySelector("#myInput4");
+
+function myClipboard5() {
+    var copyText = document.querySelector("#myInput5");
     var buttonList = `
     <br>
     <a href="https://maybank2u.com.my" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/maybank.webp" alt="maybank"/></a>
@@ -128,5 +129,5 @@ function myClipboard4() {
     copyText.select();
     copyText.setSelectionRange(0, 99999)
     document.execCommand("copy");
-    document.querySelector("#doneCopy4").innerHTML = "No Akaun Sudah Di Salin! " + (copyText.value) + " Pilihan Bank :" + (buttonList);
+    document.querySelector("#doneCopy5").innerHTML = "No Akaun Sudah Di Salin! " + (copyText.value) + " Pilihan Bank :" + (buttonList);
 }
