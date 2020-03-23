@@ -12,7 +12,7 @@ document.getElementById("modal-kopi").innerHTML = `
         <!-- button price and cart -->
         <span class="float-right">
           <button type="button" class="btn btn-danger">RM28</button>
-          <a href="#myInput1"><button type="button" class="btn btn-danger"><i class="fi-xwluxl-shopping-cart-wide"></i>
+          <a href="#myInput1"><button type="button" class="btn shopee"><i class="fi-xwluxl-shopping-cart-wide"></i>
           </button></a>
         </span>
         <!-- button price and cart -->

@@ -13,7 +13,8 @@ a:hover {
 
 /* getB */
 
-html,body {
+html,
+body {
     overflow-x: hidden;
     background-color: whitesmoke;
     color: #212529;
@@ -41,8 +42,6 @@ html,body {
 }
 
 
-
-
 /* getF */
 
 .fi-padding {
@@ -66,40 +65,51 @@ html,body {
     margin: -66% 0.5rem 0 !important;
 }
 
-.profile-image{
-box-shadow: 0px 5px 11px 0px #00000042; 
-border:#FFCD4B 5px solid;
-margin:1rem;
-
+.profile-image {
+    box-shadow: 0px 5px 11px 0px #00000042;
+    border: #FFCD4B 5px solid;
+    margin: 1rem;
 }
 
-.profile-width{
-max-width:300px;
-width: 300px;
+.profile-width {
+    max-width: 300px;
+    width: 300px;
 }
+
 
 /* Get S */
 
-.strike{
-  text-decoration: line-through;
+.strike {
+    text-decoration: line-through;
 }
 
 .strikeout {
-  /* font-size: 4em; */
-  /* line-height: 1em; */
-  position: relative;
-  
+    /* font-size: 4em; */
+    /* line-height: 1em; */
+    position: relative;
 }
+
 .strikeout::after {
-  border-bottom: 0.12em solid rgb(255, 255, 255);
-  content: "";
-  left: 2px;
-  margin-top: calc(0.125em / 2 * -1);
-  position: absolute;
-  right: 2px;
-  top: 50%;
-  transform: rotate(-15deg);
+    border-bottom: 0.12em solid rgb(255, 255, 255);
+    content: "";
+    left: 2px;
+    margin-top: calc(0.125em / 2 * -1);
+    position: absolute;
+    right: 2px;
+    top: 50%;
+    transform: rotate(-15deg);
 }
+
+.shopee {
+    background-color: #EA501F;
+    color: #fff
+}
+
+.shopee:hover {
+    background-color: #EA501F;
+    color: #FFCD4B
+}
+
 
 /* getM */
 
@@ -128,8 +138,7 @@ width: 300px;
         width: 95% !important;
         max-width: 99%;
     }
-
-    #promosian{
+    #promosian {
         background-position-y: 9rem;
         background-position-x: -5rem;
         height: 32rem;
@@ -140,17 +149,19 @@ width: 300px;
     .hideOnPc {
         display: none;
     }
-
-    #promosian{
+    #promosian {
         background-position-y: 9rem;
         background-color: black;
-        background-image:url(./asset/image/all-produk.png);background-repeat: 
-        no-repeat;background-position: right;
+        background-image: url(./asset/image/all-produk.png);
+        background-repeat: no-repeat;
+        background-position: right;
     }
 }
 
 
 /* Button Pulse */
+
+
 /* Basic button styling */
 
 .pulsingButton {
@@ -165,53 +176,54 @@ width: 300px;
     text-decoration: none !important;
     color: #ffffff;
     transition: all 300ms ease-in-out;
-  }
-  
-  a.pulsingButton:active {
+}
+
+a.pulsingButton:active {
     -webkit-animation: none;
     -moz-animation: none;
     -ms-animation: none;
     animation: none;
     color: #ffffff;
-  }
-  
-  /* Comment-out to have the button continue to pulse on mouseover */
-  
-  a.pulsingButton:hover {
+}
+
+
+/* Comment-out to have the button continue to pulse on mouseover */
+
+a.pulsingButton:hover {
     -webkit-animation: none;
     -moz-animation: none;
     -ms-animation: none;
     animation: none;
     color: #ffffff;
-  }
-  
-  
-  /* Animation */
-  
-  @-webkit-keyframes pulsing {
+}
+
+
+/* Animation */
+
+@-webkit-keyframes pulsing {
     to {
-      box-shadow: 0 0 0 10px rgba(232, 76, 61, 0);
+        box-shadow: 0 0 0 10px rgba(232, 76, 61, 0);
     }
-  }
-  
-  @-moz-keyframes pulsing {
+}
+
+@-moz-keyframes pulsing {
     to {
-      box-shadow: 0 0 0 10px rgba(232, 76, 61, 0);
+        box-shadow: 0 0 0 10px rgba(232, 76, 61, 0);
     }
-  }
-  
-  @-ms-keyframes pulsing {
+}
+
+@-ms-keyframes pulsing {
     to {
-      box-shadow: 0 0 0 10px rgba(232, 76, 61, 0);
+        box-shadow: 0 0 0 10px rgba(232, 76, 61, 0);
     }
-  }
-  
-  @keyframes pulsing {
+}
+
+@keyframes pulsing {
     to {
-      box-shadow: 0 0 0 10px rgba(232, 76, 61, 0);
+        box-shadow: 0 0 0 10px rgba(232, 76, 61, 0);
     }
-  }
-  
+}
+
 
 /* Plugin */
 
