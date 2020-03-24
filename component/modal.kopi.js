@@ -12,7 +12,7 @@ document.getElementById("modal-kopi").innerHTML = `
         <!-- button price and cart -->
         <span class="float-right">
           <button type="button" class="btn btn-danger">RM28</button>
-          <a href="#myInput1"><button type="button" class="btn shopee"><i class="fi-xwluxl-shopping-cart-wide"></i>
+          <a href="#myInputKopi"><button type="button" class="btn shopee"><i class="fi-xwluxl-shopping-cart-wide"></i>
           </button></a>
         </span>
         <!-- button price and cart -->
@@ -182,10 +182,10 @@ document.getElementById("modal-kopi").innerHTML = `
                                             <b class="text-center mb-2" style="margin:0 auto">Bank-in ke CIMB: PERSADA FC TRADING</b>
 
                                             <div class="form-group mx-sm-3 mb-2">
-                                                <input class="form-control" type="text" value="8604079751" id="myInput1">
+                                                <input class="form-control" type="text" value="8604079751" id="myInputKopi">
                                             </div>
-                                            <button type="button" class="btn btn-primary mb-2" style="border-radius:25px" onclick="myClipboard1()">Copy No Akaun</button>
-                                            <div id="doneCopy1"></div>
+                                            <button type="button" class="btn btn-primary mb-2" style="border-radius:25px" onclick="myClipboardKopi()">Copy No Akaun</button>
+                                            <div id="doneCopyKopi"></div>
                                         </form>
                                         <!-- Bank Clipboard -->
 
@@ -206,10 +206,8 @@ document.getElementById("modal-kopi").innerHTML = `
         </div>
         `
 
-function myClipboard1() {
-    tfur,
-    vb
-    var copyText = document.querySelector("#myInput1");
+function myClipboardKopi() {
+    var copyText = document.querySelector("#myInputKopi");
     var buttonList = `
         <br>
         <a href="https://maybank2u.com.my" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/maybank.webp" alt="maybank" /></a>
@@ -226,5 +224,5 @@ function myClipboard1() {
     copyText.select();
     copyText.setSelectionRange(0, 99999);
     document.execCommand("copy");
-    document.querySelector("#doneCopy1").innerHTML = "No Akaun Sudah Di Salin! " + (copyText.value) + " Pilihan Bank :" + (buttonList);
+    document.querySelector("#doneCopyKopi").innerHTML = "No Akaun Sudah Di Salin! " + (copyText.value) + " Pilihan Bank :" + (buttonList);
 }
