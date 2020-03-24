@@ -9,17 +9,21 @@ document.getElementById("modal-teh").innerHTML = `
         <div class="col-sm">
           <h5 class="modal-title" id="exampleModalLongTitle">TEH PERSADA</h5>
         </div>
-        
-        <!-- button price and cart -->
-        <span class="float-right">
-          <button type="button" class="btn btn-danger">RM28</button>
-          <a href="#myInput"><button type="button" class="btn shopee"><i class="fi-xwluxl-shopping-cart-wide"></i>
-          </button></a>
-        </span>
-        <!-- button price and cart -->
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+        <div class="col-sm">
+                    <!-- button price and cart -->
+                    <span class="" style="margin: 0 15px;">
+
+                    <button type="button" class="btn btn-danger">RM28</button>
+                    <a href="#myInput"><button type="button" class="btn shopee"><i class="fi-xwluxl-shopping-cart-wide"></i>
+                    </button></a>
+
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+
+                    </span>
+                    <!-- button price and cart -->
+        </div>
       </div>
       <div class="modal-body">
         <div id="modal-teh">
