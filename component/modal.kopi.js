@@ -8,18 +8,22 @@ document.getElementById("modal-kopi").innerHTML = `
                 <div class="col-sm">
                     <h5 class="modal-title" id="exampleModalLongTitle">KOPI SUOYANG</h5>
                 </div>
+                <div class="col-sm">
+                    <!-- button price and cart -->
+                    <span class="" style="margin: 0 15px;">
 
-        <!-- button price and cart -->
-        <span class="float-right">
-          <button type="button" class="btn btn-danger">RM28</button>
-          <a href="#myInputKopi"><button type="button" class="btn shopee"><i class="fi-xwluxl-shopping-cart-wide"></i>
-          </button></a>
-        </span>
-        <!-- button price and cart -->
+                    <button type="button" class="btn btn-danger">RM28</button>
+                    <a href="#myInputKopi"><button type="button" class="btn shopee"><i class="fi-xwluxl-shopping-cart-wide"></i>
+                    </button></a>
 
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+
+                    </span>
+                    <!-- button price and cart -->
+                </div>
+                
             </div>
             <div class="modal-body">
                 <div id="modal-kopi">
@@ -189,9 +193,10 @@ document.getElementById("modal-kopi").innerHTML = `
                                         </form>
                                         <!-- Bank Clipboard -->
 
-                                        <a v-bind:href="kopiShop" class="btn persada-button mt-1" style="background-color:#EA501F;color:#fff">Beli Di Shopee</a>
-                                        <a href="https://wa.me/601158680328?text=Saya%20berminat%20untuk%20order%20Kopi%20SuoYang" class="btn btn-success persada-button mt-1">Whatsapp</a>
-                                        <a v-bind:href="kopifb" target="_top" class="btn btn-primary persada-button mt-1">Facebook PM</a>
+                                        <a v-bind:href="kopiShop" target="_blank" class="btn persada-button mt-1" 
+                                        style="background-color:#EA501F;color:#fff">Shopee</a>
+                                        <a v-bind:href="kopiWa" target="_blank" class="btn btn-success persada-button mt-1">Whatsapp</a>
+                                        <a v-bind:href="kopifb" target="_blank" class="btn btn-primary persada-button mt-1">Facebook PM</a>
                                     </div>
                                 </div>
                             </div>

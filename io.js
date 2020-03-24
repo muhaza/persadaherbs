@@ -200,7 +200,9 @@ var app = new Vue({
     el: "#modal-anas",
     data: {
         anasImg: "./asset/image/anas-thumbnail.webp",
-        // anasShop:"https://www.shopee.com.my"
+        anasShop: "https://shopee.com.my/Anas-Persada-Herbs-HQ-i.227540832.3920245147",
+        anasWa: "https://wa.me/601158680328?text=Saya%20berminat%20untuk%20order%20Anas",
+        anasFb: "https://web.facebook.com/commerce/products/4038879999459139/"
     }
 });
 
@@ -208,7 +210,9 @@ var app = new Vue({
     el: "#modal-birliva",
     data: {
         birlivaImg: "./asset/image/birliva-thumbnail.webp",
-        // birlivaShop:"https://www.shopee.com.my"
+        birlivaShop: "https://shopee.com.my/Tanjaq-Persada-Herbs-HQ-i.227540832.4220148417",
+        birlivaWa: "https://wa.me/601158680328?text=Saya%20berminat%20untuk%20order%20Tanjaq",
+        birlivaFB: "https://web.facebook.com/commerce/products/4038879999459139/"
     }
 });
 
@@ -216,7 +220,9 @@ var app = new Vue({
     el: "#modal-suri",
     data: {
         suriImg: "./asset/image/mysuri-thumbnail.webp",
-        // suriShop:"https://www.shopee.com.my"
+        suriShop: "https://shopee.com.my/Tanjaq-Persada-Herbs-HQ-i.227540832.4220148417",
+        suriWa: "https://wa.me/601158680328?text=Saya%20berminat%20untuk%20order%20Tanjaq",
+        suriFB: "https://web.facebook.com/commerce/products/4038879999459139/"
     }
 });
 
@@ -224,7 +230,9 @@ var app = new Vue({
     el: "#modal-luzea",
     data: {
         luzeaImg: "./asset/image/luzea-thumbnail.webp",
-        // luzeaShop:"https://www.shopee.com.my"
+        luzeaShop: "https://shopee.com.my/Tanjaq-Persada-Herbs-HQ-i.227540832.4220148417",
+        luzeaWa: "https://wa.me/601158680328?text=Saya%20berminat%20untuk%20order%20Tanjaq",
+        luzeaFB: "https://web.facebook.com/commerce/products/4038879999459139/"
     }
 });
 
@@ -232,7 +240,9 @@ var app = new Vue({
     el: "#modal-vititea",
     data: {
         vititeaImg: "./asset/image/vititea-thumbnail.webp",
-        // vitShop:"https://www.shopee.com.my"
+        vititeaShop: "https://shopee.com.my/Tanjaq-Persada-Herbs-HQ-i.227540832.4220148417",
+        vititeaWa: "https://wa.me/601158680328?text=Saya%20berminat%20untuk%20order%20Tanjaq",
+        vititeaFB: "https://web.facebook.com/commerce/products/4038879999459139/"
     }
 });
 
