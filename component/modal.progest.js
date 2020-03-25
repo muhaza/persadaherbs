@@ -5,21 +5,26 @@ document.getElementById("modal-progest").innerHTML = `
 
         <div class="modal-content">
             <div class="modal-header">
-                <div class="col-sm">
+                <div class="col-">
                     <h5 class="modal-title" id="ModalLongTitle">JUS CENDAWAN MEKAH</h5>
                 </div>
 
-        <!-- button price and cart -->
-        <span class="float-right">
-          <button type="button" class="btn btn-danger">RM78</button>
-          <a href="#myInput2"><button type="button" class="btn shopee"><i class="fi-xwluxl-shopping-cart-wide"></i>
-          </button></a>
-        </span>
-        <!-- button price and cart -->
+                <div class="" >
+                    <!-- button price and cart -->
+                    <span style="margin-right: 10px;">
 
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-      <span aria-hidden="true">&times;</span>
-    </button>
+                    <button type="button" class="btn btn-danger">RM70</button>
+                    <a href="#myInput2"><button type="button" class="btn shopee"><i class="fi-xwluxl-shopping-cart-wide"></i>
+                    </button></a>
+
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+
+                    </span>
+                    <!-- button price and cart -->
+                </div>
+
             </div>
             <div class="modal-body">
                 <div id="modal-kopi">

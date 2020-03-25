@@ -7,29 +7,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=0.5" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <script>
-        $(document).ready(function(){
-          // Add smooth scrolling to all links
-          $("a").on('click', function(event) {
-        
-            // Make sure this.hash has a value before overriding default behavior
-            if (this.hash !== "") {
-              // Prevent default anchor click behavior
-              event.preventDefault();
-        
-              // Store hash
-              var hash = this.hash;
-        
-              // Using jQuery's animate() method to add smooth page scroll
-              // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-              $('html, body').animate({
-                scrollTop: $(hash).offset().top
-              }, 800, function(){
-           
-                // Add hash (#) to URL when done scrolling (default click behavior)
-                window.location.hash = hash;
-              });
-            } // End if
-          });
+        $(document).ready(function() {
+            // Add smooth scrolling to all links
+            $("a").on('click', function(event) {
+
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function() {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
         });
     </script>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -40,22 +40,33 @@
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link href="https://fonts.googleapis.com/css?family=Exo+2|Gabriela&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <script src="/vue.js"></script>
     <!-- <script src="/vue.dev.js"></script> -->
     <script defer src="https://friconix.com/cdn/friconix.js">
     </script>
     <!-- Facebook Pixel Code -->
-<script>
-    !function(f,b,e,v,n,t,s)
-    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-    n.queue=[];t=b.createElement(e);t.async=!0;
-    t.src=v;s=b.getElementsByTagName(e)[0];
-    s.parentNode.insertBefore(t,s)}(window, document,'script',
-    'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '352933382026845');
-    fbq('track', 'PageView');
+    <script>
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '352933382026845');
+        fbq('track', 'PageView');
     </script>
     <noscript><img height="1" width="1" style="display:none"
     src="https://www.facebook.com/tr?id=352933382026845&ev=PageView&noscript=1"
@@ -64,12 +75,10 @@
 </head>
 
 <body>
-    
+
     <!-- first Nav -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark borderBottom"
-        style="background: url(./asset/image/header-bg.webp)">
-        <a class="navbar-brand hideOnPc" href="https://www.facebook.com/persadaherb/"><img
-                src="asset/image/Logo-persada.webp" width="130px" /></a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark borderBottom" style="background: url(./asset/image/header-bg.webp)">
+        <a class="navbar-brand hideOnPc" href="https://www.facebook.com/persadaherb/"><img src="asset/image/Logo-persada.webp" width="130px" /></a>
         <!--  Show this only on mobile to medium screens  -->
 
         <!--  Use flexbox utility classes to change how the child elements are justified  -->
@@ -96,12 +105,10 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark borderBottom">
         <!--  Show this only on mobile to medium screens  -->
         <a class="navbar-brand hideOnPc text-warning" href="https://www.facebook.com/persadaherb/">
-            <marquee width="99%" behavior="scroll" direction="left">Selamat Datang Ke Persada Herbs <a
-                    href="https://facebook.com/persadaherb">Jemput ke Facebook Kami</a>
+            <marquee width="99%" behavior="scroll" direction="left">Selamat Datang Ke Persada Herbs <a href="https://facebook.com/persadaherb">Jemput ke Facebook Kami</a>
             </marquee>
         </a>
-        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarToggle"
-            aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
             <span class=" float-left text-left"><i class="fi-xnsuxl-three-bars-solid" style="color: #14141b"></i></span>
             <span class="float-left hideOnPc" style="padding: 3px 0; padding-left: 8px; color:#14141b"> MENU</span>
         </button>
@@ -147,20 +154,21 @@
     </nav>
 
     <!-- Pc Slider -->
-    <div id="banner-img"> <!-- vue -->
+    <div id="banner-img">
+        <!-- vue -->
         <section id="slider" class="hideOnMobile">
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img class="d-block w-100" v-bind:src="tehBanner" alt="First slide" />
                     </div>
-                   
+
                     <div class="carousel-item">
                         <a href="#" data-toggle="modal" data-target="#suriPersadaModal">
-                         <img class="d-block w-100" v-bind:src="tehMysuri" alt="Second slide">
+                            <img class="d-block w-100" v-bind:src="tehMysuri" alt="Second slide">
                         </a>
                     </div>
-                    
+
                     <!-- <div class="carousel-item">
                          <img class="d-block w-100" src="..." alt="Third slide">
                     </div> -->
@@ -175,7 +183,8 @@
                 </a>
             </div>
         </section>
-        </div><!-- vue -->
+    </div>
+    <!-- vue -->
 
     <!-- mobile slider -->
     <section id="mobile-slider" class="hideOnPc">
@@ -204,7 +213,7 @@
 
     <!-- tagline -->
     <section id="tagline" class="borderBottom borderTop" style="background: url(./asset/image/header-bg.webp)">
-        <h3 class="text-warning text-center p-3">Persada Lain Macam!</h3> 
+        <h3 class="text-warning text-center p-3">Persada Lain Macam!</h3>
     </section>
 
     <!-- Promises -->
@@ -214,8 +223,7 @@
                 <div class="col-sm hideOnMobile"></div>
                 <div class="col-sm-10 my-5">
                     <h5 class="text-warning text-center">
-                        “Segar, Sedap, Tenang & Berzat” Merupakan keutamaan kami dalam menghasilkan produk. Kami
-                        memilih bahan berkualiti yang mempunyai zat yang sesuai untuk semua pengguna kami.
+                        “Segar, Sedap, Tenang & Berzat” Merupakan keutamaan kami dalam menghasilkan produk. Kami memilih bahan berkualiti yang mempunyai zat yang sesuai untuk semua pengguna kami.
                     </h5>
                 </div>
                 <div class="col-sm hideOnMobile"></div>
@@ -225,8 +233,8 @@
 
 
     <script>
-        function openUrl(){
-            location.href = "#produk"; 
+        function openUrl() {
+            location.href = "#produk";
         }
     </script>
     <!-- 🧩🧩🧩 produk component -->
@@ -238,8 +246,7 @@
     <div id="promosi" class="borderBottom borderTop" style="background: url(./asset/image/header-bg.webp)">
         <h3 class="text-warning text-center p-3">Promosi Lain Macam!</h3>
     </div>
-    <section id="promosian" class="py-5"
-        style="background-color: black;background-image:url(./asset/image/all-produk.png);background-repeat: no-repeat;">
+    <section id="promosian" class="py-5" style="background-color: black;background-image:url(./asset/image/all-produk.png);background-repeat: no-repeat;">
         <!-- tagline -->
 
         <!-- FFFFFFFFFFFFFFFFFFFFFFFFFF /Subscription Form FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF -->
@@ -247,7 +254,7 @@
             .sp-force-hide {
                 display: none;
             }
-
+            
             .sp-form[sp-id="143074"] {
                 display: block;
                 background: #ffffff;
@@ -265,18 +272,18 @@
                 background-position: center;
                 background-size: auto;
             }
-
+            
             .sp-form[sp-id="143074"] input[type="checkbox"] {
                 display: inline-block;
                 opacity: 1;
                 visibility: visible;
             }
-
+            
             .sp-form[sp-id="143074"] .sp-form-fields-wrapper {
                 margin: 0 auto;
                 width: 430px;
             }
-
+            
             .sp-form[sp-id="143074"] .sp-form-control {
                 background: #ffffff;
                 border-color: #cccccc;
@@ -292,14 +299,13 @@
                 width: 99%;
             }
             
-
             .sp-form[sp-id="143074"] .sp-field label {
                 color: #444444;
                 font-size: 13px;
                 font-style: normal;
                 font-weight: bold;
             }
-
+            
             .sp-form[sp-id="143074"] .sp-button {
                 border-radius: 4px;
                 -moz-border-radius: 4px;
@@ -314,50 +320,42 @@
                 -moz-box-shadow: inset 0 -2px 0 0 #b8182b;
                 -webkit-box-shadow: inset 0 -2px 0 0 #b8182b;
             }
-
+            
             .sp-form[sp-id="143074"] .sp-button-container {
                 text-align: right;
                 width: auto;
             }
         </style>
         <div class="sp-form-outer sp-force-hide">
-            <div id="sp-form-143074" sp-id="143074"
-                sp-hash="70f87784619df515d419eebcf45f754b73e83619d370a8e8a55fe970352533a9" sp-lang="en"
-                class="sp-form sp-form-regular sp-form-embed sp-form-horizontal"
-                sp-show-options="%7B%22satellite%22%3Afalse%2C%22maDomain%22%3A%22login.sendpulse.com%22%2C%22formsDomain%22%3A%22forms.sendpulse.com%22%2C%22condition%22%3A%22onEnter%22%2C%22scrollTo%22%3A25%2C%22delay%22%3A10%2C%22repeat%22%3A3%2C%22background%22%3A%22rgba(0%2C%200%2C%200%2C%200.5)%22%2C%22position%22%3A%22bottom-right%22%2C%22animation%22%3A%22%22%2C%22hideOnMobile%22%3Afalse%2C%22urlFilter%22%3Afalse%2C%22urlFilterConditions%22%3A%5B%7B%22force%22%3A%22hide%22%2C%22clause%22%3A%22contains%22%2C%22token%22%3A%22%22%7D%5D%2C%22analytics%22%3A%7B%22ga%22%3A%7B%22eventLabel%22%3Anull%2C%22send%22%3Afalse%7D%2C%22ym%22%3A%7B%22counterId%22%3Anull%2C%22eventLabel%22%3Anull%2C%22targetId%22%3Anull%2C%22send%22%3Afalse%7D%7D%7D">
+            <div id="sp-form-143074" sp-id="143074" sp-hash="70f87784619df515d419eebcf45f754b73e83619d370a8e8a55fe970352533a9" sp-lang="en" class="sp-form sp-form-regular sp-form-embed sp-form-horizontal" sp-show-options="%7B%22satellite%22%3Afalse%2C%22maDomain%22%3A%22login.sendpulse.com%22%2C%22formsDomain%22%3A%22forms.sendpulse.com%22%2C%22condition%22%3A%22onEnter%22%2C%22scrollTo%22%3A25%2C%22delay%22%3A10%2C%22repeat%22%3A3%2C%22background%22%3A%22rgba(0%2C%200%2C%200%2C%200.5)%22%2C%22position%22%3A%22bottom-right%22%2C%22animation%22%3A%22%22%2C%22hideOnMobile%22%3Afalse%2C%22urlFilter%22%3Afalse%2C%22urlFilterConditions%22%3A%5B%7B%22force%22%3A%22hide%22%2C%22clause%22%3A%22contains%22%2C%22token%22%3A%22%22%7D%5D%2C%22analytics%22%3A%7B%22ga%22%3A%7B%22eventLabel%22%3Anull%2C%22send%22%3Afalse%7D%2C%22ym%22%3A%7B%22counterId%22%3Anull%2C%22eventLabel%22%3Anull%2C%22targetId%22%3Anull%2C%22send%22%3Afalse%7D%7D%7D">
                 <div class="sp-form-fields-wrapper">
                     <div class="sp-message">
                         <div></div>
                     </div>
                     <form novalidate="" class="sp-element-container ui-sortable ui-droppable sp-lg ">
                         <div class="sp-field sp-field-full-width" sp-id="sp-98efb33e-a34d-462f-aae8-bd0af0c5ae74">
-                          <div style="font-family: Georgia, serif; line-height: 1.2;">
-                            <p><span style="font-size: 16px;">Promosi Lain Macam! Di Shopee kami! Jemputlah ke Sana!</span></p>
-                          </div>
+                            <div style="font-family: Georgia, serif; line-height: 1.2;">
+                                <p><span style="font-size: 16px;">Promosi Lain Macam! Di Shopee kami! Jemputlah ke Sana!</span></p>
+                            </div>
                         </div>
-                        <div class="sp-field " sp-id="sp-6733f048-e931-47d5-bced-cacfabc72a64"><label
-                            class="sp-control-label"><span>Email</span><strong>*</strong></label><input type="email" sp-type="email"
-                            name="sform[email]" class="sp-form-control " placeholder="nama@email.com"
-                            sp-tips="%7B%22required%22%3A%22Required%20field%22%2C%22wrong%22%3A%22Wrong%20email%22%7D"
-                            required="required"></div>
-                        <div class="sp-field sp-button-container " sp-id="sp-a31ddece-1307-45ee-8c41-fb20fa9e9f90"><button
-                            id="sp-a31ddece-1307-45ee-8c41-fb20fa9e9f90" class="sp-button btn btn-warning">Subscribe </button></div>
-                      </form>
-                      <div class="sp-link-wrapper sp-brandname__left" style="opacity: 0; margin-top:-17px"><a class="sp-link " target="_blank"
-                          href="https://sendpulse.com/forms-powered-by-sendpulse?sn=UGVyc2FkYSBIZXJicyBTZG4gQmhk&amp;from=7309971"><span
+                        <div class="sp-field " sp-id="sp-6733f048-e931-47d5-bced-cacfabc72a64"><label class="sp-control-label"><span>Email</span><strong>*</strong></label><input type="email" sp-type="email" name="sform[email]" class="sp-form-control " placeholder="nama@email.com" sp-tips="%7B%22required%22%3A%22Required%20field%22%2C%22wrong%22%3A%22Wrong%20email%22%7D"
+                                required="required"></div>
+                        <div class="sp-field sp-button-container " sp-id="sp-a31ddece-1307-45ee-8c41-fb20fa9e9f90"><button id="sp-a31ddece-1307-45ee-8c41-fb20fa9e9f90" class="sp-button btn btn-warning">Subscribe </button></div>
+                    </form>
+                    <div class="sp-link-wrapper sp-brandname__left" style="opacity: 0; margin-top:-17px"><a class="sp-link " target="_blank" href="https://sendpulse.com/forms-powered-by-sendpulse?sn=UGVyc2FkYSBIZXJicyBTZG4gQmhk&amp;from=7309971"><span
                             class="sp-link-img">&nbsp;</span><span translate="FORM.PROVIDED_BY"></span></a></div>
-                    </div>
-                  </div>
                 </div>
-                <script type="text/javascript" src="//web.webformscr.com/apps/fc3/build/default-handler.js?1579692714610"></script>
-                <!-- FFFFFFFFFFFFFFFFFFFFFFFFFF /Subscription Form FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF -->
+            </div>
+        </div>
+        <script type="text/javascript" src="//web.webformscr.com/apps/fc3/build/default-handler.js?1579692714610"></script>
+        <!-- FFFFFFFFFFFFFFFFFFFFFFFFFF /Subscription Form FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF -->
 
         <Br>
-        <p class="text-light text-center" style="font-size: small;">Email Promosi akan ke SPAM Box. Aktifkan Persada di
-            sana.</p>
+        <p class="text-light text-center" style="font-size: small;">Email Promosi akan ke SPAM Box. Aktifkan Persada di sana.
+        </p>
     </section>
 
-  <!-- mmmmmmmmmmmmmmmmmmmmmmm modal mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm -->
+    <!-- mmmmmmmmmmmmmmmmmmmmmmm modal mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm -->
     <section id="modal-teh">
         <!-- 🧩🧩🧩 modal component -->
         <script src="component/modal.teh.js"></script>
@@ -459,15 +457,15 @@
         <script src="component/modal.auristella.js"></script>
         <!-- 🧩🧩🧩 modal component -->
     </section>
-    
- <!-- mmmmmmmmmmmmmmmmmmmmmmm modal mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm -->
+
+    <!-- mmmmmmmmmmmmmmmmmmmmmmm modal mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm -->
 
 
-<!-- Clipboard -->
-<script>
-    function myClipboard() {
-    var copyText = document.getElementById("myInput");
-    var buttonList = `
+    <!-- Clipboard -->
+    <script>
+        function myClipboard() {
+            var copyText = document.getElementById("myInput");
+            var buttonList = `
     <br>
     <a href="https://maybank2u.com.my" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/maybank.webp" alt="maybank"/></a>
     <a href="https://cimbclicks.com.my" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/cimb.webp" alt="cimb"/></a>
@@ -480,13 +478,13 @@
     <a href="https://www.i-muamalat.com.my/rib/index.do" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/muamalat.webp" alt="Muamalat"/></a>
     <a href="https://internet.ocbc.com.my/internet-banking/LoginV2/Login?rc=INB" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/ocbc.webp" alt="OCBC"/></a>
     `;
-    copyText.select();
-    copyText.setSelectionRange(0, 99999)
-    document.execCommand("copy");
-    document.getElementById("doneCopy").innerHTML = "No Akaun Sudah Di Salin! " + (copyText.value) + " Pilihan Bank :" + (buttonList);
-    }
-</script>
-<!-- Clipboard -->
+            copyText.select();
+            copyText.setSelectionRange(0, 99999)
+            document.execCommand("copy");
+            document.getElementById("doneCopy").innerHTML = "No Akaun Sudah Di Salin! " + (copyText.value) + " Pilihan Bank :" + (buttonList);
+        }
+    </script>
+    <!-- Clipboard -->
 
 
 
@@ -551,10 +549,8 @@
                         <form action="https://formspree.io/mbjgwnke" method="POST">
                             <div class="row">
                                 <div class="col">
-                                    <input type="text" class="form-control my-3" name="_replyto"
-                                        placeholder="E-mail Anda">
-                                    <textarea class="form-control my-3" name="message"
-                                        placeholder="Pesanan Anda"></textarea>
+                                    <input type="text" class="form-control my-3" name="_replyto" placeholder="E-mail Anda">
+                                    <textarea class="form-control my-3" name="message" placeholder="Pesanan Anda"></textarea>
                                     <button class="btn btn-warning btn-lg btn-block float-right" type="submit"><i
                                             class="fi-xnluxl-envelope"></i><span>Send</span></button>
                                 </div>
@@ -578,8 +574,7 @@
     new WOW().init();
 </script>
 <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
 </script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 

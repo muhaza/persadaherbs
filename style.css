@@ -143,6 +143,10 @@ body {
         background-position-x: -5rem;
         height: 32rem;
     }
+    .modal-header .close {
+        padding: 1rem 1rem;
+        margin: -8px -17px -3px -10px;
+    }
 }
 
 @media only screen and (min-width: 786px) and (max-width: 2300px) {

@@ -5,12 +5,12 @@ document.getElementById("modal-kopi").innerHTML = `
 
         <div class="modal-content">
             <div class="modal-header">
-                <div class="col-sm">
+                <div class="col-">
                     <h5 class="modal-title" id="exampleModalLongTitle">KOPI SUOYANG</h5>
                 </div>
-                <div class="col-sm">
+                <div class="" >
                     <!-- button price and cart -->
-                    <span class="" style="margin: 0 15px;">
+                    <span style="margin-right: 10px;">
 
                     <button type="button" class="btn btn-danger">RM28</button>
                     <a href="#myInputKopi"><button type="button" class="btn shopee"><i class="fi-xwluxl-shopping-cart-wide"></i>

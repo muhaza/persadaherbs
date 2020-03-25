@@ -38,7 +38,7 @@ document.getElementById("produk").innerHTML = `
                     <span class="m-1">
                       <button type="button" class="btn btn-danger float-right mx-1"
                         style="font-size:14px">{{tehOffer}}</button>
-                      <button type="button" class="btn btn-dark float-right"
+                      <button type="button" class="btn btn-dark float-right strikeout"
                         style="font-size:14px">{{tehPrice}}</button>
 
                     </span>
@@ -62,7 +62,7 @@ document.getElementById("produk").innerHTML = `
                     <span class="m-1">
                       <button type="button" class="btn btn-danger float-right mx-1"
                         style="font-size:14px">{{kopiOffer}}</button>
-                      <button type="button" class="btn btn-dark float-right"
+                      <button type="button" class="btn btn-dark float-right strikeout"
                         style="font-size:14px">{{kopiPrice}}</button>
 
                     </span>
@@ -207,7 +207,7 @@ document.getElementById("produk").innerHTML = `
                     <span class="m-1">
                       <button type="button" class="btn btn-danger float-right mx-1"
                         style="font-size:14px">{{suriOffer}}</button>
-                      <button type="button" class="btn btn-dark float-right"
+                      <button type="button" class="btn btn-dark float-right strikeout"
                         style="font-size:14px">{{suriPrice}}</button>
                     </span>
                     <img class="card-img-top wow fadeInUp" v-bind:src="suriImg" alt=" 📚Card image cap"
@@ -230,7 +230,7 @@ document.getElementById("produk").innerHTML = `
                     <span class="m-1">
                       <button type="button" class="btn btn-danger float-right mx-1"
                         style="font-size:14px">{{luzeaOffer}}</button>
-                      <button type="button" class="btn btn-dark float-right"
+                      <button type="button" class="btn btn-dark float-right strikeout"
                         style="font-size:14px">{{luzeaPrice}}</button>
                     </span>
                     <img class="card-img-top wow fadeInUp" v-bind:src="luzeaImg" alt=" 📚Card image cap"
@@ -383,7 +383,7 @@ document.getElementById("produk").innerHTML = `
                     <span class="m-1">
                       <button type="button" class="btn btn-danger float-right mx-1"
                         style="font-size:14px">{{cleanserOffer}}</button>
-                      <button type="button" class="btn btn-dark float-right"
+                      <button type="button" class="btn btn-dark float-right strikeout"
                         style="font-size:14px">{{cleanserPrice}}</button>
 
                     </span>
@@ -407,7 +407,7 @@ document.getElementById("produk").innerHTML = `
                     <span class="m-1">
                       <button type="button" class="btn btn-danger float-right mx-1"
                         style="font-size:14px">{{scrubOffer}}</button>
-                      <button type="button" class="btn btn-dark float-right"
+                      <button type="button" class="btn btn-dark float-right strikeout"
                         style="font-size:14px">{{scrubPrice}}</button>
 
                     </span>
@@ -430,7 +430,7 @@ document.getElementById("produk").innerHTML = `
                     <span class="m-1">
                       <button type="button" class="btn btn-danger float-right mx-1"
                         style="font-size:14px">{{creamOffer}}</button>
-                      <button type="button" class="btn btn-dark float-right"
+                      <button type="button" class="btn btn-dark float-right strikeout"
                         style="font-size:14px">{{creamPrice}}</button>
 
                     </span>
@@ -470,7 +470,7 @@ document.getElementById("produk").innerHTML = `
                     <span class="m-1">
                       <button type="button" class="btn btn-danger float-right mx-1"
                         style="font-size:14px">{{dayOffer}}</button>
-                      <button type="button" class="btn btn-dark float-right"
+                      <button type="button" class="btn btn-dark float-right strikeout"
                         style="font-size:14px">{{dayPrice}}</button>
 
                     </span>
@@ -494,7 +494,7 @@ document.getElementById("produk").innerHTML = `
                     <span class="m-1">
                       <button type="button" class="btn btn-danger float-right mx-1"
                         style="font-size:14px">{{nightOffer}}</button>
-                      <button type="button" class="btn btn-dark float-right"
+                      <button type="button" class="btn btn-dark float-right strikeout"
                         style="font-size:14px">{{nightPrice}}</button>
 
                     </span>
@@ -517,7 +517,7 @@ document.getElementById("produk").innerHTML = `
                     <span class="m-1">
                       <button type="button" class="btn btn-danger float-right mx-1"
                         style="font-size:14px">{{ageOffer}}</button>
-                      <button type="button" class="btn btn-dark float-right"
+                      <button type="button" class="btn btn-dark float-right strikeout"
                         style="font-size:14px">{{agePrice}}</button>
 
                     </span>
@@ -554,7 +554,7 @@ document.getElementById("produk").innerHTML = `
                     <span class="m-1">
                       <button type="button" class="btn btn-danger float-right mx-1"
                         style="font-size:14px">{{sabunOffer}}</button>
-                      <button type="button" class="btn btn-dark float-right"
+                      <button type="button" class="btn btn-dark float-right strikeout"
                         style="font-size:14px">{{sabunPrice}}</button>
                     </span>
 
@@ -580,7 +580,7 @@ document.getElementById("produk").innerHTML = `
                     <span class="m-1">
                       <button type="button" class="btn btn-danger float-right mx-1"
                         style="font-size:14px">{{aurisOffer}}</button>
-                      <button type="button" class="btn btn-dark float-right"
+                      <button type="button" class="btn btn-dark float-right strikeout"
                         style="font-size:14px">{{aurisPrice}}</button>
                     </span>
 
