@@ -5,20 +5,22 @@ document.getElementById("modal-tanjaq").innerHTML = `
 
         <div class="modal-content">
             <div class="modal-header">
-                <div class="col-sm">
+                <div class="col-">
                     <h5 class="modal-title" id="exampleModalLongTitle">TANJAQ</h5>
                 </div>
 
-        <!-- button price and cart -->
-        <span class="float-right">
-          <button type="button" class="btn btn-danger">RM38</button>
-          <a href="#myInput4"><button type="button" class="btn shopee"><i class="fi-xwluxl-shopping-cart-wide"></i>
-          </button></a>
-        </span>
-        <!-- button price and cart -->
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-      <span aria-hidden="true">&times;</span>
-    </button>
+                <div class="">
+                    <!-- button price and cart -->
+                    <span style="margin-right: 10px;">
+                    <button type="button" class="btn btn-danger">RM38</button>
+                    <a href="#myInput4"><button type="button" class="btn shopee"><i class="fi-xwluxl-shopping-cart-wide"></i>
+                    </button></a>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </span>
+                    <!-- button price and cart -->
+                </div>
             </div>
             <div class="modal-body">
                 <div id="modal-kopi">

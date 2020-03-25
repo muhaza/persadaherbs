@@ -9,18 +9,19 @@ document.getElementById("modal-anas").innerHTML = `
                     <h5 class="modal-title" id="ModalLongTitle">ANAS</h5>
                 </div>
 
-        <!-- button price and cart -->
-        <span class="float-right">
-          <button type="button" class="btn btn-danger">RM38</button>
-          <a href="#myInput5"><button type="button" class="btn shopee"><i class="fi-xwluxl-shopping-cart-wide"></i>
-          </button></a>
-        </span>
-        <!-- button price and cart -->
-
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-      <span aria-hidden="true">&times;</span>
-    </button>
-            </div>
+                <div class="">
+                    <!-- button price and cart -->
+                    <span style="margin-right: 10px;">
+                    <button type="button" class="btn btn-danger">RM38</button>
+                    <a href="#myInput5"><button type="button" class="btn shopee"><i class="fi-xwluxl-shopping-cart-wide"></i>
+                    </button></a>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </span>
+                    <!-- button price and cart -->
+                </div>
+        </div>
             <div class="modal-body">
                 <div id="modal-kopi">
                     <!-- start vue -->
@@ -173,6 +174,7 @@ Begitu juga dengan fungsi otak, apabila gagal untuk berfungsi dengan baik maka k
                                         <a v-bind:href="anasShop" target="_blank" class="btn persada-button mt-1" style="background-color:#EA501F;color:#fff">Shopee</a>
                                         <a v-bind:href="anasWa" target="_blank" class="btn btn-success persada-button mt-1">Whatsapp</a>
                                         <a v-bind:href="anasFb" target="_blank" class="btn btn-primary persada-button mt-1">Facebook PM</a>
+                                    
                                     </div>
                                 </div>
                             </div>
