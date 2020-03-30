@@ -13,7 +13,7 @@ document.getElementById("modal-suri").innerHTML = `
                     <!-- button price and cart -->
                     <span style="margin-right: 10px;">
                     <button type="button" class="btn btn-danger">RM38</button>
-                    <a href="#myInputSuri"><button type="button" class="btn shopee"><i class="fi-xwluxl-shopping-cart-wide"></i>
+                    <a href="#myInput7"><button type="button" class="btn shopee"><i class="fi-xwluxl-shopping-cart-wide"></i>
                     </button></a>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
@@ -33,34 +33,78 @@ document.getElementById("modal-suri").innerHTML = `
 
                                     <img class="card-img-top" v-bind:src="suriImg" alt=" 📚Card image cap" />
                                     <div class="card-body">
-                                        <h5 class="card-title"> 👍 KEBAIKAN</h5>
+                                        <!-- <h5 class="card-title"> 👍 KEBAIKAN</!--> 
                                         <p class="card-text">
-                                        • Menyelesaikan masalah senggugut <br>
-                                        • Menyelesaikan masalah ketidaktentuan perjalanan haid<br>
-                                        • Memberi tenaga serta keyakinan diri<br>
-                                        • Meningkatkan nafsu syahwat wanita<br>
-                                        • Mengatasi masalah mandul<br>
-                                        • Mengurangkan lelah dan masalah angin berlebihan<br>
-                                        • Mengembalikan kesegaran badan<br>
-                                        • Mengurangkan sakit sendi badan<br>
-                                        • Penawar kanser<br>
-                                        • Menganjalkan tisu kulit <br>
-                                        • Mengecutkan bengkak dalaman dan luaran seperti buasir<br>
-                                        • Memelihara kesihatan hati, saraf, mata & pankreas<br>
-                                        • Apoptosis-mengawal penularan kanser<br>
-                                        • Sumber Phytoestrogen<br>
-                                        • Menguatkan otot perut dan memulihkan tenaga wanita lepas bersalin<br>
-                                        • Menstabilkan mood<br>
-                                        • Mengembalikan keremajaan wanita<br>
-                                        • Mencantikkan kulit<br>
-                                        • Meningkatkan sistem kekebalan tubuh<br>
-                                        • Menghindari radang sendi dan tulang<br>
-                                        • Melewatkan Menopause<br>
-                                        • Anti Oksidan dan Anti Penuaan.<br>
-                                        • Mengawal tekanan darah dan kolestrol<br>
-                                        • Mengawal paras gula dalam darah<br>
+                                        <h4>
+<b>Mysuri yang mempesonakan hati suami tersayang...</b></h4>
+<b><br /></b>
+Mysuri adalah minuman herba yang di hasilkan khas untuk golongan wanita yang mementingkan kesihatan dalaman yang dihasilkan melalui kombinasi herba - herba terpilih, pati kurma, serta vitamin c.<br />
+<br />
+Khasiat Mysuri tidak perlu dipertikaikan lagi. Selain membantu meningkatkan tahap tenaga, ia turut berupaya memelihara kesihatan tubuh badan dalaman dan luaran secara semula jadi. Khasiat Mysuri kaya dengan Kacip fatimah, Manja Kani, Pueraria Mirifica, pati kurma dan Madu Kelulut yang kaya dengan khasiat.<br />
+<br />
+Pengunaan secara berterusan dapat memberi tenaga dalaman secara semula jadi dan meningkatkan tenaga seksual wanita, mengetatkan saluran rahim wanita, menegangkan dan melicinkan kulit wanita, sesuai bagi wanita sukar megandung dan lain-lain masalah.<br />
+<br />
+<b><u>Kandungan Mysuri</u></b><br />
+<b><br /></b>
+Air R.O, Pueraria Mirifica, Manjakani Madu Kelulut, Kurma, Kacip Fatimah, Akar Serapat, Mas Cotek, Serai Wangi, Habbatus Sauda, Buah Pinang, Buah Mengkudu, Pati Delima, Pati Buah Zaitun, Vitamin C, Kulit Kayu Manis, Cengkih, Halia, Kunyit, Halban dan Asam Jawa<br />
+<br />
+<b>Pueraria Mirifica</b> dapat mengembalikan keremajaan khusunya wanita. Bertindak dari dalam untuk menyerlahkan kecantikan dan kesihatan dalaman serta luaran yang menyeluruh, dari hujung rambut hingga ke hujung kaki.<br />
+<br />
+<b>Manjakani</b> mengecutkan dan menegangkan otot bahagian sulit wanita, mengawal rembesan lendir, melambatkan proses penuaan, anti bakteria dan kulat, meghilangkan bau yang tidak enak.<br />
+<br />
+<b>Madu Kelulut</b> meningkatkan metabolisme badan, menambahkan tenaga batin, menjaga kecantikan, menguatkan wanita yang baru bersalin dan merawati pelbagai penyakit dan kecederaan dalaman.<br />
+<br />
+<b>Kacip Fatimah</b> dapat mengurangkan masalah haid dan Premenstrual Syndrome (PMS), menegangkan dan mengecutkan otot vagina, mengurangkan sengugut, mengekalkan keseimbangan hormon wanita.<br />
+<br />
+<b>Kurma</b> bertindak sebagai stimulan bagi pencernaan dan memperbaiki nafsu makan, memperbaiki sususnan darah dan meningkatkan kandungan Hemoglobin.<br />
+<br />
+<br />
+<b><u>Masalah Kesihatan Wanita</u></b><br />
+<b><br /></b>
+ANDA tidak bersendirian. Umumnya, jutaan wanita di muka bumi ini hidup dengan rasa malu kerana masalah pembuangan air kecil yang kerap, peluh berlebihan, faraj berbau, angin dan beberapa masalah lain yang ‘sewaktu’ dengannya.<br />
+<br />
+Mereka langsung tidak mahu berbincang mengenainya. Fikir mereka, ‘‘Biarlah ia menjadi rahsia diriku seorang.’’<br />
+<br />
+Topik-topik yang ada kena-mengena dengan ‘tandas’ seperti terlalu kerap membuang air kecil, masalah pundi kencing, usus, datang bulan dan keputihan muncul keadaan yang paling memalukan kaum Hawa diikuti dengan masalah badan dan Kemaluan berbau serta nafas yang kurang menyegarkan.<br />
+<br />
+Bagaimanapun, menutup mulut tentang isu-isu ini tidak lebih daripada satu perbuatan yang merugikan kerana untuk pengetahuan anda, terdapat banyak rawatan yang ditawarkan di luar sana.<br />
+<br />
+Berikut digariskan enam masalah paling memalukan yang dihadapi oleh wanita. Turut dimuatkan alasan kenapa anda tidak perlu lagi berdiam diri dan berpeluk tubuh mengenainya. Kita mulakan dengan: Mysuri<br />
+<br />
+<b>Masalah lain yang sering dialami oleh wanita</b><br />
+<br />
+<ul>
+<li>Masalah Senggugut</li>
+<li>Ketidaktentuan Perjalanan haid</li>
+<li>Mudah letih Dan Kurang selera Makan</li>
+<li>Kurang bernafsu</li>
+<li>Sakit sendi</li>
+<li>Sukar mengandung</li>
+<li>Lelah</li>
+<li>Masalah angin berlebihan dalam badan</li>
+</ul>
+<div>
+<br /></div>
+<br />
+<b>Khasiat Mysuri</b><br />
+<br />
+<ul>
+<li>Mengandungi unsur-unsur penjarang – melewatkan ‘conception’</li>
+<li>Meningkatkan nafsu syahwat wanita</li>
+<li>Menganjalkan tisu kulit</li>
+<li>Mengecutkan bengkak dalaman dan luaran seperti buasir</li>
+<li>Memelihara kesihatan hati, saraf, mata, pankreas</li>
+<li>Apoptosis – mengawal penularan sel kanser</li>
+<li>Sumber phytoestrogen</li>
+<li>Menguatkan otot perut &amp; memulihkan tenaga wanita lepas bersalin serta mengembalikan keremajaan wanita</li>
+<li>Menghindari radang sendi dan tulang</li>
+<li>Antidysmenorrhoea &amp; melewatkan menopause</li>
+<li>Anti-penuaan , kaya flavonoids – mengawal tekanan darah &amp; kolesterol</li>
+<li>Mengawal paras gula dalam darah</li>
+</ul>
+
                                         </p>
-                                        <div style="border-bottom: 1px #00000069 solid; margin-bottom: 10px;"></div>
+                                        <!-- <div style="border-bottom: 1px #00000069 solid; margin-bottom: 10px;"></div>
                                         <h4 class="text-center">MENYELESAIKAN BANYAK MASALAH WANITA</h4>
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 15px;"></div>
                                         
@@ -70,7 +114,7 @@ document.getElementById("modal-suri").innerHTML = `
                                         Akar Serapat, Mas Cotek, Serai Wangi, Habbatus Sauda, Buah Pinang, 
                                         Buah Mengkudu, Pati Delima, Pati Buah Zaitun, Vitamin C, Kulit Kayu Manis, 
                                         Cengkih, Halia, Kunyit, Halban dan Asam Jawa
-                                        </p>
+                                        </p> -->
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 10px;"></div>
                                         <h4 class="text-center">HARGA MYSURI</h4>
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 15px;"></div>
@@ -106,10 +150,10 @@ document.getElementById("modal-suri").innerHTML = `
                                             <b class="text-center mb-2" style="margin:0 auto">Bank-in ke CIMB: PERSADA FC TRADING</b>
 
                                             <div class="form-group mx-sm-3 mb-2">
-                                            <input class="form-control" type="text" value="8604079751" id="myInput5">
+                                            <input class="form-control" type="text" value="8604079751" id="myInput7">
                                             </div>
-                                            <button type="button" class="btn btn-primary mb-2" style="border-radius:25px" onclick="myClipboard5()">Copy No Akaun</button>
-                                            <div id="doneCopy5"></div>
+                                            <button type="button" class="btn btn-primary mb-2" style="border-radius:25px" onclick="myClipboard7()">Copy No Akaun</button>
+                                            <div id="doneCopy7"></div>
                                         </form>
 
                                         <a v-bind:href="anasShop" target="_blank" class="btn persada-button mt-1" style="background-color:#EA501F;color:#fff">Shopee</a>
@@ -135,8 +179,8 @@ document.getElementById("modal-suri").innerHTML = `
 
         `
 
-function myClipboardSuri() {
-    var copyText = document.querySelector("#myInputSuri");
+function myClipboard7() {
+    var copyText = document.querySelector("#myInput7");
     var buttonList = `
     <br>
     <a href="https://maybank2u.com.my" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/maybank.webp" alt="maybank"/></a>
@@ -153,5 +197,5 @@ function myClipboardSuri() {
     copyText.select();
     copyText.setSelectionRange(0, 99999)
     document.execCommand("copy");
-    document.querySelector("#doneSuri").innerHTML = "No Akaun Sudah Di Salin! " + (copyText.value) + " Pilihan Bank :" + (buttonList);
+    document.querySelector("#doneCopy7").innerHTML = "No Akaun Sudah Di Salin! " + (copyText.value) + " Pilihan Bank :" + (buttonList);
 }

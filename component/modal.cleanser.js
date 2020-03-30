@@ -28,18 +28,52 @@ document.getElementById("modal-cleanser").innerHTML = `
 
                                     <img class="card-img-top" v-bind:src="cleanserImg" alt=" 📚Card image cap" />
                                     <div class="card-body">
-                                        <h5 class="card-title"> 👍 KEBAIKAN</h5>
+                                        <!-- <h5 class="card-title"> 👍 KEBAIKAN</h5> -->
                                         <p class="card-text">
-                                        • Membersihkan Sisa Solekan <br>
-                                        • Membersihkan Minyak dan Sel Kulit Mati<br>
-                                        • SPF Semula Jadi Melembabkan Dan Mencerahkan Muka<br>
-                                        • Anti Oksidan dan Perlindungan UV<br>
-                                        • Mencegah Jerawat dan Kemerahan<br>
-                                        • Membersihkan kotoran<br>
-                                        • Melindungi wajah dari Bakteria dan Fungus<br>
+                                        Seimbang untuk semua jenis dan sesuai untuk kegunaan setiap hari, formula semula jadi <b>membersihkan sisa solekan, lebihan minyak dan sel kulit mati&nbsp;</b>&nbsp;pada wajah secara lembut.<br />
+<br />
+Ia diadun dengan :-<br />
+<br />
+<b><u>Rose Bud Oil&nbsp;</u></b><br />
+(Roseship Seed Oil) yang <b>mempunyai SPF semulajadi &amp; melembapkan, menyegarkan serta mencerahkan muka.</b><br />
+<b><br /></b>
+<b><u>Wheat Germ Oil</u></b><br />
+Mempunyai <b>anti-oksidan &amp; perlindungan UV semulajadi.</b><br />
+<b><br /></b>
+<b><u>Madu &amp; Propolis</u></b><br />
+Merupakan anti-septik dan anti-bakteria untuk <b>mencegah kulit daripada jerawat dan kemerahan.</b><br />
+
+
+<h4>
+<b>Kebaikan</b></h4>
+<div>
+<ul>
+<li>Membersih wajah dari kotoran terlekat dan terlindung</li>
+<li>Melindungi wajah dan bakteria dan fungus</li>
+<li>Melindungi, mengurangkan dan menghapuskan jerawat dan lain-lain kerengsaan wajah.</li>
+<li>Melembabkan dan mencerahkan kulit.</li>
+</ul>
+<div>
+<h4>
+<b>Arahan</b></h4>
+</div>
+</div>
+<div>
+Buihkan pada muka yang basah secara membulat. Bilas dengan teliti.</div><br/>
+<h4>
+<b>Kandungan</b></h4>
+
+<div>
+<div>
+Trigona Honey, Propolis, Lime Extract, Rosehip Seed Oil, Piper Betel(Sireh), Extract, Nano White,</div>
+<div>
+Sodium Lauryl Sarcosinate, Cocomide Dea (Coconut Fatty Asid), Vegetable Glycerine.</div>
+</div>
+
+
 
                                         </p>
-                                        <div style="border-bottom: 1px #00000069 solid; margin-bottom: 10px;"></div>
+                                        <!-- <div style="border-bottom: 1px #00000069 solid; margin-bottom: 10px;"></div>
                                         <h4 class="text-center">MENYELESAIKAN BANYAK MASALAH WANITA</h4>
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 15px;"></div>
                                         
@@ -47,7 +81,7 @@ document.getElementById("modal-cleanser").innerHTML = `
                                         <p class="card-text">
                                         Trigona Honey, Propolis, Lime Extract, Rosehip Seed Oil, Piper Betel(Sireh), Extract, Nano White,
                                         Sodium Lauryl Sarcosinate, Cocomide Dea (Coconut Fatty Asid), Vegetable Glycerine.
-                                        </p>
+                                        </p> -->
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 10px;"></div>
                                         <h4 class="text-center">HARGA MYSURI</h4>
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 15px;"></div>
