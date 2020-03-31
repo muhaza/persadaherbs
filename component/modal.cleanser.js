@@ -7,7 +7,9 @@ document.getElementById("modal-cleanser").innerHTML = `
             <div class="modal-header">
                 <div class="col-sm">
                     <h5 class="modal-title" id="exampleModalLongTitle">BEAUTY CLEANSER</h5>
-                </div>        <div class="">
+                </div>        
+            
+            <div class="">
             <!-- button price and cart -->
             <span style="margin-right: 10px;">
 
@@ -75,9 +77,6 @@ Trigona Honey, Propolis, Lime Extract, Rosehip Seed Oil, Piper Betel(Sireh), Ext
 <div>
 Sodium Lauryl Sarcosinate, Cocomide Dea (Coconut Fatty Asid), Vegetable Glycerine.</div>
 </div>
-
-
-
                                         </p>
                                         <!-- <div style="border-bottom: 1px #00000069 solid; margin-bottom: 10px;"></div>
                                         <h4 class="text-center">MENYELESAIKAN BANYAK MASALAH WANITA</h4>
@@ -119,18 +118,16 @@ Sodium Lauryl Sarcosinate, Cocomide Dea (Coconut Fatty Asid), Vegetable Glycerin
                                         </ul>
 
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 15px;"></div>
-
-                    <!-- Bank Clipboard -->
-                    <b class="text-center mb-2" style="display:block;margin:0 auto">Bank-in ke CIMB: PERSADA FC TRADING</b>
-                    <form class="form-inline">
-                      <div class="form-group mx-sm-3 mb-2">
-                        <input class="form-control" type="text" value="8604079751" id="myClean">
-                      </div>
-                      <button type="button" class="btn btn-primary mb-2" style="border-radius:25px;" onclick="myCleanser()">Copy No Akaun</button>
-                      <div id="doneCleanser"></div>
-                    </form>
-                    <!-- Bank Clipboard -->
-
+                                            <!-- Bank Clipboard -->
+                                            <b class="text-center mb-2" style="display:block;margin:0 auto">Bank-in ke CIMB: PERSADA FC TRADING</b>
+                                            <form class="form-inline">
+                                            <div class="form-group mx-sm-3 mb-2">
+                                                <input class="form-control" type="text" value="8604079751" id="myClean">
+                                            </div>
+                                            <button type="button" class="btn btn-primary mb-2" style="border-radius:25px;" onclick="myCleanser()">Copy No Akaun</button>
+                                            <div id="doneCleanser"></div>
+                                            </form>
+                                            <!-- Bank Clipboard -->
                                         <!-- <a v-bind:href="pop2Url" class="btn btn-danger persada-button mt-1">Beli Sekarang</a> -->
                                         <a href="https://wa.me/601158680328?text=Saya%20berminat%20untuk%20order%20Nova-Cleanser" class="btn btn-success persada-button mt-1">Whatsapp</a>
                                         <a href="https://web.facebook.com/commerce/products/3126981450646301" class="btn btn-primary persada-button mt-1">Facebook PM</a>
@@ -146,7 +143,6 @@ Sodium Lauryl Sarcosinate, Cocomide Dea (Coconut Fatty Asid), Vegetable Glycerin
                 </div>
             </div>
         </div>
-
         `
 
 function myCleanser() {
@@ -167,5 +163,5 @@ function myCleanser() {
     copyText.select();
     copyText.setSelectionRange(0, 99999)
     document.execCommand("copy");
-    document.querySelector("#doneCleanser").innerHTML = "No Akaun Sudah Di Salin! " + (copyText.value) + " Pilihan Bank :" + (buttonList);
+    document.querySelector("#doneCleanser").innerHTML = "No Akaun Sudah Di Salin! " + (copyText.value) + " Pilihan Bank :" + (buttonList)
 }

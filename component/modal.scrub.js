@@ -9,13 +9,21 @@ document.getElementById("modal-scrub").innerHTML = `
                     <h5 class="modal-title" id="modalLongTitle">BEAUTY SCRUB</h5>
                 </div>
 
-                <span>
-                    <button type="button" class="btn btn-danger float-right " style="font-size:small">Offer RM24</button>
-                </span>
+            <div class="">
+            <!-- button price and cart -->
+            <span style="margin-right: 10px;">
 
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-      <span aria-hidden="true">&times;</span>
-    </button>
+            <button type="button" class="btn btn-danger">RM24</button>
+            <a href="#myClean"><button type="button" class="btn shopee"><i class="fi-xwluxl-shopping-cart-wide"></i>
+            </button></a>
+
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+
+            </span>
+            <!-- button price and cart -->
+             </div>
             </div>
             <div class="modal-body">
                 <div id="modal-scrub">
@@ -51,7 +59,7 @@ document.getElementById("modal-scrub").innerHTML = `
                                         <h4 class="text-center">HARGA SCRUB</h4>
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 15px;"></div>
                                         
-                                        
+                                 
                                         
                                         <ul class="list-group list-group-flush">
                                             <li class="list-group-item">Harga Runcit
