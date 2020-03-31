@@ -14,7 +14,7 @@ document.getElementById("modal-scrub").innerHTML = `
             <span style="margin-right: 10px;">
 
             <button type="button" class="btn btn-danger">RM24</button>
-            <a href="#myClean"><button type="button" class="btn shopee"><i class="fi-xwluxl-shopping-cart-wide"></i>
+            <a href="#myScrub"><button type="button" class="btn shopee"><i class="fi-xwluxl-shopping-cart-wide"></i>
             </button></a>
 
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -87,6 +87,17 @@ document.getElementById("modal-scrub").innerHTML = `
 
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 15px;"></div>
 
+                                            <!-- Bank Clipboard -->
+                                            <b class="text-center mb-2" style="display:block;margin:0 auto">Bank-in ke CIMB: PERSADA FC TRADING</b>
+                                            <form class="form-inline">
+                                            <div class="form-group mx-sm-3 mb-2">
+                                                <input class="form-control" type="text" value="8604079751" id="myScrub">
+                                            </div>
+                                            <button type="button" class="btn btn-primary mb-2" style="border-radius:25px;" onclick="myClipScrub()">Copy No Akaun</button>
+                                            <div id="doneScrub"></div>
+                                            </form>
+                                            <!-- Bank Clipboard -->
+
                                         <p class="card-text">
                                        CAJ PENGHANTARAN SERENDAH RM5 SEMENANJUNG
                                         </p>
@@ -107,3 +118,24 @@ document.getElementById("modal-scrub").innerHTML = `
         </div>
 
         `
+
+function myClipScrub() {
+    var copyText = document.querySelector("#myScrub");
+    var buttonList = `
+            <br>
+            <a href="https://maybank2u.com.my" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/maybank.webp" alt="maybank"/></a>
+            <a href="https://cimbclicks.com.my" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/cimb.webp" alt="cimb"/></a>
+            <a href="https://www.bankislam.biz" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/islam.webp" alt="BankIslam"/></a>
+            <a href="https://www.mybsn.com.my/mybsn/login/login.do" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/bsn.webp" alt="BSN"/></a>
+            <a href="https://logon.rhb.com.my/default.htm" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/rhb.webp" alt="RHB"/></a>
+            <a href="https://s.hongleongconnect.my/rib/app/fo/login?web=1" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/hongleong.webp" alt="HongLeong"/></a>
+            <a href="https://ambank.amonline.com.my" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/am.webp" alt="AMBank"/></a>
+            <a href="https://www.allianceonline.com.my/personal/login/login.do" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/alliannce.webp" alt="Alliance"/></a>
+            <a href="https://www.i-muamalat.com.my/rib/index.do" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/muamalat.webp" alt="Muamalat"/></a>
+            <a href="https://internet.ocbc.com.my/internet-banking/LoginV2/Login?rc=INB" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/ocbc.webp" alt="OCBC"/></a>
+            <div style="border-bottom: 1px #dfdfdf solid; margin-bottom: 15px;"></div>`;
+    copyText.select();
+    copyText.setSelectionRange(0, 99999)
+    document.execCommand("copy");
+    document.querySelector("#doneScrub").innerHTML = "No Akaun Sudah Di Salin! " + (copyText.value) + " Pilihan Bank :" + (buttonList)
+}

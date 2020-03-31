@@ -6,7 +6,7 @@ document.getElementById("modal-suri").innerHTML = `
         <div class="modal-content">
             <div class="modal-header">
                 <div class="col-sm">
-                    <h5 class="modal-title" id="exampleModalLongTitle">MySURI</h5>
+                    <h5 class="modal-title" id="ModalLongTitle">MySURI</h5>
                 </div>
 
                 <div class="">
@@ -156,9 +156,9 @@ Berikut digariskan enam masalah paling memalukan yang dihadapi oleh wanita. Turu
                                             <div id="doneCopy7"></div>
                                         </form>
 
-                                        <a v-bind:href="anasShop" target="_blank" class="btn persada-button mt-1" style="background-color:#EA501F;color:#fff">Shopee</a>
-                                        <a v-bind:href="anasWa" target="_blank" class="btn btn-success persada-button mt-1">Whatsapp</a>
-                                        <a v-bind:href="anasFb" target="_blank" class="btn btn-primary persada-button mt-1">Facebook PM</a>
+                                        <a v-bind:href="suriShop" target="_blank" class="btn persada-button mt-1" style="background-color:#EA501F;color:#fff">Shopee</a>
+                                        <a v-bind:href="suriWa" target="_blank" class="btn btn-success persada-button mt-1">Whatsapp</a>
+                                        <a v-bind:href="suriFB" target="_blank" class="btn btn-primary persada-button mt-1">Facebook PM</a>
                                     
                                         <!-- <a v-bind:href="pop2Url" class="btn btn-danger persada-button mt-1">Beli Sekarang</a> -->
                                         <!-- <a href="https://wa.me/601158680328?text=Saya%20berminat%20untuk%20order%20MySuri" class="btn btn-success persada-button mt-1">Whatsapp</a>
