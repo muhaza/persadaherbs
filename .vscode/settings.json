@@ -1,0 +1,15 @@
+{
+  "files.exclude": {
+    "favicon.png": true,
+    "CNAME": true,
+    "vue.dev.js": true,
+    "testscript.html": true,
+    "verifyforzoho.html": true,
+    "vue.js": true,
+    "policy.html": true,
+    "minify.html": true,
+    "modal.html": true,
+    "pwa-manifest.json": true,
+    "others": true
+  }
+}

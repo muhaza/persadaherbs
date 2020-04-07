@@ -1,0 +1,23 @@
+{
+    "name": "GG Komiks 2.5",
+    "short_name": "GG Komiks",
+    "description": "Majalah Digital Humor Nasional",
+    "icons": [{
+            "src": "https:\/\/www.ggkomiks.com\/wp-content\/uploads\/2019\/08\/app-icon-pwa.png",
+            "sizes": "192x192",
+            "type": "image\/png"
+        },
+        {
+            "src": "https:\/\/www.ggkomiks.com\/wp-content\/uploads\/2019\/08\/splash-pwa.png",
+            "sizes": "512x512",
+            "type": "image\/png"
+        }
+    ],
+    "background_color": "#c10000",
+    "theme_color": "#000000",
+    "display": "standalone",
+    "orientation": "portrait",
+    "start_url": "https:\/\/www.ggkomiks.com\/",
+    "scope": "https:\/\/www.ggkomiks.com\/",
+    "gcm_sender_id": "482941778795"
+}

@@ -8,15 +8,21 @@ document.getElementById("modal-luzea").innerHTML = `
                 <div class="col-sm">
                     <h5 class="modal-title" id="ModalLongTitle">LUZEA</h5>
                 </div>
-
-                <span>
-                    <button type="button" class="btn btn-danger float-right " style="font-size:small; width:100px">
-                    Offer RM50</button>
-                </span>
-
+                <div class="">
+                <!-- button price and cart -->
+                <span style="margin-right: 10px;">
+    
+                <button type="button" class="btn btn-danger">RM50</button>
+                <a href="#myLuzea"><button type="button" class="btn shopee"><i class="fi-xwluxl-shopping-cart-wide"></i>
+                </button></a>
+    
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-      <span aria-hidden="true">&times;</span>
-    </button>
+                <span aria-hidden="true">&times;</span>
+                </button>
+    
+                </span>
+                <!-- button price and cart -->
+            </div>
             </div>
             <div class="modal-body">
                 <div id="modal-kopi">
@@ -28,25 +34,91 @@ document.getElementById("modal-luzea").innerHTML = `
                                 <div style="width: 100%;">
                                     <img class="card-img-top" v-bind:src="luzeaImg" alt=" 📚Card image cap" />
                                     <div class="card-body">
-                                        <h5 class="card-title"> 👍 KEBAIKAN</h5>
+                                        <!--<h5 class="card-title"> 👍 KEBAIKAN</h5> -->
                                         <p class="card-text">
-                                        • Mencegah daripada Retina Berkembar (Terlepasnya Retina) <br>
-                                        • Menajamkan penglihatan <br>
-                                        • Meningkatkan Pandangan & Penglihatan<br>
-                                        • Mencegah Glaukoma<br>
-                                        • Mencegah katarak daripada berlaku<br>
-                                        • Mencegah Miopia (Rabun jauh)<br>
-                                        • Mengurangkan Degenerasi Makula Akibat Penuaan<br>
-                                        • Membantu mengatasi Mata Silau<br>
-                                        • Membantu mengatasi mata berair dan kering<br>
-                                        • Menajamkan penglihatan dan pandangan<br>
-                                        • Mengatasi penglihatan cahaya berbunga dan objek kabur<br>
-                                        • Mencegah glukoma<br>
-                                        • Mencegah katarak dariipada berlaku<br>
-                                        • Membantu membuang angin dalam badan<br>
-                                        • Menenangkan fikiran, otot dan saraf<br>
-                                        • Mengurangkan gejala kencing manis<br>
-                                        • Membantu sistem penghadaman<br>
+Menurut Pertubuhan Kesihatan (WHO) Sedunia, dianggarkan<br />
+bahawa 76 juta orang akan buta menjelang 2020<br />
+Sumber : Ophthamol,I.J. (2012, Septamber). The accomplishments of global initiaive vision 2020.<br />
+<br />
+“Atas faktor kemajuan teknologi hari ini manusia tidak terlepas daripada<br />
+cahaya yang merbahaya seperti cahaya komputer, cahaya telefon pintar<br />
+dan sebagainya yang akhirnya menyebabkan kerosakan mata”<br />
+<br />
+<b>ANTARA PUNCA KEROSAKAN MATA</b><br />
+<br />
+<ol>
+<li>Cahaya daripada telefon bimbit</li>
+<li>Cahaya daripada komputer</li>
+<li>Cahaya dari sinaran matahari</li>
+<li>Cahaya daripada skrin televisyen</li>
+</ol>
+<div>
+<div>
+Dalam kehidupan senarian, kita tidak dapat berpisah daripada komputer,</div>
+<div>
+televisyen dan alatan moden seperti telefon pintar, tablet dan pelbagai lagi.</div>
+<div>
+Mata kira cepat letih, tidak sampai ke tengah hari pandangan kita menjadi kabur.</div>
+<div>
+Bagaimana kita yang masih muda dapat menyelamatkan mata</div>
+<div>
+daripada degenerasi makula akibat penuaan?</div>
+</div>
+<div>
+<br /></div>
+<div>
+<ol>
+<li>Penglihatan kabur merupakan gejala awal bagi kebanyakan masalah mata.</li>
+<li>Orang ramai beranggapan bahawa penglihatan kabur sebagai</li>
+<li>keletihan (ketegangan mata) dan berterusan “membebankan” mata mereka.</li>
+<li>Mereka akan benar-benar menyesal apabila kehilangan</li>
+<li>penglihatan mereka sepenuhnya.</li>
+<li>Produk 3C bukan sahaja membawa kemudahan tetapi juga kesan merbahaya kepada mata.</li>
+<li>Anda haruslah berhenti melayari telefon bimbit atau menonton filem dengan tablet semasa mata anda sakit, bebanan berlebihan</li>
+<li>pada mata kan memudaratkan penglihtan dan mengakibatkan kebutaan sebelm tiba waktunya.</li>
+</ol>
+<div>
+<b>SUMBER BAHAN LUETIN &amp; ZEAXANTIN</b></div>
+</div>
+<div>
+<ol>
+<li>Brokoli juga mengandungi bela karoten, karoteroid yang bermanfaat untuk penglihatan</li>
+<li>Bayam memiliki jumlah antioksidan kuat untuk menurunkan risiko pengembangan degenerasi makula</li>
+<li>Kangkung membantu mata tetap sihat dalam mencegah katarak</li>
+<li>Bunga Marigold mengandngi Vitamin A, yang menyihatkan penglihatan</li>
+</ol>
+<div>
+<b>KELEBIHAN DAN KHASIAT TEH MATA LUZEA TEA DAN VIT I TEA</b></div>
+</div>
+<div>
+<ul>
+<li>Meningkatkan pembakaran lemak</li>
+<li>Merawat selesma</li>
+<li>Sakit kepala</li>
+<li>Kejang otot</li>
+<li>Sakit-sakit badan</li>
+<li>Menghilangkan rasa loya/mual</li>
+<li>Kejutan dan mampu tingkatkan</li>
+<li>tumpuan</li>
+<li>Membuang angin dalam</li>
+<li>perut/kembung perut.</li>
+<li>Anti kanser</li>
+<li>Mengandugi antioksida</li>
+<li>Merangsang perkembagan otak</li>
+<li>Mencegah penyakit Alzheimer dan</li>
+<li>Parkinson</li>
+<li>Membunuh bakteria</li>
+<li>Memperbaiki kesihatan mulut dan gigi</li>
+<li>Mengurangi risiko kencing manis tahap 2</li>
+<li>Mengurangi risiko masalah jantung</li>
+<li>Merawat berbagai penyakit</li>
+<li>Masalah keputihan (wanita)</li>
+<li>Mengatasi masalah insomnia</li>
+<li>Menajamkan penglihatan</li>
+<li>Mencegah mopia(rabun jauh)</li>
+</ul>
+</div>
+
                                         </p>
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 10px;"></div>
                                         <h4 class="text-center">MINUM-MINUM MATA TERANG</h4>
@@ -88,7 +160,16 @@ document.getElementById("modal-luzea").innerHTML = `
                                         </ul>
 
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 15px;"></div>
-
+                    <!-- Bank Clipboard -->
+                    <b class="text-center mb-2" style="display:block;margin:0 auto">Bank-in ke CIMB: PERSADA FC TRADING</b>
+                    <form class="form-inline">
+                      <div class="form-group mx-sm-3 mb-2">
+                        <input class="form-control" type="text" value="8604079751" id="myLuzea">
+                      </div>
+                      <button type="button" class="btn btn-primary mb-2" style="border-radius:25px;" onclick="myClipLuzea()">Copy No Akaun</button>
+                      <div id="doneLuzea"></div>
+                    </form>
+                    <!-- Bank Clipboard -->
 
                                        
                                         <!-- <a v-bind:href="pop2Url" class="btn btn-danger persada-button mt-1">Beli Sekarang</a> -->
@@ -108,3 +189,24 @@ document.getElementById("modal-luzea").innerHTML = `
         </div>
 
         `
+
+function myClipLuzea() {
+    var copyText = document.querySelector("#myLuzea");
+    var buttonList = `
+            <br>
+            <a href="https://maybank2u.com.my" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/maybank.webp" alt="maybank"/></a>
+            <a href="https://cimbclicks.com.my" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/cimb.webp" alt="cimb"/></a>
+            <a href="https://www.bankislam.biz" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/islam.webp" alt="BankIslam"/></a>
+            <a href="https://www.mybsn.com.my/mybsn/login/login.do" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/bsn.webp" alt="BSN"/></a>
+            <a href="https://logon.rhb.com.my/default.htm" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/rhb.webp" alt="RHB"/></a>
+            <a href="https://s.hongleongconnect.my/rib/app/fo/login?web=1" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/hongleong.webp" alt="HongLeong"/></a>
+            <a href="https://ambank.amonline.com.my" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/am.webp" alt="AMBank"/></a>
+            <a href="https://www.allianceonline.com.my/personal/login/login.do" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/alliannce.webp" alt="Alliance"/></a>
+            <a href="https://www.i-muamalat.com.my/rib/index.do" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/muamalat.webp" alt="Muamalat"/></a>
+            <a href="https://internet.ocbc.com.my/internet-banking/LoginV2/Login?rc=INB" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/ocbc.webp" alt="OCBC"/></a>
+            <div style="border-bottom: 1px #dfdfdf solid; margin-bottom: 15px;"></div>`;
+    copyText.select();
+    copyText.setSelectionRange(0, 99999)
+    document.execCommand("copy");
+    document.querySelector("#doneLuzea").innerHTML = "No Akaun Sudah Di Salin! " + (copyText.value) + " Pilihan Bank :" + (buttonList);
+}
