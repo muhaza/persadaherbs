@@ -9,22 +9,21 @@ document.getElementById("modal-birliva").innerHTML = `
         <div class="col-sm">
           <h5 class="modal-title" id="exampleModalLongTitle">BIRLIVA</h5>
         </div>
-        <div class="col-sm">
+        <div class="">
         <!-- button price and cart -->
-        <span class="" style="margin: 0 15px;">
+        <span style="margin-right: 10px;">
 
-          <button type="button" class="btn btn-danger">RM60</button>
-          <a href="#myInput6"><button type="button" class="btn shopee"><i class="fi-xwluxl-shopping-cart-wide"></i>
-          </button></a>
+        <button type="button" class="btn btn-danger">RM60</button>
+        <a href="#myInput6"><button type="button" class="btn shopee"><i class="fi-xwluxl-shopping-cart-wide"></i>
+        </button></a>
 
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
         </button>
 
         </span>
         <!-- button price and cart -->
-
-        </div>
+    </div>
       </div>
       <div class="modal-body">
         <div id="modal-birliva">
@@ -346,7 +345,7 @@ Meningkatkan metabolisme, menguatkan badan &amp; lebih melicinkan kulit</div>
                         <button type="button" class="btn btn-primary mb-2" style="border-radius:25px" onclick="myClipboard6()">Copy No Akaun</button>
                         <div id="doneCopy6"></div>
                     </form>
-                    <!-- <a v-bind:href="pop2Url" class="btn btn-danger persada-button mt-1">Beli Sekarang</a> -->
+                    <a v-bind:href="birlivaShop" class="btn persada-button shopee mt-1">Beli Sekarang</a>
                     <a href="https://wa.me/601158680328?text=Saya%20berminat%20untuk%20order%20Birliva"
                       class="btn btn-success persada-button mt-1">Whatsapp</a>
                     <a href="https://m.me/persadaherb" target="_top"

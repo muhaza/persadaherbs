@@ -13,7 +13,7 @@ document.getElementById("modal-progest").innerHTML = `
                     <!-- button price and cart -->
                     <span style="margin-right: 10px;">
 
-                    <button type="button" class="btn btn-danger">RM70</button>
+                    <button type="button" class="btn btn-danger">RM60</button>
                     <a href="#myInput2"><button type="button" class="btn shopee"><i class="fi-xwluxl-shopping-cart-wide"></i>
                     </button></a>
 
