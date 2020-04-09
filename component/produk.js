@@ -74,6 +74,7 @@ document.getElementById("produk").innerHTML = `
                       <p class="card-text text-justify">
                         {{kopiDesc}}
                       </p>
+                      <br/><br/>
                       <a class="btn btn-danger persada-button pulsingButton" class="btn btn-primary" data-toggle="modal"
                         data-target="#kopiPersadaModal" style="color:white">Lebih Informasi</a>
                     </div>
@@ -134,13 +135,36 @@ document.getElementById("produk").innerHTML = `
                       <h5 class="card-title">{{tanjaqTitle}}</h5>
                       <p class="card-text text-justify">
                         {{tanjaqDesc}}
-                      </p>
+                      </p><br/>
                       <a class="btn btn-danger persada-button pulsingButton" class="btn btn-primary" data-toggle="modal"
                         data-target="#tanjaqPersadaModal" style="color:white">Lebih Informasi</a>
                     </div>
                   </div>
                 </div>
                 <!-- 📚📚📚 card start 📚📚📚-->
+                <!-- mmmmmmmmmmmmmmmmmmmmmmm mysuri mmmmmmmmmmmmmmmmmmmmmmmmm-->
+                <div class="col-sm" id="mysuri">
+                  <div class="card mt-1" style="width: 100%;">
+                    <span class="m-1">
+                      <button type="button" class="btn btn-danger float-right mx-1"
+                        style="font-size:14px">{{suriOffer}}</button>
+                      <button type="button" class="btn btn-dark float-right strikeout"
+                        style="font-size:14px">{{suriPrice}}</button>
+                    </span>
+                    <img class="card-img-top wow fadeInUp" v-bind:src="suriImg" alt=" 📚Card image cap"
+                      style="margin-top: -10px;" />
+                    <div class="card-body">
+                      <h5 class="card-title">{{suriTitle}}</h5>
+                      <p class="card-text text-justify">
+                        {{suriDesc}}
+                      </p><br/>
+                      <a class="btn btn-danger persada-button pulsingButton" class="btn btn-primary" data-toggle="modal"
+                        data-target="#suriPersadaModal" style="color:white">Lebih Informasi</a>
+                    </div>
+                  </div>
+                </div>
+                <!-- mmmmmmmmmmmmmmmmmmmmmmm mysuri mmmmmmmmmmmmmmmmmmmmmmmmm-->
+                 <!-- 📚📚📚 card start 📚📚📚-->
                 <!-- aaaaaaaaaaaaaaaaaaaaaaaaaa anas aaaaaaaaaaaaaaaaaaaaaaa-->
                 <div class="col-sm" id="anas">
                   <div class="card mt-1" style="width: 100%;">
@@ -162,28 +186,7 @@ document.getElementById("produk").innerHTML = `
                     </div>
                   </div>
                 </div>
-                <!-- 📚📚📚 card start 📚📚📚-->
-                <div class="col-sm" id="birliva">
-                  <div class="card mt-1" style="width: 100%;">
-                    <span class="m-1">
-                      <button type="button" class="btn btn-danger float-right mx-1"
-                        style="font-size:14px">{{birlivaOffer}}</button>
-                      <button type="button" class="btn btn-dark float-right strikeout"
-                        style="font-size:14px">{{birlivaPrice}}</button>
-                    </span>
-                    <img class="card-img-top wow fadeInUp" v-bind:src="birlivaImg" alt=" 📚Card image cap"
-                      style="margin-top: -10px;" />
-                    <div class="card-body">
-                      <h5 class="card-title">{{birlivaTitle}}</h5>
-                      <p class="card-text text-justify">
-                        {{birlivaDesc}}
-                      </p>
-                      <a class="btn btn-danger persada-button pulsingButton" class="btn btn-primary" data-toggle="modal"
-                        data-target="#birlivaPersadaModal" style="color:white">Lebih Informasi</a>
-                    </div>
-                  </div>
-                </div>
-                <!-- cccccccccccccccccccccccc end card ccccccccccccccccccccccccc -->
+                <!-- 📚📚📚 card END 📚📚📚-->
               </div>
             </div>
 
@@ -202,29 +205,27 @@ document.getElementById("produk").innerHTML = `
             <div class="">
               <div class="row">
                 <!-- 📚📚📚 card start 📚📚📚-->
-                <!-- mmmmmmmmmmmmmmmmmmmmmmm mysuri mmmmmmmmmmmmmmmmmmmmmmmmm-->
-                <div class="col-sm" id="mysuri">
+                <div class="col-sm" id="birliva">
                   <div class="card mt-1" style="width: 100%;">
                     <span class="m-1">
                       <button type="button" class="btn btn-danger float-right mx-1"
-                        style="font-size:14px">{{suriOffer}}</button>
+                        style="font-size:14px">{{birlivaOffer}}</button>
                       <button type="button" class="btn btn-dark float-right strikeout"
-                        style="font-size:14px">{{suriPrice}}</button>
+                        style="font-size:14px">{{birlivaPrice}}</button>
                     </span>
-                    <img class="card-img-top wow fadeInUp" v-bind:src="suriImg" alt=" 📚Card image cap"
+                    <img class="card-img-top wow fadeInUp" v-bind:src="birlivaImg" alt=" 📚Card image cap"
                       style="margin-top: -10px;" />
                     <div class="card-body">
-                      <h5 class="card-title">{{suriTitle}}</h5>
+                      <h5 class="card-title">{{birlivaTitle}}</h5>
                       <p class="card-text text-justify">
-                        {{suriDesc}}
-                      </p>
+                        {{birlivaDesc}}
+                      </p><br/>
                       <a class="btn btn-danger persada-button pulsingButton" class="btn btn-primary" data-toggle="modal"
-                        data-target="#suriPersadaModal" style="color:white">Lebih Informasi</a>
+                        data-target="#birlivaPersadaModal" style="color:white">Lebih Informasi</a>
                     </div>
                   </div>
                 </div>
-                <!-- mmmmmmmmmmmmmmmmmmmmmmm mysuri mmmmmmmmmmmmmmmmmmmmmmmmm-->
-                <!-- 📚📚📚 card start 📚📚📚-->
+                <!-- cccccccccccccccccccccccc end card ccccccccccccccccccccccccc -->
                 <!-- aaaaaaaaaaaaaaaaaaaaaaaaaa anas aaaaaaaaaaaaaaaaaaaaaaa-->
                 <div class="col-sm" id="luzea">
                   <div class="card mt-1" style="width: 100%;">
@@ -322,7 +323,7 @@ document.getElementById("produk").innerHTML = `
                       <h5 class="card-title">{{fibreTitle}}</h5>
                       <p class="card-text text-justify">
                         {{fibreDesc}}
-                      </p>
+                      </p><br/>
                       <a class="btn btn-danger persada-button pulsingButton" class="btn btn-primary" data-toggle="modal"
                         data-target="#fibrePersadaModal" style="color:white">Lebih Informasi</a>
                     </div>
@@ -346,7 +347,7 @@ document.getElementById("produk").innerHTML = `
                       <p class="card-text text-justify">
                         {{vititeaDesc}}
                       </p> -->
-
+                      <br/><br/>
                       <a class="nav-link nav-number btn btn-danger persada-button pulsingButton" 
                       id="pills-contact-tab" href="beauty.html#produk" role="tab"
                       aria-controls="pills-contact" aria-selected="false">Lihat Produk Kecantikan</a>

@@ -171,11 +171,11 @@ daripada degenerasi makula akibat penuaan?</div>
                     </form>
                     <!-- Bank Clipboard -->
 
-                                       
-                                        <!-- <a v-bind:href="pop2Url" class="btn btn-danger persada-button mt-1">Beli Sekarang</a> -->
-                                        <a href="https://wa.me/601158680328?text=Saya%20berminat%20untuk%20order%20LuzeaTea" class="btn btn-success persada-button mt-1">Whatsapp</a>
-                                        <a href="https://web.facebook.com/commerce/products/2743552835764068/" target="_top" class="btn btn-primary persada-button mt-1">Facebook PM</a>
-                                    </div>
+                    <a v-bind:href="luzeaShop" target="_blank" class="btn persada-button shopee mt-1">Beli di Shopee!</a>
+                    <a v-bind:href="luzeaWa" target="_blank" class="btn btn-success persada-button mt-1">Beli di Whatsapp</a>
+                    <a v-bind:href="luzeaFB" target="_blank" class="btn btn-primary persada-button mt-1">Beli di Facebook</a>
+
+                    </div>
                                 </div>
                             </div>
                         </div>
