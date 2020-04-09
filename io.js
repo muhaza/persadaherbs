@@ -1,3 +1,5 @@
+// #banner section
+
 var app = new Vue({
     el: "#banner-img",
     data: {
