@@ -12,8 +12,9 @@ var app = new Vue({
 var app = new Vue({
     el: "#banner-mob",
     data: {
-        tehBanner: "./asset/image/Teh-Persada-gold.webp",
-        tehMysuri: "./asset/image/banner-mysuri.webp",
+        mobTeh: "./asset/image/mob-teh.jpg",
+        mobKopi: "./asset/image/mob-suoyang.jpg",
+        mobSuri: "./asset/image/mob-mysuri.jpg",
     }
 });
 
