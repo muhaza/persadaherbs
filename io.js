@@ -5,7 +5,7 @@ var app = new Vue({
     data: {
         tehBanner: "./asset/image/Teh-Persada-gold.webp",
         tehMysuri: "./asset/image/banner-mysuri.webp",
-        tehTanjaq: "./asset/image/tanjaq-banner.webp",
+        tehTanjaq: "./asset/image/tanjaq-banner-jpg.jpg",
     }
 });
 
