@@ -6,7 +6,7 @@ document.getElementById("modal-progest").innerHTML = `
         <div class="modal-content">
             <div class="modal-header">
                 <div class="col-">
-                    <h5 class="modal-title" id="ModalLongTitle">JUS CENDAWAN MEKAH</h5>
+                    <h6 class="modal-title" id="ModalLongTitle">JUS CENDAWAN MEKAH</h6>
                 </div>
 
                 <div class="" >

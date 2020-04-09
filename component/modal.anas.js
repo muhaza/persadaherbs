@@ -9,18 +9,21 @@ document.getElementById("modal-anas").innerHTML = `
                     <h5 class="modal-title" id="ModalLongTitle">ANAS</h5>
                 </div>
 
-                <div class="">
-                    <!-- button price and cart -->
-                    <span style="margin-right: 10px;">
-                    <button type="button" class="btn btn-danger">RM38</button>
-                    <a href="#myInput5"><button type="button" class="btn shopee"><i class="fi-xwluxl-shopping-cart-wide"></i>
-                    </button></a>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                    </span>
-                    <!-- button price and cart -->
-                </div>
+                <div class="" >
+                <!-- button price and cart -->
+                <span style="margin-right: 10px;">
+
+                <button type="button" class="btn btn-danger">RM38</button>
+                <a href="#myInput5"><button type="button" class="btn shopee"><i class="fi-xwluxl-shopping-cart-wide"></i>
+                </button></a>
+
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+
+                </span>
+                <!-- button price and cart -->
+            </div>
         </div>
             <div class="modal-body">
                 <div id="modal-kopi">
