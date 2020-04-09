@@ -1,4 +1,23 @@
 var app = new Vue({
+    el: "#banner-img",
+    data: {
+        tehBanner: "./asset/image/Teh-Persada-gold.webp",
+        tehMysuri: "./asset/image/banner-mysuri.webp",
+        tehTanjaq: "./asset/image/tanjaq-banner.webp",
+    }
+});
+
+var app = new Vue({
+    el: "#banner-mob",
+    data: {
+        tehBanner: "./asset/image/Teh-Persada-gold.webp",
+        tehMysuri: "./asset/image/banner-mysuri.webp",
+    }
+});
+
+
+
+var app = new Vue({
     el: "#vue-product",
     data: {
         tehImg: "./asset/image/teh-thumbnail.webp",
@@ -141,21 +160,6 @@ var app = new Vue({
     }
 });
 
-var app = new Vue({
-    el: "#banner-img",
-    data: {
-        tehBanner: "./asset/image/Teh-Persada-gold.webp",
-        tehMysuri: "./asset/image/banner-mysuri.webp",
-    }
-});
-
-var app = new Vue({
-    el: "#banner-mob",
-    data: {
-        tehBanner: "./asset/image/Teh-Persada-gold.webp",
-        tehMysuri: "./asset/image/banner-mysuri.webp",
-    }
-});
 
 var app = new Vue({
     el: "#modal-teh",
