@@ -5,7 +5,7 @@ document.getElementById("modal-anas").innerHTML = `
 
         <div class="modal-content">
             <div class="modal-header">
-                <div class="col-sm">
+                <div class="col-">
                     <h5 class="modal-title" id="ModalLongTitle">ANAS</h5>
                 </div>
 
