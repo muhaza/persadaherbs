@@ -51,6 +51,7 @@ document.getElementById("produk").innerHTML = `
                       <p class="card-text text-justify">
                         {{tehDesc}}
                       </p>
+                      <br/>
                       <a class="btn btn-danger persada-button pulsingButton" class="btn btn-primary" data-toggle="modal"
                          data-target="#tehPersadaModal" style="color:white">Lebih Informasi</a>
                     </div>
@@ -74,7 +75,7 @@ document.getElementById("produk").innerHTML = `
                       <p class="card-text text-justify">
                         {{kopiDesc}}
                       </p>
-                      <br/><br/>
+                      <br/>
                       <a class="btn btn-danger persada-button pulsingButton" class="btn btn-primary" data-toggle="modal"
                         data-target="#kopiPersadaModal" style="color:white">Lebih Informasi</a>
                     </div>
