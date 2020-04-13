@@ -3,7 +3,7 @@
 var app = new Vue({
     el: "#banner-img",
     data: {
-        tehBanner: "./asset/image/Teh-Persada-gold.webp",
+        tehBanner: "./asset/image/Teh-Persada-gold-jpg.jpg",
         tehMysuri: "./asset/image/banner-mysuri.webp",
         tehTanjaq: "./asset/image/tanjaq-banner-jpg.jpg",
     }
@@ -305,6 +305,9 @@ var app = new Vue({
     el: "#modal-spectrum",
     data: {
         specImg: "./asset/image/spectrum.webp",
+        specShop: "",
+        specWa: "https://wa.me/601158680328?text=Saya%20berminat%20untuk%20order%20Spectrum",
+        specFb: "https://web.facebook.com/commerce/products/2743552835764068/",
         // specShop:"https://www.shopee.com.my"
     }
 });

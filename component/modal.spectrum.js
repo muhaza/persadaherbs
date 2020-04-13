@@ -240,11 +240,21 @@ sebaiknya jangan terkena air 3 hari</li>
 
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 15px;"></div>
 
+                                        <!-- Bank Clipboard -->
+                                        <b class="text-center mb-2" style="display:block;margin:0 auto">Bank-in ke CIMB: PERSADA FC TRADING</b>
+                                        <form class="form-inline">
+                                        <div class="form-group mx-sm-3 mb-2">
+                                            <input class="form-control" type="text" value="8604079751" id="mySpectrum">
+                                        </div>
+                                        <button type="button" class="btn btn-primary mb-2" style="border-radius:25px;" onclick="specClipboard()">Copy No Akaun</button>
+                                        <div id="doneSpec"></div>
+                                        </form>
+                                        <!-- Bank Clipboard -->
 
+                                        <a v-bind:href="specShop" target="_blank" class="btn persada-button shopee mt-1">Beli di Shopee!</a>
+                                        <a v-bind:href="specWa" target="_blank" class="btn btn-success persada-button mt-1">Beli di Whatsapp</a>
+                                        <a v-bind:href="specFb" target="_blank" class="btn btn-primary persada-button mt-1">Beli di Facebook</a>
                                        
-                                        <!-- <a v-bind:href="pop2Url" class="btn btn-danger persada-button mt-1">Beli Sekarang</a> -->
-                                        <a href="https://wa.me/601158680328?text=Saya%20berminat%20untuk%20order%20Spectrum" class="btn btn-success persada-button mt-1">Whatsapp</a>
-                                        <a href="https://web.facebook.com/commerce/products/2743552835764068/" target="_top" class="btn btn-primary persada-button mt-1">Facebook PM</a>
                                     </div>
                                 </div>
                             </div>
@@ -259,3 +269,24 @@ sebaiknya jangan terkena air 3 hari</li>
         </div>
 
         `
+
+function specClipboard() {
+    var copyText = document.querySelector("#mySpectrum");
+    var buttonList = `
+    <br>
+    <a href="https://maybank2u.com.my" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/maybank.webp" alt="maybank"/></a>
+    <a href="https://cimbclicks.com.my" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/cimb.webp" alt="cimb"/></a>
+    <a href="https://www.bankislam.biz" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/islam.webp" alt="BankIslam"/></a>
+    <a href="https://www.mybsn.com.my/mybsn/login/login.do" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/bsn.webp" alt="BSN"/></a>
+    <a href="https://logon.rhb.com.my/default.htm" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/rhb.webp" alt="RHB"/></a>
+    <a href="https://s.hongleongconnect.my/rib/app/fo/login?web=1" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/hongleong.webp" alt="HongLeong"/></a>
+    <a href="https://ambank.amonline.com.my" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/am.webp" alt="AMBank"/></a>
+    <a href="https://www.allianceonline.com.my/personal/login/login.do" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/alliannce.webp" alt="Alliance"/></a>
+    <a href="https://www.i-muamalat.com.my/rib/index.do" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/muamalat.webp" alt="Muamalat"/></a>
+    <a href="https://internet.ocbc.com.my/internet-banking/LoginV2/Login?rc=INB" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/ocbc.webp" alt="OCBC"/></a>
+    <div style="border-bottom: 1px #dfdfdf solid; margin-bottom: 15px;"></div>`;
+    copyText.select();
+    copyText.setSelectionRange(0, 99999)
+    document.execCommand("copy");
+    document.querySelector("#doneSpec").innerHTML = "No Akaun Sudah Di Salin! " + (copyText.value) + " Pilihan Bank :" + (buttonList);
+}

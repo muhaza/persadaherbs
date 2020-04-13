@@ -26,21 +26,21 @@ document.getElementById("aboutPill").innerHTML = `
       <div class="row mb-3" style="background:url(./asset/image/header-bg.webp);padding:1rem 0;margin:0 0.3rem; border-radius:1rem;">
         <div class="col-sm">
           <div class="d-flex profile-width">
-            <img src="./asset/image/Faiziman.webp" class="rounded-circle profile-image" alt="Faiziman" width="50%"/> </span> 
+            <img src="./asset/image/Faiziman.webp" class="rounded-circle profile-image" alt="Faiziman" width="50%" height="50%"/> </span> 
             <span class="text-light" style="display:block; margin-top:10%;"><h6>MOHAMAD FAIZIMAN CHAI</h6><p style="font-size:small">Pengarah Pembangunan Produk</p></span>
           </div>
         </div>
         <span class="hideOnPc" style="border-bottom:dashed 1px white; margin:1rem; width:99%;"></span>
         <div class="col-sm">
          <div class="d-flex profile-width">
-            <img src="./asset/image/Faiziwan.webp" style="z-index: 10;" class="rounded-circle align-center profile-image" alt="Faiziwan" width="50%"/>
+            <img src="./asset/image/Faiziwan.webp" style="z-index: 10;" class="rounded-circle align-center profile-image" alt="Faiziwan" width="50%" height="50%"/>
             <span class="text-light" style="display:block; margin-top:10%;"><h6>MUHAMAD FAIZIWAN CHAI </h6><p style="font-size:small">CEO : Pengurus Anugerah Alam (Kilang)</p></span>
          </div>
         </div>
         <span class="hideOnPc" style="border-bottom:dashed 1px white; margin:1rem; width:99%;"></span>
         <div class="col-sm">
          <div class="d-flex profile-width">
-            <img src="./asset/image/Faizli.webp" style="z-index: 10;" class="rounded-circle align-center profile-image" alt="Faizli" width="50%"/>
+            <img src="./asset/image/Faizli.webp" style="z-index: 10;" class="rounded-circle align-center profile-image" alt="Faizli" width="50%" height="50%"/>
             <span class="text-light" style="display:block; margin-top:10%;"><h6>MUHAMAD FAIZLI CHAI </h6><p style="font-size:small">Pengarah Pemasaran</p></span>
          </div>
         </div>
