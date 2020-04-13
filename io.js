@@ -305,9 +305,9 @@ var app = new Vue({
     el: "#modal-spectrum",
     data: {
         specImg: "./asset/image/spectrum.webp",
-        specShop: "",
+        specShop: "https://shopee.com.my/Spectrum-Black-Propolis-PERSADA-HERBS-HQ-persadaherbs-i.227540832.6020152163",
         specWa: "https://wa.me/601158680328?text=Saya%20berminat%20untuk%20order%20Spectrum",
-        specFb: "https://web.facebook.com/commerce/products/2743552835764068/",
+        specFb: "https://web.facebook.com/commerce/products/2383726928397324/",
         // specShop:"https://www.shopee.com.my"
     }
 });
