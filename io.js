@@ -16,6 +16,7 @@ var app = new Vue({
         mobTeh: "./asset/image/mob-teh.jpg",
         mobKopi: "./asset/image/mob-suoyang.jpg",
         mobSuri: "./asset/image/mob-mysuri.jpg",
+        mobAnas: "./asset/image/mob-anas.jpg"
     }
 });
 
