@@ -4,8 +4,9 @@ var app = new Vue({
     el: "#banner-img",
     data: {
         tehBanner: "./asset/image/Teh-Persada-gold-jpg.jpg",
-        tehMysuri: "./asset/image/banner-mysuri.webp",
-        tehTanjaq: "./asset/image/tanjaq-banner-jpg.jpg",
+        mysuriBanner: "./asset/image/Mysuri-Banner.jpg",
+        tanjaqBanner: "./asset/image/tanjaq-banner-jpg.jpg",
+        anasBanner: "./asset/image/Anas-Banner.jpg",
     }
 });
 
