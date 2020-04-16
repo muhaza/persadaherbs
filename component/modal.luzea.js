@@ -8,7 +8,7 @@ document.getElementById("modal-luzea").innerHTML = `
                 <div class="col-sm">
                     <h5 class="modal-title" id="ModalLongTitle">LUZEA</h5>
                 </div>
-                <div class="">
+                <div class="col-">
                 <!-- button price and cart -->
                 <span style="margin-right: 10px;">
     

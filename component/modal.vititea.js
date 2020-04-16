@@ -8,14 +8,21 @@ document.getElementById("modal-vititea").innerHTML = `
                 <div class="col-sm">
                     <h5 class="modal-title" id="ModalLongTitle">VIT I TEA</h5>
                 </div>
-
-                <span>
-                    <button type="button" class="btn btn-danger float-right " style="font-size:small; width:100px">Offer RM50</button>
-                </span>
-
+                <div class="col-">
+                <!-- button price and cart -->
+                <span style="margin-right: 10px;">
+    
+                <button type="button" class="btn btn-danger">RM50</button>
+                <a href="#myLuzea"><button type="button" class="btn shopee"><i class="fi-xwluxl-shopping-cart-wide"></i>
+                </button></a>
+    
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-      <span aria-hidden="true">&times;</span>
-    </button>
+                <span aria-hidden="true">&times;</span>
+                </button>
+    
+                </span>
+                <!-- button price and cart -->
+            </div>
             </div>
             <div class="modal-body">
                 <div id="modal-kopi">
