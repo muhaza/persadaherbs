@@ -249,9 +249,9 @@ var app = new Vue({
     el: "#modal-vititea",
     data: {
         vititeaImg: "./asset/image/vititea-thumbnail.webp",
-        vititeaShop: "https://shopee.com.my/Tanjaq-Persada-Herbs-HQ-i.227540832.4220148417",
-        vititeaWa: "https://wa.me/601158680328?text=Saya%20berminat%20untuk%20order%20Tanjaq",
-        vititeaFB: "https://web.facebook.com/commerce/products/4038879999459139/"
+        vitShop: "https://shopee.com.my/Tanjaq-Persada-Herbs-HQ-i.227540832.4220148417",
+        vitWa: "https://wa.me/601158680328?text=Saya%20berminat%20untuk%20order%20Vit-I-Tea",
+        vitFB: "https://web.facebook.com/commerce/products/2765316193556235/"
     }
 });
 

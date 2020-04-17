@@ -9,20 +9,20 @@ document.getElementById("modal-vititea").innerHTML = `
                     <h5 class="modal-title" id="ModalLongTitle">VIT I TEA</h5>
                 </div>
                 <div class="col-">
-                <!-- button price and cart -->
-                <span style="margin-right: 10px;">
+                    <!-- button price and cart -->
+                    <span style="margin-right: 10px;">
     
                 <button type="button" class="btn btn-danger">RM50</button>
-                <a href="#myLuzea"><button type="button" class="btn shopee"><i class="fi-xwluxl-shopping-cart-wide"></i>
+                <a href="#myVit"><button type="button" class="btn shopee"><i class="fi-xwluxl-shopping-cart-wide"></i>
                 </button></a>
     
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
-                </button>
-    
-                </span>
-                <!-- button price and cart -->
-            </div>
+                    </button>
+
+                    </span>
+                    <!-- button price and cart -->
+                </div>
             </div>
             <div class="modal-body">
                 <div id="modal-kopi">
@@ -36,42 +36,24 @@ document.getElementById("modal-vititea").innerHTML = `
                                     <div class="card-body">
                                         <h5 class="card-title"> 👍 KEBAIKAN VIT i TEA</h5>
                                         <p class="card-text">
-                                        • Memcegah Mopia (Rabun Jauh) <br>
-                                        • Menajamkan Penglihatan<br>
-                                        • Mengatasi Masalah Insomnia<br>
-                                        • Membantu selesaikan masalah keputihan (wanita)<br>
-                                        • Mengurangi masalah serangan jantung<br>
-                                        • Mengurangi risiko kencing manis<br>
-                                        • Membantu mengurangi bau busuk mulut dan badan<br>
-                                        • Membunuh bakteria dalam mulut<br>
-                                        • Mencegah penyakit Alzheimer<br>
-                                        • Meningkatkan pembakaran lemak<br>
-                                        • Meransang perkembangan otak<br>
-                                        • Aroma Wangi<br>
-                                        • Anti Oksidan<br>
-                                        • Membuang angin dalam badan<br>
-                                        • Menghilangkan rasa loya<br>
-                                        • Menghilangkan sakit-sakit badan<br>
-                                        • Merawat selsema<br>
-                                        • Melancarkan proses penghadaman<br>
-                                        • Mampu mengurangkan rasa mengantuk<br>
-                                        • Meningkatkan daya tumpuan<br>
+                                            • Memcegah Mopia (Rabun Jauh) <br> • Menajamkan Penglihatan<br> • Mengatasi Masalah Insomnia<br> • Membantu selesaikan masalah keputihan (wanita)<br> • Mengurangi masalah serangan jantung<br> • Mengurangi risiko
+                                            kencing manis<br> • Membantu mengurangi bau busuk mulut dan badan<br> • Membunuh bakteria dalam mulut<br> • Mencegah penyakit Alzheimer<br> • Meningkatkan pembakaran lemak<br> • Meransang perkembangan otak<br>                                            • Aroma Wangi<br> • Anti Oksidan<br> • Membuang angin dalam badan<br> • Menghilangkan rasa loya<br> • Menghilangkan sakit-sakit badan<br> • Merawat selsema<br> • Melancarkan proses penghadaman<br> • Mampu mengurangkan
+                                            rasa mengantuk<br> • Meningkatkan daya tumpuan<br>
                                         </p>
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 10px;"></div>
                                         <h4 class="text-center">MINUM-MINUM MATA TERANG</h4>
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 15px;"></div>
-                                        
+
                                         <h5 class="card-title">🌿 RAMUAN</h5>
                                         <p class="card-text">
-                                        Lutein, Zeaxanthin, Vitamin C, Vitamin E, Nano Sweet, Ekstrak Teh, Madu Kelulut, 
-                                        Ekstrak Serai, Serbuk Lemon dan Perasa Blackcurrant
+                                            Lutein, Zeaxanthin, Vitamin C, Vitamin E, Nano Sweet, Ekstrak Teh, Madu Kelulut, Ekstrak Serai, Serbuk Lemon dan Perasa Blackcurrant
                                         </p>
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 10px;"></div>
                                         <h4 class="text-center">HARGA LUZEA</h4>
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 15px;"></div>
-                                        
-                                        
-                                        
+
+
+
 
                                         <ul class="list-group list-group-flush">
                                             <li class="list-group-item">Harga Runcit
@@ -87,23 +69,32 @@ document.getElementById("modal-vititea").innerHTML = `
                                             <li class="list-group-item">Harga Ejen
                                                 <button type="button" class="btn btn-danger float-right">10/RM400</button>
                                             </li>
-                                           
+
                                             <li class="list-group-item">Harga Pembekal
                                                 <button type="button" class="btn btn-danger float-right">100/RM3500</button>
                                             </li>
 
                                             <li class="list-group-item">Harga Pemborong
                                                 <button type="button" class="btn btn-danger float-right">1000/RM30,000</button>
-                                            </li>  
+                                            </li>
                                         </ul>
 
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 15px;"></div>
+                                        <!-- Bank Clipboard -->
+                                        <b class="text-center mb-2" style="display:block;margin:0 auto">Bank-in ke CIMB: PERSADA FC TRADING</b>
+                                        <form class="form-inline">
+                                            <div class="form-group mx-sm-3 mb-2">
+                                                <input class="form-control" type="text" value="8604079751" id="myVit">
+                                            </div>
+                                            <button type="button" class="btn btn-primary mb-2" style="border-radius:25px;" onclick="myClipVit()">Copy No Akaun</button>
+                                            <div id="doneVit"></div>
+                                        </form>
+                                        <!-- Bank Clipboard -->
 
+                                        <a v-bind:href="vitShop" target="_blank" class="btn persada-button shopee mt-1">Beli di Shopee!</a>
+                                        <a v-bind:href="vitWa" target="_blank" class="btn btn-success persada-button mt-1">Beli di Whatsapp</a>
+                                        <a v-bind:href="vitFB" target="_blank" class="btn btn-primary persada-button mt-1">Beli di Facebook</a>
 
-                                       
-                                        <!-- <a v-bind:href="pop2Url" class="btn btn-danger persada-button mt-1">Beli Sekarang</a> -->
-                                        <a href="https://wa.me/601158680328?text=Saya%20berminat%20untuk%20order%20Vit-I-Tea" class="btn btn-success persada-button mt-1">Whatsapp</a>
-                                        <a href="https://m.me/persadaherb" target="_top" class="btn btn-primary persada-button mt-1">Facebook PM</a>
                                     </div>
                                 </div>
                             </div>
@@ -118,3 +109,24 @@ document.getElementById("modal-vititea").innerHTML = `
         </div>
 
         `
+
+function myClipVit() {
+    var copyText = document.querySelector("#myVit");
+    var buttonList = `
+                    <br>
+                    <a href="https://maybank2u.com.my" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/maybank.webp" alt="maybank"/></a>
+                    <a href="https://cimbclicks.com.my" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/cimb.webp" alt="cimb"/></a>
+                    <a href="https://www.bankislam.biz" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/islam.webp" alt="BankIslam"/></a>
+                    <a href="https://www.mybsn.com.my/mybsn/login/login.do" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/bsn.webp" alt="BSN"/></a>
+                    <a href="https://logon.rhb.com.my/default.htm" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/rhb.webp" alt="RHB"/></a>
+                    <a href="https://s.hongleongconnect.my/rib/app/fo/login?web=1" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/hongleong.webp" alt="HongLeong"/></a>
+                    <a href="https://ambank.amonline.com.my" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/am.webp" alt="AMBank"/></a>
+                    <a href="https://www.allianceonline.com.my/personal/login/login.do" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/alliannce.webp" alt="Alliance"/></a>
+                    <a href="https://www.i-muamalat.com.my/rib/index.do" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/muamalat.webp" alt="Muamalat"/></a>
+                    <a href="https://internet.ocbc.com.my/internet-banking/LoginV2/Login?rc=INB" target="_blank"><img class="img-thumbnail mb-1" style="height:30px" src="./asset/image/bank/ocbc.webp" alt="OCBC"/></a>
+                    <div style="border-bottom: 1px #dfdfdf solid; margin-bottom: 15px;"></div>`;
+    copyText.select();
+    copyText.setSelectionRange(0, 99999)
+    document.execCommand("copy");
+    document.querySelector("#doneVit").innerHTML = "No Akaun Sudah Di Salin! " + (copyText.value) + " Pilihan Bank :" + (buttonList);
+}

@@ -160,22 +160,22 @@ daripada degenerasi makula akibat penuaan?</div>
                                         </ul>
 
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 15px;"></div>
-                    <!-- Bank Clipboard -->
-                    <b class="text-center mb-2" style="display:block;margin:0 auto">Bank-in ke CIMB: PERSADA FC TRADING</b>
-                    <form class="form-inline">
-                      <div class="form-group mx-sm-3 mb-2">
-                        <input class="form-control" type="text" value="8604079751" id="myLuzea">
-                      </div>
-                      <button type="button" class="btn btn-primary mb-2" style="border-radius:25px;" onclick="myClipLuzea()">Copy No Akaun</button>
-                      <div id="doneLuzea"></div>
-                    </form>
-                    <!-- Bank Clipboard -->
+                                        <!-- Bank Clipboard -->
+                                        <b class="text-center mb-2" style="display:block;margin:0 auto">Bank-in ke CIMB: PERSADA FC TRADING</b>
+                                        <form class="form-inline">
+                                        <div class="form-group mx-sm-3 mb-2">
+                                            <input class="form-control" type="text" value="8604079751" id="myLuzea">
+                                        </div>
+                                        <button type="button" class="btn btn-primary mb-2" style="border-radius:25px;" onclick="myClipLuzea()">Copy No Akaun</button>
+                                        <div id="doneLuzea"></div>
+                                        </form>
+                                        <!-- Bank Clipboard -->
 
-                    <a v-bind:href="luzeaShop" target="_blank" class="btn persada-button shopee mt-1">Beli di Shopee!</a>
-                    <a v-bind:href="luzeaWa" target="_blank" class="btn btn-success persada-button mt-1">Beli di Whatsapp</a>
-                    <a v-bind:href="luzeaFB" target="_blank" class="btn btn-primary persada-button mt-1">Beli di Facebook</a>
+                                        <a v-bind:href="luzeaShop" target="_blank" class="btn persada-button shopee mt-1">Beli di Shopee!</a>
+                                        <a v-bind:href="luzeaWa" target="_blank" class="btn btn-success persada-button mt-1">Beli di Whatsapp</a>
+                                        <a v-bind:href="luzeaFB" target="_blank" class="btn btn-primary persada-button mt-1">Beli di Facebook</a>
 
-                    </div>
+                                        </div>
                                 </div>
                             </div>
                         </div>
