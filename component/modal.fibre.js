@@ -331,7 +331,7 @@ document.getElementById("modal-fibre").innerHTML = `
 
                                         </p>
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 10px;"></div>
-                                        <h4 class="text-center">Propolis</h4>
+                                        <h4 class="text-center">HARGA FIBRE</h4>
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 15px;"></div>
 
 
@@ -373,9 +373,9 @@ document.getElementById("modal-fibre").innerHTML = `
                                             </form>
                                             <!-- Bank Clipboard -->
 
-                                            <a v-bind:href="fibreShop" target="_blank" class="btn persada-button shopee mt-1">Beli di Shopee!</a>
-                                            <a v-bind:href="fibreWa" target="_blank" class="btn btn-success persada-button mt-1">Beli di Whatsapp</a>
-                                            <a v-bind:href="fibreFb" target="_blank" class="btn btn-primary persada-button mt-1">Beli di Facebook</a>
+                                            <a v-bind:href="fibreShop" target="_blank" class="btn persada-button shopee mt-1">Shopee!</a>
+                                            <a v-bind:href="fibreWa" target="_blank" class="btn btn-success persada-button mt-1">Whatsapp</a>
+                                            <a v-bind:href="fibreFb" target="_blank" class="btn btn-primary persada-button mt-1">Facebook</a>
                                             </div>
                                 </div>
                             </div>
