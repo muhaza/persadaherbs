@@ -86,9 +86,8 @@ document.getElementById("aboutPill").innerHTML = `
         <p>Persada Herbs Sdn Bhd turut mempunyai kilang bertaraf GMP (ISLAMIC MANUFACTURING PRACTICE) yang diusahakan oleh Muhd Faiziwan</p>
         <img class="img-fluid" style="border-radius:10px" src="/asset/image/office-2.webp" width="80%" alt="Persada Herbs Office">
         <br/><br/>
-          <a class="btn btn-danger float-right" id="pills-contact-tab" data-toggle="pill" 
-          href="#pills-contact" role="tab" aria-controls="pills-contact" 
-          aria-selected="false">Lanjutkan Bacaan</a>
+        <a class="btn btn-danger float-right" style="border-radius:20rem"
+    href="./syarikat.html" >Lanjutkan Bacaan</a>
       </div>
       <!-- <div class="col-sm">
             <img class="img-fluid" src="/asset/image/office-2.webp" alt="Persada Herbs Office">

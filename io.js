@@ -318,7 +318,9 @@ var app = new Vue({
     el: "#modal-fibre",
     data: {
         fibreImg: "./asset/image/fibre.webp",
-        // fibreShop:"https://www.shopee.com.my"
+        fibreShop: "https://shopee.com.my/Spectrum-Black-Propolis-PERSADA-HERBS-HQ-persadaherbs-i.227540832.6020152163",
+        fibreWa: "https://wa.me/601158680328?text=Saya%20berminat%20untuk%20order%20Spectrum",
+        fibreFb: "https://web.facebook.com/commerce/products/2383726928397324/",
     }
 });
 
