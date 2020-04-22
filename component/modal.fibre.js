@@ -334,9 +334,6 @@ document.getElementById("modal-fibre").innerHTML = `
                                         <h4 class="text-center">HARGA FIBRE</h4>
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 15px;"></div>
 
-
-
-
                                         <ul class="list-group list-group-flush">
                                             <li class="list-group-item">Harga Runcit
                                                 <button type="button" class="btn btn-danger float-right">RM74</button>
@@ -362,21 +359,27 @@ document.getElementById("modal-fibre").innerHTML = `
                                         </ul>
 
                                         <div style="border-bottom: 1px #00000069 solid; margin-bottom: 15px;"></div>
-                                            <!-- Bank Clipboard -->
-                                            <b class="text-center mb-2" style="display:block;margin:0 auto">Bank-in ke CIMB: PERSADA FC TRADING</b>
-                                            <form class="form-inline">
+                                        <!-- Bank Clipboard -->
+                                        <b class="text-center mb-2" style="display:block;margin:0 auto">Bank-in ke CIMB:
+                                            PERSADA FC TRADING</b>
+                                        <form class="form-inline">
                                             <div class="form-group mx-sm-3 mb-2">
                                                 <input class="form-control" type="text" value="8604079751" id="myFibre">
                                             </div>
-                                            <button type="button" class="btn btn-primary mb-2" style="border-radius:25px;" onclick="myClipFibre()">Copy No Akaun</button>
+                                            <button type="button" class="btn btn-primary mb-2"
+                                                style="border-radius:25px;" onclick="myClipFibre()">Copy No
+                                                Akaun</button>
                                             <div id="doneFibre"></div>
-                                            </form>
-                                            <!-- Bank Clipboard -->
+                                        </form>
+                                        <!-- Bank Clipboard -->
 
-                                            <a v-bind:href="fibreShop" target="_blank" class="btn persada-button shopee mt-1">Shopee!</a>
-                                            <a v-bind:href="fibreWa" target="_blank" class="btn btn-success persada-button mt-1">Whatsapp</a>
-                                            <a v-bind:href="fibreFb" target="_blank" class="btn btn-primary persada-button mt-1">Facebook</a>
-                                            </div>
+                                        <a v-bind:href="fibreShop" target="_blank"
+                                            class="btn persada-button shopee mt-1">Shopee!</a>
+                                        <a v-bind:href="fibreWa" target="_blank"
+                                            class="btn btn-success persada-button mt-1">Whatsapp</a>
+                                        <a v-bind:href="fibreFb" target="_blank"
+                                            class="btn btn-primary persada-button mt-1">Facebook</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
