@@ -68,10 +68,19 @@ document.getElementById("aboutPill").innerHTML = `
         </div>
     </div>
     <div class="row">
+        <div class = "container">
+        <div class="col-sm">
+        <a class="btn btn-danger float-left" style="border-radius:20rem;Color:white"
+         >Mengenai Kilang</a>
+        </div>
+        </div>
+  
         <div class="col-sm">
             <img class="img-fluid" src="/asset/image/office-1.webp" alt="Persada Herbs Office">
         </div>
 
+        
+ 
         <div class="col-sm">
             <p> Dalam usaha menghasilkan produk yang bersih dan berkhasiat. Persada herbs sdn bhd menjalinkan
                 kalaborasi kerjasama bersama USIM ( universiti sains islam Malaysia) & GMI (German-Malaysian
@@ -95,7 +104,7 @@ document.getElementById("aboutPill").innerHTML = `
 
             </div>
         </div>
-    </div>
+    </>
 
 </div>
 </div>

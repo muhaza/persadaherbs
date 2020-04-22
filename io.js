@@ -90,7 +90,7 @@ var app = new Vue({
         oooo: 000000000000000000000000000000000000000000000,
         fibreImg: "./asset/image/fibre.webp",
         fibrePrice: "RM74",
-        fibreOffer: "OFFER RM70",
+        fibreOffer: "OFFER RM60",
         fibreTitle: "FIBRE",
         fibreDesc: "Sembelit, Kesenakan, Boroi, Letih, Lesu, Sakit belakang, Nafas Berbau, Minda Keliru, Kulit Pucat, Tidur Tak Nyenyak, Rasa Penat Tatkala Bangun Pagi.",
         fibreUrl: "http://google.com",
