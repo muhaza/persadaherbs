@@ -1,12 +1,21 @@
+//passing data
+var faizli = "./asset/image/Faizli.webp";
+var faiziman = "./asset/image/Faiziman.webp";
+var faiziwan = "./asset/image/Faiziwan.webp";
+
+
+//template
 document.getElementById("aboutPill").innerHTML = `
+
 <!-- Pill -->
+
 <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
 
-    <li class="nav-item">
+    <!--<li class="nav-item">
         <a class="nav-link active" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab"
             aria-controls="pills-profile" aria-selected="false">Lembaga Pengarah</a>
     </li>
-    <!-- <li class="nav-item">
+     <li class="nav-item">
         <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab"
             aria-controls="pills-contact" aria-selected="false">Kilang</a>
     </li> -->
@@ -20,7 +29,7 @@ document.getElementById("aboutPill").innerHTML = `
             style="background:url(./asset/image/header-bg.webp);padding:1rem 0;margin:0 0.3rem; border-radius:1rem;">
             <div class="col-sm">
                 <div class="d-flex profile-width">
-                    <img src="./asset/image/Faiziman.webp" class="rounded-circle profile-image" alt="Faiziman"
+                    <img src="${faiziman}" class="rounded-circle profile-image" alt="Faiziman"
                         width="50%" height="50%" /> </span>
                     <span class="text-light" style="display:block; margin-top:10%;">
                         <h6>MOHAMAD FAIZIMAN CHAI</h6>
@@ -31,7 +40,7 @@ document.getElementById("aboutPill").innerHTML = `
             <span class="hideOnPc" style="border-bottom:dashed 1px white; margin:1rem; width:99%;"></span>
             <div class="col-sm">
                 <div class="d-flex profile-width">
-                    <img src="./asset/image/Faiziwan.webp" style="z-index: 10;"
+                    <img src="${faiziwan}" style="z-index: 10;"
                         class="rounded-circle align-center profile-image" alt="Faiziwan" width="50%" height="50%" />
                     <span class="text-light" style="display:block; margin-top:10%;">
                         <h6>MUHAMAD FAIZIWAN CHAI </h6>
@@ -42,7 +51,7 @@ document.getElementById("aboutPill").innerHTML = `
             <span class="hideOnPc" style="border-bottom:dashed 1px white; margin:1rem; width:99%;"></span>
             <div class="col-sm">
                 <div class="d-flex profile-width">
-                    <img src="./asset/image/Faizli.webp" style="z-index: 10;"
+                    <img src="${faizli}" style="z-index: 10;"
                         class="rounded-circle align-center profile-image" alt="Faizli" width="50%" height="50%" />
                     <span class="text-light" style="display:block; margin-top:10%;">
                         <h6>MUHAMAD FAIZLI CHAI </h6>
@@ -57,30 +66,26 @@ document.getElementById("aboutPill").innerHTML = `
             <div class="row">
 
                 <div class="col-sm">
-                    <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic
-                        or web designs. The passage is attributed to an unknown typesetter in the 15th century who is
-                        thought
-                        to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen
-                        book.</p>
-                        <div style="border-bottom: 1px #dfdfdf solid; margin-bottom: 15px;"></div>
+                    <p>
+                       <!-- coming soon -->
+
+                    </p>
+                    <div style="border-bottom: 1px #dfdfdf solid; margin-bottom: 15px;"></div>
                 </div>
             </div>
         </div>
     </div>
     <div class="row">
-        <div class = "container">
-        <div class="col-sm">
-        <a class="btn btn-danger float-left" style="border-radius:20rem;Color:white"
-         >Mengenai Kilang</a>
+        <div class="container">
+            <div class="col-sm">
+                <a class="btn btn-danger float-left" style="border-radius:20rem;Color:white">Kilang</a>
+            </div>
         </div>
-        </div>
-  
+
         <div class="col-sm">
             <img class="img-fluid" src="/asset/image/office-1.webp" alt="Persada Herbs Office">
         </div>
 
-        
- 
         <div class="col-sm">
             <p> Dalam usaha menghasilkan produk yang bersih dan berkhasiat. Persada herbs sdn bhd menjalinkan
                 kalaborasi kerjasama bersama USIM ( universiti sains islam Malaysia) & GMI (German-Malaysian
@@ -104,8 +109,8 @@ document.getElementById("aboutPill").innerHTML = `
 
             </div>
         </div>
-    </>
+        </>
 
-</div>
+    </div>
 </div>
 `
