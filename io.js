@@ -4,6 +4,7 @@ var app = new Vue({
     el: "#banner-img",
     data: {
         tehBanner: "./asset/image/Teh-Persada-gold-jpg.jpg",
+        kopiBanner: "./asset/image/kopi-suoyang.jpg",
         mysuriBanner: "./asset/image/Mysuri-Banner.jpg",
         tanjaqBanner: "./asset/image/tanjaq-banner-jpg.jpg",
         anasBanner: "./asset/image/Anas-Banner.jpg",
