@@ -65,7 +65,7 @@ document.getElementById("aboutPill").innerHTML = `
 
         <div class="col-sm">
           <p>
-            <h3>BISMILLAHIRAMANIRAHIM.</h3>
+            <!--<h3>BISMILLAHIRAMANIRAHIM.</h3> -->
             ${persadaDescription}
             <!-- <h5>“SAMA-SAMA KITA BERUSAHA, SAMA-SAMA KITA UNTUNG, SAMA-SAMA KITA BERKONGSIAN”</h5> -->
 

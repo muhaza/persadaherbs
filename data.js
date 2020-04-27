@@ -1,3 +1,6 @@
+//banner
+
+//mengenai Persada Herbs
 var faiziman = "./asset/image/faiziman.png";
 var faiziwan = "./asset/image/Faiziwan.webp";
 var faizli = "./asset/image/Faizli.webp";
