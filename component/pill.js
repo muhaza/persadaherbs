@@ -55,13 +55,18 @@ document.getElementById("aboutPill").innerHTML = `
         </div> -->
         
         <div class="col-sm">
-         <p> Persada herbs Sdn Bhd merupakan sebuah syarikat bumiputra diasaskan oleh 
-        3 orang adik beradik dengan wawasan menunaikan perintah fardhu kifayah, iaitu 
-        untuk menghasil produk halalan toyyiban dengan
-        formula sendiri, kilang sendiri, pemasaran sendiri.</p>
-        <!-- <br/> -->
-        <p>Memandangkan zaman ini kita menghadapi pelbagai penyakit dengan tidak ada penyelesaiannya. 
-        Persada Herbs berpegang kuat dengan falsafah mencegah lebih elok dari merawat secara alamiah.</p>
+        <p>
+        <h3>BISMILLAHIRAMANIRAHIM.</h3>
+        <br /> Persada Herbs Sdn Bhd (dahulunya Persada Herbs Distribution) di tubuhkan pada tahun 2007 dengan memasarkan produk kesihatan berkonsepkan 3M iaitu membersih, mengimbang dan menbina. Ia adalah satu konsep penjagaan yang menjaga
+        kesihatan secara menyeluruh. <br /> Pada ketika itu pemasaran syarikat hanyalah secara kecil-kecilan. Persada Herbs Sdn Bhd berkembang tahun demi tahun dan sambutan produk amat menggalakkan serta terdapat testimoni testimoni yang menunjukkan
+        keberkesanan produk. Kini, syarikat ini telah berjaya memasarkan produk keseluruh negara secara dalam talian dan luar talian.
+        <br /><br /> Untuk memastikan produk berkualiti dan selamat digunakan, Persada Herbs Sdn Bhd telah bekerjasama dengan MARDI dan beberapa Institusi Pengajian Tinggi untuk menubuhkan sebuah kilang yang bertaraf GMP dan HACCP
+        <br /><br /> Dengan slogan syarikat “ Usaha Bersama, Untung Bersama, Kongsi Bersama” Pihak Persada Herbs Sdn Bhd menawarkan program perkongsian keuntungan berkonsepkan Outlet(kiosk) yang bersistem, dimana pihak syarikat yang mengeluarkan
+        modal dan anda hanya mengeluarkan masa dan tenaga. <br />
+        <br />
+        <h5>“SAMA-SAMA KITA BERUSAHA, SAMA-SAMA KITA UNTUNG, SAMA-SAMA KITA BERKONGSIAN”</h5>
+
+    </p>
         <br/>
         <a class="btn btn-danger float-right" style="border-radius:20rem" id="pills-contact-tab" data-toggle="pill" 
     href="#pills-contact" role="tab" aria-controls="pills-contact" 
