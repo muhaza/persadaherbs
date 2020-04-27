@@ -66,23 +66,8 @@ document.getElementById("aboutPill").innerHTML = `
         <div class="col-sm">
           <p>
             <h3>BISMILLAHIRAMANIRAHIM.</h3>
-            <br /> Persada Herbs Sdn Bhd (dahulunya Persada Herbs Distribution) di tubuhkan pada tahun 2007 dengan
-            memasarkan produk kesihatan berkonsepkan 3M iaitu membersih, mengimbang dan menbina. Ia adalah satu konsep
-            penjagaan yang menjaga
-            kesihatan secara menyeluruh. <br /> Pada ketika itu pemasaran syarikat hanyalah secara kecil-kecilan.
-            Persada Herbs Sdn Bhd berkembang tahun demi tahun dan sambutan produk amat menggalakkan serta terdapat
-            testimoni testimoni yang menunjukkan
-            keberkesanan produk. Kini, syarikat ini telah berjaya memasarkan produk keseluruh negara secara dalam talian
-            dan luar talian.
-            <br /><br /> Untuk memastikan produk berkualiti dan selamat digunakan, Persada Herbs Sdn Bhd telah
-            bekerjasama dengan MARDI dan beberapa Institusi Pengajian Tinggi untuk menubuhkan sebuah kilang yang
-            bertaraf GMP dan HACCP
-            <br /><br /> Dengan slogan syarikat “ Usaha Bersama, Untung Bersama, Kongsi Bersama” Pihak Persada Herbs Sdn
-            Bhd menawarkan program perkongsian keuntungan berkonsepkan Outlet(kiosk) yang bersistem, dimana pihak
-            syarikat yang mengeluarkan
-            modal dan anda hanya mengeluarkan masa dan tenaga. <br />
-            <br />
-            <h5>“SAMA-SAMA KITA BERUSAHA, SAMA-SAMA KITA UNTUNG, SAMA-SAMA KITA BERKONGSIAN”</h5>
+            ${persadaDescription}
+            <!-- <h5>“SAMA-SAMA KITA BERUSAHA, SAMA-SAMA KITA UNTUNG, SAMA-SAMA KITA BERKONGSIAN”</h5> -->
 
           </p>
           <br />
