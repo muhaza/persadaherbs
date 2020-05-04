@@ -41,8 +41,10 @@ document.getElementById("produk").innerHTML = `
                         style="font-size:14px">{{tehOffer}}</button>
                       <button type="button" class="btn btn-dark float-right strikeout"
                         style="font-size:14px">{{tehPrice}}</button>
-
                     </span>
+                    <!--badge lagi murah -->
+                    <a><span class="badge badge-secondary float-right mr-2">Lagi Murah</span></a>
+                    <!--badge lagi murah -->
                     <img class="card-img-top wow fadeInUp" v-bind:src="tehImg" alt=" 📚Card image cap"
                       style="margin-top: -10px;" />
 
@@ -66,8 +68,10 @@ document.getElementById("produk").innerHTML = `
                         style="font-size:14px">{{kopiOffer}}</button>
                       <button type="button" class="btn btn-dark float-right strikeout"
                         style="font-size:14px">{{kopiPrice}}</button>
-
                     </span>
+                                        <!--badge lagi murah -->
+                                        <a><span class="badge badge-secondary float-right mr-2">Lagi Murah</span></a>
+                                        <!--badge lagi murah -->
                     <img class="card-img-top wow fadeInUp" v-bind:src="kopiImg" alt=" 📚Card image cap"
                       style="margin-top: -10px;" />
                     <div class="card-body">
@@ -90,8 +94,10 @@ document.getElementById("produk").innerHTML = `
                         style="font-size:14px">{{progestOffer}}</button>
                       <button type="button" class="btn btn-dark float-right strikeout"
                         style="font-size:14px">{{progestPrice}}</button>
-
                     </span>
+                                      <!--badge lagi murah -->
+                                      <a><span class="badge badge-secondary float-right mr-2">Lagi Murah</span></a>
+                                      <!--badge lagi murah -->
                     <img class="card-img-top wow fadeInUp" v-bind:src="progestImg" alt=" 📚Card image cap"
                       style="margin-top: -10px;" />
                     <div class="card-body">
@@ -130,6 +136,9 @@ document.getElementById("produk").innerHTML = `
                       <button type="button" class="btn btn-dark float-right strikeout"
                         style="font-size:14px">{{tanjaqPrice}}</button>
                     </span>
+                                        <!--badge lagi murah -->
+                                        <a><span class="badge badge-secondary float-right mr-2">Lagi Murah</span></a>
+                                        <!--badge lagi murah -->
                     <img class="card-img-top wow fadeInUp" v-bind:src="tanjaqImg" alt=" 📚Card image cap"
                       style="margin-top: -10px;" />
                     <div class="card-body">
@@ -152,6 +161,9 @@ document.getElementById("produk").innerHTML = `
                       <button type="button" class="btn btn-dark float-right strikeout"
                         style="font-size:14px">{{suriPrice}}</button>
                     </span>
+                                        <!--badge lagi murah -->
+                                        <a><span class="badge badge-secondary float-right mr-2">Lagi Murah</span></a>
+                                        <!--badge lagi murah -->
                     <img class="card-img-top wow fadeInUp" v-bind:src="suriImg" alt=" 📚Card image cap"
                       style="margin-top: -10px;" />
                     <div class="card-body">
@@ -175,6 +187,9 @@ document.getElementById("produk").innerHTML = `
                       <button type="button" class="btn btn-dark float-right strikeout"
                         style="font-size:14px">{{anasPrice}}</button>
                     </span>
+                                        <!--badge lagi murah -->
+                                        <a><span class="badge badge-secondary float-right mr-2">Lagi Murah</span></a>
+                                        <!--badge lagi murah -->
                     <img class="card-img-top wow fadeInUp" v-bind:src="anasImg" alt=" 📚Card image cap"
                       style="margin-top: -10px;" />
                     <div class="card-body">
@@ -214,6 +229,9 @@ document.getElementById("produk").innerHTML = `
                       <button type="button" class="btn btn-dark float-right strikeout"
                         style="font-size:14px">{{birlivaPrice}}</button>
                     </span>
+                                        <!--badge lagi murah -->
+                                        <a><span class="badge badge-secondary float-right mr-2">Lagi Murah</span></a>
+                                        <!--badge lagi murah -->
                     <img class="card-img-top wow fadeInUp" v-bind:src="birlivaImg" alt=" 📚Card image cap"
                       style="margin-top: -10px;" />
                     <div class="card-body">
@@ -236,6 +254,9 @@ document.getElementById("produk").innerHTML = `
                       <button type="button" class="btn btn-dark float-right strikeout"
                         style="font-size:14px">{{luzeaPrice}}</button>
                     </span>
+                                        <!--badge lagi murah -->
+                                        <a><span class="badge badge-secondary float-right mr-2">Lagi Murah</span></a>
+                                        <!--badge lagi murah -->
                     <img class="card-img-top wow fadeInUp" v-bind:src="luzeaImg" alt=" 📚Card image cap"
                       style="margin-top: -10px;" />
                     <div class="card-body">
@@ -257,6 +278,9 @@ document.getElementById("produk").innerHTML = `
                       <button type="button" class="btn btn-dark float-right strikeout"
                         style="font-size:14px">{{vititeaPrice}}</button>
                     </span>
+                                        <!--badge lagi murah -->
+                                        <a><span class="badge badge-secondary float-right mr-2">Lagi Murah</span></a>
+                                        <!--badge lagi murah -->
                     <img class="card-img-top wow fadeInUp" v-bind:src="vititeaImg" alt=" 📚Card image cap"
                       style="margin-top: -10px;" />
                     <div class="card-body">
@@ -295,6 +319,9 @@ document.getElementById("produk").innerHTML = `
                       <button type="button" class="btn btn-dark float-right strikeout"
                         style="font-size:14px">{{specPrice}}</button>
                     </span>
+                                        <!--badge lagi murah -->
+                                        <a><span class="badge badge-secondary float-right mr-2">Lagi Murah</span></a>
+                                        <!--badge lagi murah -->
                     <img class="card-img-top wow fadeInUp" v-bind:src="specImg" alt=" 📚Card image cap"
                       style="margin-top: -10px;" />
                     <div class="card-body">
@@ -318,6 +345,9 @@ document.getElementById("produk").innerHTML = `
                       <button type="button" class="btn btn-dark float-right strikeout"
                         style="font-size:14px">{{fibrePrice}}</button>
                     </span>
+                                        <!--badge lagi murah -->
+                                        <a><span class="badge badge-secondary float-right mr-2">Lagi Murah</span></a>
+                                        <!--badge lagi murah -->
                     <img class="card-img-top wow fadeInUp" v-bind:src="fibreImg" alt=" 📚Card image cap"
                       style="margin-top: -10px;" />
                     <div class="card-body">
